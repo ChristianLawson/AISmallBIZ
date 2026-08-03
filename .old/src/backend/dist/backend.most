@@ -1,0 +1,204 @@
+// Version: 3.0.0
+type AccessControlState__45017055 =
+  {
+    var adminAssigned : Bool;
+    userRoles : Map__246123559<Principal, UserRole__1073662873>
+  };
+type ApprovalStatus__944573617 = {#approved; #pending; #rejected};
+type AuthorType__873987400 = {#admin; #community};
+type BusinessProfile__463469443 =
+  {
+    businessName : Text;
+    email : ?Text;
+    goals : [Goal__958190818];
+    industryType : IndustryType__694657784;
+    location : Text;
+    name : ?Text;
+    signupDate : ?Int;
+    subscriptionTier : ?SubscriptionTier__469126857;
+    teamSize : TeamSize__1003787933
+  };
+type ContributionId__128687992 = Nat;
+type ContributionStatus__959521044 = {#approved; #pending; #rejected};
+type Contribution__578882276 =
+  {
+    authorName : Text;
+    authorPrincipal : Principal;
+    businessContext : Text;
+    content : Text;
+    id : ContributionId__128687992;
+    rejectionReason : ?Text;
+    reviewedAt : ?Timestamp__301639476;
+    status : ContributionStatus__959521044;
+    submittedAt : Timestamp__301639476;
+    title : Text;
+    topic : Topic__36306924
+  };
+type CourseId__331402257 = Nat;
+type Course__771579559 =
+  {
+    addedAt : Timestamp__301639476;
+    borough : Text;
+    category : Text;
+    contactPhone : Text;
+    courseType : Text;
+    description : Text;
+    endDate : Text;
+    expiresAt : Timestamp__301639476;
+    fetchedAt : Timestamp__301639476;
+    id : CourseId__331402257;
+    isExpired : Bool;
+    isNew : Bool;
+    language : Text;
+    location : Text;
+    registrationUrl : Text;
+    startDate : Text;
+    title : Text
+  };
+type Data__552063367<K, V> = {var count : Nat__93962160; kvs : [var ?(K, V)]};
+type Goal__958190818 = {#businessPlanning; #googleMaps; #socialAds};
+type GuideId__241435462 = Nat;
+type Guide__386566805 =
+  {
+    authorName : Text;
+    authorType : AuthorType__873987400;
+    businessTypeTags : [Text];
+    content : Text;
+    excerpt : Text;
+    id : GuideId__241435462;
+    isPublished : Bool;
+    publishedAt : ?Timestamp__301639476;
+    readTimeMinutes : Nat;
+    recommendedNext : [GuideId__241435462];
+    title : Text;
+    topic : Topic__36306924
+  };
+type IndustryType__694657784 =
+  {
+    #consulting;
+    #deli;
+    #newBusiness;
+    #onlineServices;
+    #other;
+    #poolHall;
+    #restaurant;
+    #retail;
+    #salon
+  };
+type Internal__455405067<K, V> =
+  {children : [var ?Node__279997185<K, V>]; data : Data__552063367<K, V>};
+type Leaf__114713147<K, V> = {data : Data__552063367<K, V>};
+type List__716101829<T> =
+  {
+    var blockIndex : Nat__93962160;
+    var blocks : [var [var ?T]];
+    var elementIndex : Nat__93962160
+  };
+type List__852723865<T> = List__716101829<T>;
+type Map__190625089<K, V> = Map__719753394<K, V>;
+type Map__246123559<K, V> = Map__190625089<K, V>;
+type Map__719753394<K, V> =
+  {var root : Node__279997185<K, V>; var size : Nat__93962160};
+type Nat__920180692 = Nat;
+type Nat__93962160 = Nat__920180692;
+type Node__279997185<K, V> =
+  {#internal : Internal__455405067<K, V>; #leaf : Leaf__114713147<K, V>};
+type OldAuthorType__908430880 = {#admin; #community};
+type OldGuide__958196975 =
+  {
+    authorName : Text;
+    authorType : OldAuthorType__908430880;
+    businessTypeTags : [Text];
+    content : Text;
+    excerpt : Text;
+    id : GuideId__241435462;
+    isPublished : Bool;
+    publishedAt : ?Timestamp__301639476;
+    readTimeMinutes : Nat;
+    title : Text;
+    topic : OldTopic__311114142
+  };
+type OldTopic__311114142 =
+  {#branding; #businessPlanning; #googleMaps; #socialAds; #techUpgrades};
+type OutageId__785580633 = Nat;
+type OutageRecord__770303007 =
+  {
+    date : Text;
+    durationHours : Float;
+    id : OutageId__785580633;
+    incidentType : Text;
+    nycImpactDescription : Text;
+    provider : Text;
+    regionScope : Text
+  };
+type SubscriptionTier__469126857 = {#free; #paid};
+type TeamSize__1003787933 = {#medium; #small; #solo};
+type Timestamp__301639476 = Int;
+type Topic__36306924 =
+  {#branding; #businessPlanning; #googleMaps; #socialAds; #techUpgrades};
+type UserApprovalState__666071610 =
+  {var approvalStatus : Map__246123559<Principal, ApprovalStatus__944573617>};
+type UserRole__1073662873 = {#admin; #guest; #user};
+actor ({
+  in accessControlState : AccessControlState__45017055;
+  in allProviderNames : [Text];
+  in approvalState : UserApprovalState__666071610;
+  in contributionState : {var nextContributionId : Nat};
+  in contributions : List__852723865<Contribution__578882276>;
+  in courseState : {var nextCourseId : Nat};
+  in courseTimerId : {var value : Nat};
+  in courses : List__852723865<Course__771579559>;
+  in guideState : {var nextGuideId : Nat};
+  in guides : List__852723865<OldGuide__958196975>;
+  in lastCourseFetch : {var value : Timestamp__301639476};
+  in outageState : {var nextOutageId : Nat};
+  in outages : List__852723865<OutageRecord__770303007>;
+  in profiles : Map__246123559<Principal, BusinessProfile__463469443>
+}, {
+  stable accessControlState :
+    {
+      var adminAssigned : Bool;
+      userRoles : Map__246123559<Principal, UserRole__1073662873>
+    };
+  stable allProviderNames : [Text];
+  stable approvalState :
+    {
+      var approvalStatus :
+        Map__246123559<Principal, ApprovalStatus__944573617>
+    };
+  stable contributionState : {var nextContributionId : Nat};
+  stable contributions :
+    {
+      var blockIndex : Nat__93962160;
+      var blocks : [var [var ?Contribution__578882276]];
+      var elementIndex : Nat__93962160
+    };
+  stable courseState : {var nextCourseId : Nat};
+  stable courseTimerId : {var value : Nat};
+  stable courses :
+    {
+      var blockIndex : Nat__93962160;
+      var blocks : [var [var ?Course__771579559]];
+      var elementIndex : Nat__93962160
+    };
+  stable guideState : {var nextGuideId : Nat};
+  stable guides :
+    {
+      var blockIndex : Nat__93962160;
+      var blocks : [var [var ?Guide__386566805]];
+      var elementIndex : Nat__93962160
+    };
+  stable lastCourseFetch : {var value : Timestamp__301639476};
+  stable outageState : {var nextOutageId : Nat};
+  stable outages :
+    {
+      var blockIndex : Nat__93962160;
+      var blocks : [var [var ?OutageRecord__770303007]];
+      var elementIndex : Nat__93962160
+    };
+  stable profiles :
+    {
+      var root : Node__279997185<Principal, BusinessProfile__463469443>;
+      var size : Nat__93962160
+    }
+});

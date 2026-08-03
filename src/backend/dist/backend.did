@@ -1,0 +1,273 @@
+type Value = 
+ variant {
+   "bool": bool;
+   float: float64;
+   "int": int;
+   "nat": nat;
+   "null";
+   "text": text;
+ };
+type UserRole = 
+ variant {
+   admin;
+   guest;
+   user;
+ };
+type UserApprovalInfo = 
+ record {
+   "principal": principal;
+   status: ApprovalStatus;
+ };
+type TransformationOutput = 
+ record {
+   body: blob;
+   headers: vec HttpHeader;
+   status: nat;
+ };
+type TransformationInput = 
+ record {
+   context: blob;
+   response: HttpRequestResult;
+ };
+type Topic = 
+ variant {
+   branding;
+   businessPlanning;
+   googleMaps;
+   socialAds;
+   techUpgrades;
+ };
+type Timestamp = int;
+type TeamSize = 
+ variant {
+   medium;
+   small;
+   solo;
+ };
+type SubscriptionTier = 
+ variant {
+   free;
+   paid;
+ };
+type Result = 
+ record {
+   hasMore: bool;
+   rows: vec vec Cell;
+ };
+type ProviderStats = 
+ record {
+   averageDurationHours: float64;
+   mostCommonIncidentType: text;
+   provider: text;
+   totalOutages: nat;
+ };
+type ProviderHealthStatus = 
+ record {
+   errorMessage: opt text;
+   isHealthy: opt bool;
+   lastCheckedAt: opt text;
+   provider: text;
+   statusUrl: text;
+ };
+type OutageRecord = 
+ record {
+   date: text;
+   durationHours: float64;
+   id: OutageId;
+   incidentType: text;
+   nycImpactDescription: text;
+   provider: text;
+   regionScope: text;
+ };
+type OutageId = nat;
+type OutageFilter = 
+ record {
+   endDate: opt text;
+   incidentType: opt text;
+   provider: opt text;
+   startDate: opt text;
+ };
+type IndustryType = 
+ variant {
+   consulting;
+   deli;
+   newBusiness;
+   onlineServices;
+   other;
+   poolHall;
+   restaurant;
+   retail;
+   salon;
+ };
+type HttpRequestResult = 
+ record {
+   body: blob;
+   headers: vec HttpHeader;
+   status: nat;
+ };
+type HttpHeader = 
+ record {
+   name: text;
+   value: text;
+ };
+type GuideInput = 
+ record {
+   authorName: text;
+   businessTypeTags: vec text;
+   content: text;
+   excerpt: text;
+   readTimeMinutes: nat;
+   recommendedNext: vec GuideId;
+   title: text;
+   topic: Topic;
+ };
+type GuideId = nat;
+type GuideFilter = 
+ record {
+   businessTypeTag: opt text;
+   keyword: opt text;
+   topic: opt Topic;
+ };
+type Guide = 
+ record {
+   authorName: text;
+   authorType: AuthorType;
+   businessTypeTags: vec text;
+   content: text;
+   excerpt: text;
+   id: GuideId;
+   isPublished: bool;
+   publishedAt: opt Timestamp;
+   readTimeMinutes: nat;
+   recommendedNext: vec GuideId;
+   title: text;
+   topic: Topic;
+ };
+type Goal = 
+ variant {
+   businessPlanning;
+   googleMaps;
+   socialAds;
+ };
+type CourseId = nat;
+type Course = 
+ record {
+   addedAt: Timestamp;
+   borough: text;
+   category: text;
+   contactPhone: text;
+   courseType: text;
+   description: text;
+   endDate: text;
+   expiresAt: Timestamp;
+   fetchedAt: Timestamp;
+   id: CourseId;
+   isExpired: bool;
+   isNew: bool;
+   language: text;
+   location: text;
+   registrationUrl: text;
+   startDate: text;
+   title: text;
+ };
+type ContributionStatus = 
+ variant {
+   approved;
+   pending;
+   rejected;
+ };
+type ContributionInput = 
+ record {
+   authorName: text;
+   businessContext: text;
+   content: text;
+   title: text;
+   topic: Topic;
+ };
+type ContributionId = nat;
+type Contribution = 
+ record {
+   authorName: text;
+   authorPrincipal: principal;
+   businessContext: text;
+   content: text;
+   id: ContributionId;
+   rejectionReason: opt text;
+   reviewedAt: opt Timestamp;
+   status: ContributionStatus;
+   submittedAt: Timestamp;
+   title: text;
+   topic: Topic;
+ };
+type Cell = 
+ record {
+   name: text;
+   value: Value;
+ };
+type BusinessProfile = 
+ record {
+   businessName: text;
+   email: opt text;
+   goals: vec Goal;
+   industryType: IndustryType;
+   location: text;
+   name: opt text;
+   signupDate: opt int;
+   subscriptionTier: opt SubscriptionTier;
+   teamSize: TeamSize;
+ };
+type AuthorType = 
+ variant {
+   admin;
+   community;
+ };
+type ApprovalStatus = 
+ variant {
+   approved;
+   pending;
+   rejected;
+ };
+type AdminStats = 
+ record {
+   pendingContributions: nat;
+   recentGuides: vec Guide;
+   totalPublished: nat;
+ };
+service : {
+  _initializeAccessControl: () -> ();
+  approveContribution: (id: ContributionId) -> (bool);
+  assignCallerUserRole: (user: principal, role: UserRole) -> ();
+  createGuide: (input: GuideInput) -> (Guide);
+  deleteGuide: (id: GuideId) -> (bool);
+  execute: (qJson: text) -> (Result) query;
+  fetchCourses: () -> ();
+  fetchProviderHealthStatus: () -> (vec ProviderHealthStatus);
+  getAdminStats: () -> (AdminStats) query;
+  getBusinessProfile: () -> (opt BusinessProfile) query;
+  getCallerUserRole: () -> (UserRole) query;
+  getCourses: () -> (vec Course) query;
+  getExpiredCourses: () -> (vec Course) query;
+  getFeaturedGuides: () -> (vec Guide) query;
+  getGuide: (id: GuideId) -> (opt Guide) query;
+  getLastUpdated: () -> (Timestamp) query;
+  getMyContributions: () -> (vec Contribution) query;
+  getPersonalizedRecommendations: () -> (vec Guide) query;
+  getProviderHealthStatus: () -> (vec ProviderHealthStatus) query;
+  getProviderStats: () -> (vec ProviderStats) query;
+  getUpcomingCourses: () -> (vec Course) query;
+  isCallerAdmin: () -> (bool) query;
+  isCallerApproved: () -> (bool) query;
+  listApprovals: () -> (vec UserApprovalInfo) query;
+  listGuides: (filter: GuideFilter) -> (vec Guide) query;
+  listOutages: (filter: OutageFilter) -> (vec OutageRecord) query;
+  listPendingContributions: () -> (vec Contribution) query;
+  rejectContribution: (id: ContributionId, reason: opt text) -> (bool);
+  requestApproval: () -> ();
+  saveBusinessProfile: (profile: BusinessProfile) -> ();
+  schema: () -> (text) query;
+  setApproval: (user: principal, status: ApprovalStatus) -> ();
+  setGuidePublished: (id: GuideId, published: bool) -> (bool);
+  submitContribution: (input: ContributionInput) -> (Contribution);
+  transform: (input: TransformationInput) -> (TransformationOutput) query;
+  updateGuide: (id: GuideId, input: GuideInput) -> (bool);
+}

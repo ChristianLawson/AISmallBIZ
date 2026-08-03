@@ -1,0 +1,19 @@
+{
+  "overview": "A small business resource hub tracking cloud and payment provider outages, publishing guides with recommended next steps, and listing NYC business courses.",
+  "features": [
+    "Cloud Health tracker with 29 providers including payment processors",
+    "Guides with recommended-next links",
+    "Stable-memory-backed data persistence across canister upgrades",
+    "Business profiles and community contributions",
+    "NYC small business course listings"
+  ],
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "small-business",
+    "cloud-monitoring",
+    "guides",
+    "nyc"
+  ],
+  "last_updated": "2026-07-22T14:10:57.501Z"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AISmallBiz: How to Prepare Your Small Business for AI Search</title>
+    <meta name="description" content="Over half of searches now end without a click. The complete 6-step guide to getting your small business found, cited, and booked by AI search and AI agents. Free guide, free checklist, no agency required." />
+    <link rel="canonical" href="https://www.aismallbiz.org/ai-search-prep" />
+    <meta property="og:title" content="How to Prepare Your Small Business for AI Search" />
+    <meta property="og:description" content="The complete free 6-step guide to getting found, cited, and booked in the age of AI search and AI agents. Includes a printable 31-point readiness checklist." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.aismallbiz.org/ai-search-prep" />
+    <meta property="og:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="How to Prepare Your Small Business for AI Search" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How to Prepare Your Small Business for AI Search" />
+    <meta name="twitter:description" content="The complete free 6-step guide to getting found, cited, and booked in the age of AI search and AI agents. Includes a printable 31-point readiness checklist." />
+    <meta name="twitter:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta name="twitter:image:alt" content="How to Prepare Your Small Business for AI Search" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"AISmallBiz: How to Prepare Your Small Business for AI Search","description":"Over half of searches now end without a click. The complete 6-step guide to getting your small business found, cited, and booked by AI search and AI agents. Free guide, free checklist, no agency required.","url":"https://www.aismallbiz.org/ai-search-prep","image":"https://www.aismallbiz.org/assets/generated/social-card.png","inLanguage":"en","publisher":{"@type":"Organization","name":"AISmallBiz","url":"https://www.aismallbiz.org","logo":{"@type":"ImageObject","url":"https://www.aismallbiz.org/assets/generated/social-card.png"}},"step":[{"@type":"HowToStep","position":1,"name":"Step 1 Publish Pricing Content","text":"Publish honest pricing ranges and what drives the price up or down so AI systems have a reference point for your services."},{"@type":"HowToStep","position":2,"name":"Step 2 Make Your Business Bookable Online","text":"Add online booking, scheduling, or request forms so AI assistants can send customers straight to a page where they can act."},{"@type":"HowToStep","position":3,"name":"Step 3 Turn Real Customer Questions Into Content","text":"Write down the real questions customers ask and publish clear, specific answers as pages or posts on your site."},{"@type":"HowToStep","position":4,"name":"Step 4 Build Your Knowledge Catalog","text":"Create a catalog of pages that covers each service, price range, location, and common question so machines can cite you as the source."},{"@type":"HowToStep","position":5,"name":"Step 5 Label Your Content So Machines Can Read It","text":"Add schema markup to your service and FAQ pages so search engines and AI assistants can read and cite your content correctly."},{"@type":"HowToStep","position":6,"name":"Step 6 Get Verified and Crawlable","text":"Verify your domain in Google Search Console, submit your sitemap, and confirm the technical checks pass so your pages are discoverable."}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"AISmallBiz: How to Prepare Your Small Business for AI Search","description":"Over half of searches now end without a click. The complete 6-step guide to getting your small business found, cited, and booked by AI search and AI agents. Free guide, free checklist, no agency required.","author":{"@type":"Organization","name":"AISmallBiz","url":"https://www.aismallbiz.org"},"publisher":{"@type":"Organization","name":"AISmallBiz","url":"https://www.aismallbiz.org","logo":{"@type":"ImageObject","url":"https://www.aismallbiz.org/assets/generated/social-card.png"}},"datePublished":"2026-07-13","dateModified":"2026-07-13","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.aismallbiz.org/ai-search-prep"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I have to publish my exact prices?","acceptedAnswer":{"@type":"Answer","text":"No. Publish honest ranges and what drives the price up or down. AI systems need a reference point, not your price book. A range with context beats silence every time, and silence hands the citation to a competitor."}},{"@type":"Question","name":"Will this replace my regular SEO work?","acceptedAnswer":{"@type":"Answer","text":"It builds on it. The technical foundations overlap: crawlable pages, verified domains, sitemaps, and clear service pages all still matter. What changes is the content strategy: specific answers to real questions instead of keyword-stuffed articles, and a machine-readable layer on top."}},{"@type":"Question","name":"I am a very small business. Does this really apply to me?","acceptedAnswer":{"@type":"Answer","text":"It applies most to you. Large companies have agencies handling this. Right now most small businesses have not started, which means early movers get cited as the local authority before the space gets crowded. AI assistants cite the clearest public answers, not the biggest advertising budgets, and a two-person shop that publishes honest pricing can outrank a franchise that publishes nothing."}},{"@type":"Question","name":"How long before this matters?","acceptedAnswer":{"@type":"Answer","text":"It already does. Over half of searches end without a click today, and AI assistants answer commercial questions millions of times a day. The agent-booking layer arrives over the next one to two years. The content and catalog work you do now compounds the entire way."}},{"@type":"Question","name":"What is schema markup going to cost me?","acceptedAnswer":{"@type":"Answer","text":"Usually nothing but a sentence. If a web person manages your site, the request in Step 5 is a small task for them. If you use a modern website builder, the feature is typically built in and free. Verify with the free Rich Results Test either way."}},{"@type":"Question","name":"I published my pricing guide a month ago and AI assistants still do not mention my business. Did it fail?","acceptedAnswer":{"@type":"Answer","text":"No. Discovery takes time, and different assistants update at different speeds. Keep publishing weekly answers, confirm the technical checks in Step 6 pass, and check again monthly. Consistency over months wins this, not any single page."}},{"@type":"Question","name":"How often should I update what I have already published?","acceptedAnswer":{"@type":"Answer","text":"Touch every important page at least twice a year, and immediately when prices or services change. Freshness is a trust signal, and a one-line dated note such as 'Reviewed January 2026, prices current' costs nothing."}},{"@type":"Question","name":"Do I need to pay an agency $1,500 to $2,000 a month for this?","acceptedAnswer":{"@type":"Answer","text":"No. Everything in this guide can be done yourself for free. The main investment is consistency: publishing real answers regularly, keeping your information complete and current, and spending fifteen minutes a month checking whether the machines mention you. If your business later grows to the size agencies serve, you will hire one from a position of knowledge instead of fear."}},{"@type":"Question","name":"What is the single fastest thing I can do today?","acceptedAnswer":{"@type":"Answer","text":"Verify your domain in Google Search Console and submit your sitemap. Under an hour, free, and it makes everything else you publish discoverable."}}]}
+    </script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" crossorigin href="/assets/index-DPtI0bIV.css">
+    <script type="module" crossorigin src="/assets/index-DH_xplti.js"></script>  </head>
+  <body>
+    <noscript>
+      <main>
+        <div>
+          <strong>AISmallBiz (TM)</strong>
+        </div>
+        <h1>AISmallBiz: How to Prepare Your Small Business for AI Search</h1>
+    <p>Over half of searches now end without a click. The complete 6-step guide to getting your small business found, cited, and booked by AI search and AI agents. Free guide, free checklist, no agency required.</p>
+    <p>This guide walks you through each step with plain language, examples, and prompts you can copy. Open the same address in a browser with JavaScript enabled to use the interactive checklist and ask a small business question for help applying the steps to your shop.</p>
+    <p>Visit the homepage at <a href="https://www.aismallbiz.org/">https://www.aismallbiz.org</a> for more free AI help for small businesses.</p>
+      </main>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

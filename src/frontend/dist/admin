@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AISmallBiz: Admin Panel for Site Managers</title>
+    <meta name="description" content="Manage AISmallBiz content, guides, and chat configuration from the admin panel. Review submissions, update prompts, and keep the site fresh." />
+    <link rel="canonical" href="https://www.aismallbiz.org/admin" />
+    <meta property="og:title" content="AISmallBiz: Admin Panel for Site Managers" />
+    <meta property="og:description" content="Manage AISmallBiz content, guides, and chat configuration from the admin panel for site managers." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.aismallbiz.org/admin" />
+    <meta property="og:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AISmallBiz: Admin Panel for Site Managers" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AISmallBiz: Admin Panel for Site Managers" />
+    <meta name="twitter:description" content="Manage AISmallBiz content, guides, and chat configuration from the admin panel for site managers." />
+    <meta name="twitter:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta name="twitter:image:alt" content="AISmallBiz: Admin Panel for Site Managers" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" crossorigin href="/assets/index-DPtI0bIV.css">
+    <script type="module" crossorigin src="/assets/index-DH_xplti.js"></script>  </head>
+  <body>
+    <noscript>
+      <main>
+        <div>
+          <strong>AISmallBiz (TM)</strong>
+        </div>
+        <h1>AISmallBiz: Admin Panel for Site Managers</h1>
+    <p>Manage AISmallBiz content, guides, and chat configuration from the admin panel. Review submissions, update prompts, and keep the site fresh.</p>
+    <p>Open the same address in a browser with JavaScript enabled to see the full interactive page, tools, and AI help for your small business.</p>
+    <p>Visit the homepage at <a href="https://www.aismallbiz.org/">https://www.aismallbiz.org</a> for more free AI help for small businesses.</p>
+      </main>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,1113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/assets/fonts/PlayfairDisplay.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/assets/fonts/JetBrainsMono.woff2") format("woff2");
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --font-display: "Playfair Display", Georgia, serif;
+    --font-body: "Inter", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", "Fira Code", monospace;
+    --radius: 0.5rem;
+
+    --background: 249 249 251;
+    --foreground: 9 9 11;
+    --card: 255 255 255;
+    --card-foreground: 9 9 11;
+    --popover: 255 255 255;
+    --popover-foreground: 9 9 11;
+
+    --primary: 245 158 11;
+    --primary-foreground: 255 255 255;
+    /* Darker orange for text on cream backgrounds. Meets WCAG AA 4.5:1 on #F9F9FB. */
+    --primary-text: 180 83 9;
+
+    --secondary: 244 244 245;
+    --secondary-foreground: 39 39 42;
+    --muted: 244 244 245;
+    --muted-foreground: 113 113 122;
+
+    --accent: 245 158 11;
+    --accent-foreground: 255 255 255;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+
+    --border: 228 228 231;
+    --input: 228 228 231;
+    --ring: 245 158 11;
+    --success: 34 197 94;
+    --success-foreground: 255 255 255;
+
+    --chart-1: 245 158 11;
+    --chart-2: 113 113 122;
+    --chart-3: 234 179 8;
+    --chart-4: 239 68 68;
+    --chart-5: 34 197 94;
+
+    --sidebar: 249 249 251;
+    --sidebar-foreground: 9 9 11;
+    --sidebar-primary: 245 158 11;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 244 244 245;
+    --sidebar-accent-foreground: 39 39 42;
+    --sidebar-border: 228 228 231;
+    --sidebar-ring: 245 158 11;
+
+    --warning: 234 179 8;
+    --warning-foreground: 9 9 11;
+
+    /* Reserved Electric Indigo accent. Use ONLY for CTAs, links, and checklist
+       accents so the saturated indigo reads as a true accent. Do NOT use this
+       token for decorative backgrounds, borders, or icon fills; use
+       --accent-neutral* for those instead. */
+    --accent-indigo: 99 102 241;
+
+    /* Neutral slate/zinc decorative accent tokens. Use these for backgrounds,
+       borders, and icon fills that previously used hardcoded indigo. They keep
+       decorative surfaces neutral so --accent-indigo stays reserved. */
+    --accent-neutral: 71 85 105; /* slate-600 */
+    --accent-neutral-soft: 241 245 249; /* slate-100 */
+    --accent-neutral-border: 203 213 225; /* slate-300 */
+
+    /* Deep navy accent. Used for prominent attribution badges that need a
+       strong, brand-distinct color separate from the orange primary. */
+    --accent-navy: 30 58 138; /* navy-800 */
+
+    /* Accessible shade variants. Use these for body or muted text when the
+       default --foreground or --muted-foreground fails the 4.5:1 body or 3:1
+       headline ratio on a given background. Existing palette is left intact. */
+    --text-readable: 39 39 42; /* zinc-800, >= 4.5:1 on cream #F9F9FB */
+    --text-muted-readable: 63 63 70; /* zinc-700, >= 4.5:1 on cream #F9F9FB */
+  }
+
+  .dark {
+    --background: 9 9 11;
+    --foreground: 249 249 251;
+    --card: 24 24 27;
+    --card-foreground: 249 249 251;
+    --popover: 24 24 27;
+    --popover-foreground: 249 249 251;
+
+    --primary: 251 191 36;
+    --primary-foreground: 9 9 11;
+    /* Lighter orange for text on dark backgrounds. Meets WCAG AA 4.5:1 on #09090B. */
+    --primary-text: 253 186 116;
+
+    --secondary: 39 39 42;
+    --secondary-foreground: 249 249 251;
+    --muted: 39 39 42;
+    --muted-foreground: 161 161 170;
+
+    --accent: 251 191 36;
+    --accent-foreground: 9 9 11;
+
+    --destructive: 248 113 113;
+    --destructive-foreground: 9 9 11;
+
+    --border: 39 39 42;
+    --input: 39 39 42;
+    --ring: 251 191 36;
+    --success: 74 222 128;
+    --success-foreground: 9 9 11;
+
+    --chart-1: 251 191 36;
+    --chart-2: 161 161 170;
+    --chart-3: 250 204 21;
+    --chart-4: 248 113 113;
+    --chart-5: 74 222 128;
+
+    --sidebar: 24 24 27;
+    --sidebar-foreground: 249 249 251;
+    --sidebar-primary: 251 191 36;
+    --sidebar-primary-foreground: 9 9 11;
+    --sidebar-accent: 39 39 42;
+    --sidebar-accent-foreground: 249 249 251;
+    --sidebar-border: 39 39 42;
+    --sidebar-ring: 251 191 36;
+
+    --warning: 250 204 21;
+    --warning-foreground: 9 9 11;
+
+    /* Reserved Electric Indigo accent (dark variant). Same role as light mode:
+       CTAs, links, and checklist accents only. */
+    --accent-indigo: 129 140 248; /* indigo-400, >= 4.5:1 on #09090B */
+
+    /* Neutral slate/zinc decorative accent tokens (dark variants). */
+    --accent-neutral: 148 163 184; /* slate-400 */
+    --accent-neutral-soft: 30 41 59; /* slate-800 */
+    --accent-neutral-border: 51 65 85; /* slate-700 */
+
+    /* Deep navy accent (dark variant). Lighter navy for visibility on dark. */
+    --accent-navy: 96 165 250; /* blue-400 */
+
+    /* Accessible shade variants (dark variants). */
+    --text-readable: 244 244 245; /* zinc-100 */
+    --text-muted-readable: 212 212 216; /* zinc-300 */
+  }
+
+  * {
+    border-color: rgb(var(--border));
+  }
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    font-family: var(--font-body);
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Global visible focus state for keyboard navigation.
+     Uses the brand ring color so focus is consistent across the site. */
+  :focus-visible {
+    outline: 2px solid rgb(var(--ring));
+    outline-offset: 2px;
+    border-radius: 0.25rem;
+  }
+
+  /* Remove default outline only when focus is not from keyboard. */
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+.bg-hero-vibrant {
+  background: linear-gradient(135deg, #f9f9fb 0%, #fff7ed 50%, #f9f9fb 100%);
+}
+
+.bg-stats-vibrant {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.badge-primary-vibrant {
+  background: rgba(245, 158, 11, 0.1);
+  color: #d97706;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.917rem;
+  font-weight: 600;
+}
+
+.badge-accent-vibrant {
+  background: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.917rem;
+  font-weight: 600;
+}
+
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-vibrant {
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Shadow + utility block */
+.shadow-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-elevated {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-premium {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.ring-vibrant {
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+}
+
+.bg-gradient-warm {
+  background: linear-gradient(
+    135deg,
+    rgb(var(--card)) 0%,
+    rgba(245, 158, 11, 0.06) 50%,
+    rgba(245, 158, 11, 0.1) 100%
+  );
+}
+
+.bg-gradient-premium {
+  background: linear-gradient(
+    150deg,
+    rgba(245, 158, 11, 0.04) 0%,
+    rgba(245, 158, 11, 0.08) 60%,
+    rgba(244, 244, 245, 0.6) 100%
+  );
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.max-w-prose {
+  max-width: 65ch;
+}
+
+.heading-display {
+  letter-spacing: -0.01em;
+}
+
+.prose-line-height p {
+  line-height: 1.7;
+}
+
+.accent-underline {
+  border-bottom: 3px solid rgb(var(--accent-neutral));
+  transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.accent-underline:hover {
+  border-bottom-color: rgb(var(--accent-neutral));
+}
+
+.button-cta {
+  background: #f59e0b;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.2);
+}
+.button-cta:hover {
+  background: #d97706;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+  transform: translateY(-1px);
+}
+
+.button-cta-gold {
+  background: transparent;
+  color: #d97706;
+  border: 1.5px solid #f59e0b;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.button-cta-gold:hover {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+.button-primary-solid {
+  background: #f59e0b;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+.button-primary-solid:hover {
+  background: #d97706;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
+.button-secondary-outline {
+  border: 1.5px solid rgb(var(--border));
+  color: rgb(var(--foreground));
+  background: transparent;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.button-secondary-outline:hover {
+  border-color: #f59e0b;
+  color: #d97706;
+}
+
+.heading-hero {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 4.2vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgb(var(--foreground));
+}
+
+.heading-section {
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: rgb(var(--foreground));
+}
+
+.card-guide {
+  background: rgb(var(--card));
+  border: 1px solid rgb(var(--border));
+  border-radius: calc(var(--radius) * 2);
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
+}
+.card-guide:hover {
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.15), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-color: rgba(245, 158, 11, 0.4);
+  transform: translateY(-2px);
+}
+
+.text-muted-purple {
+  color: rgb(var(--muted-foreground));
+}
+
+/* Accessible orange text token. Use this for orange text on cream or card
+   backgrounds. The raw --primary orange fails WCAG AA contrast for text, so
+   this darker variant is reserved for text while --primary stays for accents,
+   buttons, and backgrounds. */
+.text-primary-text {
+  color: rgb(var(--primary-text));
+}
+
+.breadcrumb-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.917rem;
+  color: rgb(var(--muted-foreground));
+}
+
+.text-hero-subtle {
+  color: rgb(var(--muted-foreground));
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.bg-gradient-hero {
+  background: linear-gradient(
+    150deg,
+    rgb(var(--background)) 0%,
+    rgba(245, 158, 11, 0.08) 40%,
+    rgba(245, 158, 11, 0.12) 80%,
+    rgb(var(--secondary)) 100%
+  );
+}
+
+.text-gradient-primary {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-vibrant {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-vibrant {
+  background: rgb(var(--card));
+  border: 1px solid rgb(var(--border));
+  border-radius: calc(var(--radius) * 2);
+  transition: all 0.25s ease;
+}
+.card-vibrant:hover {
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.35);
+  transform: translateY(-2px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-success {
+  color: rgb(var(--success));
+}
+
+/* ========================================
+   GLASSMORPHISM HEADER
+   ======================================== */
+
+header.glass-scrolled {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(249, 249, 251, 0.88) !important;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
+  border-bottom-color: rgba(228, 228, 231, 0.6) !important;
+}
+
+.dark header.glass-scrolled {
+  background-color: rgba(9, 9, 11, 0.88) !important;
+}
+
+/* ========================================
+   MARQUEE
+   ======================================== */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 32s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+/* ========================================
+   SECTION SPACING
+   ======================================== */
+
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-padding-sm {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+/* ========================================
+   PRINT STYLESHEET
+   ======================================== */
+
+@media print {
+  /* Force light mode for print */
+  :root {
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --card: 255 255 255;
+    --card-foreground: 0 0 0;
+    --muted: 245 245 245;
+    --muted-foreground: 80 80 80;
+    --border: 200 200 200;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Hide non-content UI */
+  header,
+  footer,
+  nav,
+  .no-print,
+  [data-ocid="header.theme_toggle"],
+  [data-ocid="header.search_button"],
+  [data-ocid="header.login_button"],
+  [data-ocid="header.logout_button"],
+  [data-ocid="header.mobile_menu_toggle"] {
+    display: none !important;
+  }
+
+  /* Hide sticky/fixed elements */
+  .sticky,
+  .fixed,
+  [style*="position: sticky"],
+  [style*="position: fixed"] {
+    position: static !important;
+  }
+
+  /* Hide buttons except within checklist item rows */
+  button:not(.checklist-print-item),
+  .button-cta,
+  .button-cta-gold,
+  .button-primary-solid,
+  .button-secondary-outline {
+    display: none !important;
+  }
+
+  /* AISmallBiz branding at top of print */
+  @page {
+    margin: 1in 0.75in;
+    size: letter;
+  }
+
+  /* Show print-only branding header */
+  body::before {
+    content: "AISmallBiz.org: Business Rescue Checklist";
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    padding-bottom: 16pt;
+    border-bottom: 2pt solid #000;
+    margin-bottom: 24pt;
+  }
+
+  /* Page-specific print title override for the AI Search Prep guide. The
+     global body::before rule above hardcodes a different checklist title;
+     this scoped override applies only when the page sets the body class. */
+  body.ai-search-prep-page::before {
+    content: "AISmallBiz: AI Search Readiness Checklist";
+  }
+
+  /* Page-specific print title override for the Online Schooling guide. */
+  body.online-schooling-page::before {
+    content: "AISmallBiz: Online Schooling Launch Checklist";
+  }
+
+  /* Page break handling */
+  section,
+  .checklist-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+    color: #000 !important;
+  }
+
+  /* Clean up card borders for print */
+  .card-guide,
+  .card-vibrant {
+    border: 1pt solid #ccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  /* Ensure checklist items are readable */
+  [role="checkbox"],
+  input[type="checkbox"] {
+    display: inline !important;
+    accent-color: #000;
+  }
+
+  /* Remove background gradients */
+  .bg-gradient-hero,
+  .bg-gradient-warm,
+  .bg-gradient-premium,
+  .bg-hero-vibrant,
+  .bg-stats-vibrant {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Links: show URL after text */
+  a[href]::after {
+    content: none;
+  }
+
+  /* Marquee: hide trust strip */
+  .animate-marquee,
+  .animate-marquee * {
+    display: none !important;
+  }
+
+  /* Main content full width */
+  main {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.text-muted-decorative {
+  color: rgb(var(--text-muted-readable));
+}
+
+.status-operational {
+  background: rgb(var(--success));
+  color: rgb(var(--success-foreground));
+}
+
+.status-degraded {
+  background: rgb(var(--warning));
+  color: rgb(var(--warning-foreground));
+}
+
+.status-outage {
+  background: rgb(var(--destructive));
+  color: rgb(var(--destructive-foreground));
+}
+
+.data-table-row:nth-child(even) {
+  background: rgb(var(--muted) / 0.4);
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(var(--primary));
+  border: 2px solid rgb(var(--card));
+  box-shadow: 0 0 0 2px rgb(var(--primary) / 0.3);
+}
+
+/* ========================================
+   NYC RESOURCES: COURSE CARDS & BADGES
+   ======================================== */
+
+.badge-expired {
+  background: rgba(234, 179, 8, 0.12);
+  color: rgb(180 140 20);
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  border-radius: 9999px;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dark .badge-expired {
+  background: rgba(250, 204, 21, 0.12);
+  color: rgb(250 204 21);
+  border-color: rgba(250, 204, 21, 0.3);
+}
+
+.badge-new {
+  background: rgba(34, 197, 94, 0.12);
+  color: rgb(22 160 70);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 9999px;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dark .badge-new {
+  background: rgba(74, 222, 128, 0.12);
+  color: rgb(74 222 128);
+  border-color: rgba(74, 222, 128, 0.3);
+}
+
+.card-course {
+  background: rgb(var(--card));
+  border: 1px solid rgb(var(--border));
+  border-radius: calc(var(--radius) * 2);
+  padding: 1.25rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.card-course:hover {
+  box-shadow: 0 4px 16px rgba(71, 85, 105, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-color: rgba(71, 85, 105, 0.3);
+  transform: translateY(-2px);
+}
+
+.card-course.expired {
+  opacity: 0.75;
+}
+
+.card-course.expired:hover {
+  opacity: 1;
+}
+
+.button-refresh {
+  background: rgb(var(--card));
+  color: rgb(var(--foreground));
+  border: 1.5px solid rgb(var(--border));
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.917rem;
+}
+
+.button-refresh:hover {
+  border-color: rgb(var(--primary));
+  color: rgb(var(--primary));
+  box-shadow: 0 2px 8px rgba(71, 85, 105, 0.15);
+}
+
+.button-refresh:active {
+  transform: scale(0.98);
+}
+
+.button-refresh:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 1.5s linear infinite;
+}
+
+.text-last-updated {
+  font-size: 0.8125rem;
+  color: rgb(var(--muted-foreground));
+  font-weight: 500;
+}
+
+.section-divider {
+  height: 1px;
+  background: rgb(var(--border));
+  margin: 2rem 0;
+}
+
+/* ========================================
+   LEARNING LADDER (/learn)
+   A numbered vertical path with checkmarks and a Next button.
+   Reuses --primary orange for the active step and the Next button,
+   --accent-indigo for completed checkmarks (reserved checklist accent),
+   and --success for completion rings. Tier headers reuse heading-section.
+   ======================================== */
+
+/* Tier section: groups one tier header + its vertical lesson rail. */
+.ladder-tier {
+  position: relative;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+/* Tier header row: numbered tier badge + tier title + subtitle. */
+.ladder-tier-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Numbered tier badge (1, 2, 3). Filled orange circle, white digit. */
+.ladder-tier-badge {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 9999px;
+  background: rgb(var(--primary));
+  color: rgb(var(--primary-foreground));
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.25);
+}
+
+/* Tier 3 advanced-track badge uses indigo to signal the advanced path. */
+.ladder-tier-badge.advanced {
+  background: rgb(var(--accent-indigo));
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.25);
+}
+
+.ladder-tier-title {
+  font-family: var(--font-body);
+  font-size: clamp(1.375rem, 2.4vw, 1.875rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: rgb(var(--foreground));
+}
+
+.ladder-tier-subtitle {
+  font-size: 1rem;
+  color: rgb(var(--muted-foreground));
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+/* The vertical rail container: holds the connector line and the step rows. */
+.ladder-rail {
+  position: relative;
+  margin-left: 1.375rem; /* aligns nodes under the tier badge center */
+  padding-left: 2.25rem;
+}
+
+/* Vertical connector line running through every step node. */
+.ladder-rail::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 1rem;
+  width: 2px;
+  background: rgb(var(--accent-neutral-border));
+  border-radius: 1px;
+}
+
+/* A single lesson step row. */
+.ladder-step {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: rgb(var(--card));
+  border: 1px solid rgb(var(--border));
+  border-radius: calc(var(--radius) * 2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 1rem;
+}
+
+.ladder-step:hover {
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+/* The numbered node that sits on the rail, overlapping the card's left edge. */
+.ladder-node {
+  position: absolute;
+  left: -2.25rem;
+  top: 1.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.917rem;
+  background: rgb(var(--card));
+  border: 2px solid rgb(var(--accent-neutral-border));
+  color: rgb(var(--muted-foreground));
+  z-index: 1;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Active (current) step: orange filled node with a soft glow ring. */
+.ladder-node.active {
+  background: rgb(var(--primary));
+  border-color: rgb(var(--primary));
+  color: rgb(var(--primary-foreground));
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.18);
+}
+
+/* Completed step: indigo checkmark inside the node (reserved checklist accent). */
+.ladder-node.completed {
+  background: rgb(var(--accent-indigo));
+  border-color: rgb(var(--accent-indigo));
+  color: #ffffff;
+}
+
+/* The checkmark glyph rendered inside a completed node. */
+.ladder-checkmark {
+  width: 0.875rem;
+  height: 0.875rem;
+  stroke: currentColor;
+  stroke-width: 3;
+  fill: none;
+}
+
+/* Step body: title, description, optional meta pills. */
+.ladder-step-title {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: rgb(var(--foreground));
+  line-height: 1.4;
+}
+
+.ladder-step-desc {
+  font-size: 0.9375rem;
+  color: rgb(var(--muted-foreground));
+  line-height: 1.55;
+  margin-top: 0.25rem;
+}
+
+.ladder-step-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.625rem;
+}
+
+/* Small pill for lesson meta (duration, business output tag). */
+.ladder-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  padding: 0.1875rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: rgba(245, 158, 11, 0.1);
+  color: rgb(var(--primary-text));
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+/* Business-output tag in Tier 2 uses the reserved indigo accent. */
+.ladder-pill.indigo {
+  background: rgba(99, 102, 241, 0.1);
+  color: rgb(var(--accent-indigo));
+  border-color: rgba(99, 102, 241, 0.25);
+}
+
+/* Next button: reuses button-cta styling, sized for the step row. */
+.ladder-next {
+  margin-left: auto;
+  flex-shrink: 0;
+  align-self: center;
+  white-space: nowrap;
+}
+
+/* Completed step: dim the card slightly and hide the Next button. */
+.ladder-step.completed {
+  background: rgb(var(--muted) / 0.35);
+  border-color: rgb(var(--accent-neutral-border));
+}
+
+.ladder-step.completed .ladder-next {
+  display: none;
+}
+
+.ladder-step.completed .ladder-step-title {
+  color: rgb(var(--muted-foreground));
+}
+
+/* Tier 3 advanced-track rows: link-style instead of full step cards. */
+.ladder-link-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: calc(var(--radius) * 1.5);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: rgb(var(--foreground));
+}
+
+.ladder-link-row:hover {
+  background: rgba(99, 102, 241, 0.06);
+  border-color: rgba(99, 102, 241, 0.25);
+}
+
+.ladder-link-arrow {
+  margin-left: auto;
+  color: rgb(var(--accent-indigo));
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.ladder-link-row:hover .ladder-link-arrow {
+  transform: translateX(4px);
+}
+
+/* Tier completion indicator: shown when all steps in a tier are done. */
+.ladder-tier-complete {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: rgba(34, 197, 94, 0.1);
+  color: rgb(var(--success));
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.dark .ladder-tier-complete {
+  background: rgba(74, 222, 128, 0.12);
+  color: rgb(var(--success));
+  border-color: rgba(74, 222, 128, 0.3);
+}
+
+/* Overall progress bar at the top of the ladder. */
+.ladder-progress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.ladder-progress-track {
+  flex: 1;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: rgb(var(--muted));
+  overflow: hidden;
+}
+
+.ladder-progress-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, rgb(var(--primary)), #d97706);
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ladder-progress-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgb(var(--muted-foreground));
+  white-space: nowrap;
+}
+
+/* Responsive: stack the Next button below the step body on small screens. */
+@media (max-width: 640px) {
+  .ladder-step {
+    flex-wrap: wrap;
+  }
+  .ladder-next {
+    margin-left: 0;
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+}

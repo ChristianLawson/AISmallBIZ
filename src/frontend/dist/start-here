@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AISmallBiz: Start Here</title>
+    <meta name="description" content="Pick your biggest business problem and get the free guide that solves it. Software costs, AI search, hiring, social media, branding, and more. All free, no logins." />
+    <link rel="canonical" href="https://www.aismallbiz.org/start-here" />
+    <meta property="og:title" content="Start Here | AISmallBiz" />
+    <meta property="og:description" content="Pick your biggest problem. Get the free guide that solves it. No logins, no fees, no catch." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.aismallbiz.org/start-here" />
+    <meta property="og:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Start Here | AISmallBiz" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Start Here | AISmallBiz" />
+    <meta name="twitter:description" content="Pick your biggest problem. Get the free guide that solves it. No logins, no fees, no catch." />
+    <meta name="twitter:image" content="https://www.aismallbiz.org/assets/generated/social-card.png" />
+    <meta name="twitter:image:alt" content="Start Here | AISmallBiz" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" crossorigin href="/assets/index-DPtI0bIV.css">
+    <script type="module" crossorigin src="/assets/index-DH_xplti.js"></script>  </head>
+  <body>
+    <noscript>
+      <main>
+        <div>
+          <strong>AISmallBiz (TM)</strong>
+        </div>
+        <h1>AISmallBiz: Start Here</h1>
+    <p>Pick your biggest business problem and get the free guide that solves it. Software costs, AI search, hiring, social media, branding, and more. All free, no logins.</p>
+    <p>Open the same address in a browser with JavaScript enabled to see the full interactive page, tools, and AI help for your small business.</p>
+    <p>Visit the homepage at <a href="https://www.aismallbiz.org/">https://www.aismallbiz.org</a> for more free AI help for small businesses.</p>
+      </main>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
