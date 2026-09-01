@@ -33,6 +33,16 @@ import {
   useSetGuidePublished,
   useUpdateGuide,
 } from "@/hooks/useGuides";
+import {
+  type NewsletterTopic,
+  useAddNewsletterTopic,
+  useNewsletterContent,
+  useNewsletterSubscribers,
+  useNewsletterTopics,
+  useRemoveNewsletterTopic,
+  useRenameNewsletterTopic,
+  useSetNewsletterContent,
+} from "@/hooks/useNewsletter";
 import { type Guide, type GuideInput, TOPIC_LABELS, Topic } from "@/types";
 import { useNavigate } from "@tanstack/react-router";
 import {
@@ -46,8 +56,13 @@ import {
   EyeOff,
   FileText,
   Inbox,
+  Mail,
+  Pencil,
   Plus,
+  Send,
+  Tag,
   Trash2,
+  Users,
   XCircle,
 } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -737,6 +752,527 @@ function ContributionsTab() {
   );
 }
 
+// ---- Newsletter Tab ----
+function NewsletterTab() {
+  const { data: topics = [], isLoading: topicsLoading } = useNewsletterTopics();
+  const [selectedTopicId, setSelectedTopicId] = useState<bigint | undefined>();
+  const [formTopic, setFormTopic] = useState<bigint | undefined>();
+  const [subject, setSubject] = useState("");
+  const [htmlBody, setHtmlBody] = useState("");
+
+  const { data: content, isLoading: contentLoading } =
+    useNewsletterContent(selectedTopicId);
+  const { data: subscribers = [], isLoading: subsLoading } =
+    useNewsletterSubscribers(selectedTopicId);
+
+  const saveContent = useSetNewsletterContent();
+  const addTopic = useAddNewsletterTopic();
+  const renameTopic = useRenameNewsletterTopic();
+  const removeTopic = useRemoveNewsletterTopic();
+
+  // Default to the first topic once topics load.
+  useEffect(() => {
+    if (topics.length > 0 && selectedTopicId === undefined) {
+      setSelectedTopicId(topics[0].id);
+    }
+  }, [topics, selectedTopicId]);
+
+  // Initialize the compose draft once per selected topic.
+  useEffect(() => {
+    if (selectedTopicId === undefined || contentLoading) return;
+    if (formTopic === selectedTopicId) return;
+    setSubject(content?.subject ?? "");
+    setHtmlBody(content?.htmlBody ?? "");
+    setFormTopic(selectedTopicId);
+  }, [selectedTopicId, content, contentLoading, formTopic]);
+
+  const [addOpen, setAddOpen] = useState(false);
+  const [addName, setAddName] = useState("");
+  const [renameTarget, setRenameTarget] = useState<
+    NewsletterTopic | undefined
+  >();
+  const [renameName, setRenameName] = useState("");
+  const [removeTarget, setRemoveTarget] = useState<
+    NewsletterTopic | undefined
+  >();
+
+  const verifiedCount = subscribers.filter((s) => s.verified).length;
+
+  const handleSave = async () => {
+    if (selectedTopicId === undefined) return;
+    try {
+      await saveContent.mutateAsync({
+        topicId: selectedTopicId,
+        subject,
+        htmlBody,
+      });
+      toast.success("Newsletter content saved");
+    } catch {
+      toast.error("Failed to save newsletter content");
+    }
+  };
+
+  const handleAddTopic = async () => {
+    const name = addName.trim();
+    if (!name) return;
+    try {
+      await addTopic.mutateAsync(name);
+      toast.success("Topic added");
+      setAddName("");
+      setAddOpen(false);
+    } catch {
+      toast.error("Failed to add topic");
+    }
+  };
+
+  const handleRename = async () => {
+    if (!renameTarget) return;
+    const name = renameName.trim();
+    if (!name) return;
+    try {
+      await renameTopic.mutateAsync({
+        topicId: renameTarget.id,
+        newName: name,
+      });
+      toast.success("Topic renamed");
+      setRenameTarget(undefined);
+    } catch {
+      toast.error("Failed to rename topic");
+    }
+  };
+
+  const handleRemove = async () => {
+    if (!removeTarget) return;
+    try {
+      await removeTopic.mutateAsync(removeTarget.id);
+      toast.success("Topic removed");
+      if (selectedTopicId === removeTarget.id) {
+        setSelectedTopicId(undefined);
+        setFormTopic(undefined);
+      }
+      setRemoveTarget(undefined);
+    } catch {
+      toast.error("Failed to remove topic");
+    }
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* Topic selector + add */}
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-3">
+          <Label htmlFor="newsletter-topic" className="shrink-0">
+            Topic
+          </Label>
+          <Select
+            value={selectedTopicId?.toString() ?? ""}
+            onValueChange={(v) => {
+              setSelectedTopicId(v ? BigInt(v) : undefined);
+              setFormTopic(undefined);
+            }}
+          >
+            <SelectTrigger
+              id="newsletter-topic"
+              className="w-64"
+              data-ocid="newsletter.topic_select"
+            >
+              <SelectValue placeholder="Select a topic" />
+            </SelectTrigger>
+            <SelectContent>
+              {topics.map((t) => (
+                <SelectItem key={t.id.toString()} value={t.id.toString()}>
+                  {t.name}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+        <Button
+          type="button"
+          onClick={() => setAddOpen(true)}
+          className="gap-2"
+          data-ocid="newsletter.add_topic_button"
+        >
+          <Plus className="size-4" />
+          Add Topic
+        </Button>
+      </div>
+
+      {topicsLoading ? (
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+          <Skeleton className="h-72 rounded-xl lg:col-span-3" />
+          <Skeleton className="h-72 rounded-xl lg:col-span-2" />
+        </div>
+      ) : topics.length === 0 ? (
+        <div
+          className="flex flex-col items-center justify-center py-16 text-center bg-muted/30 rounded-xl border border-dashed border-border"
+          data-ocid="newsletter.empty_state"
+        >
+          <Tag className="size-10 text-muted-foreground mb-3" />
+          <p className="font-medium text-foreground">
+            No newsletter topics yet
+          </p>
+          <p className="text-sm text-muted-foreground mt-1">
+            Add a topic to start composing weekly and monthly newsletters.
+          </p>
+          <Button
+            type="button"
+            className="mt-4"
+            onClick={() => setAddOpen(true)}
+            data-ocid="newsletter.add_topic_button"
+          >
+            <Plus className="size-4 mr-2" />
+            Add First Topic
+          </Button>
+        </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+            {/* Compose card */}
+            <div className="newsletter-compose lg:col-span-3">
+              <div className="newsletter-compose-header">
+                <div className="flex items-center gap-2">
+                  <Mail className="size-4 text-primary" />
+                  <h3 className="font-display font-semibold text-foreground">
+                    Compose Newsletter
+                  </h3>
+                </div>
+                <span
+                  className="schedule-summary"
+                  data-ocid="newsletter.schedule_summary"
+                >
+                  <Send className="size-3.5" />
+                  {verifiedCount} verified subscriber
+                  {verifiedCount !== 1 ? "s" : ""} will receive this send
+                </span>
+              </div>
+              <div className="newsletter-compose-body space-y-4">
+                <div className="space-y-1.5">
+                  <Label htmlFor="newsletter-subject">Subject</Label>
+                  <Input
+                    id="newsletter-subject"
+                    data-ocid="newsletter.subject_input"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                    placeholder="Email subject line"
+                  />
+                </div>
+                <div className="space-y-1.5">
+                  <Label htmlFor="newsletter-body">HTML Body</Label>
+                  <Textarea
+                    id="newsletter-body"
+                    data-ocid="newsletter.body_textarea"
+                    rows={10}
+                    value={htmlBody}
+                    onChange={(e) => setHtmlBody(e.target.value)}
+                    placeholder="Compose the newsletter HTML body here"
+                    className="font-mono text-sm"
+                  />
+                </div>
+                <div className="flex justify-end pt-1 border-t border-border">
+                  <Button
+                    type="button"
+                    disabled={saveContent.isPending}
+                    onClick={handleSave}
+                    data-ocid="newsletter.save_button"
+                  >
+                    {saveContent.isPending ? "Saving…" : "Save Content"}
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            {/* Subscriber card */}
+            <div className="newsletter-compose lg:col-span-2">
+              <div className="newsletter-compose-header">
+                <div className="flex items-center gap-2">
+                  <Users className="size-4 text-primary" />
+                  <h3 className="font-display font-semibold text-foreground">
+                    Subscriber Management
+                  </h3>
+                </div>
+                <span className="text-xs text-muted-foreground font-medium">
+                  {subscribers.length} total
+                </span>
+              </div>
+              <div className="newsletter-compose-body p-0">
+                {subsLoading ? (
+                  <div
+                    className="p-4 space-y-2"
+                    data-ocid="newsletter.loading_state"
+                  >
+                    {[1, 2, 3].map((i) => (
+                      <Skeleton key={i} className="h-10 rounded-lg" />
+                    ))}
+                  </div>
+                ) : subscribers.length === 0 ? (
+                  <div
+                    className="flex flex-col items-center justify-center py-12 text-center"
+                    data-ocid="newsletter.subscribers_empty_state"
+                  >
+                    <Inbox className="size-8 text-muted-foreground mb-2" />
+                    <p className="text-sm font-medium text-foreground">
+                      No subscribers yet
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-1 px-6">
+                      Subscribers for this topic will appear here once they sign
+                      up.
+                    </p>
+                  </div>
+                ) : (
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-muted/40 border-b border-border">
+                        <th className="text-left px-4 py-3 font-medium text-muted-foreground">
+                          Email
+                        </th>
+                        <th className="text-right px-4 py-3 font-medium text-muted-foreground">
+                          Status
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {subscribers.map((s, idx) => (
+                        <tr
+                          key={s.email}
+                          data-ocid={`newsletter.subscriber_row.${idx + 1}`}
+                          className={`subscriber-row border-b border-border last:border-0 ${
+                            s.verified ? "" : "pending"
+                          }`}
+                        >
+                          <td className="px-4 py-3 text-foreground truncate max-w-[12rem]">
+                            {s.email}
+                          </td>
+                          <td className="px-4 py-3">
+                            <div className="flex justify-end">
+                              <span
+                                className={`badge-status ${
+                                  s.verified ? "verified" : "pending"
+                                }`}
+                              >
+                                {s.verified ? "Verified" : "Pending"}
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Topic management */}
+          <div className="newsletter-compose">
+            <div className="newsletter-compose-header">
+              <div className="flex items-center gap-2">
+                <Tag className="size-4 text-primary" />
+                <h3 className="font-display font-semibold text-foreground">
+                  Newsletter Topics
+                </h3>
+              </div>
+            </div>
+            <div className="newsletter-compose-body p-0">
+              <ul className="divide-y divide-border">
+                {topics.map((t, idx) => (
+                  <li
+                    key={t.id.toString()}
+                    data-ocid={`newsletter.topic_item.${idx + 1}`}
+                    className="flex items-center justify-between gap-4 px-5 py-3"
+                  >
+                    <div className="flex items-center gap-3 min-w-0">
+                      <span className="size-1.5 rounded-full bg-primary inline-block shrink-0" />
+                      <span className="font-medium text-foreground truncate">
+                        {t.name}
+                      </span>
+                      {t.id === selectedTopicId && (
+                        <span className="text-xs text-muted-foreground">
+                          (selected)
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-1 shrink-0">
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="icon"
+                        title="Rename"
+                        onClick={() => {
+                          setRenameTarget(t);
+                          setRenameName(t.name);
+                        }}
+                        data-ocid={`newsletter.rename_button.${idx + 1}`}
+                      >
+                        <Pencil className="size-4" />
+                      </Button>
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="icon"
+                        title="Remove"
+                        className="text-destructive hover:text-destructive hover:bg-destructive/10"
+                        onClick={() => setRemoveTarget(t)}
+                        data-ocid={`newsletter.remove_button.${idx + 1}`}
+                      >
+                        <Trash2 className="size-4" />
+                      </Button>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* Add topic dialog */}
+      <Dialog open={addOpen} onOpenChange={(v) => !v && setAddOpen(false)}>
+        <DialogContent className="max-w-sm" data-ocid="newsletter.add_dialog">
+          <DialogHeader>
+            <DialogTitle className="font-display text-lg">
+              Add Newsletter Topic
+            </DialogTitle>
+          </DialogHeader>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              void handleAddTopic();
+            }}
+            className="space-y-4 pt-2"
+          >
+            <div className="space-y-1.5">
+              <Label htmlFor="newsletter-add-name">Topic Name</Label>
+              <Input
+                id="newsletter-add-name"
+                data-ocid="newsletter.add_topic_input"
+                value={addName}
+                onChange={(e) => setAddName(e.target.value)}
+                placeholder="e.g. Weekly Small Biz Tips"
+                autoFocus
+                required
+              />
+            </div>
+            <div className="flex justify-end gap-3 pt-2 border-t border-border">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setAddOpen(false)}
+                data-ocid="newsletter.cancel_button"
+              >
+                Cancel
+              </Button>
+              <Button
+                type="submit"
+                disabled={addTopic.isPending}
+                data-ocid="newsletter.submit_button"
+              >
+                {addTopic.isPending ? "Adding…" : "Add Topic"}
+              </Button>
+            </div>
+          </form>
+        </DialogContent>
+      </Dialog>
+
+      {/* Rename topic dialog */}
+      <Dialog
+        open={!!renameTarget}
+        onOpenChange={(v) => !v && setRenameTarget(undefined)}
+      >
+        <DialogContent
+          className="max-w-sm"
+          data-ocid="newsletter.rename_dialog"
+        >
+          <DialogHeader>
+            <DialogTitle className="font-display text-lg">
+              Rename Topic
+            </DialogTitle>
+          </DialogHeader>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              void handleRename();
+            }}
+            className="space-y-4 pt-2"
+          >
+            <div className="space-y-1.5">
+              <Label htmlFor="newsletter-rename-name">Topic Name</Label>
+              <Input
+                id="newsletter-rename-name"
+                data-ocid="newsletter.rename_input"
+                value={renameName}
+                onChange={(e) => setRenameName(e.target.value)}
+                autoFocus
+                required
+              />
+            </div>
+            <div className="flex justify-end gap-3 pt-2 border-t border-border">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setRenameTarget(undefined)}
+                data-ocid="newsletter.cancel_button"
+              >
+                Cancel
+              </Button>
+              <Button
+                type="submit"
+                disabled={renameTopic.isPending}
+                data-ocid="newsletter.submit_button"
+              >
+                {renameTopic.isPending ? "Saving…" : "Save"}
+              </Button>
+            </div>
+          </form>
+        </DialogContent>
+      </Dialog>
+
+      {/* Remove topic confirm dialog */}
+      <Dialog
+        open={!!removeTarget}
+        onOpenChange={(v) => !v && setRemoveTarget(undefined)}
+      >
+        <DialogContent
+          className="max-w-sm"
+          data-ocid="newsletter.remove_dialog"
+        >
+          <DialogHeader>
+            <DialogTitle className="font-display text-lg">
+              Remove Topic?
+            </DialogTitle>
+          </DialogHeader>
+          <p className="text-muted-foreground text-sm">
+            Are you sure you want to remove{" "}
+            <span className="font-medium text-foreground">
+              {removeTarget?.name}
+            </span>
+            ? This cannot be undone.
+          </p>
+          <div className="flex justify-end gap-3 pt-2">
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => setRemoveTarget(undefined)}
+              data-ocid="newsletter.cancel_button"
+            >
+              Cancel
+            </Button>
+            <Button
+              type="button"
+              variant="destructive"
+              disabled={removeTopic.isPending}
+              onClick={handleRemove}
+              data-ocid="newsletter.confirm_button"
+            >
+              {removeTopic.isPending ? "Removing…" : "Remove"}
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}
+
 // ---- Stats Bar ----
 function StatsBar() {
   const { data: stats, isLoading } = useAdminStats();
@@ -937,6 +1473,14 @@ export default function Admin() {
               <FileText className="size-4" />
               Contributions
             </TabsTrigger>
+            <TabsTrigger
+              value="newsletter"
+              className="gap-2"
+              data-ocid="admin.newsletter_tab"
+            >
+              <Mail className="size-4" />
+              Newsletter
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="guides" className="mt-6">
@@ -945,6 +1489,10 @@ export default function Admin() {
 
           <TabsContent value="contributions" className="mt-6">
             <ContributionsTab />
+          </TabsContent>
+
+          <TabsContent value="newsletter" className="mt-6">
+            <NewsletterTab />
           </TabsContent>
         </Tabs>
       </main>

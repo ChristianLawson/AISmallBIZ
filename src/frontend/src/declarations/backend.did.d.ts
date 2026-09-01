@@ -76,6 +76,9 @@ export interface Course {
   'startDate' : string,
 }
 export type CourseId = bigint;
+export type Frequency = { 'both' : null } |
+  { 'monthly' : null } |
+  { 'weekly' : null };
 export type Goal = { 'businessPlanning' : null } |
   { 'socialAds' : null } |
   { 'googleMaps' : null };
@@ -124,6 +127,7 @@ export type IndustryType = { 'retail' : null } |
   { 'newBusiness' : null } |
   { 'poolHall' : null } |
   { 'restaurant' : null };
+export interface NewsletterContent { 'htmlBody' : string, 'subject' : string }
 export interface OutageFilter {
   'provider' : [] | [string],
   'endDate' : [] | [string],
@@ -165,6 +169,7 @@ export type Topic = { 'businessPlanning' : null } |
   { 'branding' : null } |
   { 'googleMaps' : null } |
   { 'techUpgrades' : null };
+export interface Topic__1 { 'id' : bigint, 'name' : string }
 export interface TransformationInput {
   'context' : Uint8Array,
   'response' : HttpRequestResult,
@@ -187,8 +192,22 @@ export type Value = { 'int' : bigint } |
   { 'bool' : boolean } |
   { 'null' : null } |
   { 'text' : string };
+export interface _CaffeineEmailUnsubscribeArgs {
+  'recipient_email' : string,
+  'topic_id' : number,
+}
+export type _CaffeineEmailUnsubscribeResult = { 'Ok' : _UnsubscribeSuccess } |
+  { 'Err' : _UnsubscribeError };
+export type _UnsubscribeError = {};
+export interface _UnsubscribeSuccess { 'topic_name' : [] | [string] }
 export interface _SERVICE {
+  '_caffeineEmailUnsubscribeFromTopic' : ActorMethod<
+    [_CaffeineEmailUnsubscribeArgs],
+    _CaffeineEmailUnsubscribeResult
+  >,
+  '_caffeineEmailVerify' : ActorMethod<[string], undefined>,
   '_initializeAccessControl' : ActorMethod<[], undefined>,
+  'addNewsletterTopic' : ActorMethod<[string], bigint>,
   'approveContribution' : ActorMethod<[ContributionId], boolean>,
   'assignCallerUserRole' : ActorMethod<[Principal, UserRole], undefined>,
   'createGuide' : ActorMethod<[GuideInput], Guide>,
@@ -205,6 +224,7 @@ export interface _SERVICE {
   'getGuide' : ActorMethod<[GuideId], [] | [Guide]>,
   'getLastUpdated' : ActorMethod<[], Timestamp>,
   'getMyContributions' : ActorMethod<[], Array<Contribution>>,
+  'getNewsletterContent' : ActorMethod<[bigint], [] | [NewsletterContent]>,
   'getPersonalizedRecommendations' : ActorMethod<[], Array<Guide>>,
   'getProviderHealthStatus' : ActorMethod<[], Array<ProviderHealthStatus>>,
   'getProviderStats' : ActorMethod<[], Array<ProviderStats>>,
@@ -213,15 +233,23 @@ export interface _SERVICE {
   'isCallerApproved' : ActorMethod<[], boolean>,
   'listApprovals' : ActorMethod<[], Array<UserApprovalInfo>>,
   'listGuides' : ActorMethod<[GuideFilter], Array<Guide>>,
+  'listNewsletterSubscribers' : ActorMethod<[bigint], Array<[string, boolean]>>,
+  'listNewsletterTopics' : ActorMethod<[], Array<Topic__1>>,
   'listOutages' : ActorMethod<[OutageFilter], Array<OutageRecord>>,
   'listPendingContributions' : ActorMethod<[], Array<Contribution>>,
   'rejectContribution' : ActorMethod<[ContributionId, [] | [string]], boolean>,
+  'removeNewsletterTopic' : ActorMethod<[bigint], undefined>,
+  'renameNewsletterTopic' : ActorMethod<[bigint, string], undefined>,
   'requestApproval' : ActorMethod<[], undefined>,
   'saveBusinessProfile' : ActorMethod<[BusinessProfile], undefined>,
   'schema' : ActorMethod<[], string>,
+  'sendMonthlyNewsletter' : ActorMethod<[], undefined>,
+  'sendWeeklyNewsletter' : ActorMethod<[], undefined>,
   'setApproval' : ActorMethod<[Principal, ApprovalStatus], undefined>,
   'setGuidePublished' : ActorMethod<[GuideId, boolean], boolean>,
+  'setNewsletterContent' : ActorMethod<[bigint, string, string], undefined>,
   'submitContribution' : ActorMethod<[ContributionInput], Contribution>,
+  'subscribeToNewsletter' : ActorMethod<[string, string, Frequency], undefined>,
   'transform' : ActorMethod<[TransformationInput], TransformationOutput>,
   'updateGuide' : ActorMethod<[GuideId, GuideInput], boolean>,
 }

@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Shield } from "lucide-react";
-import { useState } from "react";
+
+import { NewsletterForm } from "@/components/NewsletterForm";
 
 const PRIMARY_LINKS = [
   { to: "/" as const, label: "Home" },
@@ -16,7 +17,7 @@ const PRIMARY_LINKS = [
 ];
 
 const TOOLS_RESOURCES_LINKS = [
-  { to: "/nyc-resources" as const, label: "NYC Resources (free)" },
+  { to: "/nyc-resources" as const, label: "NYC Resources (Free)" },
   { to: "/ai-training" as const, label: "AI Training & Tools" },
   { to: "/learn" as const, label: "Learn" },
 ];
@@ -49,78 +50,12 @@ export function Footer() {
   const year = new Date().getFullYear();
   const hostname =
     typeof window !== "undefined" ? window.location.hostname : "";
-  const [email, setEmail] = useState("");
-  const [subscribed, setSubscribed] = useState(false);
-  const [optIn, setOptIn] = useState(false);
-
-  function handleSubscribe(e: React.FormEvent) {
-    e.preventDefault();
-    if (email.trim() && optIn) {
-      setSubscribed(true);
-    }
-  }
 
   return (
     <footer data-home-footer className="bg-card border-t border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-12 pb-8">
         {/* Newsletter row */}
-        <div className="rounded-2xl bg-[rgb(var(--accent-neutral-soft))] border border-[rgb(var(--accent-neutral-border))] p-6 md:p-8 mb-12 flex flex-col md:flex-row md:items-center gap-6">
-          <div className="flex-1">
-            <h3 className="font-display font-bold text-xl text-foreground mb-1">
-              Get weekly small business tips
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Join 500+ business owners getting AI-powered advice every week.
-            </p>
-          </div>
-          {subscribed ? (
-            <div
-              data-ocid="footer.newsletter.success_state"
-              className="flex items-center gap-2 text-[rgb(var(--accent-neutral))] font-semibold text-sm bg-background rounded-xl px-5 py-3 border border-[rgb(var(--accent-neutral-border))]"
-            >
-              <span aria-hidden="true">✓</span> Thanks for subscribing!
-            </div>
-          ) : (
-            <form
-              onSubmit={handleSubscribe}
-              data-ocid="footer.newsletter.form"
-              className="flex flex-col gap-3 w-full md:w-auto"
-            >
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
-                  required
-                  data-ocid="footer.newsletter.input"
-                  className="flex-1 md:w-56 px-4 py-2.5 rounded-lg border border-[rgb(var(--accent-neutral-border))] bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[rgb(var(--accent-neutral))]/30 focus:border-[rgb(var(--accent-neutral))]"
-                />
-                <button
-                  type="submit"
-                  data-ocid="footer.newsletter.submit_button"
-                  disabled={!optIn}
-                  className="button-cta px-5 py-2.5 text-sm whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-ring"
-                >
-                  Subscribe
-                </button>
-              </div>
-              <label className="flex items-center gap-2 text-sm text-muted-foreground cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={optIn}
-                  onChange={(e) => setOptIn(e.target.checked)}
-                  data-ocid="footer.newsletter.opt_in_checkbox"
-                  className="w-4 h-4 rounded border-border text-primary focus:ring-primary"
-                />
-                I agree to receive email updates
-              </label>
-              <p className="text-xs text-muted-decorative">
-                We never share your information.
-              </p>
-            </form>
-          )}
-        </div>
+        <NewsletterForm variant="footer" />
 
         {/* 4-column nav grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">

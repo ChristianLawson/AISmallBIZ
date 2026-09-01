@@ -20,6 +20,10 @@ import {
   type TransformationOutput,
   type ContributionId,
   type GuideId,
+  Frequency,
+  type NewsletterContent,
+  type Topic__1,
+  type _CaffeineEmailUnsubscribeResult,
 } from "../backend";
 
 // ApprovalStatus is referenced by the backend (UserApproval.ApprovalStatus) but
@@ -543,7 +547,7 @@ export const mockBackend: backendInterface = {
   async getMyContributions(): Promise<Contribution[]> { return []; },
   async getPersonalizedRecommendations(): Promise<Guide[]> { return []; },
   async getUpcomingCourses(): Promise<Course[]> { return []; },
-  async isCallerAdmin(): Promise<boolean> { return false; },
+  async isCallerAdmin(): Promise<boolean> { return true; },
   async isCallerApproved(): Promise<boolean> { return true; },
   async listApprovals(): Promise<UserApprovalInfo[]> { return []; },
   async listGuides(_filter: GuideFilter): Promise<Guide[]> { return []; },
@@ -561,4 +565,41 @@ export const mockBackend: backendInterface = {
     throw new Error("mock: not implemented");
   },
   async updateGuide(_id: GuideId, _input: GuideInput): Promise<boolean> { return true; },
+  // ─── Newsletter stubs ─────────────────────────────────────────────────────
+  async _caffeineEmailUnsubscribeFromTopic(_args: {
+    recipient_email: string;
+    topic_id: number;
+  }): Promise<_CaffeineEmailUnsubscribeResult> {
+    return { __kind__: "Ok", Ok: {} };
+  },
+  async _caffeineEmailVerify(_email: string): Promise<void> {},
+  async addNewsletterTopic(_name: string): Promise<bigint> { return BigInt(3); },
+  async getNewsletterContent(_topicId: bigint): Promise<NewsletterContent | null> {
+    return {
+      subject: "This Week in Small Business AI",
+      htmlBody:
+        "<h1>Weekly Small Business Tips</h1><p>Five quick wins to grow your business this week.</p>",
+    };
+  },
+  async listNewsletterSubscribers(_topicId: bigint): Promise<Array<[string, boolean]>> {
+    return [
+      ["maria@cornerdeli.nyc", true],
+      ["james@brightsalon.com", true],
+      ["priya@consulting.co", false],
+      ["david@retailhub.io", true],
+      ["lena@onlineservices.app", false],
+    ];
+  },
+  async listNewsletterTopics(): Promise<Topic__1[]> {
+    return [
+      { id: BigInt(1), name: "Weekly Small Biz Tips" },
+      { id: BigInt(2), name: "Monthly AI Roundup" },
+    ];
+  },
+  async removeNewsletterTopic(_topicId: bigint): Promise<void> {},
+  async renameNewsletterTopic(_topicId: bigint, _newName: string): Promise<void> {},
+  async sendMonthlyNewsletter(): Promise<void> {},
+  async sendWeeklyNewsletter(): Promise<void> {},
+  async setNewsletterContent(_topicId: bigint, _subject: string, _htmlBody: string): Promise<void> {},
+  async subscribeToNewsletter(_firstName: string, _email: string, _frequency: Frequency): Promise<void> {},
 };

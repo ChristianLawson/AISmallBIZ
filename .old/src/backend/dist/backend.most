@@ -1,10 +1,11 @@
-// Version: 3.0.0
+// Version: 4.0.0
 type AccessControlState__45017055 =
   {
     var adminAssigned : Bool;
-    userRoles : Map__246123559<Principal, UserRole__1073662873>
+    userRoles : Map__386906547<Principal, UserRole__1073662873>
   };
 type ApprovalStatus__944573617 = {#approved; #pending; #rejected};
+type AuthorType__705314743 = {#admin; #community};
 type AuthorType__873987400 = {#admin; #community};
 type BusinessProfile__463469443 =
   {
@@ -18,7 +19,20 @@ type BusinessProfile__463469443 =
     subscriptionTier : ?SubscriptionTier__469126857;
     teamSize : TeamSize__1003787933
   };
+type BusinessProfile__98684351 =
+  {
+    businessName : Text;
+    email : ?Text;
+    goals : [Goal__827988172];
+    industryType : IndustryType__561675583;
+    location : Text;
+    name : ?Text;
+    signupDate : ?Int;
+    subscriptionTier : ?SubscriptionTier__67133760;
+    teamSize : TeamSize__423514047
+  };
 type ContributionId__128687992 = Nat;
+type ContributionStatus__714759334 = {#approved; #pending; #rejected};
 type ContributionStatus__959521044 = {#approved; #pending; #rejected};
 type Contribution__578882276 =
   {
@@ -34,7 +48,41 @@ type Contribution__578882276 =
     title : Text;
     topic : Topic__36306924
   };
+type Contribution__843760347 =
+  {
+    authorName : Text;
+    authorPrincipal : Principal;
+    businessContext : Text;
+    content : Text;
+    id : Nat;
+    rejectionReason : ?Text;
+    reviewedAt : ?Int;
+    status : ContributionStatus__714759334;
+    submittedAt : Int;
+    title : Text;
+    topic : Topic__264845797
+  };
 type CourseId__331402257 = Nat;
+type Course__1042965152 =
+  {
+    addedAt : Int;
+    borough : Text;
+    category : Text;
+    contactPhone : Text;
+    courseType : Text;
+    description : Text;
+    endDate : Text;
+    expiresAt : Int;
+    fetchedAt : Int;
+    id : Nat;
+    isExpired : Bool;
+    isNew : Bool;
+    language : Text;
+    location : Text;
+    registrationUrl : Text;
+    startDate : Text;
+    title : Text
+  };
 type Course__771579559 =
   {
     addedAt : Timestamp__301639476;
@@ -55,9 +103,26 @@ type Course__771579559 =
     startDate : Text;
     title : Text
   };
-type Data__552063367<K, V> = {var count : Nat__93962160; kvs : [var ?(K, V)]};
+type Data__265875254<K, V> = {var count : Nat__58649523; kvs : [var ?(K, V)]};
+type Data__859131645<T> = {var count : Nat__58649523; elements : [var ?T]};
+type Goal__827988172 = {#businessPlanning; #googleMaps; #socialAds};
 type Goal__958190818 = {#businessPlanning; #googleMaps; #socialAds};
 type GuideId__241435462 = Nat;
+type Guide__1060396992 =
+  {
+    authorName : Text;
+    authorType : AuthorType__705314743;
+    businessTypeTags : [Text];
+    content : Text;
+    excerpt : Text;
+    id : Nat;
+    isPublished : Bool;
+    publishedAt : ?Int;
+    readTimeMinutes : Nat;
+    recommendedNext : [Nat];
+    title : Text;
+    topic : Topic__264845797
+  };
 type Guide__386566805 =
   {
     authorName : Text;
@@ -73,6 +138,18 @@ type Guide__386566805 =
     title : Text;
     topic : Topic__36306924
   };
+type IndustryType__561675583 =
+  {
+    #consulting;
+    #deli;
+    #newBusiness;
+    #onlineServices;
+    #other;
+    #poolHall;
+    #restaurant;
+    #retail;
+    #salon
+  };
 type IndustryType__694657784 =
   {
     #consulting;
@@ -85,42 +162,79 @@ type IndustryType__694657784 =
     #retail;
     #salon
   };
-type Internal__455405067<K, V> =
-  {children : [var ?Node__279997185<K, V>]; data : Data__552063367<K, V>};
-type Leaf__114713147<K, V> = {data : Data__552063367<K, V>};
-type List__716101829<T> =
+type Internal__161573640<K, V> =
+  {children : [var ?Node__430031793<K, V>]; data : Data__265875254<K, V>};
+type Internal__778364379<T> =
+  {children : [var ?Node__1045371124<T>]; data : Data__859131645<T>};
+type Leaf__1045638083<K, V> = {data : Data__265875254<K, V>};
+type Leaf__776840865<T> = {data : Data__859131645<T>};
+type List__1004628775<T> =
   {
-    var blockIndex : Nat__93962160;
+    var blockIndex : Nat__58649523;
     var blocks : [var [var ?T]];
-    var elementIndex : Nat__93962160
+    var elementIndex : Nat__58649523
   };
-type List__852723865<T> = List__716101829<T>;
-type Map__190625089<K, V> = Map__719753394<K, V>;
-type Map__246123559<K, V> = Map__190625089<K, V>;
-type Map__719753394<K, V> =
-  {var root : Node__279997185<K, V>; var size : Nat__93962160};
+type List__89170296<T> = List__1004628775<T>;
+type Map__13625999<K, V> =
+  {var root : Node__430031793<K, V>; var size : Nat__58649523};
+type Map__386906547<K, V> = Map__670138087<K, V>;
+type Map__670138087<K, V> = Map__13625999<K, V>;
+type Nat__58649523 = Nat__920180692;
 type Nat__920180692 = Nat;
-type Nat__93962160 = Nat__920180692;
-type Node__279997185<K, V> =
-  {#internal : Internal__455405067<K, V>; #leaf : Leaf__114713147<K, V>};
-type OldAuthorType__908430880 = {#admin; #community};
-type OldGuide__958196975 =
+type NewActor__918492184 =
   {
-    authorName : Text;
-    authorType : OldAuthorType__908430880;
-    businessTypeTags : [Text];
-    content : Text;
-    excerpt : Text;
-    id : GuideId__241435462;
-    isPublished : Bool;
-    publishedAt : ?Timestamp__301639476;
-    readTimeMinutes : Nat;
-    title : Text;
-    topic : OldTopic__311114142
+    accessControlState : AccessControlState__45017055;
+    approvalState : UserApprovalState__666071610;
+    contributionState : {var nextContributionId : Nat};
+    contributions : List__89170296<Contribution__843760347>;
+    courseState : {var nextCourseId : Nat};
+    courseTimerId : {var value : Nat};
+    courses : List__89170296<Course__1042965152>;
+    emailSubscribers : State__800379463;
+    guideState : {var nextGuideId : Nat};
+    guides : List__89170296<Guide__1060396992>;
+    lastCourseFetch : {var value : Int};
+    newsletterContent : Map__386906547<Nat, NewsletterContent__1043750068>;
+    outageState : {var nextOutageId : Nat};
+    outages : List__89170296<OutageRecord__498438456>;
+    profiles : Map__386906547<Principal, BusinessProfile__98684351>;
+    subscriberNames : Map__386906547<Text, Text>;
+    verifiedEmails : State__958573863
   };
-type OldTopic__311114142 =
-  {#branding; #businessPlanning; #googleMaps; #socialAds; #techUpgrades};
+type NewsletterContent__1043750068 = {htmlBody : Text; subject : Text};
+type NewsletterContent__745117606 = {htmlBody : Text; subject : Text};
+type Node__1045371124<T> =
+  {#internal : Internal__778364379<T>; #leaf : Leaf__776840865<T>};
+type Node__430031793<K, V> =
+  {#internal : Internal__161573640<K, V>; #leaf : Leaf__1045638083<K, V>};
+type OldActor__309866086 =
+  {
+    accessControlState : AccessControlState__45017055;
+    allProviderNames : [Text];
+    approvalState : UserApprovalState__666071610;
+    contributionState : {var nextContributionId : Nat};
+    contributions : List__89170296<Contribution__843760347>;
+    courseState : {var nextCourseId : Nat};
+    courseTimerId : {var value : Nat};
+    courses : List__89170296<Course__1042965152>;
+    guideState : {var nextGuideId : Nat};
+    guides : List__89170296<Guide__1060396992>;
+    lastCourseFetch : {var value : Int};
+    outageState : {var nextOutageId : Nat};
+    outages : List__89170296<OutageRecord__498438456>;
+    profiles : Map__386906547<Principal, BusinessProfile__98684351>
+  };
 type OutageId__785580633 = Nat;
+type OutageRecord__498438456 =
+  {
+    date : Text;
+    durationHours : Float;
+    id : Nat;
+    incidentType : Text;
+    nycImpactDescription : Text;
+    provider : Text;
+    regionScope : Text
+  };
 type OutageRecord__770303007 =
   {
     date : Text;
@@ -131,74 +245,91 @@ type OutageRecord__770303007 =
     provider : Text;
     regionScope : Text
   };
+type Set__195681557<T> = Set__29061695<T>;
+type Set__29061695<T> =
+  {var root : Node__1045371124<T>; var size : Nat__58649523};
+type State__800379463 =
+  {
+    var idGen : Nat;
+    topics : Map__386906547<Nat, TopicRecord__34462814>;
+    topicsByName : Map__386906547<Text, Nat>
+  };
+type State__958573863 = {verifiedEmails : Set__195681557<Text>};
 type SubscriptionTier__469126857 = {#free; #paid};
+type SubscriptionTier__67133760 = {#free; #paid};
 type TeamSize__1003787933 = {#medium; #small; #solo};
+type TeamSize__423514047 = {#medium; #small; #solo};
 type Timestamp__301639476 = Int;
+type TopicRecord__34462814 =
+  {var name : Text; subscribers : Set__195681557<Text>};
+type Topic__264845797 =
+  {#branding; #businessPlanning; #googleMaps; #socialAds; #techUpgrades};
 type Topic__36306924 =
   {#branding; #businessPlanning; #googleMaps; #socialAds; #techUpgrades};
 type UserApprovalState__666071610 =
-  {var approvalStatus : Map__246123559<Principal, ApprovalStatus__944573617>};
+  {var approvalStatus : Map__386906547<Principal, ApprovalStatus__944573617>};
 type UserRole__1073662873 = {#admin; #guest; #user};
-actor ({
-  in accessControlState : AccessControlState__45017055;
-  in allProviderNames : [Text];
-  in approvalState : UserApprovalState__666071610;
-  in contributionState : {var nextContributionId : Nat};
-  in contributions : List__852723865<Contribution__578882276>;
-  in courseState : {var nextCourseId : Nat};
-  in courseTimerId : {var value : Nat};
-  in courses : List__852723865<Course__771579559>;
-  in guideState : {var nextGuideId : Nat};
-  in guides : List__852723865<OldGuide__958196975>;
-  in lastCourseFetch : {var value : Timestamp__301639476};
-  in outageState : {var nextOutageId : Nat};
-  in outages : List__852723865<OutageRecord__770303007>;
-  in profiles : Map__246123559<Principal, BusinessProfile__463469443>
-}, {
+{
+  "20260828_120000" : (old : OldActor__309866086) -> NewActor__918492184
+}
+actor  {
   stable accessControlState :
     {
       var adminAssigned : Bool;
-      userRoles : Map__246123559<Principal, UserRole__1073662873>
+      userRoles : Map__386906547<Principal, UserRole__1073662873>
     };
-  stable allProviderNames : [Text];
   stable approvalState :
     {
       var approvalStatus :
-        Map__246123559<Principal, ApprovalStatus__944573617>
+        Map__386906547<Principal, ApprovalStatus__944573617>
     };
   stable contributionState : {var nextContributionId : Nat};
   stable contributions :
     {
-      var blockIndex : Nat__93962160;
+      var blockIndex : Nat__58649523;
       var blocks : [var [var ?Contribution__578882276]];
-      var elementIndex : Nat__93962160
+      var elementIndex : Nat__58649523
     };
   stable courseState : {var nextCourseId : Nat};
   stable courseTimerId : {var value : Nat};
   stable courses :
     {
-      var blockIndex : Nat__93962160;
+      var blockIndex : Nat__58649523;
       var blocks : [var [var ?Course__771579559]];
-      var elementIndex : Nat__93962160
+      var elementIndex : Nat__58649523
+    };
+  stable emailSubscribers :
+    {
+      var idGen : Nat;
+      topics : Map__386906547<Nat, TopicRecord__34462814>;
+      topicsByName : Map__386906547<Text, Nat>
     };
   stable guideState : {var nextGuideId : Nat};
   stable guides :
     {
-      var blockIndex : Nat__93962160;
+      var blockIndex : Nat__58649523;
       var blocks : [var [var ?Guide__386566805]];
-      var elementIndex : Nat__93962160
+      var elementIndex : Nat__58649523
     };
   stable lastCourseFetch : {var value : Timestamp__301639476};
+  stable newsletterContent :
+    {
+      var root : Node__430031793<Nat, NewsletterContent__745117606>;
+      var size : Nat__58649523
+    };
   stable outageState : {var nextOutageId : Nat};
   stable outages :
     {
-      var blockIndex : Nat__93962160;
+      var blockIndex : Nat__58649523;
       var blocks : [var [var ?OutageRecord__770303007]];
-      var elementIndex : Nat__93962160
+      var elementIndex : Nat__58649523
     };
   stable profiles :
     {
-      var root : Node__279997185<Principal, BusinessProfile__463469443>;
-      var size : Nat__93962160
-    }
-});
+      var root : Node__430031793<Principal, BusinessProfile__463469443>;
+      var size : Nat__58649523
+    };
+  stable subscriberNames :
+    {var root : Node__430031793<Text, Text>; var size : Nat__58649523};
+  stable verifiedEmails : {verifiedEmails : Set__195681557<Text>}
+};

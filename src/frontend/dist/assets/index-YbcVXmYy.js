@@ -32856,7 +32856,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2C = [
+const __iconNode$2E = [
   [
     "path",
     {
@@ -32865,7 +32865,29 @@ const __iconNode$2C = [
     }
   ]
 ];
-const Activity = createLucideIcon("activity", __iconNode$2C);
+const Activity = createLucideIcon("activity", __iconNode$2E);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2D = [
+  ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
+  ["path", { d: "M19 12H5", key: "x3x0zl" }]
+];
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$2D);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2C = [
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
+];
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$2C);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -32873,28 +32895,6 @@ const Activity = createLucideIcon("activity", __iconNode$2C);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2B = [
-  ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
-  ["path", { d: "M19 12H5", key: "x3x0zl" }]
-];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$2B);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$2A = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
-];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$2A);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$2z = [
   [
     "path",
     {
@@ -32904,14 +32904,14 @@ const __iconNode$2z = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$2z);
+const Award = createLucideIcon("award", __iconNode$2B);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2y = [
+const __iconNode$2A = [
   [
     "path",
     {
@@ -32921,25 +32921,25 @@ const __iconNode$2y = [
   ],
   ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const BadgeCheck = createLucideIcon("badge-check", __iconNode$2y);
+const BadgeCheck = createLucideIcon("badge-check", __iconNode$2A);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2x = [
+const __iconNode$2z = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ["path", { d: "m4.9 4.9 14.2 14.2", key: "1m5liu" }]
 ];
-const Ban = createLucideIcon("ban", __iconNode$2x);
+const Ban = createLucideIcon("ban", __iconNode$2z);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2w = [
+const __iconNode$2y = [
   [
     "path",
     {
@@ -32956,14 +32956,14 @@ const __iconNode$2w = [
   ],
   ["circle", { cx: "12.5", cy: "8.5", r: "2.5", key: "9738u8" }]
 ];
-const Beef = createLucideIcon("beef", __iconNode$2w);
+const Beef = createLucideIcon("beef", __iconNode$2y);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2v = [
+const __iconNode$2x = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   [
     "path",
@@ -32973,14 +32973,14 @@ const __iconNode$2v = [
     }
   ]
 ];
-const BookOpen = createLucideIcon("book-open", __iconNode$2v);
+const BookOpen = createLucideIcon("book-open", __iconNode$2x);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2u = [
+const __iconNode$2w = [
   ["path", { d: "M12 8V4H8", key: "hb8ula" }],
   ["rect", { width: "16", height: "12", x: "4", y: "8", rx: "2", key: "enze0r" }],
   ["path", { d: "M2 14h2", key: "vft8re" }],
@@ -32988,14 +32988,14 @@ const __iconNode$2u = [
   ["path", { d: "M15 13v2", key: "1xurst" }],
   ["path", { d: "M9 13v2", key: "rq6x2g" }]
 ];
-const Bot = createLucideIcon("bot", __iconNode$2u);
+const Bot = createLucideIcon("bot", __iconNode$2w);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2t = [
+const __iconNode$2v = [
   [
     "path",
     {
@@ -33016,14 +33016,14 @@ const __iconNode$2t = [
   ["circle", { cx: "20", cy: "21", r: ".5", key: "yhc1fs" }],
   ["circle", { cx: "20", cy: "8", r: ".5", key: "1e43v0" }]
 ];
-const BrainCircuit = createLucideIcon("brain-circuit", __iconNode$2t);
+const BrainCircuit = createLucideIcon("brain-circuit", __iconNode$2v);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2s = [
+const __iconNode$2u = [
   [
     "path",
     {
@@ -33046,25 +33046,25 @@ const __iconNode$2s = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$2s);
+const Brain = createLucideIcon("brain", __iconNode$2u);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2r = [
+const __iconNode$2t = [
   ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
   ["rect", { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" }]
 ];
-const Briefcase = createLucideIcon("briefcase", __iconNode$2r);
+const Briefcase = createLucideIcon("briefcase", __iconNode$2t);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2q = [
+const __iconNode$2s = [
   ["path", { d: "M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z", key: "1b4qmf" }],
   ["path", { d: "M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2", key: "i71pzd" }],
   ["path", { d: "M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2", key: "10jefs" }],
@@ -33073,14 +33073,14 @@ const __iconNode$2q = [
   ["path", { d: "M10 14h4", key: "kelpxr" }],
   ["path", { d: "M10 18h4", key: "1ulq68" }]
 ];
-const Building2 = createLucideIcon("building-2", __iconNode$2q);
+const Building2 = createLucideIcon("building-2", __iconNode$2s);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2p = [
+const __iconNode$2r = [
   ["rect", { width: "16", height: "20", x: "4", y: "2", rx: "2", key: "1nb95v" }],
   ["line", { x1: "8", x2: "16", y1: "6", y2: "6", key: "x4nwl0" }],
   ["line", { x1: "16", x2: "16", y1: "14", y2: "18", key: "wjye3r" }],
@@ -33092,14 +33092,14 @@ const __iconNode$2p = [
   ["path", { d: "M12 18h.01", key: "mhygvu" }],
   ["path", { d: "M8 18h.01", key: "lrp35t" }]
 ];
-const Calculator = createLucideIcon("calculator", __iconNode$2p);
+const Calculator = createLucideIcon("calculator", __iconNode$2r);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2o = [
+const __iconNode$2q = [
   ["path", { d: "M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5", key: "1osxxc" }],
   ["path", { d: "M16 2v4", key: "4m81vk" }],
   ["path", { d: "M8 2v4", key: "1cmpym" }],
@@ -33107,14 +33107,14 @@ const __iconNode$2o = [
   ["path", { d: "M17.5 17.5 16 16.3V14", key: "akvzfd" }],
   ["circle", { cx: "16", cy: "16", r: "6", key: "qoo3c4" }]
 ];
-const CalendarClock = createLucideIcon("calendar-clock", __iconNode$2o);
+const CalendarClock = createLucideIcon("calendar-clock", __iconNode$2q);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2n = [
+const __iconNode$2p = [
   ["path", { d: "M8 2v4", key: "1cmpym" }],
   ["path", { d: "M16 2v4", key: "4m81vk" }],
   ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
@@ -33126,14 +33126,14 @@ const __iconNode$2n = [
   ["path", { d: "M12 18h.01", key: "mhygvu" }],
   ["path", { d: "M16 18h.01", key: "kzsmim" }]
 ];
-const CalendarDays = createLucideIcon("calendar-days", __iconNode$2n);
+const CalendarDays = createLucideIcon("calendar-days", __iconNode$2p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2m = [
+const __iconNode$2o = [
   ["path", { d: "M3 10h18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7", key: "136lmk" }],
   ["path", { d: "M8 2v4", key: "1cmpym" }],
   ["path", { d: "M16 2v4", key: "4m81vk" }],
@@ -33145,27 +33145,27 @@ const __iconNode$2m = [
     }
   ]
 ];
-const CalendarHeart = createLucideIcon("calendar-heart", __iconNode$2m);
+const CalendarHeart = createLucideIcon("calendar-heart", __iconNode$2o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2l = [
+const __iconNode$2n = [
   ["path", { d: "M8 2v4", key: "1cmpym" }],
   ["path", { d: "M16 2v4", key: "4m81vk" }],
   ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
   ["path", { d: "M3 10h18", key: "8toen8" }]
 ];
-const Calendar = createLucideIcon("calendar", __iconNode$2l);
+const Calendar = createLucideIcon("calendar", __iconNode$2n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2k = [
+const __iconNode$2m = [
   [
     "path",
     {
@@ -33175,7 +33175,31 @@ const __iconNode$2k = [
   ],
   ["circle", { cx: "12", cy: "13", r: "3", key: "1vg3eu" }]
 ];
-const Camera = createLucideIcon("camera", __iconNode$2k);
+const Camera = createLucideIcon("camera", __iconNode$2m);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2l = [
+  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
+  ["path", { d: "M18 17V9", key: "2bz60n" }],
+  ["path", { d: "M13 17V5", key: "1frdt8" }],
+  ["path", { d: "M8 17v-3", key: "17ska0" }]
+];
+const ChartColumn = createLucideIcon("chart-column", __iconNode$2l);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2k = [
+  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
+  ["path", { d: "m19 9-5 5-4-4-3 3", key: "2osh9i" }]
+];
+const ChartLine = createLucideIcon("chart-line", __iconNode$2k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33183,12 +33207,11 @@ const Camera = createLucideIcon("camera", __iconNode$2k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2j = [
-  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
-  ["path", { d: "M18 17V9", key: "2bz60n" }],
-  ["path", { d: "M13 17V5", key: "1frdt8" }],
-  ["path", { d: "M8 17v-3", key: "17ska0" }]
+  ["line", { x1: "18", x2: "18", y1: "20", y2: "10", key: "1xfpm4" }],
+  ["line", { x1: "12", x2: "12", y1: "20", y2: "4", key: "be30l9" }],
+  ["line", { x1: "6", x2: "6", y1: "20", y2: "14", key: "1r4le6" }]
 ];
-const ChartColumn = createLucideIcon("chart-column", __iconNode$2j);
+const ChartNoAxesColumn = createLucideIcon("chart-no-axes-column", __iconNode$2j);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33196,22 +33219,24 @@ const ChartColumn = createLucideIcon("chart-column", __iconNode$2j);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2i = [
-  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
-  ["path", { d: "m19 9-5 5-4-4-3 3", key: "2osh9i" }]
+  [
+    "path",
+    {
+      d: "M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z",
+      key: "pzmjnu"
+    }
+  ],
+  ["path", { d: "M21.21 15.89A10 10 0 1 1 8 2.83", key: "k2fpak" }]
 ];
-const ChartLine = createLucideIcon("chart-line", __iconNode$2i);
+const ChartPie = createLucideIcon("chart-pie", __iconNode$2i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2h = [
-  ["line", { x1: "18", x2: "18", y1: "20", y2: "10", key: "1xfpm4" }],
-  ["line", { x1: "12", x2: "12", y1: "20", y2: "4", key: "be30l9" }],
-  ["line", { x1: "6", x2: "6", y1: "20", y2: "14", key: "1r4le6" }]
-];
-const ChartNoAxesColumn = createLucideIcon("chart-no-axes-column", __iconNode$2h);
+const __iconNode$2h = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
+const Check = createLucideIcon("check", __iconNode$2h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33222,62 +33247,60 @@ const __iconNode$2g = [
   [
     "path",
     {
-      d: "M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z",
-      key: "pzmjnu"
-    }
-  ],
-  ["path", { d: "M21.21 15.89A10 10 0 1 1 8 2.83", key: "k2fpak" }]
-];
-const ChartPie = createLucideIcon("chart-pie", __iconNode$2g);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$2f = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
-const Check = createLucideIcon("check", __iconNode$2f);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$2e = [
-  [
-    "path",
-    {
       d: "M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z",
       key: "1qvrer"
     }
   ],
   ["path", { d: "M6 17h12", key: "1jwigz" }]
 ];
-const ChefHat = createLucideIcon("chef-hat", __iconNode$2e);
+const ChefHat = createLucideIcon("chef-hat", __iconNode$2g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2d = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$2d);
+const __iconNode$2f = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$2f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2c = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$2c);
+const __iconNode$2e = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$2e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$2b = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
-const ChevronUp = createLucideIcon("chevron-up", __iconNode$2b);
+const __iconNode$2d = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
+const ChevronUp = createLucideIcon("chevron-up", __iconNode$2d);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2c = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
+  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
+];
+const CircleAlert = createLucideIcon("circle-alert", __iconNode$2c);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2b = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$2b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33286,10 +33309,9 @@ const ChevronUp = createLucideIcon("chevron-up", __iconNode$2b);
  */
 const __iconNode$2a = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
-  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const CircleAlert = createLucideIcon("circle-alert", __iconNode$2a);
+const CircleCheck = createLucideIcon("circle-check", __iconNode$2a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33297,10 +33319,11 @@ const CircleAlert = createLucideIcon("circle-alert", __iconNode$2a);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$29 = [
-  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
-  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3", key: "1u773s" }],
+  ["path", { d: "M12 17h.01", key: "p32p05" }]
 ];
-const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$29);
+const CircleHelp = createLucideIcon("circle-help", __iconNode$29);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33309,21 +33332,18 @@ const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$29);
  */
 const __iconNode$28 = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+  ["path", { d: "m15 9-6 6", key: "1uzhvr" }],
+  ["path", { d: "m9 9 6 6", key: "z0biqf" }]
 ];
-const CircleCheck = createLucideIcon("circle-check", __iconNode$28);
+const CircleX = createLucideIcon("circle-x", __iconNode$28);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$27 = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3", key: "1u773s" }],
-  ["path", { d: "M12 17h.01", key: "p32p05" }]
-];
-const CircleHelp = createLucideIcon("circle-help", __iconNode$27);
+const __iconNode$27 = [["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]];
+const Circle = createLucideIcon("circle", __iconNode$27);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33331,11 +33351,17 @@ const CircleHelp = createLucideIcon("circle-help", __iconNode$27);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$26 = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m15 9-6 6", key: "1uzhvr" }],
-  ["path", { d: "m9 9 6 6", key: "z0biqf" }]
+  ["rect", { width: "8", height: "4", x: "8", y: "2", rx: "1", ry: "1", key: "tgr4d6" }],
+  [
+    "path",
+    {
+      d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
+      key: "116196"
+    }
+  ],
+  ["path", { d: "m9 14 2 2 4-4", key: "df797q" }]
 ];
-const CircleX = createLucideIcon("circle-x", __iconNode$26);
+const ClipboardCheck = createLucideIcon("clipboard-check", __iconNode$26);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33351,9 +33377,12 @@ const __iconNode$25 = [
       key: "116196"
     }
   ],
-  ["path", { d: "m9 14 2 2 4-4", key: "df797q" }]
+  ["path", { d: "M12 11h4", key: "1jrz19" }],
+  ["path", { d: "M12 16h4", key: "n85exb" }],
+  ["path", { d: "M8 11h.01", key: "1dfujw" }],
+  ["path", { d: "M8 16h.01", key: "18s6g9" }]
 ];
-const ClipboardCheck = createLucideIcon("clipboard-check", __iconNode$25);
+const ClipboardList = createLucideIcon("clipboard-list", __iconNode$25);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33368,13 +33397,9 @@ const __iconNode$24 = [
       d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
       key: "116196"
     }
-  ],
-  ["path", { d: "M12 11h4", key: "1jrz19" }],
-  ["path", { d: "M12 16h4", key: "n85exb" }],
-  ["path", { d: "M8 11h.01", key: "1dfujw" }],
-  ["path", { d: "M8 16h.01", key: "18s6g9" }]
+  ]
 ];
-const ClipboardList = createLucideIcon("clipboard-list", __iconNode$24);
+const Clipboard = createLucideIcon("clipboard", __iconNode$24);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33382,16 +33407,10 @@ const ClipboardList = createLucideIcon("clipboard-list", __iconNode$24);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$23 = [
-  ["rect", { width: "8", height: "4", x: "8", y: "2", rx: "1", ry: "1", key: "tgr4d6" }],
-  [
-    "path",
-    {
-      d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
-      key: "116196"
-    }
-  ]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
 ];
-const Clipboard = createLucideIcon("clipboard", __iconNode$23);
+const Clock = createLucideIcon("clock", __iconNode$23);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33399,10 +33418,9 @@ const Clipboard = createLucideIcon("clipboard", __iconNode$23);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$22 = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+  ["path", { d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", key: "p7xjir" }]
 ];
-const Clock = createLucideIcon("clock", __iconNode$22);
+const Cloud = createLucideIcon("cloud", __iconNode$22);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33410,16 +33428,6 @@ const Clock = createLucideIcon("clock", __iconNode$22);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$21 = [
-  ["path", { d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", key: "p7xjir" }]
-];
-const Cloud = createLucideIcon("cloud", __iconNode$21);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$20 = [
   [
     "path",
     {
@@ -33429,7 +33437,18 @@ const __iconNode$20 = [
   ],
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }]
 ];
-const Compass = createLucideIcon("compass", __iconNode$20);
+const Compass = createLucideIcon("compass", __iconNode$21);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$20 = [
+  ["rect", { width: "20", height: "14", x: "2", y: "5", rx: "2", key: "ynyp8z" }],
+  ["line", { x1: "2", x2: "22", y1: "10", y2: "10", key: "1b3vmo" }]
+];
+const CreditCard = createLucideIcon("credit-card", __iconNode$20);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33437,10 +33456,11 @@ const Compass = createLucideIcon("compass", __iconNode$20);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1$ = [
-  ["rect", { width: "20", height: "14", x: "2", y: "5", rx: "2", key: "ynyp8z" }],
-  ["line", { x1: "2", x2: "22", y1: "10", y2: "10", key: "1b3vmo" }]
+  ["ellipse", { cx: "12", cy: "5", rx: "9", ry: "3", key: "msslwz" }],
+  ["path", { d: "M3 5V19A9 3 0 0 0 21 19V5", key: "1wlel7" }],
+  ["path", { d: "M3 12A9 3 0 0 0 21 12", key: "mv7ke4" }]
 ];
-const CreditCard = createLucideIcon("credit-card", __iconNode$1$);
+const Database = createLucideIcon("database", __iconNode$1$);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33448,11 +33468,10 @@ const CreditCard = createLucideIcon("credit-card", __iconNode$1$);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1_ = [
-  ["ellipse", { cx: "12", cy: "5", rx: "9", ry: "3", key: "msslwz" }],
-  ["path", { d: "M3 5V19A9 3 0 0 0 21 19V5", key: "1wlel7" }],
-  ["path", { d: "M3 12A9 3 0 0 0 21 12", key: "mv7ke4" }]
+  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
+  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
 ];
-const Database = createLucideIcon("database", __iconNode$1_);
+const DollarSign = createLucideIcon("dollar-sign", __iconNode$1_);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33460,17 +33479,6 @@ const Database = createLucideIcon("database", __iconNode$1_);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1Z = [
-  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
-  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
-];
-const DollarSign = createLucideIcon("dollar-sign", __iconNode$1Z);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1Y = [
   [
     "path",
     {
@@ -33489,7 +33497,18 @@ const __iconNode$1Y = [
   ],
   ["path", { d: "m9.6 14.4 4.8-4.8", key: "6umqxw" }]
 ];
-const Dumbbell = createLucideIcon("dumbbell", __iconNode$1Y);
+const Dumbbell = createLucideIcon("dumbbell", __iconNode$1Z);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1Y = [
+  ["path", { d: "M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0", key: "1dfaln" }],
+  ["path", { d: "M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4", key: "1qnva7" }]
+];
+const Ear = createLucideIcon("ear", __iconNode$1Y);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33497,10 +33516,11 @@ const Dumbbell = createLucideIcon("dumbbell", __iconNode$1Y);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1X = [
-  ["path", { d: "M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0", key: "1dfaln" }],
-  ["path", { d: "M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4", key: "1qnva7" }]
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
 ];
-const Ear = createLucideIcon("ear", __iconNode$1X);
+const ExternalLink = createLucideIcon("external-link", __iconNode$1X);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33508,18 +33528,6 @@ const Ear = createLucideIcon("ear", __iconNode$1X);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1W = [
-  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
-  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
-  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
-];
-const ExternalLink = createLucideIcon("external-link", __iconNode$1W);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1V = [
   [
     "path",
     {
@@ -33537,14 +33545,14 @@ const __iconNode$1V = [
   ],
   ["path", { d: "m2 2 20 20", key: "1ooewy" }]
 ];
-const EyeOff = createLucideIcon("eye-off", __iconNode$1V);
+const EyeOff = createLucideIcon("eye-off", __iconNode$1W);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1U = [
+const __iconNode$1V = [
   [
     "path",
     {
@@ -33554,7 +33562,20 @@ const __iconNode$1U = [
   ],
   ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
 ];
-const Eye = createLucideIcon("eye", __iconNode$1U);
+const Eye = createLucideIcon("eye", __iconNode$1V);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1U = [
+  [
+    "path",
+    { d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z", key: "1jg4f8" }
+  ]
+];
+const Facebook = createLucideIcon("facebook", __iconNode$1U);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33562,19 +33583,6 @@ const Eye = createLucideIcon("eye", __iconNode$1U);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1T = [
-  [
-    "path",
-    { d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z", key: "1jg4f8" }
-  ]
-];
-const Facebook = createLucideIcon("facebook", __iconNode$1T);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1S = [
   [
     "path",
     {
@@ -33591,7 +33599,21 @@ const __iconNode$1S = [
   ],
   ["path", { d: "M8 18h1", key: "13wk12" }]
 ];
-const FilePenLine = createLucideIcon("file-pen-line", __iconNode$1S);
+const FilePenLine = createLucideIcon("file-pen-line", __iconNode$1T);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1S = [
+  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
+  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
+  ["path", { d: "M10 9H8", key: "b1mrlr" }],
+  ["path", { d: "M16 13H8", key: "t4e002" }],
+  ["path", { d: "M16 17H8", key: "z1uh3a" }]
+];
+const FileText = createLucideIcon("file-text", __iconNode$1S);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33599,20 +33621,6 @@ const FilePenLine = createLucideIcon("file-pen-line", __iconNode$1S);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1R = [
-  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
-  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
-  ["path", { d: "M10 9H8", key: "b1mrlr" }],
-  ["path", { d: "M16 13H8", key: "t4e002" }],
-  ["path", { d: "M16 17H8", key: "z1uh3a" }]
-];
-const FileText = createLucideIcon("file-text", __iconNode$1R);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1Q = [
   ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", key: "afitv7" }],
   ["path", { d: "M7 3v18", key: "bbkbws" }],
   ["path", { d: "M3 7.5h4", key: "zfgn84" }],
@@ -33622,7 +33630,18 @@ const __iconNode$1Q = [
   ["path", { d: "M17 7.5h4", key: "myr1c1" }],
   ["path", { d: "M17 16.5h4", key: "go4c1d" }]
 ];
-const Film = createLucideIcon("film", __iconNode$1Q);
+const Film = createLucideIcon("film", __iconNode$1R);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1Q = [
+  ["path", { d: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z", key: "i9b6wo" }],
+  ["line", { x1: "4", x2: "4", y1: "22", y2: "15", key: "1cm3nv" }]
+];
+const Flag = createLucideIcon("flag", __iconNode$1Q);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33630,10 +33649,15 @@ const Film = createLucideIcon("film", __iconNode$1Q);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1P = [
-  ["path", { d: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z", key: "i9b6wo" }],
-  ["line", { x1: "4", x2: "4", y1: "22", y2: "15", key: "1cm3nv" }]
+  [
+    "path",
+    {
+      d: "M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z",
+      key: "96xj49"
+    }
+  ]
 ];
-const Flag = createLucideIcon("flag", __iconNode$1P);
+const Flame = createLucideIcon("flame", __iconNode$1P);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33644,12 +33668,12 @@ const __iconNode$1O = [
   [
     "path",
     {
-      d: "M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z",
-      key: "96xj49"
+      d: "M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z",
+      key: "sc7q7i"
     }
   ]
 ];
-const Flame = createLucideIcon("flame", __iconNode$1O);
+const Funnel = createLucideIcon("funnel", __iconNode$1O);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33657,15 +33681,10 @@ const Flame = createLucideIcon("flame", __iconNode$1O);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1N = [
-  [
-    "path",
-    {
-      d: "M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z",
-      key: "sc7q7i"
-    }
-  ]
+  ["path", { d: "m12 14 4-4", key: "9kzdfg" }],
+  ["path", { d: "M3.34 19a10 10 0 1 1 17.32 0", key: "19p75a" }]
 ];
-const Funnel = createLucideIcon("funnel", __iconNode$1N);
+const Gauge = createLucideIcon("gauge", __iconNode$1N);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33673,10 +33692,13 @@ const Funnel = createLucideIcon("funnel", __iconNode$1N);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1M = [
-  ["path", { d: "m12 14 4-4", key: "9kzdfg" }],
-  ["path", { d: "M3.34 19a10 10 0 1 1 17.32 0", key: "19p75a" }]
+  ["path", { d: "m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8", key: "15492f" }],
+  ["path", { d: "m16 16 6-6", key: "vzrcl6" }],
+  ["path", { d: "m8 8 6-6", key: "18bi4p" }],
+  ["path", { d: "m9 7 8 8", key: "5jnvq1" }],
+  ["path", { d: "m21 11-8-8", key: "z4y7zo" }]
 ];
-const Gauge = createLucideIcon("gauge", __iconNode$1M);
+const Gavel = createLucideIcon("gavel", __iconNode$1M);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33684,20 +33706,6 @@ const Gauge = createLucideIcon("gauge", __iconNode$1M);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1L = [
-  ["path", { d: "m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8", key: "15492f" }],
-  ["path", { d: "m16 16 6-6", key: "vzrcl6" }],
-  ["path", { d: "m8 8 6-6", key: "18bi4p" }],
-  ["path", { d: "m9 7 8 8", key: "5jnvq1" }],
-  ["path", { d: "m21 11-8-8", key: "z4y7zo" }]
-];
-const Gavel = createLucideIcon("gavel", __iconNode$1L);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1K = [
   ["rect", { x: "3", y: "8", width: "18", height: "4", rx: "1", key: "bkv52" }],
   ["path", { d: "M12 8v13", key: "1c76mn" }],
   ["path", { d: "M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7", key: "6wjy6b" }],
@@ -33709,7 +33717,19 @@ const __iconNode$1K = [
     }
   ]
 ];
-const Gift = createLucideIcon("gift", __iconNode$1K);
+const Gift = createLucideIcon("gift", __iconNode$1L);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1K = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20", key: "13o1zl" }],
+  ["path", { d: "M2 12h20", key: "9i4pu4" }]
+];
+const Globe = createLucideIcon("globe", __iconNode$1K);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33717,18 +33737,6 @@ const Gift = createLucideIcon("gift", __iconNode$1K);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1J = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20", key: "13o1zl" }],
-  ["path", { d: "M2 12h20", key: "9i4pu4" }]
-];
-const Globe = createLucideIcon("globe", __iconNode$1J);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1I = [
   [
     "path",
     {
@@ -33739,14 +33747,14 @@ const __iconNode$1I = [
   ["path", { d: "M22 10v6", key: "1lu8f3" }],
   ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }]
 ];
-const GraduationCap = createLucideIcon("graduation-cap", __iconNode$1I);
+const GraduationCap = createLucideIcon("graduation-cap", __iconNode$1J);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1H = [
+const __iconNode$1I = [
   ["path", { d: "m15 12-8.373 8.373a1 1 0 1 1-3-3L12 9", key: "eefl8a" }],
   ["path", { d: "m18 15 4-4", key: "16gjal" }],
   [
@@ -33757,14 +33765,14 @@ const __iconNode$1H = [
     }
   ]
 ];
-const Hammer = createLucideIcon("hammer", __iconNode$1H);
+const Hammer = createLucideIcon("hammer", __iconNode$1I);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1G = [
+const __iconNode$1H = [
   ["path", { d: "m11 17 2 2a1 1 0 1 0 3-3", key: "efffak" }],
   [
     "path",
@@ -33777,7 +33785,20 @@ const __iconNode$1G = [
   ["path", { d: "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3", key: "1uvwmv" }],
   ["path", { d: "M3 4h8", key: "1ep09j" }]
 ];
-const Handshake = createLucideIcon("handshake", __iconNode$1G);
+const Handshake = createLucideIcon("handshake", __iconNode$1H);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1G = [
+  ["path", { d: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5", key: "1p9q5i" }],
+  ["path", { d: "M14 6a6 6 0 0 1 6 6v3", key: "1hnv84" }],
+  ["path", { d: "M4 15v-3a6 6 0 0 1 6-6", key: "9ciidu" }],
+  ["rect", { x: "2", y: "15", width: "20", height: "4", rx: "1", key: "g3x8cw" }]
+];
+const HardHat = createLucideIcon("hard-hat", __iconNode$1G);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33785,12 +33806,12 @@ const Handshake = createLucideIcon("handshake", __iconNode$1G);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1F = [
-  ["path", { d: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5", key: "1p9q5i" }],
-  ["path", { d: "M14 6a6 6 0 0 1 6 6v3", key: "1hnv84" }],
-  ["path", { d: "M4 15v-3a6 6 0 0 1 6-6", key: "9ciidu" }],
-  ["rect", { x: "2", y: "15", width: "20", height: "4", rx: "1", key: "g3x8cw" }]
+  ["line", { x1: "4", x2: "20", y1: "9", y2: "9", key: "4lhtct" }],
+  ["line", { x1: "4", x2: "20", y1: "15", y2: "15", key: "vyu0kd" }],
+  ["line", { x1: "10", x2: "8", y1: "3", y2: "21", key: "1ggp8o" }],
+  ["line", { x1: "16", x2: "14", y1: "3", y2: "21", key: "weycgp" }]
 ];
-const HardHat = createLucideIcon("hard-hat", __iconNode$1F);
+const Hash2 = createLucideIcon("hash", __iconNode$1F);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33798,19 +33819,6 @@ const HardHat = createLucideIcon("hard-hat", __iconNode$1F);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1E = [
-  ["line", { x1: "4", x2: "20", y1: "9", y2: "9", key: "4lhtct" }],
-  ["line", { x1: "4", x2: "20", y1: "15", y2: "15", key: "vyu0kd" }],
-  ["line", { x1: "10", x2: "8", y1: "3", y2: "21", key: "1ggp8o" }],
-  ["line", { x1: "16", x2: "14", y1: "3", y2: "21", key: "weycgp" }]
-];
-const Hash2 = createLucideIcon("hash", __iconNode$1E);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1D = [
   [
     "path",
     {
@@ -33819,14 +33827,14 @@ const __iconNode$1D = [
     }
   ]
 ];
-const Heart = createLucideIcon("heart", __iconNode$1D);
+const Heart = createLucideIcon("heart", __iconNode$1E);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1C = [
+const __iconNode$1D = [
   ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
   [
     "path",
@@ -33836,7 +33844,19 @@ const __iconNode$1C = [
     }
   ]
 ];
-const House = createLucideIcon("house", __iconNode$1C);
+const House = createLucideIcon("house", __iconNode$1D);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1C = [
+  ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", ry: "2", key: "1m3agn" }],
+  ["circle", { cx: "9", cy: "9", r: "2", key: "af1f0g" }],
+  ["path", { d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21", key: "1xmnt7" }]
+];
+const Image = createLucideIcon("image", __iconNode$1C);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33844,18 +33864,6 @@ const House = createLucideIcon("house", __iconNode$1C);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1B = [
-  ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", ry: "2", key: "1m3agn" }],
-  ["circle", { cx: "9", cy: "9", r: "2", key: "af1f0g" }],
-  ["path", { d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21", key: "1xmnt7" }]
-];
-const Image = createLucideIcon("image", __iconNode$1B);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1A = [
   ["polyline", { points: "22 12 16 12 14 15 10 15 8 12 2 12", key: "o97t9d" }],
   [
     "path",
@@ -33865,7 +33873,19 @@ const __iconNode$1A = [
     }
   ]
 ];
-const Inbox = createLucideIcon("inbox", __iconNode$1A);
+const Inbox = createLucideIcon("inbox", __iconNode$1B);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1A = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "M12 16v-4", key: "1dtifu" }],
+  ["path", { d: "M12 8h.01", key: "e9boi3" }]
+];
+const Info$1 = createLucideIcon("info", __iconNode$1A);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33873,11 +33893,11 @@ const Inbox = createLucideIcon("inbox", __iconNode$1A);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1z = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M12 16v-4", key: "1dtifu" }],
-  ["path", { d: "M12 8h.01", key: "e9boi3" }]
+  ["rect", { width: "20", height: "20", x: "2", y: "2", rx: "5", ry: "5", key: "2e1cvw" }],
+  ["path", { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" }],
+  ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }]
 ];
-const Info$1 = createLucideIcon("info", __iconNode$1z);
+const Instagram = createLucideIcon("instagram", __iconNode$1z);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33885,18 +33905,6 @@ const Info$1 = createLucideIcon("info", __iconNode$1z);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1y = [
-  ["rect", { width: "20", height: "20", x: "2", y: "2", rx: "5", ry: "5", key: "2e1cvw" }],
-  ["path", { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" }],
-  ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }]
-];
-const Instagram = createLucideIcon("instagram", __iconNode$1y);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1x = [
   [
     "path",
     {
@@ -33919,7 +33927,20 @@ const __iconNode$1x = [
     }
   ]
 ];
-const Layers = createLucideIcon("layers", __iconNode$1x);
+const Layers = createLucideIcon("layers", __iconNode$1y);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1x = [
+  ["rect", { width: "7", height: "9", x: "3", y: "3", rx: "1", key: "10lvy0" }],
+  ["rect", { width: "7", height: "5", x: "14", y: "3", rx: "1", key: "16une8" }],
+  ["rect", { width: "7", height: "9", x: "14", y: "12", rx: "1", key: "1hutg5" }],
+  ["rect", { width: "7", height: "5", x: "3", y: "16", rx: "1", key: "ldoo1y" }]
+];
+const LayoutDashboard = createLucideIcon("layout-dashboard", __iconNode$1x);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33927,12 +33948,16 @@ const Layers = createLucideIcon("layers", __iconNode$1x);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1w = [
-  ["rect", { width: "7", height: "9", x: "3", y: "3", rx: "1", key: "10lvy0" }],
-  ["rect", { width: "7", height: "5", x: "14", y: "3", rx: "1", key: "16une8" }],
-  ["rect", { width: "7", height: "9", x: "14", y: "12", rx: "1", key: "1hutg5" }],
-  ["rect", { width: "7", height: "5", x: "3", y: "16", rx: "1", key: "ldoo1y" }]
+  [
+    "path",
+    {
+      d: "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z",
+      key: "nnexq3"
+    }
+  ],
+  ["path", { d: "M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12", key: "mt58a7" }]
 ];
-const LayoutDashboard = createLucideIcon("layout-dashboard", __iconNode$1w);
+const Leaf = createLucideIcon("leaf", __iconNode$1w);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33943,13 +33968,14 @@ const __iconNode$1v = [
   [
     "path",
     {
-      d: "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z",
-      key: "nnexq3"
+      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
+      key: "1gvzjb"
     }
   ],
-  ["path", { d: "M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12", key: "mt58a7" }]
+  ["path", { d: "M9 18h6", key: "x1upvd" }],
+  ["path", { d: "M10 22h4", key: "ceow96" }]
 ];
-const Leaf = createLucideIcon("leaf", __iconNode$1v);
+const Lightbulb = createLucideIcon("lightbulb", __iconNode$1v);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33960,24 +33986,6 @@ const __iconNode$1u = [
   [
     "path",
     {
-      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
-      key: "1gvzjb"
-    }
-  ],
-  ["path", { d: "M9 18h6", key: "x1upvd" }],
-  ["path", { d: "M10 22h4", key: "ceow96" }]
-];
-const Lightbulb = createLucideIcon("lightbulb", __iconNode$1u);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1t = [
-  [
-    "path",
-    {
       d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",
       key: "c2jq9f"
     }
@@ -33985,7 +33993,21 @@ const __iconNode$1t = [
   ["rect", { width: "4", height: "12", x: "2", y: "9", key: "mk3on5" }],
   ["circle", { cx: "4", cy: "4", r: "2", key: "bt5ra8" }]
 ];
-const Linkedin = createLucideIcon("linkedin", __iconNode$1t);
+const Linkedin = createLucideIcon("linkedin", __iconNode$1u);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1t = [
+  ["path", { d: "m3 17 2 2 4-4", key: "1jhpwq" }],
+  ["path", { d: "m3 7 2 2 4-4", key: "1obspn" }],
+  ["path", { d: "M13 6h8", key: "15sg57" }],
+  ["path", { d: "M13 12h8", key: "h98zly" }],
+  ["path", { d: "M13 18h8", key: "oe0vm4" }]
+];
+const ListChecks = createLucideIcon("list-checks", __iconNode$1t);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -33993,20 +34015,6 @@ const Linkedin = createLucideIcon("linkedin", __iconNode$1t);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1s = [
-  ["path", { d: "m3 17 2 2 4-4", key: "1jhpwq" }],
-  ["path", { d: "m3 7 2 2 4-4", key: "1obspn" }],
-  ["path", { d: "M13 6h8", key: "15sg57" }],
-  ["path", { d: "M13 12h8", key: "h98zly" }],
-  ["path", { d: "M13 18h8", key: "oe0vm4" }]
-];
-const ListChecks = createLucideIcon("list-checks", __iconNode$1s);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1r = [
   ["path", { d: "M3 12h.01", key: "nlz23k" }],
   ["path", { d: "M3 18h.01", key: "1tta3j" }],
   ["path", { d: "M3 6h.01", key: "1rqtza" }],
@@ -34014,15 +34022,26 @@ const __iconNode$1r = [
   ["path", { d: "M8 18h13", key: "1lx6n3" }],
   ["path", { d: "M8 6h13", key: "ik3vkj" }]
 ];
-const List$1 = createLucideIcon("list", __iconNode$1r);
+const List$1 = createLucideIcon("list", __iconNode$1s);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$1q = [["path", { d: "M21 12a9 9 0 1 1-6.219-8.56", key: "13zald" }]];
-const LoaderCircle = createLucideIcon("loader-circle", __iconNode$1q);
+const __iconNode$1r = [["path", { d: "M21 12a9 9 0 1 1-6.219-8.56", key: "13zald" }]];
+const LoaderCircle = createLucideIcon("loader-circle", __iconNode$1r);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1q = [
+  ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
+  ["path", { d: "M7 11V7a5 5 0 0 1 9.9-1", key: "1mm8w8" }]
+];
+const LockOpen = createLucideIcon("lock-open", __iconNode$1q);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34031,9 +34050,9 @@ const LoaderCircle = createLucideIcon("loader-circle", __iconNode$1q);
  */
 const __iconNode$1p = [
   ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
-  ["path", { d: "M7 11V7a5 5 0 0 1 9.9-1", key: "1mm8w8" }]
+  ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
 ];
-const LockOpen = createLucideIcon("lock-open", __iconNode$1p);
+const Lock = createLucideIcon("lock", __iconNode$1p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34041,10 +34060,11 @@ const LockOpen = createLucideIcon("lock-open", __iconNode$1p);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1o = [
-  ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
-  ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
+  ["path", { d: "m16 17 5-5-5-5", key: "1bji2h" }],
+  ["path", { d: "M21 12H9", key: "dn1m92" }],
+  ["path", { d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4", key: "1uf3rs" }]
 ];
-const Lock = createLucideIcon("lock", __iconNode$1o);
+const LogOut = createLucideIcon("log-out", __iconNode$1o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34052,11 +34072,10 @@ const Lock = createLucideIcon("lock", __iconNode$1o);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1n = [
-  ["path", { d: "m16 17 5-5-5-5", key: "1bji2h" }],
-  ["path", { d: "M21 12H9", key: "dn1m92" }],
-  ["path", { d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4", key: "1uf3rs" }]
+  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
 ];
-const LogOut = createLucideIcon("log-out", __iconNode$1n);
+const Mail = createLucideIcon("mail", __iconNode$1n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34064,10 +34083,16 @@ const LogOut = createLucideIcon("log-out", __iconNode$1n);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1m = [
-  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
-  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
+  [
+    "path",
+    {
+      d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+      key: "1r0f0z"
+    }
+  ],
+  ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
 ];
-const Mail = createLucideIcon("mail", __iconNode$1m);
+const MapPin = createLucideIcon("map-pin", __iconNode$1m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34078,23 +34103,6 @@ const __iconNode$1l = [
   [
     "path",
     {
-      d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
-      key: "1r0f0z"
-    }
-  ],
-  ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
-];
-const MapPin = createLucideIcon("map-pin", __iconNode$1l);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1k = [
-  [
-    "path",
-    {
       d: "M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z",
       key: "169xi5"
     }
@@ -34102,7 +34110,18 @@ const __iconNode$1k = [
   ["path", { d: "M15 5.764v15", key: "1pn4in" }],
   ["path", { d: "M9 3.236v15", key: "1uimfh" }]
 ];
-const Map$1 = createLucideIcon("map", __iconNode$1k);
+const Map$1 = createLucideIcon("map", __iconNode$1l);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1k = [
+  ["path", { d: "m3 11 18-5v12L3 14v-3z", key: "n962bs" }],
+  ["path", { d: "M11.6 16.8a3 3 0 1 1-5.8-1.6", key: "1yl0tm" }]
+];
+const Megaphone = createLucideIcon("megaphone", __iconNode$1k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34110,10 +34129,11 @@ const Map$1 = createLucideIcon("map", __iconNode$1k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1j = [
-  ["path", { d: "m3 11 18-5v12L3 14v-3z", key: "n962bs" }],
-  ["path", { d: "M11.6 16.8a3 3 0 1 1-5.8-1.6", key: "1yl0tm" }]
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
 ];
-const Megaphone = createLucideIcon("megaphone", __iconNode$1j);
+const Menu = createLucideIcon("menu", __iconNode$1j);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34121,11 +34141,9 @@ const Megaphone = createLucideIcon("megaphone", __iconNode$1j);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1i = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$1i);
+const MessageCircle = createLucideIcon("message-circle", __iconNode$1i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34133,9 +34151,11 @@ const Menu = createLucideIcon("menu", __iconNode$1i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1h = [
-  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
+  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }],
+  ["path", { d: "m10 7-3 3 3 3", key: "1eugdv" }],
+  ["path", { d: "M17 13v-1a2 2 0 0 0-2-2H7", key: "ernfh3" }]
 ];
-const MessageCircle = createLucideIcon("message-circle", __iconNode$1h);
+const MessageSquareReply = createLucideIcon("message-square-reply", __iconNode$1h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34144,10 +34164,10 @@ const MessageCircle = createLucideIcon("message-circle", __iconNode$1h);
  */
 const __iconNode$1g = [
   ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }],
-  ["path", { d: "m10 7-3 3 3 3", key: "1eugdv" }],
-  ["path", { d: "M17 13v-1a2 2 0 0 0-2-2H7", key: "ernfh3" }]
+  ["path", { d: "M13 8H7", key: "14i4kc" }],
+  ["path", { d: "M17 12H7", key: "16if0g" }]
 ];
-const MessageSquareReply = createLucideIcon("message-square-reply", __iconNode$1g);
+const MessageSquareText = createLucideIcon("message-square-text", __iconNode$1g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34155,11 +34175,9 @@ const MessageSquareReply = createLucideIcon("message-square-reply", __iconNode$1
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1f = [
-  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }],
-  ["path", { d: "M13 8H7", key: "14i4kc" }],
-  ["path", { d: "M17 12H7", key: "16if0g" }]
+  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }]
 ];
-const MessageSquareText = createLucideIcon("message-square-text", __iconNode$1f);
+const MessageSquare = createLucideIcon("message-square", __iconNode$1f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34167,9 +34185,11 @@ const MessageSquareText = createLucideIcon("message-square-text", __iconNode$1f)
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1e = [
-  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }]
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
+  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
+  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
 ];
-const MessageSquare = createLucideIcon("message-square", __iconNode$1e);
+const Monitor = createLucideIcon("monitor", __iconNode$1e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34177,11 +34197,9 @@ const MessageSquare = createLucideIcon("message-square", __iconNode$1e);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1d = [
-  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
-  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
-  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
+  ["path", { d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z", key: "a7tn18" }]
 ];
-const Monitor = createLucideIcon("monitor", __iconNode$1d);
+const Moon = createLucideIcon("moon", __iconNode$1d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34189,16 +34207,6 @@ const Monitor = createLucideIcon("monitor", __iconNode$1d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1c = [
-  ["path", { d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z", key: "a7tn18" }]
-];
-const Moon = createLucideIcon("moon", __iconNode$1c);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$1b = [
   ["path", { d: "M14 4.1 12 6", key: "ita8i4" }],
   ["path", { d: "m5.1 8-2.9-.8", key: "1go3kf" }],
   ["path", { d: "m6 12-1.9 2", key: "mnht97" }],
@@ -34211,7 +34219,21 @@ const __iconNode$1b = [
     }
   ]
 ];
-const MousePointerClick = createLucideIcon("mouse-pointer-click", __iconNode$1b);
+const MousePointerClick = createLucideIcon("mouse-pointer-click", __iconNode$1c);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1b = [
+  ["rect", { x: "16", y: "16", width: "6", height: "6", rx: "1", key: "4q2zg0" }],
+  ["rect", { x: "2", y: "16", width: "6", height: "6", rx: "1", key: "8cvhb9" }],
+  ["rect", { x: "9", y: "2", width: "6", height: "6", rx: "1", key: "1egb70" }],
+  ["path", { d: "M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3", key: "1jsf9p" }],
+  ["path", { d: "M12 12V8", key: "2874zd" }]
+];
+const Network = createLucideIcon("network", __iconNode$1b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34219,20 +34241,6 @@ const MousePointerClick = createLucideIcon("mouse-pointer-click", __iconNode$1b)
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$1a = [
-  ["rect", { x: "16", y: "16", width: "6", height: "6", rx: "1", key: "4q2zg0" }],
-  ["rect", { x: "2", y: "16", width: "6", height: "6", rx: "1", key: "8cvhb9" }],
-  ["rect", { x: "9", y: "2", width: "6", height: "6", rx: "1", key: "1egb70" }],
-  ["path", { d: "M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3", key: "1jsf9p" }],
-  ["path", { d: "M12 12V8", key: "2874zd" }]
-];
-const Network = createLucideIcon("network", __iconNode$1a);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$19 = [
   ["path", { d: "M12 16h.01", key: "1drbdi" }],
   ["path", { d: "M12 8v4", key: "1got3b" }],
   [
@@ -34243,14 +34251,14 @@ const __iconNode$19 = [
     }
   ]
 ];
-const OctagonAlert = createLucideIcon("octagon-alert", __iconNode$19);
+const OctagonAlert = createLucideIcon("octagon-alert", __iconNode$1a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$18 = [
+const __iconNode$19 = [
   [
     "path",
     {
@@ -34262,14 +34270,14 @@ const __iconNode$18 = [
   ["polyline", { points: "3.29 7 12 12 20.71 7", key: "ousv84" }],
   ["path", { d: "m7.5 4.27 9 5.15", key: "1c824w" }]
 ];
-const Package = createLucideIcon("package", __iconNode$18);
+const Package = createLucideIcon("package", __iconNode$19);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$17 = [
+const __iconNode$18 = [
   [
     "path",
     {
@@ -34282,14 +34290,14 @@ const __iconNode$17 = [
   ["circle", { cx: "6.5", cy: "12.5", r: ".5", fill: "currentColor", key: "qy21gx" }],
   ["circle", { cx: "8.5", cy: "7.5", r: ".5", fill: "currentColor", key: "fotxhn" }]
 ];
-const Palette = createLucideIcon("palette", __iconNode$17);
+const Palette = createLucideIcon("palette", __iconNode$18);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$16 = [
+const __iconNode$17 = [
   ["path", { d: "M12 20h9", key: "t2du7b" }],
   [
     "path",
@@ -34299,14 +34307,14 @@ const __iconNode$16 = [
     }
   ]
 ];
-const PenLine = createLucideIcon("pen-line", __iconNode$16);
+const PenLine = createLucideIcon("pen-line", __iconNode$17);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$15 = [
+const __iconNode$16 = [
   [
     "path",
     {
@@ -34324,7 +34332,23 @@ const __iconNode$15 = [
   ["path", { d: "m2.3 2.3 7.286 7.286", key: "1wuzzi" }],
   ["circle", { cx: "11", cy: "11", r: "2", key: "xmgehs" }]
 ];
-const PenTool = createLucideIcon("pen-tool", __iconNode$15);
+const PenTool = createLucideIcon("pen-tool", __iconNode$16);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$15 = [
+  [
+    "path",
+    {
+      d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+      key: "1a8usu"
+    }
+  ]
+];
+const Pen = createLucideIcon("pen", __iconNode$15);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -34338,9 +34362,10 @@ const __iconNode$14 = [
       d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
       key: "1a8usu"
     }
-  ]
+  ],
+  ["path", { d: "m15 5 4 4", key: "1mk7zo" }]
 ];
-const Pen = createLucideIcon("pen", __iconNode$14);
+const Pencil = createLucideIcon("pencil", __iconNode$14);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -35345,232 +35370,1804 @@ const __iconNode = [
   ]
 ];
 const Zap = createLucideIcon("zap", __iconNode);
-const PRIMARY_LINKS = [
-  { to: "/", label: "Home" },
-  { to: "/start-here", label: "Start Here" },
-  { to: "/taffer-advice", label: "Business Rescue" },
-  { to: "/branding", label: "Branding" },
-  { to: "/cloud-monitoring", label: "Website Health" },
-  { to: "/faq", label: "FAQ" },
-  { to: "/ask-a-question", label: "Ask a Small Business Question" },
-  { to: "/ux-scenarios", label: "Success Stories" },
-  { to: "/personas", label: "Owner Journeys" },
-  { to: "/about", label: "About" }
-];
-const TOOLS_RESOURCES_LINKS = [
-  { to: "/nyc-resources", label: "NYC Resources (Free)" },
-  { to: "/ai-training", label: "AI Training & Tools" },
-  { to: "/learn", label: "Learn" }
-];
-const GUIDE_LINKS = [
-  { to: "/deli-guide", label: "Deli" },
-  { to: "/salon-guide", label: "Salon" },
-  { to: "/restaurant-guide", label: "Restaurant" },
-  { to: "/pool-hall-guide", label: "Pool Hall" },
-  { to: "/fitness-studio-guide", label: "Fitness Studio" },
-  { to: "/bakery-guide", label: "Bakery & Café" },
-  { to: "/retail-guide", label: "Retail" },
-  { to: "/start-your-business", label: "Start New Business" },
-  { to: "/online-services-guide", label: "Online Services" },
-  { to: "/cleaning-service", label: "Cleaning Service" },
-  { to: "/boutique-guide", label: "Boutique Clothing Store" },
-  { to: "/social-media-guide", label: "Social Media Marketing" },
-  { to: "/ai-search-prep", label: "AI Search Prep" },
-  { to: "/online-schooling", label: "Online Schooling" }
-];
-const LEGAL = [
-  { label: "About", to: "/about" },
-  { label: "Contact", to: "/ask-a-question" },
-  { label: "Privacy Policy", to: "/privacy-policy" },
-  { label: "Terms of Use", to: "/terms" }
-];
-function Footer() {
-  const year = (/* @__PURE__ */ new Date()).getFullYear();
-  const hostname = typeof window !== "undefined" ? window.location.hostname : "";
-  const [email, setEmail] = reactExports.useState("");
-  const [subscribed, setSubscribed] = reactExports.useState(false);
-  const [optIn, setOptIn] = reactExports.useState(false);
-  function handleSubscribe(e) {
-    e.preventDefault();
-    if (email.trim() && optIn) {
-      setSubscribed(true);
+const _CaffeineEmailUnsubscribeArgs = Record({
+  "recipient_email": Text,
+  "topic_id": Nat32
+});
+const _UnsubscribeSuccess = Record({
+  "topic_name": Opt(Text)
+});
+const _UnsubscribeError = Record({});
+const _CaffeineEmailUnsubscribeResult = Variant({
+  "Ok": _UnsubscribeSuccess,
+  "Err": _UnsubscribeError
+});
+const ContributionId = Nat;
+const UserRole$1 = Variant({
+  "admin": Null,
+  "user": Null,
+  "guest": Null
+});
+const Topic$1 = Variant({
+  "businessPlanning": Null,
+  "socialAds": Null,
+  "branding": Null,
+  "googleMaps": Null,
+  "techUpgrades": Null
+});
+const GuideId = Nat;
+const GuideInput = Record({
+  "title": Text,
+  "topic": Topic$1,
+  "content": Text,
+  "businessTypeTags": Vec(Text),
+  "authorName": Text,
+  "recommendedNext": Vec(GuideId),
+  "excerpt": Text,
+  "readTimeMinutes": Nat
+});
+const AuthorType$1 = Variant({
+  "admin": Null,
+  "community": Null
+});
+const Timestamp = Int;
+const Guide = Record({
+  "id": GuideId,
+  "title": Text,
+  "topic": Topic$1,
+  "content": Text,
+  "isPublished": Bool,
+  "businessTypeTags": Vec(Text),
+  "authorName": Text,
+  "authorType": AuthorType$1,
+  "publishedAt": Opt(Timestamp),
+  "recommendedNext": Vec(GuideId),
+  "excerpt": Text,
+  "readTimeMinutes": Nat
+});
+const Value$1 = Variant({
+  "int": Int,
+  "nat": Nat,
+  "float": Float64,
+  "bool": Bool,
+  "null": Null,
+  "text": Text
+});
+const Cell = Record({ "value": Value$1, "name": Text });
+const Result = Record({
+  "hasMore": Bool,
+  "rows": Vec(Vec(Cell))
+});
+const ProviderHealthStatus = Record({
+  "provider": Text,
+  "errorMessage": Opt(Text),
+  "isHealthy": Opt(Bool),
+  "statusUrl": Text,
+  "lastCheckedAt": Opt(Text)
+});
+const AdminStats = Record({
+  "totalPublished": Nat,
+  "recentGuides": Vec(Guide),
+  "pendingContributions": Nat
+});
+const TeamSize$1 = Variant({
+  "solo": Null,
+  "small": Null,
+  "medium": Null
+});
+const SubscriptionTier$1 = Variant({
+  "free": Null,
+  "paid": Null
+});
+const Goal$1 = Variant({
+  "businessPlanning": Null,
+  "socialAds": Null,
+  "googleMaps": Null
+});
+const IndustryType$1 = Variant({
+  "retail": Null,
+  "other": Null,
+  "deli": Null,
+  "consulting": Null,
+  "salon": Null,
+  "onlineServices": Null,
+  "newBusiness": Null,
+  "poolHall": Null,
+  "restaurant": Null
+});
+const BusinessProfile = Record({
+  "teamSize": TeamSize$1,
+  "signupDate": Opt(Int),
+  "name": Opt(Text),
+  "subscriptionTier": Opt(SubscriptionTier$1),
+  "businessName": Text,
+  "email": Opt(Text),
+  "goals": Vec(Goal$1),
+  "industryType": IndustryType$1,
+  "location": Text
+});
+const CourseId = Nat;
+const Course = Record({
+  "id": CourseId,
+  "title": Text,
+  "expiresAt": Timestamp,
+  "endDate": Text,
+  "isExpired": Bool,
+  "fetchedAt": Timestamp,
+  "borough": Text,
+  "description": Text,
+  "language": Text,
+  "addedAt": Timestamp,
+  "category": Text,
+  "isNew": Bool,
+  "registrationUrl": Text,
+  "courseType": Text,
+  "location": Text,
+  "contactPhone": Text,
+  "startDate": Text
+});
+const ContributionStatus$1 = Variant({
+  "pending": Null,
+  "approved": Null,
+  "rejected": Null
+});
+const Contribution = Record({
+  "id": ContributionId,
+  "status": ContributionStatus$1,
+  "title": Text,
+  "topic": Topic$1,
+  "content": Text,
+  "authorName": Text,
+  "rejectionReason": Opt(Text),
+  "submittedAt": Timestamp,
+  "reviewedAt": Opt(Timestamp),
+  "businessContext": Text,
+  "authorPrincipal": Principal2
+});
+const NewsletterContent = Record({
+  "htmlBody": Text,
+  "subject": Text
+});
+const ProviderStats = Record({
+  "provider": Text,
+  "totalOutages": Nat,
+  "averageDurationHours": Float64,
+  "mostCommonIncidentType": Text
+});
+const ApprovalStatus = Variant({
+  "pending": Null,
+  "approved": Null,
+  "rejected": Null
+});
+const UserApprovalInfo = Record({
+  "status": ApprovalStatus,
+  "principal": Principal2
+});
+const GuideFilter = Record({
+  "topic": Opt(Topic$1),
+  "keyword": Opt(Text),
+  "businessTypeTag": Opt(Text)
+});
+const Topic__1 = Record({ "id": Nat, "name": Text });
+const OutageFilter = Record({
+  "provider": Opt(Text),
+  "endDate": Opt(Text),
+  "incidentType": Opt(Text),
+  "startDate": Opt(Text)
+});
+const OutageId = Nat;
+const OutageRecord = Record({
+  "id": OutageId,
+  "provider": Text,
+  "date": Text,
+  "durationHours": Float64,
+  "nycImpactDescription": Text,
+  "regionScope": Text,
+  "incidentType": Text
+});
+const ContributionInput = Record({
+  "title": Text,
+  "topic": Topic$1,
+  "content": Text,
+  "authorName": Text,
+  "businessContext": Text
+});
+const Frequency$1 = Variant({
+  "both": Null,
+  "monthly": Null,
+  "weekly": Null
+});
+const HttpHeader = Record({ "value": Text, "name": Text });
+const HttpRequestResult = Record({
+  "status": Nat,
+  "body": Vec(Nat8),
+  "headers": Vec(HttpHeader)
+});
+const TransformationInput = Record({
+  "context": Vec(Nat8),
+  "response": HttpRequestResult
+});
+const TransformationOutput = Record({
+  "status": Nat,
+  "body": Vec(Nat8),
+  "headers": Vec(HttpHeader)
+});
+Service({
+  "_caffeineEmailUnsubscribeFromTopic": Func(
+    [_CaffeineEmailUnsubscribeArgs],
+    [_CaffeineEmailUnsubscribeResult],
+    []
+  ),
+  "_caffeineEmailVerify": Func([Text], [], []),
+  "_initializeAccessControl": Func([], [], []),
+  "addNewsletterTopic": Func([Text], [Nat], []),
+  "approveContribution": Func([ContributionId], [Bool], []),
+  "assignCallerUserRole": Func([Principal2, UserRole$1], [], []),
+  "createGuide": Func([GuideInput], [Guide], []),
+  "deleteGuide": Func([GuideId], [Bool], []),
+  "execute": Func([Text], [Result], ["query"]),
+  "fetchCourses": Func([], [], []),
+  "fetchProviderHealthStatus": Func(
+    [],
+    [Vec(ProviderHealthStatus)],
+    []
+  ),
+  "getAdminStats": Func([], [AdminStats], ["query"]),
+  "getBusinessProfile": Func([], [Opt(BusinessProfile)], ["query"]),
+  "getCallerUserRole": Func([], [UserRole$1], ["query"]),
+  "getCourses": Func([], [Vec(Course)], ["query"]),
+  "getExpiredCourses": Func([], [Vec(Course)], ["query"]),
+  "getFeaturedGuides": Func([], [Vec(Guide)], ["query"]),
+  "getGuide": Func([GuideId], [Opt(Guide)], ["query"]),
+  "getLastUpdated": Func([], [Timestamp], ["query"]),
+  "getMyContributions": Func([], [Vec(Contribution)], ["query"]),
+  "getNewsletterContent": Func(
+    [Nat],
+    [Opt(NewsletterContent)],
+    ["query"]
+  ),
+  "getPersonalizedRecommendations": Func([], [Vec(Guide)], ["query"]),
+  "getProviderHealthStatus": Func(
+    [],
+    [Vec(ProviderHealthStatus)],
+    ["query"]
+  ),
+  "getProviderStats": Func([], [Vec(ProviderStats)], ["query"]),
+  "getUpcomingCourses": Func([], [Vec(Course)], ["query"]),
+  "isCallerAdmin": Func([], [Bool], ["query"]),
+  "isCallerApproved": Func([], [Bool], ["query"]),
+  "listApprovals": Func([], [Vec(UserApprovalInfo)], ["query"]),
+  "listGuides": Func([GuideFilter], [Vec(Guide)], ["query"]),
+  "listNewsletterSubscribers": Func(
+    [Nat],
+    [Vec(Tuple(Text, Bool))],
+    ["query"]
+  ),
+  "listNewsletterTopics": Func([], [Vec(Topic__1)], ["query"]),
+  "listOutages": Func([OutageFilter], [Vec(OutageRecord)], ["query"]),
+  "listPendingContributions": Func([], [Vec(Contribution)], ["query"]),
+  "rejectContribution": Func(
+    [ContributionId, Opt(Text)],
+    [Bool],
+    []
+  ),
+  "removeNewsletterTopic": Func([Nat], [], []),
+  "renameNewsletterTopic": Func([Nat, Text], [], []),
+  "requestApproval": Func([], [], []),
+  "saveBusinessProfile": Func([BusinessProfile], [], []),
+  "schema": Func([], [Text], ["query"]),
+  "sendMonthlyNewsletter": Func([], [], []),
+  "sendWeeklyNewsletter": Func([], [], []),
+  "setApproval": Func([Principal2, ApprovalStatus], [], []),
+  "setGuidePublished": Func([GuideId, Bool], [Bool], []),
+  "setNewsletterContent": Func([Nat, Text, Text], [], []),
+  "submitContribution": Func([ContributionInput], [Contribution], []),
+  "subscribeToNewsletter": Func([Text, Text, Frequency$1], [], []),
+  "transform": Func(
+    [TransformationInput],
+    [TransformationOutput],
+    ["query"]
+  ),
+  "updateGuide": Func([GuideId, GuideInput], [Bool], [])
+});
+const idlFactory = ({ IDL: IDL2 }) => {
+  const _CaffeineEmailUnsubscribeArgs2 = IDL2.Record({
+    "recipient_email": IDL2.Text,
+    "topic_id": IDL2.Nat32
+  });
+  const _UnsubscribeSuccess2 = IDL2.Record({ "topic_name": IDL2.Opt(IDL2.Text) });
+  const _UnsubscribeError2 = IDL2.Record({});
+  const _CaffeineEmailUnsubscribeResult2 = IDL2.Variant({
+    "Ok": _UnsubscribeSuccess2,
+    "Err": _UnsubscribeError2
+  });
+  const ContributionId2 = IDL2.Nat;
+  const UserRole2 = IDL2.Variant({
+    "admin": IDL2.Null,
+    "user": IDL2.Null,
+    "guest": IDL2.Null
+  });
+  const Topic2 = IDL2.Variant({
+    "businessPlanning": IDL2.Null,
+    "socialAds": IDL2.Null,
+    "branding": IDL2.Null,
+    "googleMaps": IDL2.Null,
+    "techUpgrades": IDL2.Null
+  });
+  const GuideId2 = IDL2.Nat;
+  const GuideInput2 = IDL2.Record({
+    "title": IDL2.Text,
+    "topic": Topic2,
+    "content": IDL2.Text,
+    "businessTypeTags": IDL2.Vec(IDL2.Text),
+    "authorName": IDL2.Text,
+    "recommendedNext": IDL2.Vec(GuideId2),
+    "excerpt": IDL2.Text,
+    "readTimeMinutes": IDL2.Nat
+  });
+  const AuthorType2 = IDL2.Variant({
+    "admin": IDL2.Null,
+    "community": IDL2.Null
+  });
+  const Timestamp2 = IDL2.Int;
+  const Guide2 = IDL2.Record({
+    "id": GuideId2,
+    "title": IDL2.Text,
+    "topic": Topic2,
+    "content": IDL2.Text,
+    "isPublished": IDL2.Bool,
+    "businessTypeTags": IDL2.Vec(IDL2.Text),
+    "authorName": IDL2.Text,
+    "authorType": AuthorType2,
+    "publishedAt": IDL2.Opt(Timestamp2),
+    "recommendedNext": IDL2.Vec(GuideId2),
+    "excerpt": IDL2.Text,
+    "readTimeMinutes": IDL2.Nat
+  });
+  const Value2 = IDL2.Variant({
+    "int": IDL2.Int,
+    "nat": IDL2.Nat,
+    "float": IDL2.Float64,
+    "bool": IDL2.Bool,
+    "null": IDL2.Null,
+    "text": IDL2.Text
+  });
+  const Cell2 = IDL2.Record({ "value": Value2, "name": IDL2.Text });
+  const Result2 = IDL2.Record({
+    "hasMore": IDL2.Bool,
+    "rows": IDL2.Vec(IDL2.Vec(Cell2))
+  });
+  const ProviderHealthStatus2 = IDL2.Record({
+    "provider": IDL2.Text,
+    "errorMessage": IDL2.Opt(IDL2.Text),
+    "isHealthy": IDL2.Opt(IDL2.Bool),
+    "statusUrl": IDL2.Text,
+    "lastCheckedAt": IDL2.Opt(IDL2.Text)
+  });
+  const AdminStats2 = IDL2.Record({
+    "totalPublished": IDL2.Nat,
+    "recentGuides": IDL2.Vec(Guide2),
+    "pendingContributions": IDL2.Nat
+  });
+  const TeamSize2 = IDL2.Variant({
+    "solo": IDL2.Null,
+    "small": IDL2.Null,
+    "medium": IDL2.Null
+  });
+  const SubscriptionTier2 = IDL2.Variant({
+    "free": IDL2.Null,
+    "paid": IDL2.Null
+  });
+  const Goal2 = IDL2.Variant({
+    "businessPlanning": IDL2.Null,
+    "socialAds": IDL2.Null,
+    "googleMaps": IDL2.Null
+  });
+  const IndustryType2 = IDL2.Variant({
+    "retail": IDL2.Null,
+    "other": IDL2.Null,
+    "deli": IDL2.Null,
+    "consulting": IDL2.Null,
+    "salon": IDL2.Null,
+    "onlineServices": IDL2.Null,
+    "newBusiness": IDL2.Null,
+    "poolHall": IDL2.Null,
+    "restaurant": IDL2.Null
+  });
+  const BusinessProfile2 = IDL2.Record({
+    "teamSize": TeamSize2,
+    "signupDate": IDL2.Opt(IDL2.Int),
+    "name": IDL2.Opt(IDL2.Text),
+    "subscriptionTier": IDL2.Opt(SubscriptionTier2),
+    "businessName": IDL2.Text,
+    "email": IDL2.Opt(IDL2.Text),
+    "goals": IDL2.Vec(Goal2),
+    "industryType": IndustryType2,
+    "location": IDL2.Text
+  });
+  const CourseId2 = IDL2.Nat;
+  const Course2 = IDL2.Record({
+    "id": CourseId2,
+    "title": IDL2.Text,
+    "expiresAt": Timestamp2,
+    "endDate": IDL2.Text,
+    "isExpired": IDL2.Bool,
+    "fetchedAt": Timestamp2,
+    "borough": IDL2.Text,
+    "description": IDL2.Text,
+    "language": IDL2.Text,
+    "addedAt": Timestamp2,
+    "category": IDL2.Text,
+    "isNew": IDL2.Bool,
+    "registrationUrl": IDL2.Text,
+    "courseType": IDL2.Text,
+    "location": IDL2.Text,
+    "contactPhone": IDL2.Text,
+    "startDate": IDL2.Text
+  });
+  const ContributionStatus2 = IDL2.Variant({
+    "pending": IDL2.Null,
+    "approved": IDL2.Null,
+    "rejected": IDL2.Null
+  });
+  const Contribution2 = IDL2.Record({
+    "id": ContributionId2,
+    "status": ContributionStatus2,
+    "title": IDL2.Text,
+    "topic": Topic2,
+    "content": IDL2.Text,
+    "authorName": IDL2.Text,
+    "rejectionReason": IDL2.Opt(IDL2.Text),
+    "submittedAt": Timestamp2,
+    "reviewedAt": IDL2.Opt(Timestamp2),
+    "businessContext": IDL2.Text,
+    "authorPrincipal": IDL2.Principal
+  });
+  const NewsletterContent2 = IDL2.Record({
+    "htmlBody": IDL2.Text,
+    "subject": IDL2.Text
+  });
+  const ProviderStats2 = IDL2.Record({
+    "provider": IDL2.Text,
+    "totalOutages": IDL2.Nat,
+    "averageDurationHours": IDL2.Float64,
+    "mostCommonIncidentType": IDL2.Text
+  });
+  const ApprovalStatus2 = IDL2.Variant({
+    "pending": IDL2.Null,
+    "approved": IDL2.Null,
+    "rejected": IDL2.Null
+  });
+  const UserApprovalInfo2 = IDL2.Record({
+    "status": ApprovalStatus2,
+    "principal": IDL2.Principal
+  });
+  const GuideFilter2 = IDL2.Record({
+    "topic": IDL2.Opt(Topic2),
+    "keyword": IDL2.Opt(IDL2.Text),
+    "businessTypeTag": IDL2.Opt(IDL2.Text)
+  });
+  const Topic__12 = IDL2.Record({ "id": IDL2.Nat, "name": IDL2.Text });
+  const OutageFilter2 = IDL2.Record({
+    "provider": IDL2.Opt(IDL2.Text),
+    "endDate": IDL2.Opt(IDL2.Text),
+    "incidentType": IDL2.Opt(IDL2.Text),
+    "startDate": IDL2.Opt(IDL2.Text)
+  });
+  const OutageId2 = IDL2.Nat;
+  const OutageRecord2 = IDL2.Record({
+    "id": OutageId2,
+    "provider": IDL2.Text,
+    "date": IDL2.Text,
+    "durationHours": IDL2.Float64,
+    "nycImpactDescription": IDL2.Text,
+    "regionScope": IDL2.Text,
+    "incidentType": IDL2.Text
+  });
+  const ContributionInput2 = IDL2.Record({
+    "title": IDL2.Text,
+    "topic": Topic2,
+    "content": IDL2.Text,
+    "authorName": IDL2.Text,
+    "businessContext": IDL2.Text
+  });
+  const Frequency2 = IDL2.Variant({
+    "both": IDL2.Null,
+    "monthly": IDL2.Null,
+    "weekly": IDL2.Null
+  });
+  const HttpHeader2 = IDL2.Record({ "value": IDL2.Text, "name": IDL2.Text });
+  const HttpRequestResult2 = IDL2.Record({
+    "status": IDL2.Nat,
+    "body": IDL2.Vec(IDL2.Nat8),
+    "headers": IDL2.Vec(HttpHeader2)
+  });
+  const TransformationInput2 = IDL2.Record({
+    "context": IDL2.Vec(IDL2.Nat8),
+    "response": HttpRequestResult2
+  });
+  const TransformationOutput2 = IDL2.Record({
+    "status": IDL2.Nat,
+    "body": IDL2.Vec(IDL2.Nat8),
+    "headers": IDL2.Vec(HttpHeader2)
+  });
+  return IDL2.Service({
+    "_caffeineEmailUnsubscribeFromTopic": IDL2.Func(
+      [_CaffeineEmailUnsubscribeArgs2],
+      [_CaffeineEmailUnsubscribeResult2],
+      []
+    ),
+    "_caffeineEmailVerify": IDL2.Func([IDL2.Text], [], []),
+    "_initializeAccessControl": IDL2.Func([], [], []),
+    "addNewsletterTopic": IDL2.Func([IDL2.Text], [IDL2.Nat], []),
+    "approveContribution": IDL2.Func([ContributionId2], [IDL2.Bool], []),
+    "assignCallerUserRole": IDL2.Func([IDL2.Principal, UserRole2], [], []),
+    "createGuide": IDL2.Func([GuideInput2], [Guide2], []),
+    "deleteGuide": IDL2.Func([GuideId2], [IDL2.Bool], []),
+    "execute": IDL2.Func([IDL2.Text], [Result2], ["query"]),
+    "fetchCourses": IDL2.Func([], [], []),
+    "fetchProviderHealthStatus": IDL2.Func(
+      [],
+      [IDL2.Vec(ProviderHealthStatus2)],
+      []
+    ),
+    "getAdminStats": IDL2.Func([], [AdminStats2], ["query"]),
+    "getBusinessProfile": IDL2.Func([], [IDL2.Opt(BusinessProfile2)], ["query"]),
+    "getCallerUserRole": IDL2.Func([], [UserRole2], ["query"]),
+    "getCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
+    "getExpiredCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
+    "getFeaturedGuides": IDL2.Func([], [IDL2.Vec(Guide2)], ["query"]),
+    "getGuide": IDL2.Func([GuideId2], [IDL2.Opt(Guide2)], ["query"]),
+    "getLastUpdated": IDL2.Func([], [Timestamp2], ["query"]),
+    "getMyContributions": IDL2.Func([], [IDL2.Vec(Contribution2)], ["query"]),
+    "getNewsletterContent": IDL2.Func(
+      [IDL2.Nat],
+      [IDL2.Opt(NewsletterContent2)],
+      ["query"]
+    ),
+    "getPersonalizedRecommendations": IDL2.Func(
+      [],
+      [IDL2.Vec(Guide2)],
+      ["query"]
+    ),
+    "getProviderHealthStatus": IDL2.Func(
+      [],
+      [IDL2.Vec(ProviderHealthStatus2)],
+      ["query"]
+    ),
+    "getProviderStats": IDL2.Func([], [IDL2.Vec(ProviderStats2)], ["query"]),
+    "getUpcomingCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
+    "isCallerAdmin": IDL2.Func([], [IDL2.Bool], ["query"]),
+    "isCallerApproved": IDL2.Func([], [IDL2.Bool], ["query"]),
+    "listApprovals": IDL2.Func([], [IDL2.Vec(UserApprovalInfo2)], ["query"]),
+    "listGuides": IDL2.Func([GuideFilter2], [IDL2.Vec(Guide2)], ["query"]),
+    "listNewsletterSubscribers": IDL2.Func(
+      [IDL2.Nat],
+      [IDL2.Vec(IDL2.Tuple(IDL2.Text, IDL2.Bool))],
+      ["query"]
+    ),
+    "listNewsletterTopics": IDL2.Func([], [IDL2.Vec(Topic__12)], ["query"]),
+    "listOutages": IDL2.Func(
+      [OutageFilter2],
+      [IDL2.Vec(OutageRecord2)],
+      ["query"]
+    ),
+    "listPendingContributions": IDL2.Func(
+      [],
+      [IDL2.Vec(Contribution2)],
+      ["query"]
+    ),
+    "rejectContribution": IDL2.Func(
+      [ContributionId2, IDL2.Opt(IDL2.Text)],
+      [IDL2.Bool],
+      []
+    ),
+    "removeNewsletterTopic": IDL2.Func([IDL2.Nat], [], []),
+    "renameNewsletterTopic": IDL2.Func([IDL2.Nat, IDL2.Text], [], []),
+    "requestApproval": IDL2.Func([], [], []),
+    "saveBusinessProfile": IDL2.Func([BusinessProfile2], [], []),
+    "schema": IDL2.Func([], [IDL2.Text], ["query"]),
+    "sendMonthlyNewsletter": IDL2.Func([], [], []),
+    "sendWeeklyNewsletter": IDL2.Func([], [], []),
+    "setApproval": IDL2.Func([IDL2.Principal, ApprovalStatus2], [], []),
+    "setGuidePublished": IDL2.Func([GuideId2, IDL2.Bool], [IDL2.Bool], []),
+    "setNewsletterContent": IDL2.Func([IDL2.Nat, IDL2.Text, IDL2.Text], [], []),
+    "submitContribution": IDL2.Func([ContributionInput2], [Contribution2], []),
+    "subscribeToNewsletter": IDL2.Func([IDL2.Text, IDL2.Text, Frequency2], [], []),
+    "transform": IDL2.Func(
+      [TransformationInput2],
+      [TransformationOutput2],
+      ["query"]
+    ),
+    "updateGuide": IDL2.Func([GuideId2, GuideInput2], [IDL2.Bool], [])
+  });
+};
+function candid_some(value) {
+  return [
+    value
+  ];
+}
+function candid_none() {
+  return [];
+}
+function record_opt_to_undefined(arg) {
+  return arg == null ? void 0 : arg;
+}
+var AuthorType = /* @__PURE__ */ ((AuthorType2) => {
+  AuthorType2["admin"] = "admin";
+  AuthorType2["community"] = "community";
+  return AuthorType2;
+})(AuthorType || {});
+var ContributionStatus = /* @__PURE__ */ ((ContributionStatus2) => {
+  ContributionStatus2["pending"] = "pending";
+  ContributionStatus2["approved"] = "approved";
+  ContributionStatus2["rejected"] = "rejected";
+  return ContributionStatus2;
+})(ContributionStatus || {});
+var Frequency = /* @__PURE__ */ ((Frequency2) => {
+  Frequency2["both"] = "both";
+  Frequency2["monthly"] = "monthly";
+  Frequency2["weekly"] = "weekly";
+  return Frequency2;
+})(Frequency || {});
+var Goal = /* @__PURE__ */ ((Goal2) => {
+  Goal2["businessPlanning"] = "businessPlanning";
+  Goal2["socialAds"] = "socialAds";
+  Goal2["googleMaps"] = "googleMaps";
+  return Goal2;
+})(Goal || {});
+var IndustryType = /* @__PURE__ */ ((IndustryType2) => {
+  IndustryType2["retail"] = "retail";
+  IndustryType2["other"] = "other";
+  IndustryType2["deli"] = "deli";
+  IndustryType2["consulting"] = "consulting";
+  IndustryType2["salon"] = "salon";
+  IndustryType2["onlineServices"] = "onlineServices";
+  IndustryType2["newBusiness"] = "newBusiness";
+  IndustryType2["poolHall"] = "poolHall";
+  IndustryType2["restaurant"] = "restaurant";
+  return IndustryType2;
+})(IndustryType || {});
+var SubscriptionTier = /* @__PURE__ */ ((SubscriptionTier2) => {
+  SubscriptionTier2["free"] = "free";
+  SubscriptionTier2["paid"] = "paid";
+  return SubscriptionTier2;
+})(SubscriptionTier || {});
+var TeamSize = /* @__PURE__ */ ((TeamSize2) => {
+  TeamSize2["solo"] = "solo";
+  TeamSize2["small"] = "small";
+  TeamSize2["medium"] = "medium";
+  return TeamSize2;
+})(TeamSize || {});
+var Topic = /* @__PURE__ */ ((Topic2) => {
+  Topic2["businessPlanning"] = "businessPlanning";
+  Topic2["socialAds"] = "socialAds";
+  Topic2["branding"] = "branding";
+  Topic2["googleMaps"] = "googleMaps";
+  Topic2["techUpgrades"] = "techUpgrades";
+  return Topic2;
+})(Topic || {});
+var UserRole = /* @__PURE__ */ ((UserRole2) => {
+  UserRole2["admin"] = "admin";
+  UserRole2["user"] = "user";
+  UserRole2["guest"] = "guest";
+  return UserRole2;
+})(UserRole || {});
+class Backend {
+  constructor(actor, _uploadFile, _downloadFile, processError2) {
+    this.actor = actor;
+    this._uploadFile = _uploadFile;
+    this._downloadFile = _downloadFile;
+    this.processError = processError2;
+  }
+  async _caffeineEmailUnsubscribeFromTopic(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor._caffeineEmailUnsubscribeFromTopic(arg0);
+        return from_candid__CaffeineEmailUnsubscribeResult_n1(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor._caffeineEmailUnsubscribeFromTopic(arg0);
+      return from_candid__CaffeineEmailUnsubscribeResult_n1(this._uploadFile, this._downloadFile, result);
     }
   }
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { "data-home-footer": true, className: "bg-card border-t border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 pt-12 pb-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl bg-[rgb(var(--accent-neutral-soft))] border border-[rgb(var(--accent-neutral-border))] p-6 md:p-8 mb-12 flex flex-col md:flex-row md:items-center gap-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-xl text-foreground mb-1", children: "Get weekly small business tips" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground", children: "Join 500+ business owners getting AI-powered advice every week." })
-      ] }),
-      subscribed ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "div",
-        {
-          "data-ocid": "footer.newsletter.success_state",
-          className: "flex items-center gap-2 text-[rgb(var(--accent-neutral))] font-semibold text-sm bg-background rounded-xl px-5 py-3 border border-[rgb(var(--accent-neutral-border))]",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { "aria-hidden": "true", children: "✓" }),
-            " Thanks for subscribing!"
-          ]
-        }
-      ) : /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "form",
-        {
-          onSubmit: handleSubscribe,
-          "data-ocid": "footer.newsletter.form",
-          className: "flex flex-col gap-3 w-full md:w-auto",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "email",
-                  value: email,
-                  onChange: (e) => setEmail(e.target.value),
-                  placeholder: "Enter your email",
-                  required: true,
-                  "data-ocid": "footer.newsletter.input",
-                  className: "flex-1 md:w-56 px-4 py-2.5 rounded-lg border border-[rgb(var(--accent-neutral-border))] bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[rgb(var(--accent-neutral))]/30 focus:border-[rgb(var(--accent-neutral))]"
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "button",
-                {
-                  type: "submit",
-                  "data-ocid": "footer.newsletter.submit_button",
-                  disabled: !optIn,
-                  className: "button-cta px-5 py-2.5 text-sm whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-ring",
-                  children: "Subscribe"
-                }
-              )
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "flex items-center gap-2 text-sm text-muted-foreground cursor-pointer", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "input",
-                {
-                  type: "checkbox",
-                  checked: optIn,
-                  onChange: (e) => setOptIn(e.target.checked),
-                  "data-ocid": "footer.newsletter.opt_in_checkbox",
-                  className: "w-4 h-4 rounded border-border text-primary focus:ring-primary"
-                }
-              ),
-              "I agree to receive email updates"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative", children: "We never share your information." })
-          ]
-        }
-      )
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Link,
-          {
-            to: "/",
-            "aria-label": "AISmallBiz home",
-            className: "flex items-center gap-2 group w-fit focus-visible:ring-2 focus-visible:ring-ring rounded",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-md", children: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 16, className: "text-primary-foreground" }) }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-display font-bold text-xl text-foreground", children: [
-                "AI",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-text", children: "SmallBiz" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("sup", { className: "text-[0.55em] align-super text-primary-text", children: "™" })
-              ] })
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground max-w-52 leading-relaxed", children: "AI-powered resources for small and medium businesses." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-muted-foreground max-w-52 leading-relaxed", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            "Questions or suggestions? Email",
-            " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "a",
-              {
-                href: "mailto:AISmallBIZ.Suggestions@gmail.com",
-                className: "text-primary-text hover:underline focus-visible:ring-2 focus-visible:ring-ring rounded",
-                children: "AISmallBIZ.Suggestions@gmail.com"
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative mt-1", children: "Submissions are reviewed once a week." })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-foreground max-w-52 leading-relaxed", children: "We give small business owners free, people-first AI guidance. No fees, no jargon, no catch. Our principle is simple: People First, Machines Second." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-decorative max-w-52 leading-relaxed flex items-start gap-1.5", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { size: 12, className: "mt-0.5 shrink-0 text-primary/60" }),
-          "Your data stays on the Internet Computer: private and secure."
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer main navigation", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Resources" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: PRIMARY_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: link2.to,
-            onClick: () => window.scrollTo(0, 0),
-            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
-            children: link2.label
-          }
-        ) }, link2.label)) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer tools navigation", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Tools & Resources" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: TOOLS_RESOURCES_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: link2.to,
-            onClick: () => window.scrollTo(0, 0),
-            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
-            children: link2.label
-          }
-        ) }, link2.label)) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer guides navigation", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Guides" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: GUIDE_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: link2.to,
-            onClick: () => window.scrollTo(0, 0),
-            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
-            children: link2.label
-          }
-        ) }, link2.label)) })
-      ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-decorative", children: [
-          "© ",
-          year,
-          ". Built with love using",
-          " ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "a",
-            {
-              href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(hostname)}`,
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: "text-primary-text hover:underline focus-visible:ring-2 focus-visible:ring-ring rounded",
-              children: "caffeine.ai"
-            }
-          )
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative", children: "AISmallBiz™ is a registered trademark of Christian Lawson." })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center gap-4", children: LEGAL.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Link,
-        {
-          to: item.to,
-          onClick: () => window.scrollTo(0, 0),
-          "data-ocid": `footer.legal.link.${item.label.toLowerCase().replace(/\s+/g, "_")}`,
-          className: "text-xs text-muted-decorative hover:text-foreground transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring rounded",
-          children: item.label
-        },
-        item.label
-      )) })
-    ] })
-  ] }) });
+  async _caffeineEmailVerify(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor._caffeineEmailVerify(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor._caffeineEmailVerify(arg0);
+      return result;
+    }
+  }
+  async _initializeAccessControl() {
+    if (this.processError) {
+      try {
+        const result = await this.actor._initializeAccessControl();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor._initializeAccessControl();
+      return result;
+    }
+  }
+  async addNewsletterTopic(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.addNewsletterTopic(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.addNewsletterTopic(arg0);
+      return result;
+    }
+  }
+  async approveContribution(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.approveContribution(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.approveContribution(arg0);
+      return result;
+    }
+  }
+  async assignCallerUserRole(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.assignCallerUserRole(arg0, to_candid_UserRole_n6(this._uploadFile, this._downloadFile, arg1));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.assignCallerUserRole(arg0, to_candid_UserRole_n6(this._uploadFile, this._downloadFile, arg1));
+      return result;
+    }
+  }
+  async createGuide(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.createGuide(to_candid_GuideInput_n8(this._uploadFile, this._downloadFile, arg0));
+        return from_candid_Guide_n12(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.createGuide(to_candid_GuideInput_n8(this._uploadFile, this._downloadFile, arg0));
+      return from_candid_Guide_n12(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async deleteGuide(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.deleteGuide(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.deleteGuide(arg0);
+      return result;
+    }
+  }
+  async execute(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.execute(arg0);
+        return from_candid_Result_n19(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.execute(arg0);
+      return from_candid_Result_n19(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async fetchCourses() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.fetchCourses();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.fetchCourses();
+      return result;
+    }
+  }
+  async fetchProviderHealthStatus() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.fetchProviderHealthStatus();
+        return from_candid_vec_n27(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.fetchProviderHealthStatus();
+      return from_candid_vec_n27(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getAdminStats() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getAdminStats();
+        return from_candid_AdminStats_n31(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getAdminStats();
+      return from_candid_AdminStats_n31(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getBusinessProfile() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getBusinessProfile();
+        return from_candid_opt_n34(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getBusinessProfile();
+      return from_candid_opt_n34(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getCallerUserRole() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getCallerUserRole();
+        return from_candid_UserRole_n48(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getCallerUserRole();
+      return from_candid_UserRole_n48(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getCourses() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getCourses();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getCourses();
+      return result;
+    }
+  }
+  async getExpiredCourses() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getExpiredCourses();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getExpiredCourses();
+      return result;
+    }
+  }
+  async getFeaturedGuides() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getFeaturedGuides();
+        return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getFeaturedGuides();
+      return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getGuide(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getGuide(arg0);
+        return from_candid_opt_n50(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getGuide(arg0);
+      return from_candid_opt_n50(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getLastUpdated() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getLastUpdated();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getLastUpdated();
+      return result;
+    }
+  }
+  async getMyContributions() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getMyContributions();
+        return from_candid_vec_n51(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getMyContributions();
+      return from_candid_vec_n51(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getNewsletterContent(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getNewsletterContent(arg0);
+        return from_candid_opt_n56(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getNewsletterContent(arg0);
+      return from_candid_opt_n56(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getPersonalizedRecommendations() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getPersonalizedRecommendations();
+        return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getPersonalizedRecommendations();
+      return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getProviderHealthStatus() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getProviderHealthStatus();
+        return from_candid_vec_n27(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getProviderHealthStatus();
+      return from_candid_vec_n27(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async getProviderStats() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getProviderStats();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getProviderStats();
+      return result;
+    }
+  }
+  async getUpcomingCourses() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.getUpcomingCourses();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.getUpcomingCourses();
+      return result;
+    }
+  }
+  async isCallerAdmin() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.isCallerAdmin();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.isCallerAdmin();
+      return result;
+    }
+  }
+  async isCallerApproved() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.isCallerApproved();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.isCallerApproved();
+      return result;
+    }
+  }
+  async listApprovals() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listApprovals();
+        return from_candid_vec_n57(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listApprovals();
+      return from_candid_vec_n57(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async listGuides(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listGuides(to_candid_GuideFilter_n61(this._uploadFile, this._downloadFile, arg0));
+        return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listGuides(to_candid_GuideFilter_n61(this._uploadFile, this._downloadFile, arg0));
+      return from_candid_vec_n33(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async listNewsletterSubscribers(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listNewsletterSubscribers(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listNewsletterSubscribers(arg0);
+      return result;
+    }
+  }
+  async listNewsletterTopics() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listNewsletterTopics();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listNewsletterTopics();
+      return result;
+    }
+  }
+  async listOutages(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listOutages(to_candid_OutageFilter_n63(this._uploadFile, this._downloadFile, arg0));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listOutages(to_candid_OutageFilter_n63(this._uploadFile, this._downloadFile, arg0));
+      return result;
+    }
+  }
+  async listPendingContributions() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.listPendingContributions();
+        return from_candid_vec_n51(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.listPendingContributions();
+      return from_candid_vec_n51(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async rejectContribution(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.rejectContribution(arg0, to_candid_opt_n65(this._uploadFile, this._downloadFile, arg1));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.rejectContribution(arg0, to_candid_opt_n65(this._uploadFile, this._downloadFile, arg1));
+      return result;
+    }
+  }
+  async removeNewsletterTopic(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.removeNewsletterTopic(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.removeNewsletterTopic(arg0);
+      return result;
+    }
+  }
+  async renameNewsletterTopic(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.renameNewsletterTopic(arg0, arg1);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.renameNewsletterTopic(arg0, arg1);
+      return result;
+    }
+  }
+  async requestApproval() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.requestApproval();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.requestApproval();
+      return result;
+    }
+  }
+  async saveBusinessProfile(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.saveBusinessProfile(to_candid_BusinessProfile_n66(this._uploadFile, this._downloadFile, arg0));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.saveBusinessProfile(to_candid_BusinessProfile_n66(this._uploadFile, this._downloadFile, arg0));
+      return result;
+    }
+  }
+  async schema() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.schema();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.schema();
+      return result;
+    }
+  }
+  async sendMonthlyNewsletter() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.sendMonthlyNewsletter();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.sendMonthlyNewsletter();
+      return result;
+    }
+  }
+  async sendWeeklyNewsletter() {
+    if (this.processError) {
+      try {
+        const result = await this.actor.sendWeeklyNewsletter();
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.sendWeeklyNewsletter();
+      return result;
+    }
+  }
+  async setApproval(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.setApproval(arg0, to_candid_ApprovalStatus_n77(this._uploadFile, this._downloadFile, arg1));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.setApproval(arg0, to_candid_ApprovalStatus_n77(this._uploadFile, this._downloadFile, arg1));
+      return result;
+    }
+  }
+  async setGuidePublished(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.setGuidePublished(arg0, arg1);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.setGuidePublished(arg0, arg1);
+      return result;
+    }
+  }
+  async setNewsletterContent(arg0, arg1, arg2) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.setNewsletterContent(arg0, arg1, arg2);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.setNewsletterContent(arg0, arg1, arg2);
+      return result;
+    }
+  }
+  async submitContribution(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.submitContribution(to_candid_ContributionInput_n79(this._uploadFile, this._downloadFile, arg0));
+        return from_candid_Contribution_n52(this._uploadFile, this._downloadFile, result);
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.submitContribution(to_candid_ContributionInput_n79(this._uploadFile, this._downloadFile, arg0));
+      return from_candid_Contribution_n52(this._uploadFile, this._downloadFile, result);
+    }
+  }
+  async subscribeToNewsletter(arg0, arg1, arg2) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.subscribeToNewsletter(arg0, arg1, to_candid_Frequency_n81(this._uploadFile, this._downloadFile, arg2));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.subscribeToNewsletter(arg0, arg1, to_candid_Frequency_n81(this._uploadFile, this._downloadFile, arg2));
+      return result;
+    }
+  }
+  async transform(arg0) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.transform(arg0);
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.transform(arg0);
+      return result;
+    }
+  }
+  async updateGuide(arg0, arg1) {
+    if (this.processError) {
+      try {
+        const result = await this.actor.updateGuide(arg0, to_candid_GuideInput_n8(this._uploadFile, this._downloadFile, arg1));
+        return result;
+      } catch (e) {
+        this.processError(e);
+        throw new Error("unreachable");
+      }
+    } else {
+      const result = await this.actor.updateGuide(arg0, to_candid_GuideInput_n8(this._uploadFile, this._downloadFile, arg1));
+      return result;
+    }
+  }
+}
+function from_candid_AdminStats_n31(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n32(_uploadFile, _downloadFile, value);
+}
+function from_candid_ApprovalStatus_n60(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n55(_uploadFile, _downloadFile, value);
+}
+function from_candid_AuthorType_n16(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n17(_uploadFile, _downloadFile, value);
+}
+function from_candid_BusinessProfile_n35(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n36(_uploadFile, _downloadFile, value);
+}
+function from_candid_Cell_n23(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n24(_uploadFile, _downloadFile, value);
+}
+function from_candid_ContributionStatus_n54(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n55(_uploadFile, _downloadFile, value);
+}
+function from_candid_Contribution_n52(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n53(_uploadFile, _downloadFile, value);
+}
+function from_candid_Goal_n44(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n45(_uploadFile, _downloadFile, value);
+}
+function from_candid_Guide_n12(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n13(_uploadFile, _downloadFile, value);
+}
+function from_candid_IndustryType_n46(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n47(_uploadFile, _downloadFile, value);
+}
+function from_candid_ProviderHealthStatus_n28(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n29(_uploadFile, _downloadFile, value);
+}
+function from_candid_Result_n19(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n20(_uploadFile, _downloadFile, value);
+}
+function from_candid_SubscriptionTier_n41(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n42(_uploadFile, _downloadFile, value);
+}
+function from_candid_TeamSize_n37(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n38(_uploadFile, _downloadFile, value);
+}
+function from_candid_Topic_n14(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n15(_uploadFile, _downloadFile, value);
+}
+function from_candid_UserApprovalInfo_n58(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n59(_uploadFile, _downloadFile, value);
+}
+function from_candid_UserRole_n48(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n49(_uploadFile, _downloadFile, value);
+}
+function from_candid_Value_n25(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n26(_uploadFile, _downloadFile, value);
+}
+function from_candid__CaffeineEmailUnsubscribeResult_n1(_uploadFile, _downloadFile, value) {
+  return from_candid_variant_n2(_uploadFile, _downloadFile, value);
+}
+function from_candid__UnsubscribeSuccess_n3(_uploadFile, _downloadFile, value) {
+  return from_candid_record_n4(_uploadFile, _downloadFile, value);
+}
+function from_candid_opt_n18(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : value[0];
+}
+function from_candid_opt_n30(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : value[0];
+}
+function from_candid_opt_n34(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : from_candid_BusinessProfile_n35(_uploadFile, _downloadFile, value[0]);
+}
+function from_candid_opt_n39(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : value[0];
+}
+function from_candid_opt_n40(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : from_candid_SubscriptionTier_n41(_uploadFile, _downloadFile, value[0]);
+}
+function from_candid_opt_n5(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : value[0];
+}
+function from_candid_opt_n50(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : from_candid_Guide_n12(_uploadFile, _downloadFile, value[0]);
+}
+function from_candid_opt_n56(_uploadFile, _downloadFile, value) {
+  return value.length === 0 ? null : value[0];
+}
+function from_candid_record_n13(_uploadFile, _downloadFile, value) {
+  return {
+    id: value.id,
+    title: value.title,
+    topic: from_candid_Topic_n14(_uploadFile, _downloadFile, value.topic),
+    content: value.content,
+    isPublished: value.isPublished,
+    businessTypeTags: value.businessTypeTags,
+    authorName: value.authorName,
+    authorType: from_candid_AuthorType_n16(_uploadFile, _downloadFile, value.authorType),
+    publishedAt: record_opt_to_undefined(from_candid_opt_n18(_uploadFile, _downloadFile, value.publishedAt)),
+    recommendedNext: value.recommendedNext,
+    excerpt: value.excerpt,
+    readTimeMinutes: value.readTimeMinutes
+  };
+}
+function from_candid_record_n20(_uploadFile, _downloadFile, value) {
+  return {
+    hasMore: value.hasMore,
+    rows: from_candid_vec_n21(_uploadFile, _downloadFile, value.rows)
+  };
+}
+function from_candid_record_n24(_uploadFile, _downloadFile, value) {
+  return {
+    value: from_candid_Value_n25(_uploadFile, _downloadFile, value.value),
+    name: value.name
+  };
+}
+function from_candid_record_n29(_uploadFile, _downloadFile, value) {
+  return {
+    provider: value.provider,
+    errorMessage: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.errorMessage)),
+    isHealthy: record_opt_to_undefined(from_candid_opt_n30(_uploadFile, _downloadFile, value.isHealthy)),
+    statusUrl: value.statusUrl,
+    lastCheckedAt: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.lastCheckedAt))
+  };
+}
+function from_candid_record_n32(_uploadFile, _downloadFile, value) {
+  return {
+    totalPublished: value.totalPublished,
+    recentGuides: from_candid_vec_n33(_uploadFile, _downloadFile, value.recentGuides),
+    pendingContributions: value.pendingContributions
+  };
+}
+function from_candid_record_n36(_uploadFile, _downloadFile, value) {
+  return {
+    teamSize: from_candid_TeamSize_n37(_uploadFile, _downloadFile, value.teamSize),
+    signupDate: record_opt_to_undefined(from_candid_opt_n39(_uploadFile, _downloadFile, value.signupDate)),
+    name: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.name)),
+    subscriptionTier: record_opt_to_undefined(from_candid_opt_n40(_uploadFile, _downloadFile, value.subscriptionTier)),
+    businessName: value.businessName,
+    email: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.email)),
+    goals: from_candid_vec_n43(_uploadFile, _downloadFile, value.goals),
+    industryType: from_candid_IndustryType_n46(_uploadFile, _downloadFile, value.industryType),
+    location: value.location
+  };
+}
+function from_candid_record_n4(_uploadFile, _downloadFile, value) {
+  return {
+    topic_name: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.topic_name))
+  };
+}
+function from_candid_record_n53(_uploadFile, _downloadFile, value) {
+  return {
+    id: value.id,
+    status: from_candid_ContributionStatus_n54(_uploadFile, _downloadFile, value.status),
+    title: value.title,
+    topic: from_candid_Topic_n14(_uploadFile, _downloadFile, value.topic),
+    content: value.content,
+    authorName: value.authorName,
+    rejectionReason: record_opt_to_undefined(from_candid_opt_n5(_uploadFile, _downloadFile, value.rejectionReason)),
+    submittedAt: value.submittedAt,
+    reviewedAt: record_opt_to_undefined(from_candid_opt_n18(_uploadFile, _downloadFile, value.reviewedAt)),
+    businessContext: value.businessContext,
+    authorPrincipal: value.authorPrincipal
+  };
+}
+function from_candid_record_n59(_uploadFile, _downloadFile, value) {
+  return {
+    status: from_candid_ApprovalStatus_n60(_uploadFile, _downloadFile, value.status),
+    principal: value.principal
+  };
+}
+function from_candid_variant_n15(_uploadFile, _downloadFile, value) {
+  return "businessPlanning" in value ? "businessPlanning" : "socialAds" in value ? "socialAds" : "branding" in value ? "branding" : "googleMaps" in value ? "googleMaps" : "techUpgrades" in value ? "techUpgrades" : value;
+}
+function from_candid_variant_n17(_uploadFile, _downloadFile, value) {
+  return "admin" in value ? "admin" : "community" in value ? "community" : value;
+}
+function from_candid_variant_n2(_uploadFile, _downloadFile, value) {
+  return "Ok" in value ? {
+    __kind__: "Ok",
+    Ok: from_candid__UnsubscribeSuccess_n3(_uploadFile, _downloadFile, value.Ok)
+  } : "Err" in value ? {
+    __kind__: "Err",
+    Err: value.Err
+  } : value;
+}
+function from_candid_variant_n26(_uploadFile, _downloadFile, value) {
+  return "int" in value ? {
+    __kind__: "int",
+    int: value.int
+  } : "nat" in value ? {
+    __kind__: "nat",
+    nat: value.nat
+  } : "float" in value ? {
+    __kind__: "float",
+    float: value.float
+  } : "bool" in value ? {
+    __kind__: "bool",
+    bool: value.bool
+  } : "null" in value ? {
+    __kind__: "null",
+    null: value.null
+  } : "text" in value ? {
+    __kind__: "text",
+    text: value.text
+  } : value;
+}
+function from_candid_variant_n38(_uploadFile, _downloadFile, value) {
+  return "solo" in value ? "solo" : "small" in value ? "small" : "medium" in value ? "medium" : value;
+}
+function from_candid_variant_n42(_uploadFile, _downloadFile, value) {
+  return "free" in value ? "free" : "paid" in value ? "paid" : value;
+}
+function from_candid_variant_n45(_uploadFile, _downloadFile, value) {
+  return "businessPlanning" in value ? "businessPlanning" : "socialAds" in value ? "socialAds" : "googleMaps" in value ? "googleMaps" : value;
+}
+function from_candid_variant_n47(_uploadFile, _downloadFile, value) {
+  return "retail" in value ? "retail" : "other" in value ? "other" : "deli" in value ? "deli" : "consulting" in value ? "consulting" : "salon" in value ? "salon" : "onlineServices" in value ? "onlineServices" : "newBusiness" in value ? "newBusiness" : "poolHall" in value ? "poolHall" : "restaurant" in value ? "restaurant" : value;
+}
+function from_candid_variant_n49(_uploadFile, _downloadFile, value) {
+  return "admin" in value ? "admin" : "user" in value ? "user" : "guest" in value ? "guest" : value;
+}
+function from_candid_variant_n55(_uploadFile, _downloadFile, value) {
+  return "pending" in value ? "pending" : "approved" in value ? "approved" : "rejected" in value ? "rejected" : value;
+}
+function from_candid_vec_n21(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_vec_n22(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n22(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_Cell_n23(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n27(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_ProviderHealthStatus_n28(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n33(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_Guide_n12(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n43(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_Goal_n44(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n51(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_Contribution_n52(_uploadFile, _downloadFile, x3));
+}
+function from_candid_vec_n57(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => from_candid_UserApprovalInfo_n58(_uploadFile, _downloadFile, x3));
+}
+function to_candid_ApprovalStatus_n77(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n78(_uploadFile, _downloadFile, value);
+}
+function to_candid_BusinessProfile_n66(_uploadFile, _downloadFile, value) {
+  return to_candid_record_n67(_uploadFile, _downloadFile, value);
+}
+function to_candid_ContributionInput_n79(_uploadFile, _downloadFile, value) {
+  return to_candid_record_n80(_uploadFile, _downloadFile, value);
+}
+function to_candid_Frequency_n81(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n82(_uploadFile, _downloadFile, value);
+}
+function to_candid_Goal_n73(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n74(_uploadFile, _downloadFile, value);
+}
+function to_candid_GuideFilter_n61(_uploadFile, _downloadFile, value) {
+  return to_candid_record_n62(_uploadFile, _downloadFile, value);
+}
+function to_candid_GuideInput_n8(_uploadFile, _downloadFile, value) {
+  return to_candid_record_n9(_uploadFile, _downloadFile, value);
+}
+function to_candid_IndustryType_n75(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n76(_uploadFile, _downloadFile, value);
+}
+function to_candid_OutageFilter_n63(_uploadFile, _downloadFile, value) {
+  return to_candid_record_n64(_uploadFile, _downloadFile, value);
+}
+function to_candid_SubscriptionTier_n70(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n71(_uploadFile, _downloadFile, value);
+}
+function to_candid_TeamSize_n68(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n69(_uploadFile, _downloadFile, value);
+}
+function to_candid_Topic_n10(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n11(_uploadFile, _downloadFile, value);
+}
+function to_candid_UserRole_n6(_uploadFile, _downloadFile, value) {
+  return to_candid_variant_n7(_uploadFile, _downloadFile, value);
+}
+function to_candid_opt_n65(_uploadFile, _downloadFile, value) {
+  return value === null ? candid_none() : candid_some(value);
+}
+function to_candid_record_n62(_uploadFile, _downloadFile, value) {
+  return {
+    topic: value.topic ? candid_some(to_candid_Topic_n10(_uploadFile, _downloadFile, value.topic)) : candid_none(),
+    keyword: value.keyword ? candid_some(value.keyword) : candid_none(),
+    businessTypeTag: value.businessTypeTag ? candid_some(value.businessTypeTag) : candid_none()
+  };
+}
+function to_candid_record_n64(_uploadFile, _downloadFile, value) {
+  return {
+    provider: value.provider ? candid_some(value.provider) : candid_none(),
+    endDate: value.endDate ? candid_some(value.endDate) : candid_none(),
+    incidentType: value.incidentType ? candid_some(value.incidentType) : candid_none(),
+    startDate: value.startDate ? candid_some(value.startDate) : candid_none()
+  };
+}
+function to_candid_record_n67(_uploadFile, _downloadFile, value) {
+  return {
+    teamSize: to_candid_TeamSize_n68(_uploadFile, _downloadFile, value.teamSize),
+    signupDate: value.signupDate ? candid_some(value.signupDate) : candid_none(),
+    name: value.name ? candid_some(value.name) : candid_none(),
+    subscriptionTier: value.subscriptionTier ? candid_some(to_candid_SubscriptionTier_n70(_uploadFile, _downloadFile, value.subscriptionTier)) : candid_none(),
+    businessName: value.businessName,
+    email: value.email ? candid_some(value.email) : candid_none(),
+    goals: to_candid_vec_n72(_uploadFile, _downloadFile, value.goals),
+    industryType: to_candid_IndustryType_n75(_uploadFile, _downloadFile, value.industryType),
+    location: value.location
+  };
+}
+function to_candid_record_n80(_uploadFile, _downloadFile, value) {
+  return {
+    title: value.title,
+    topic: to_candid_Topic_n10(_uploadFile, _downloadFile, value.topic),
+    content: value.content,
+    authorName: value.authorName,
+    businessContext: value.businessContext
+  };
+}
+function to_candid_record_n9(_uploadFile, _downloadFile, value) {
+  return {
+    title: value.title,
+    topic: to_candid_Topic_n10(_uploadFile, _downloadFile, value.topic),
+    content: value.content,
+    businessTypeTags: value.businessTypeTags,
+    authorName: value.authorName,
+    recommendedNext: value.recommendedNext,
+    excerpt: value.excerpt,
+    readTimeMinutes: value.readTimeMinutes
+  };
+}
+function to_candid_variant_n11(_uploadFile, _downloadFile, value) {
+  return value == "businessPlanning" ? {
+    businessPlanning: null
+  } : value == "socialAds" ? {
+    socialAds: null
+  } : value == "branding" ? {
+    branding: null
+  } : value == "googleMaps" ? {
+    googleMaps: null
+  } : value == "techUpgrades" ? {
+    techUpgrades: null
+  } : value;
+}
+function to_candid_variant_n69(_uploadFile, _downloadFile, value) {
+  return value == "solo" ? {
+    solo: null
+  } : value == "small" ? {
+    small: null
+  } : value == "medium" ? {
+    medium: null
+  } : value;
+}
+function to_candid_variant_n7(_uploadFile, _downloadFile, value) {
+  return value == "admin" ? {
+    admin: null
+  } : value == "user" ? {
+    user: null
+  } : value == "guest" ? {
+    guest: null
+  } : value;
+}
+function to_candid_variant_n71(_uploadFile, _downloadFile, value) {
+  return value == "free" ? {
+    free: null
+  } : value == "paid" ? {
+    paid: null
+  } : value;
+}
+function to_candid_variant_n74(_uploadFile, _downloadFile, value) {
+  return value == "businessPlanning" ? {
+    businessPlanning: null
+  } : value == "socialAds" ? {
+    socialAds: null
+  } : value == "googleMaps" ? {
+    googleMaps: null
+  } : value;
+}
+function to_candid_variant_n76(_uploadFile, _downloadFile, value) {
+  return value == "retail" ? {
+    retail: null
+  } : value == "other" ? {
+    other: null
+  } : value == "deli" ? {
+    deli: null
+  } : value == "consulting" ? {
+    consulting: null
+  } : value == "salon" ? {
+    salon: null
+  } : value == "onlineServices" ? {
+    onlineServices: null
+  } : value == "newBusiness" ? {
+    newBusiness: null
+  } : value == "poolHall" ? {
+    poolHall: null
+  } : value == "restaurant" ? {
+    restaurant: null
+  } : value;
+}
+function to_candid_variant_n78(_uploadFile, _downloadFile, value) {
+  return value == "pending" ? {
+    pending: null
+  } : value == "approved" ? {
+    approved: null
+  } : value == "rejected" ? {
+    rejected: null
+  } : value;
+}
+function to_candid_variant_n82(_uploadFile, _downloadFile, value) {
+  return value == "both" ? {
+    both: null
+  } : value == "monthly" ? {
+    monthly: null
+  } : value == "weekly" ? {
+    weekly: null
+  } : value;
+}
+function to_candid_vec_n72(_uploadFile, _downloadFile, value) {
+  return value.map((x3) => to_candid_Goal_n73(_uploadFile, _downloadFile, x3));
+}
+function createActor(canisterId, _uploadFile, _downloadFile, options = {}) {
+  const agent = options.agent || HttpAgent.createSync({
+    ...options.agentOptions
+  });
+  if (options.agent && options.agentOptions) {
+    console.warn("Detected both agent and agentOptions passed to createActor. Ignoring agentOptions and proceeding with the provided agent.");
+  }
+  const actor = Actor.createActor(idlFactory, {
+    agent,
+    canisterId,
+    ...options.actorOptions
+  });
+  return new Backend(actor, _uploadFile, _downloadFile, options.processError);
 }
 function setRef$1(ref, value) {
   if (typeof ref === "function") {
@@ -38261,1505 +39858,1607 @@ function Button({
     }
   );
 }
-const ContributionId = Nat;
-const UserRole$1 = Variant({
-  "admin": Null,
-  "user": Null,
-  "guest": Null
-});
-const Topic$1 = Variant({
-  "businessPlanning": Null,
-  "socialAds": Null,
-  "branding": Null,
-  "googleMaps": Null,
-  "techUpgrades": Null
-});
-const GuideId = Nat;
-const GuideInput = Record({
-  "title": Text,
-  "topic": Topic$1,
-  "content": Text,
-  "businessTypeTags": Vec(Text),
-  "authorName": Text,
-  "recommendedNext": Vec(GuideId),
-  "excerpt": Text,
-  "readTimeMinutes": Nat
-});
-const AuthorType$1 = Variant({
-  "admin": Null,
-  "community": Null
-});
-const Timestamp = Int;
-const Guide = Record({
-  "id": GuideId,
-  "title": Text,
-  "topic": Topic$1,
-  "content": Text,
-  "isPublished": Bool,
-  "businessTypeTags": Vec(Text),
-  "authorName": Text,
-  "authorType": AuthorType$1,
-  "publishedAt": Opt(Timestamp),
-  "recommendedNext": Vec(GuideId),
-  "excerpt": Text,
-  "readTimeMinutes": Nat
-});
-const Value$1 = Variant({
-  "int": Int,
-  "nat": Nat,
-  "float": Float64,
-  "bool": Bool,
-  "null": Null,
-  "text": Text
-});
-const Cell = Record({ "value": Value$1, "name": Text });
-const Result = Record({
-  "hasMore": Bool,
-  "rows": Vec(Vec(Cell))
-});
-const ProviderHealthStatus = Record({
-  "provider": Text,
-  "errorMessage": Opt(Text),
-  "isHealthy": Opt(Bool),
-  "statusUrl": Text,
-  "lastCheckedAt": Opt(Text)
-});
-const AdminStats = Record({
-  "totalPublished": Nat,
-  "recentGuides": Vec(Guide),
-  "pendingContributions": Nat
-});
-const TeamSize$1 = Variant({
-  "solo": Null,
-  "small": Null,
-  "medium": Null
-});
-const SubscriptionTier$1 = Variant({
-  "free": Null,
-  "paid": Null
-});
-const Goal$1 = Variant({
-  "businessPlanning": Null,
-  "socialAds": Null,
-  "googleMaps": Null
-});
-const IndustryType$1 = Variant({
-  "retail": Null,
-  "other": Null,
-  "deli": Null,
-  "consulting": Null,
-  "salon": Null,
-  "onlineServices": Null,
-  "newBusiness": Null,
-  "poolHall": Null,
-  "restaurant": Null
-});
-const BusinessProfile = Record({
-  "teamSize": TeamSize$1,
-  "signupDate": Opt(Int),
-  "name": Opt(Text),
-  "subscriptionTier": Opt(SubscriptionTier$1),
-  "businessName": Text,
-  "email": Opt(Text),
-  "goals": Vec(Goal$1),
-  "industryType": IndustryType$1,
-  "location": Text
-});
-const CourseId = Nat;
-const Course = Record({
-  "id": CourseId,
-  "title": Text,
-  "expiresAt": Timestamp,
-  "endDate": Text,
-  "isExpired": Bool,
-  "fetchedAt": Timestamp,
-  "borough": Text,
-  "description": Text,
-  "language": Text,
-  "addedAt": Timestamp,
-  "category": Text,
-  "isNew": Bool,
-  "registrationUrl": Text,
-  "courseType": Text,
-  "location": Text,
-  "contactPhone": Text,
-  "startDate": Text
-});
-const ContributionStatus$1 = Variant({
-  "pending": Null,
-  "approved": Null,
-  "rejected": Null
-});
-const Contribution = Record({
-  "id": ContributionId,
-  "status": ContributionStatus$1,
-  "title": Text,
-  "topic": Topic$1,
-  "content": Text,
-  "authorName": Text,
-  "rejectionReason": Opt(Text),
-  "submittedAt": Timestamp,
-  "reviewedAt": Opt(Timestamp),
-  "businessContext": Text,
-  "authorPrincipal": Principal2
-});
-const ProviderStats = Record({
-  "provider": Text,
-  "totalOutages": Nat,
-  "averageDurationHours": Float64,
-  "mostCommonIncidentType": Text
-});
-const ApprovalStatus = Variant({
-  "pending": Null,
-  "approved": Null,
-  "rejected": Null
-});
-const UserApprovalInfo = Record({
-  "status": ApprovalStatus,
-  "principal": Principal2
-});
-const GuideFilter = Record({
-  "topic": Opt(Topic$1),
-  "keyword": Opt(Text),
-  "businessTypeTag": Opt(Text)
-});
-const OutageFilter = Record({
-  "provider": Opt(Text),
-  "endDate": Opt(Text),
-  "incidentType": Opt(Text),
-  "startDate": Opt(Text)
-});
-const OutageId = Nat;
-const OutageRecord = Record({
-  "id": OutageId,
-  "provider": Text,
-  "date": Text,
-  "durationHours": Float64,
-  "nycImpactDescription": Text,
-  "regionScope": Text,
-  "incidentType": Text
-});
-const ContributionInput = Record({
-  "title": Text,
-  "topic": Topic$1,
-  "content": Text,
-  "authorName": Text,
-  "businessContext": Text
-});
-const HttpHeader = Record({ "value": Text, "name": Text });
-const HttpRequestResult = Record({
-  "status": Nat,
-  "body": Vec(Nat8),
-  "headers": Vec(HttpHeader)
-});
-const TransformationInput = Record({
-  "context": Vec(Nat8),
-  "response": HttpRequestResult
-});
-const TransformationOutput = Record({
-  "status": Nat,
-  "body": Vec(Nat8),
-  "headers": Vec(HttpHeader)
-});
-Service({
-  "_initializeAccessControl": Func([], [], []),
-  "approveContribution": Func([ContributionId], [Bool], []),
-  "assignCallerUserRole": Func([Principal2, UserRole$1], [], []),
-  "createGuide": Func([GuideInput], [Guide], []),
-  "deleteGuide": Func([GuideId], [Bool], []),
-  "execute": Func([Text], [Result], ["query"]),
-  "fetchCourses": Func([], [], []),
-  "fetchProviderHealthStatus": Func(
-    [],
-    [Vec(ProviderHealthStatus)],
-    []
-  ),
-  "getAdminStats": Func([], [AdminStats], ["query"]),
-  "getBusinessProfile": Func([], [Opt(BusinessProfile)], ["query"]),
-  "getCallerUserRole": Func([], [UserRole$1], ["query"]),
-  "getCourses": Func([], [Vec(Course)], ["query"]),
-  "getExpiredCourses": Func([], [Vec(Course)], ["query"]),
-  "getFeaturedGuides": Func([], [Vec(Guide)], ["query"]),
-  "getGuide": Func([GuideId], [Opt(Guide)], ["query"]),
-  "getLastUpdated": Func([], [Timestamp], ["query"]),
-  "getMyContributions": Func([], [Vec(Contribution)], ["query"]),
-  "getPersonalizedRecommendations": Func([], [Vec(Guide)], ["query"]),
-  "getProviderHealthStatus": Func(
-    [],
-    [Vec(ProviderHealthStatus)],
-    ["query"]
-  ),
-  "getProviderStats": Func([], [Vec(ProviderStats)], ["query"]),
-  "getUpcomingCourses": Func([], [Vec(Course)], ["query"]),
-  "isCallerAdmin": Func([], [Bool], ["query"]),
-  "isCallerApproved": Func([], [Bool], ["query"]),
-  "listApprovals": Func([], [Vec(UserApprovalInfo)], ["query"]),
-  "listGuides": Func([GuideFilter], [Vec(Guide)], ["query"]),
-  "listOutages": Func([OutageFilter], [Vec(OutageRecord)], ["query"]),
-  "listPendingContributions": Func([], [Vec(Contribution)], ["query"]),
-  "rejectContribution": Func(
-    [ContributionId, Opt(Text)],
-    [Bool],
-    []
-  ),
-  "requestApproval": Func([], [], []),
-  "saveBusinessProfile": Func([BusinessProfile], [], []),
-  "schema": Func([], [Text], ["query"]),
-  "setApproval": Func([Principal2, ApprovalStatus], [], []),
-  "setGuidePublished": Func([GuideId, Bool], [Bool], []),
-  "submitContribution": Func([ContributionInput], [Contribution], []),
-  "transform": Func(
-    [TransformationInput],
-    [TransformationOutput],
-    ["query"]
-  ),
-  "updateGuide": Func([GuideId, GuideInput], [Bool], [])
-});
-const idlFactory = ({ IDL: IDL2 }) => {
-  const ContributionId2 = IDL2.Nat;
-  const UserRole2 = IDL2.Variant({
-    "admin": IDL2.Null,
-    "user": IDL2.Null,
-    "guest": IDL2.Null
+function Input({ className, type, ...props }) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "input",
+    {
+      type,
+      "data-slot": "input",
+      className: cn(
+        "file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
+        "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
+        "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+        className
+      ),
+      ...props
+    }
+  );
+}
+var NODES$1 = [
+  "a",
+  "button",
+  "div",
+  "form",
+  "h2",
+  "h3",
+  "img",
+  "input",
+  "label",
+  "li",
+  "nav",
+  "ol",
+  "p",
+  "select",
+  "span",
+  "svg",
+  "ul"
+];
+var Primitive$1 = NODES$1.reduce((primitive, node2) => {
+  const Slot2 = /* @__PURE__ */ createSlot$1(`Primitive.${node2}`);
+  const Node2 = reactExports.forwardRef((props, forwardedRef) => {
+    const { asChild, ...primitiveProps } = props;
+    const Comp = asChild ? Slot2 : node2;
+    if (typeof window !== "undefined") {
+      window[Symbol.for("radix-ui")] = true;
+    }
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Comp, { ...primitiveProps, ref: forwardedRef });
   });
-  const Topic2 = IDL2.Variant({
-    "businessPlanning": IDL2.Null,
-    "socialAds": IDL2.Null,
-    "branding": IDL2.Null,
-    "googleMaps": IDL2.Null,
-    "techUpgrades": IDL2.Null
+  Node2.displayName = `Primitive.${node2}`;
+  return { ...primitive, [node2]: Node2 };
+}, {});
+var NAME$3 = "Label";
+var Label$1 = reactExports.forwardRef((props, forwardedRef) => {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    Primitive$1.label,
+    {
+      ...props,
+      ref: forwardedRef,
+      onMouseDown: (event) => {
+        var _a3;
+        const target = event.target;
+        if (target.closest("button, input, select, textarea")) return;
+        (_a3 = props.onMouseDown) == null ? void 0 : _a3.call(props, event);
+        if (!event.defaultPrevented && event.detail > 1) event.preventDefault();
+      }
+    }
+  );
+});
+Label$1.displayName = NAME$3;
+var Root$5 = Label$1;
+function Label({
+  className,
+  ...props
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    Root$5,
+    {
+      "data-slot": "label",
+      className: cn(
+        "flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50",
+        className
+      ),
+      ...props
+    }
+  );
+}
+function composeEventHandlers(originalEventHandler, ourEventHandler, { checkForDefaultPrevented = true } = {}) {
+  return function handleEvent(event) {
+    originalEventHandler == null ? void 0 : originalEventHandler(event);
+    if (checkForDefaultPrevented === false || !event.defaultPrevented) {
+      return ourEventHandler == null ? void 0 : ourEventHandler(event);
+    }
+  };
+}
+function createContext2(rootComponentName, defaultContext) {
+  const Context = reactExports.createContext(defaultContext);
+  const Provider = (props) => {
+    const { children, ...context } = props;
+    const value = reactExports.useMemo(() => context, Object.values(context));
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Context.Provider, { value, children });
+  };
+  Provider.displayName = rootComponentName + "Provider";
+  function useContext2(consumerName) {
+    const context = reactExports.useContext(Context);
+    if (context) return context;
+    if (defaultContext !== void 0) return defaultContext;
+    throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
+  }
+  return [Provider, useContext2];
+}
+function createContextScope(scopeName, createContextScopeDeps = []) {
+  let defaultContexts = [];
+  function createContext3(rootComponentName, defaultContext) {
+    const BaseContext = reactExports.createContext(defaultContext);
+    const index2 = defaultContexts.length;
+    defaultContexts = [...defaultContexts, defaultContext];
+    const Provider = (props) => {
+      var _a3;
+      const { scope, children, ...context } = props;
+      const Context = ((_a3 = scope == null ? void 0 : scope[scopeName]) == null ? void 0 : _a3[index2]) || BaseContext;
+      const value = reactExports.useMemo(() => context, Object.values(context));
+      return /* @__PURE__ */ jsxRuntimeExports.jsx(Context.Provider, { value, children });
+    };
+    Provider.displayName = rootComponentName + "Provider";
+    function useContext2(consumerName, scope) {
+      var _a3;
+      const Context = ((_a3 = scope == null ? void 0 : scope[scopeName]) == null ? void 0 : _a3[index2]) || BaseContext;
+      const context = reactExports.useContext(Context);
+      if (context) return context;
+      if (defaultContext !== void 0) return defaultContext;
+      throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
+    }
+    return [Provider, useContext2];
+  }
+  const createScope = () => {
+    const scopeContexts = defaultContexts.map((defaultContext) => {
+      return reactExports.createContext(defaultContext);
+    });
+    return function useScope(scope) {
+      const contexts = (scope == null ? void 0 : scope[scopeName]) || scopeContexts;
+      return reactExports.useMemo(
+        () => ({ [`__scope${scopeName}`]: { ...scope, [scopeName]: contexts } }),
+        [scope, contexts]
+      );
+    };
+  };
+  createScope.scopeName = scopeName;
+  return [createContext3, composeContextScopes(createScope, ...createContextScopeDeps)];
+}
+function composeContextScopes(...scopes) {
+  const baseScope = scopes[0];
+  if (scopes.length === 1) return baseScope;
+  const createScope = () => {
+    const scopeHooks = scopes.map((createScope2) => ({
+      useScope: createScope2(),
+      scopeName: createScope2.scopeName
+    }));
+    return function useComposedScopes(overrideScopes) {
+      const nextScopes = scopeHooks.reduce((nextScopes2, { useScope, scopeName }) => {
+        const scopeProps = useScope(overrideScopes);
+        const currentScope = scopeProps[`__scope${scopeName}`];
+        return { ...nextScopes2, ...currentScope };
+      }, {});
+      return reactExports.useMemo(() => ({ [`__scope${baseScope.scopeName}`]: nextScopes }), [nextScopes]);
+    };
+  };
+  createScope.scopeName = baseScope.scopeName;
+  return createScope;
+}
+// @__NO_SIDE_EFFECTS__
+function createSlot(ownerName) {
+  const SlotClone = /* @__PURE__ */ createSlotClone(ownerName);
+  const Slot2 = reactExports.forwardRef((props, forwardedRef) => {
+    const { children, ...slotProps } = props;
+    const childrenArray = reactExports.Children.toArray(children);
+    const slottable = childrenArray.find(isSlottable);
+    if (slottable) {
+      const newElement = slottable.props.children;
+      const newChildren = childrenArray.map((child) => {
+        if (child === slottable) {
+          if (reactExports.Children.count(newElement) > 1) return reactExports.Children.only(null);
+          return reactExports.isValidElement(newElement) ? newElement.props.children : null;
+        } else {
+          return child;
+        }
+      });
+      return /* @__PURE__ */ jsxRuntimeExports.jsx(SlotClone, { ...slotProps, ref: forwardedRef, children: reactExports.isValidElement(newElement) ? reactExports.cloneElement(newElement, void 0, newChildren) : null });
+    }
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(SlotClone, { ...slotProps, ref: forwardedRef, children });
   });
-  const GuideId2 = IDL2.Nat;
-  const GuideInput2 = IDL2.Record({
-    "title": IDL2.Text,
-    "topic": Topic2,
-    "content": IDL2.Text,
-    "businessTypeTags": IDL2.Vec(IDL2.Text),
-    "authorName": IDL2.Text,
-    "recommendedNext": IDL2.Vec(GuideId2),
-    "excerpt": IDL2.Text,
-    "readTimeMinutes": IDL2.Nat
+  Slot2.displayName = `${ownerName}.Slot`;
+  return Slot2;
+}
+// @__NO_SIDE_EFFECTS__
+function createSlotClone(ownerName) {
+  const SlotClone = reactExports.forwardRef((props, forwardedRef) => {
+    const { children, ...slotProps } = props;
+    if (reactExports.isValidElement(children)) {
+      const childrenRef = getElementRef$1(children);
+      const props2 = mergeProps(slotProps, children.props);
+      if (children.type !== reactExports.Fragment) {
+        props2.ref = forwardedRef ? composeRefs$1(forwardedRef, childrenRef) : childrenRef;
+      }
+      return reactExports.cloneElement(children, props2);
+    }
+    return reactExports.Children.count(children) > 1 ? reactExports.Children.only(null) : null;
   });
-  const AuthorType2 = IDL2.Variant({
-    "admin": IDL2.Null,
-    "community": IDL2.Null
+  SlotClone.displayName = `${ownerName}.SlotClone`;
+  return SlotClone;
+}
+var SLOTTABLE_IDENTIFIER = Symbol("radix.slottable");
+function isSlottable(child) {
+  return reactExports.isValidElement(child) && typeof child.type === "function" && "__radixId" in child.type && child.type.__radixId === SLOTTABLE_IDENTIFIER;
+}
+function mergeProps(slotProps, childProps) {
+  const overrideProps = { ...childProps };
+  for (const propName in childProps) {
+    const slotPropValue = slotProps[propName];
+    const childPropValue = childProps[propName];
+    const isHandler = /^on[A-Z]/.test(propName);
+    if (isHandler) {
+      if (slotPropValue && childPropValue) {
+        overrideProps[propName] = (...args) => {
+          const result = childPropValue(...args);
+          slotPropValue(...args);
+          return result;
+        };
+      } else if (slotPropValue) {
+        overrideProps[propName] = slotPropValue;
+      }
+    } else if (propName === "style") {
+      overrideProps[propName] = { ...slotPropValue, ...childPropValue };
+    } else if (propName === "className") {
+      overrideProps[propName] = [slotPropValue, childPropValue].filter(Boolean).join(" ");
+    }
+  }
+  return { ...slotProps, ...overrideProps };
+}
+function getElementRef$1(element2) {
+  var _a3, _b3;
+  let getter = (_a3 = Object.getOwnPropertyDescriptor(element2.props, "ref")) == null ? void 0 : _a3.get;
+  let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+  if (mayWarn) {
+    return element2.ref;
+  }
+  getter = (_b3 = Object.getOwnPropertyDescriptor(element2, "ref")) == null ? void 0 : _b3.get;
+  mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+  if (mayWarn) {
+    return element2.props.ref;
+  }
+  return element2.props.ref || element2.ref;
+}
+var NODES = [
+  "a",
+  "button",
+  "div",
+  "form",
+  "h2",
+  "h3",
+  "img",
+  "input",
+  "label",
+  "li",
+  "nav",
+  "ol",
+  "p",
+  "select",
+  "span",
+  "svg",
+  "ul"
+];
+var Primitive = NODES.reduce((primitive, node2) => {
+  const Slot2 = /* @__PURE__ */ createSlot(`Primitive.${node2}`);
+  const Node2 = reactExports.forwardRef((props, forwardedRef) => {
+    const { asChild, ...primitiveProps } = props;
+    const Comp = asChild ? Slot2 : node2;
+    if (typeof window !== "undefined") {
+      window[Symbol.for("radix-ui")] = true;
+    }
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Comp, { ...primitiveProps, ref: forwardedRef });
   });
-  const Timestamp2 = IDL2.Int;
-  const Guide2 = IDL2.Record({
-    "id": GuideId2,
-    "title": IDL2.Text,
-    "topic": Topic2,
-    "content": IDL2.Text,
-    "isPublished": IDL2.Bool,
-    "businessTypeTags": IDL2.Vec(IDL2.Text),
-    "authorName": IDL2.Text,
-    "authorType": AuthorType2,
-    "publishedAt": IDL2.Opt(Timestamp2),
-    "recommendedNext": IDL2.Vec(GuideId2),
-    "excerpt": IDL2.Text,
-    "readTimeMinutes": IDL2.Nat
-  });
-  const Value2 = IDL2.Variant({
-    "int": IDL2.Int,
-    "nat": IDL2.Nat,
-    "float": IDL2.Float64,
-    "bool": IDL2.Bool,
-    "null": IDL2.Null,
-    "text": IDL2.Text
-  });
-  const Cell2 = IDL2.Record({ "value": Value2, "name": IDL2.Text });
-  const Result2 = IDL2.Record({
-    "hasMore": IDL2.Bool,
-    "rows": IDL2.Vec(IDL2.Vec(Cell2))
-  });
-  const ProviderHealthStatus2 = IDL2.Record({
-    "provider": IDL2.Text,
-    "errorMessage": IDL2.Opt(IDL2.Text),
-    "isHealthy": IDL2.Opt(IDL2.Bool),
-    "statusUrl": IDL2.Text,
-    "lastCheckedAt": IDL2.Opt(IDL2.Text)
-  });
-  const AdminStats2 = IDL2.Record({
-    "totalPublished": IDL2.Nat,
-    "recentGuides": IDL2.Vec(Guide2),
-    "pendingContributions": IDL2.Nat
-  });
-  const TeamSize2 = IDL2.Variant({
-    "solo": IDL2.Null,
-    "small": IDL2.Null,
-    "medium": IDL2.Null
-  });
-  const SubscriptionTier2 = IDL2.Variant({
-    "free": IDL2.Null,
-    "paid": IDL2.Null
-  });
-  const Goal2 = IDL2.Variant({
-    "businessPlanning": IDL2.Null,
-    "socialAds": IDL2.Null,
-    "googleMaps": IDL2.Null
-  });
-  const IndustryType2 = IDL2.Variant({
-    "retail": IDL2.Null,
-    "other": IDL2.Null,
-    "deli": IDL2.Null,
-    "consulting": IDL2.Null,
-    "salon": IDL2.Null,
-    "onlineServices": IDL2.Null,
-    "newBusiness": IDL2.Null,
-    "poolHall": IDL2.Null,
-    "restaurant": IDL2.Null
-  });
-  const BusinessProfile2 = IDL2.Record({
-    "teamSize": TeamSize2,
-    "signupDate": IDL2.Opt(IDL2.Int),
-    "name": IDL2.Opt(IDL2.Text),
-    "subscriptionTier": IDL2.Opt(SubscriptionTier2),
-    "businessName": IDL2.Text,
-    "email": IDL2.Opt(IDL2.Text),
-    "goals": IDL2.Vec(Goal2),
-    "industryType": IndustryType2,
-    "location": IDL2.Text
-  });
-  const CourseId2 = IDL2.Nat;
-  const Course2 = IDL2.Record({
-    "id": CourseId2,
-    "title": IDL2.Text,
-    "expiresAt": Timestamp2,
-    "endDate": IDL2.Text,
-    "isExpired": IDL2.Bool,
-    "fetchedAt": Timestamp2,
-    "borough": IDL2.Text,
-    "description": IDL2.Text,
-    "language": IDL2.Text,
-    "addedAt": Timestamp2,
-    "category": IDL2.Text,
-    "isNew": IDL2.Bool,
-    "registrationUrl": IDL2.Text,
-    "courseType": IDL2.Text,
-    "location": IDL2.Text,
-    "contactPhone": IDL2.Text,
-    "startDate": IDL2.Text
-  });
-  const ContributionStatus2 = IDL2.Variant({
-    "pending": IDL2.Null,
-    "approved": IDL2.Null,
-    "rejected": IDL2.Null
-  });
-  const Contribution2 = IDL2.Record({
-    "id": ContributionId2,
-    "status": ContributionStatus2,
-    "title": IDL2.Text,
-    "topic": Topic2,
-    "content": IDL2.Text,
-    "authorName": IDL2.Text,
-    "rejectionReason": IDL2.Opt(IDL2.Text),
-    "submittedAt": Timestamp2,
-    "reviewedAt": IDL2.Opt(Timestamp2),
-    "businessContext": IDL2.Text,
-    "authorPrincipal": IDL2.Principal
-  });
-  const ProviderStats2 = IDL2.Record({
-    "provider": IDL2.Text,
-    "totalOutages": IDL2.Nat,
-    "averageDurationHours": IDL2.Float64,
-    "mostCommonIncidentType": IDL2.Text
-  });
-  const ApprovalStatus2 = IDL2.Variant({
-    "pending": IDL2.Null,
-    "approved": IDL2.Null,
-    "rejected": IDL2.Null
-  });
-  const UserApprovalInfo2 = IDL2.Record({
-    "status": ApprovalStatus2,
-    "principal": IDL2.Principal
-  });
-  const GuideFilter2 = IDL2.Record({
-    "topic": IDL2.Opt(Topic2),
-    "keyword": IDL2.Opt(IDL2.Text),
-    "businessTypeTag": IDL2.Opt(IDL2.Text)
-  });
-  const OutageFilter2 = IDL2.Record({
-    "provider": IDL2.Opt(IDL2.Text),
-    "endDate": IDL2.Opt(IDL2.Text),
-    "incidentType": IDL2.Opt(IDL2.Text),
-    "startDate": IDL2.Opt(IDL2.Text)
-  });
-  const OutageId2 = IDL2.Nat;
-  const OutageRecord2 = IDL2.Record({
-    "id": OutageId2,
-    "provider": IDL2.Text,
-    "date": IDL2.Text,
-    "durationHours": IDL2.Float64,
-    "nycImpactDescription": IDL2.Text,
-    "regionScope": IDL2.Text,
-    "incidentType": IDL2.Text
-  });
-  const ContributionInput2 = IDL2.Record({
-    "title": IDL2.Text,
-    "topic": Topic2,
-    "content": IDL2.Text,
-    "authorName": IDL2.Text,
-    "businessContext": IDL2.Text
-  });
-  const HttpHeader2 = IDL2.Record({ "value": IDL2.Text, "name": IDL2.Text });
-  const HttpRequestResult2 = IDL2.Record({
-    "status": IDL2.Nat,
-    "body": IDL2.Vec(IDL2.Nat8),
-    "headers": IDL2.Vec(HttpHeader2)
-  });
-  const TransformationInput2 = IDL2.Record({
-    "context": IDL2.Vec(IDL2.Nat8),
-    "response": HttpRequestResult2
-  });
-  const TransformationOutput2 = IDL2.Record({
-    "status": IDL2.Nat,
-    "body": IDL2.Vec(IDL2.Nat8),
-    "headers": IDL2.Vec(HttpHeader2)
-  });
-  return IDL2.Service({
-    "_initializeAccessControl": IDL2.Func([], [], []),
-    "approveContribution": IDL2.Func([ContributionId2], [IDL2.Bool], []),
-    "assignCallerUserRole": IDL2.Func([IDL2.Principal, UserRole2], [], []),
-    "createGuide": IDL2.Func([GuideInput2], [Guide2], []),
-    "deleteGuide": IDL2.Func([GuideId2], [IDL2.Bool], []),
-    "execute": IDL2.Func([IDL2.Text], [Result2], ["query"]),
-    "fetchCourses": IDL2.Func([], [], []),
-    "fetchProviderHealthStatus": IDL2.Func(
-      [],
-      [IDL2.Vec(ProviderHealthStatus2)],
-      []
-    ),
-    "getAdminStats": IDL2.Func([], [AdminStats2], ["query"]),
-    "getBusinessProfile": IDL2.Func([], [IDL2.Opt(BusinessProfile2)], ["query"]),
-    "getCallerUserRole": IDL2.Func([], [UserRole2], ["query"]),
-    "getCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
-    "getExpiredCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
-    "getFeaturedGuides": IDL2.Func([], [IDL2.Vec(Guide2)], ["query"]),
-    "getGuide": IDL2.Func([GuideId2], [IDL2.Opt(Guide2)], ["query"]),
-    "getLastUpdated": IDL2.Func([], [Timestamp2], ["query"]),
-    "getMyContributions": IDL2.Func([], [IDL2.Vec(Contribution2)], ["query"]),
-    "getPersonalizedRecommendations": IDL2.Func(
-      [],
-      [IDL2.Vec(Guide2)],
-      ["query"]
-    ),
-    "getProviderHealthStatus": IDL2.Func(
-      [],
-      [IDL2.Vec(ProviderHealthStatus2)],
-      ["query"]
-    ),
-    "getProviderStats": IDL2.Func([], [IDL2.Vec(ProviderStats2)], ["query"]),
-    "getUpcomingCourses": IDL2.Func([], [IDL2.Vec(Course2)], ["query"]),
-    "isCallerAdmin": IDL2.Func([], [IDL2.Bool], ["query"]),
-    "isCallerApproved": IDL2.Func([], [IDL2.Bool], ["query"]),
-    "listApprovals": IDL2.Func([], [IDL2.Vec(UserApprovalInfo2)], ["query"]),
-    "listGuides": IDL2.Func([GuideFilter2], [IDL2.Vec(Guide2)], ["query"]),
-    "listOutages": IDL2.Func(
-      [OutageFilter2],
-      [IDL2.Vec(OutageRecord2)],
-      ["query"]
-    ),
-    "listPendingContributions": IDL2.Func(
-      [],
-      [IDL2.Vec(Contribution2)],
-      ["query"]
-    ),
-    "rejectContribution": IDL2.Func(
-      [ContributionId2, IDL2.Opt(IDL2.Text)],
-      [IDL2.Bool],
-      []
-    ),
-    "requestApproval": IDL2.Func([], [], []),
-    "saveBusinessProfile": IDL2.Func([BusinessProfile2], [], []),
-    "schema": IDL2.Func([], [IDL2.Text], ["query"]),
-    "setApproval": IDL2.Func([IDL2.Principal, ApprovalStatus2], [], []),
-    "setGuidePublished": IDL2.Func([GuideId2, IDL2.Bool], [IDL2.Bool], []),
-    "submitContribution": IDL2.Func([ContributionInput2], [Contribution2], []),
-    "transform": IDL2.Func(
-      [TransformationInput2],
-      [TransformationOutput2],
-      ["query"]
-    ),
-    "updateGuide": IDL2.Func([GuideId2, GuideInput2], [IDL2.Bool], [])
-  });
-};
-function candid_some(value) {
+  Node2.displayName = `Primitive.${node2}`;
+  return { ...primitive, [node2]: Node2 };
+}, {});
+function dispatchDiscreteCustomEvent(target, event) {
+  if (target) reactDomExports.flushSync(() => target.dispatchEvent(event));
+}
+function createCollection(name2) {
+  const PROVIDER_NAME = name2 + "CollectionProvider";
+  const [createCollectionContext, createCollectionScope2] = createContextScope(PROVIDER_NAME);
+  const [CollectionProviderImpl, useCollectionContext] = createCollectionContext(
+    PROVIDER_NAME,
+    { collectionRef: { current: null }, itemMap: /* @__PURE__ */ new Map() }
+  );
+  const CollectionProvider = (props) => {
+    const { scope, children } = props;
+    const ref = React$4.useRef(null);
+    const itemMap = React$4.useRef(/* @__PURE__ */ new Map()).current;
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionProviderImpl, { scope, itemMap, collectionRef: ref, children });
+  };
+  CollectionProvider.displayName = PROVIDER_NAME;
+  const COLLECTION_SLOT_NAME = name2 + "CollectionSlot";
+  const CollectionSlotImpl = /* @__PURE__ */ createSlot(COLLECTION_SLOT_NAME);
+  const CollectionSlot = React$4.forwardRef(
+    (props, forwardedRef) => {
+      const { scope, children } = props;
+      const context = useCollectionContext(COLLECTION_SLOT_NAME, scope);
+      const composedRefs = useComposedRefs$1(forwardedRef, context.collectionRef);
+      return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionSlotImpl, { ref: composedRefs, children });
+    }
+  );
+  CollectionSlot.displayName = COLLECTION_SLOT_NAME;
+  const ITEM_SLOT_NAME = name2 + "CollectionItemSlot";
+  const ITEM_DATA_ATTR = "data-radix-collection-item";
+  const CollectionItemSlotImpl = /* @__PURE__ */ createSlot(ITEM_SLOT_NAME);
+  const CollectionItemSlot = React$4.forwardRef(
+    (props, forwardedRef) => {
+      const { scope, children, ...itemData } = props;
+      const ref = React$4.useRef(null);
+      const composedRefs = useComposedRefs$1(forwardedRef, ref);
+      const context = useCollectionContext(ITEM_SLOT_NAME, scope);
+      React$4.useEffect(() => {
+        context.itemMap.set(ref, { ref, ...itemData });
+        return () => void context.itemMap.delete(ref);
+      });
+      return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionItemSlotImpl, { ...{ [ITEM_DATA_ATTR]: "" }, ref: composedRefs, children });
+    }
+  );
+  CollectionItemSlot.displayName = ITEM_SLOT_NAME;
+  function useCollection2(scope) {
+    const context = useCollectionContext(name2 + "CollectionConsumer", scope);
+    const getItems = React$4.useCallback(() => {
+      const collectionNode = context.collectionRef.current;
+      if (!collectionNode) return [];
+      const orderedNodes = Array.from(collectionNode.querySelectorAll(`[${ITEM_DATA_ATTR}]`));
+      const items = Array.from(context.itemMap.values());
+      const orderedItems = items.sort(
+        (a2, b2) => orderedNodes.indexOf(a2.ref.current) - orderedNodes.indexOf(b2.ref.current)
+      );
+      return orderedItems;
+    }, [context.collectionRef, context.itemMap]);
+    return getItems;
+  }
   return [
-    value
+    { Provider: CollectionProvider, Slot: CollectionSlot, ItemSlot: CollectionItemSlot },
+    useCollection2,
+    createCollectionScope2
   ];
 }
-function candid_none() {
-  return [];
-}
-function record_opt_to_undefined(arg) {
-  return arg == null ? void 0 : arg;
-}
-var AuthorType = /* @__PURE__ */ ((AuthorType2) => {
-  AuthorType2["admin"] = "admin";
-  AuthorType2["community"] = "community";
-  return AuthorType2;
-})(AuthorType || {});
-var ContributionStatus = /* @__PURE__ */ ((ContributionStatus2) => {
-  ContributionStatus2["pending"] = "pending";
-  ContributionStatus2["approved"] = "approved";
-  ContributionStatus2["rejected"] = "rejected";
-  return ContributionStatus2;
-})(ContributionStatus || {});
-var Goal = /* @__PURE__ */ ((Goal2) => {
-  Goal2["businessPlanning"] = "businessPlanning";
-  Goal2["socialAds"] = "socialAds";
-  Goal2["googleMaps"] = "googleMaps";
-  return Goal2;
-})(Goal || {});
-var IndustryType = /* @__PURE__ */ ((IndustryType2) => {
-  IndustryType2["retail"] = "retail";
-  IndustryType2["other"] = "other";
-  IndustryType2["deli"] = "deli";
-  IndustryType2["consulting"] = "consulting";
-  IndustryType2["salon"] = "salon";
-  IndustryType2["onlineServices"] = "onlineServices";
-  IndustryType2["newBusiness"] = "newBusiness";
-  IndustryType2["poolHall"] = "poolHall";
-  IndustryType2["restaurant"] = "restaurant";
-  return IndustryType2;
-})(IndustryType || {});
-var SubscriptionTier = /* @__PURE__ */ ((SubscriptionTier2) => {
-  SubscriptionTier2["free"] = "free";
-  SubscriptionTier2["paid"] = "paid";
-  return SubscriptionTier2;
-})(SubscriptionTier || {});
-var TeamSize = /* @__PURE__ */ ((TeamSize2) => {
-  TeamSize2["solo"] = "solo";
-  TeamSize2["small"] = "small";
-  TeamSize2["medium"] = "medium";
-  return TeamSize2;
-})(TeamSize || {});
-var Topic = /* @__PURE__ */ ((Topic2) => {
-  Topic2["businessPlanning"] = "businessPlanning";
-  Topic2["socialAds"] = "socialAds";
-  Topic2["branding"] = "branding";
-  Topic2["googleMaps"] = "googleMaps";
-  Topic2["techUpgrades"] = "techUpgrades";
-  return Topic2;
-})(Topic || {});
-var UserRole = /* @__PURE__ */ ((UserRole2) => {
-  UserRole2["admin"] = "admin";
-  UserRole2["user"] = "user";
-  UserRole2["guest"] = "guest";
-  return UserRole2;
-})(UserRole || {});
-class Backend {
-  constructor(actor, _uploadFile, _downloadFile, processError2) {
-    this.actor = actor;
-    this._uploadFile = _uploadFile;
-    this._downloadFile = _downloadFile;
-    this.processError = processError2;
-  }
-  async _initializeAccessControl() {
-    if (this.processError) {
-      try {
-        const result = await this.actor._initializeAccessControl();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor._initializeAccessControl();
-      return result;
-    }
-  }
-  async approveContribution(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.approveContribution(arg0);
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.approveContribution(arg0);
-      return result;
-    }
-  }
-  async assignCallerUserRole(arg0, arg1) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.assignCallerUserRole(arg0, to_candid_UserRole_n1(this._uploadFile, this._downloadFile, arg1));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.assignCallerUserRole(arg0, to_candid_UserRole_n1(this._uploadFile, this._downloadFile, arg1));
-      return result;
-    }
-  }
-  async createGuide(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.createGuide(to_candid_GuideInput_n3(this._uploadFile, this._downloadFile, arg0));
-        return from_candid_Guide_n7(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.createGuide(to_candid_GuideInput_n3(this._uploadFile, this._downloadFile, arg0));
-      return from_candid_Guide_n7(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async deleteGuide(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.deleteGuide(arg0);
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.deleteGuide(arg0);
-      return result;
-    }
-  }
-  async execute(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.execute(arg0);
-        return from_candid_Result_n14(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.execute(arg0);
-      return from_candid_Result_n14(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async fetchCourses() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.fetchCourses();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.fetchCourses();
-      return result;
-    }
-  }
-  async fetchProviderHealthStatus() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.fetchProviderHealthStatus();
-        return from_candid_vec_n22(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.fetchProviderHealthStatus();
-      return from_candid_vec_n22(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getAdminStats() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getAdminStats();
-        return from_candid_AdminStats_n27(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getAdminStats();
-      return from_candid_AdminStats_n27(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getBusinessProfile() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getBusinessProfile();
-        return from_candid_opt_n30(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getBusinessProfile();
-      return from_candid_opt_n30(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getCallerUserRole() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getCallerUserRole();
-        return from_candid_UserRole_n44(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getCallerUserRole();
-      return from_candid_UserRole_n44(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getCourses() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getCourses();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getCourses();
-      return result;
-    }
-  }
-  async getExpiredCourses() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getExpiredCourses();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getExpiredCourses();
-      return result;
-    }
-  }
-  async getFeaturedGuides() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getFeaturedGuides();
-        return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getFeaturedGuides();
-      return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getGuide(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getGuide(arg0);
-        return from_candid_opt_n46(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getGuide(arg0);
-      return from_candid_opt_n46(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getLastUpdated() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getLastUpdated();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getLastUpdated();
-      return result;
-    }
-  }
-  async getMyContributions() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getMyContributions();
-        return from_candid_vec_n47(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getMyContributions();
-      return from_candid_vec_n47(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getPersonalizedRecommendations() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getPersonalizedRecommendations();
-        return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getPersonalizedRecommendations();
-      return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getProviderHealthStatus() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getProviderHealthStatus();
-        return from_candid_vec_n22(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getProviderHealthStatus();
-      return from_candid_vec_n22(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async getProviderStats() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getProviderStats();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getProviderStats();
-      return result;
-    }
-  }
-  async getUpcomingCourses() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.getUpcomingCourses();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.getUpcomingCourses();
-      return result;
-    }
-  }
-  async isCallerAdmin() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.isCallerAdmin();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.isCallerAdmin();
-      return result;
-    }
-  }
-  async isCallerApproved() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.isCallerApproved();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.isCallerApproved();
-      return result;
-    }
-  }
-  async listApprovals() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.listApprovals();
-        return from_candid_vec_n52(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.listApprovals();
-      return from_candid_vec_n52(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async listGuides(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.listGuides(to_candid_GuideFilter_n56(this._uploadFile, this._downloadFile, arg0));
-        return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.listGuides(to_candid_GuideFilter_n56(this._uploadFile, this._downloadFile, arg0));
-      return from_candid_vec_n29(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async listOutages(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.listOutages(to_candid_OutageFilter_n58(this._uploadFile, this._downloadFile, arg0));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.listOutages(to_candid_OutageFilter_n58(this._uploadFile, this._downloadFile, arg0));
-      return result;
-    }
-  }
-  async listPendingContributions() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.listPendingContributions();
-        return from_candid_vec_n47(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.listPendingContributions();
-      return from_candid_vec_n47(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async rejectContribution(arg0, arg1) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.rejectContribution(arg0, to_candid_opt_n60(this._uploadFile, this._downloadFile, arg1));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.rejectContribution(arg0, to_candid_opt_n60(this._uploadFile, this._downloadFile, arg1));
-      return result;
-    }
-  }
-  async requestApproval() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.requestApproval();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.requestApproval();
-      return result;
-    }
-  }
-  async saveBusinessProfile(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.saveBusinessProfile(to_candid_BusinessProfile_n61(this._uploadFile, this._downloadFile, arg0));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.saveBusinessProfile(to_candid_BusinessProfile_n61(this._uploadFile, this._downloadFile, arg0));
-      return result;
-    }
-  }
-  async schema() {
-    if (this.processError) {
-      try {
-        const result = await this.actor.schema();
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.schema();
-      return result;
-    }
-  }
-  async setApproval(arg0, arg1) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.setApproval(arg0, to_candid_ApprovalStatus_n72(this._uploadFile, this._downloadFile, arg1));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.setApproval(arg0, to_candid_ApprovalStatus_n72(this._uploadFile, this._downloadFile, arg1));
-      return result;
-    }
-  }
-  async setGuidePublished(arg0, arg1) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.setGuidePublished(arg0, arg1);
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.setGuidePublished(arg0, arg1);
-      return result;
-    }
-  }
-  async submitContribution(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.submitContribution(to_candid_ContributionInput_n74(this._uploadFile, this._downloadFile, arg0));
-        return from_candid_Contribution_n48(this._uploadFile, this._downloadFile, result);
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.submitContribution(to_candid_ContributionInput_n74(this._uploadFile, this._downloadFile, arg0));
-      return from_candid_Contribution_n48(this._uploadFile, this._downloadFile, result);
-    }
-  }
-  async transform(arg0) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.transform(arg0);
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.transform(arg0);
-      return result;
-    }
-  }
-  async updateGuide(arg0, arg1) {
-    if (this.processError) {
-      try {
-        const result = await this.actor.updateGuide(arg0, to_candid_GuideInput_n3(this._uploadFile, this._downloadFile, arg1));
-        return result;
-      } catch (e) {
-        this.processError(e);
-        throw new Error("unreachable");
-      }
-    } else {
-      const result = await this.actor.updateGuide(arg0, to_candid_GuideInput_n3(this._uploadFile, this._downloadFile, arg1));
-      return result;
-    }
-  }
-}
-function from_candid_AdminStats_n27(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n28(_uploadFile, _downloadFile, value);
-}
-function from_candid_ApprovalStatus_n55(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n51(_uploadFile, _downloadFile, value);
-}
-function from_candid_AuthorType_n11(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n12(_uploadFile, _downloadFile, value);
-}
-function from_candid_BusinessProfile_n31(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n32(_uploadFile, _downloadFile, value);
-}
-function from_candid_Cell_n18(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n19(_uploadFile, _downloadFile, value);
-}
-function from_candid_ContributionStatus_n50(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n51(_uploadFile, _downloadFile, value);
-}
-function from_candid_Contribution_n48(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n49(_uploadFile, _downloadFile, value);
-}
-function from_candid_Goal_n40(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n41(_uploadFile, _downloadFile, value);
-}
-function from_candid_Guide_n7(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n8(_uploadFile, _downloadFile, value);
-}
-function from_candid_IndustryType_n42(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n43(_uploadFile, _downloadFile, value);
-}
-function from_candid_ProviderHealthStatus_n23(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n24(_uploadFile, _downloadFile, value);
-}
-function from_candid_Result_n14(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n15(_uploadFile, _downloadFile, value);
-}
-function from_candid_SubscriptionTier_n37(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n38(_uploadFile, _downloadFile, value);
-}
-function from_candid_TeamSize_n33(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n34(_uploadFile, _downloadFile, value);
-}
-function from_candid_Topic_n9(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n10(_uploadFile, _downloadFile, value);
-}
-function from_candid_UserApprovalInfo_n53(_uploadFile, _downloadFile, value) {
-  return from_candid_record_n54(_uploadFile, _downloadFile, value);
-}
-function from_candid_UserRole_n44(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n45(_uploadFile, _downloadFile, value);
-}
-function from_candid_Value_n20(_uploadFile, _downloadFile, value) {
-  return from_candid_variant_n21(_uploadFile, _downloadFile, value);
-}
-function from_candid_opt_n13(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : value[0];
-}
-function from_candid_opt_n25(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : value[0];
-}
-function from_candid_opt_n26(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : value[0];
-}
-function from_candid_opt_n30(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : from_candid_BusinessProfile_n31(_uploadFile, _downloadFile, value[0]);
-}
-function from_candid_opt_n35(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : value[0];
-}
-function from_candid_opt_n36(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : from_candid_SubscriptionTier_n37(_uploadFile, _downloadFile, value[0]);
-}
-function from_candid_opt_n46(_uploadFile, _downloadFile, value) {
-  return value.length === 0 ? null : from_candid_Guide_n7(_uploadFile, _downloadFile, value[0]);
-}
-function from_candid_record_n15(_uploadFile, _downloadFile, value) {
-  return {
-    hasMore: value.hasMore,
-    rows: from_candid_vec_n16(_uploadFile, _downloadFile, value.rows)
-  };
-}
-function from_candid_record_n19(_uploadFile, _downloadFile, value) {
-  return {
-    value: from_candid_Value_n20(_uploadFile, _downloadFile, value.value),
-    name: value.name
-  };
-}
-function from_candid_record_n24(_uploadFile, _downloadFile, value) {
-  return {
-    provider: value.provider,
-    errorMessage: record_opt_to_undefined(from_candid_opt_n25(_uploadFile, _downloadFile, value.errorMessage)),
-    isHealthy: record_opt_to_undefined(from_candid_opt_n26(_uploadFile, _downloadFile, value.isHealthy)),
-    statusUrl: value.statusUrl,
-    lastCheckedAt: record_opt_to_undefined(from_candid_opt_n25(_uploadFile, _downloadFile, value.lastCheckedAt))
-  };
-}
-function from_candid_record_n28(_uploadFile, _downloadFile, value) {
-  return {
-    totalPublished: value.totalPublished,
-    recentGuides: from_candid_vec_n29(_uploadFile, _downloadFile, value.recentGuides),
-    pendingContributions: value.pendingContributions
-  };
-}
-function from_candid_record_n32(_uploadFile, _downloadFile, value) {
-  return {
-    teamSize: from_candid_TeamSize_n33(_uploadFile, _downloadFile, value.teamSize),
-    signupDate: record_opt_to_undefined(from_candid_opt_n35(_uploadFile, _downloadFile, value.signupDate)),
-    name: record_opt_to_undefined(from_candid_opt_n25(_uploadFile, _downloadFile, value.name)),
-    subscriptionTier: record_opt_to_undefined(from_candid_opt_n36(_uploadFile, _downloadFile, value.subscriptionTier)),
-    businessName: value.businessName,
-    email: record_opt_to_undefined(from_candid_opt_n25(_uploadFile, _downloadFile, value.email)),
-    goals: from_candid_vec_n39(_uploadFile, _downloadFile, value.goals),
-    industryType: from_candid_IndustryType_n42(_uploadFile, _downloadFile, value.industryType),
-    location: value.location
-  };
-}
-function from_candid_record_n49(_uploadFile, _downloadFile, value) {
-  return {
-    id: value.id,
-    status: from_candid_ContributionStatus_n50(_uploadFile, _downloadFile, value.status),
-    title: value.title,
-    topic: from_candid_Topic_n9(_uploadFile, _downloadFile, value.topic),
-    content: value.content,
-    authorName: value.authorName,
-    rejectionReason: record_opt_to_undefined(from_candid_opt_n25(_uploadFile, _downloadFile, value.rejectionReason)),
-    submittedAt: value.submittedAt,
-    reviewedAt: record_opt_to_undefined(from_candid_opt_n13(_uploadFile, _downloadFile, value.reviewedAt)),
-    businessContext: value.businessContext,
-    authorPrincipal: value.authorPrincipal
-  };
-}
-function from_candid_record_n54(_uploadFile, _downloadFile, value) {
-  return {
-    status: from_candid_ApprovalStatus_n55(_uploadFile, _downloadFile, value.status),
-    principal: value.principal
-  };
-}
-function from_candid_record_n8(_uploadFile, _downloadFile, value) {
-  return {
-    id: value.id,
-    title: value.title,
-    topic: from_candid_Topic_n9(_uploadFile, _downloadFile, value.topic),
-    content: value.content,
-    isPublished: value.isPublished,
-    businessTypeTags: value.businessTypeTags,
-    authorName: value.authorName,
-    authorType: from_candid_AuthorType_n11(_uploadFile, _downloadFile, value.authorType),
-    publishedAt: record_opt_to_undefined(from_candid_opt_n13(_uploadFile, _downloadFile, value.publishedAt)),
-    recommendedNext: value.recommendedNext,
-    excerpt: value.excerpt,
-    readTimeMinutes: value.readTimeMinutes
-  };
-}
-function from_candid_variant_n10(_uploadFile, _downloadFile, value) {
-  return "businessPlanning" in value ? "businessPlanning" : "socialAds" in value ? "socialAds" : "branding" in value ? "branding" : "googleMaps" in value ? "googleMaps" : "techUpgrades" in value ? "techUpgrades" : value;
-}
-function from_candid_variant_n12(_uploadFile, _downloadFile, value) {
-  return "admin" in value ? "admin" : "community" in value ? "community" : value;
-}
-function from_candid_variant_n21(_uploadFile, _downloadFile, value) {
-  return "int" in value ? {
-    __kind__: "int",
-    int: value.int
-  } : "nat" in value ? {
-    __kind__: "nat",
-    nat: value.nat
-  } : "float" in value ? {
-    __kind__: "float",
-    float: value.float
-  } : "bool" in value ? {
-    __kind__: "bool",
-    bool: value.bool
-  } : "null" in value ? {
-    __kind__: "null",
-    null: value.null
-  } : "text" in value ? {
-    __kind__: "text",
-    text: value.text
-  } : value;
-}
-function from_candid_variant_n34(_uploadFile, _downloadFile, value) {
-  return "solo" in value ? "solo" : "small" in value ? "small" : "medium" in value ? "medium" : value;
-}
-function from_candid_variant_n38(_uploadFile, _downloadFile, value) {
-  return "free" in value ? "free" : "paid" in value ? "paid" : value;
-}
-function from_candid_variant_n41(_uploadFile, _downloadFile, value) {
-  return "businessPlanning" in value ? "businessPlanning" : "socialAds" in value ? "socialAds" : "googleMaps" in value ? "googleMaps" : value;
-}
-function from_candid_variant_n43(_uploadFile, _downloadFile, value) {
-  return "retail" in value ? "retail" : "other" in value ? "other" : "deli" in value ? "deli" : "consulting" in value ? "consulting" : "salon" in value ? "salon" : "onlineServices" in value ? "onlineServices" : "newBusiness" in value ? "newBusiness" : "poolHall" in value ? "poolHall" : "restaurant" in value ? "restaurant" : value;
-}
-function from_candid_variant_n45(_uploadFile, _downloadFile, value) {
-  return "admin" in value ? "admin" : "user" in value ? "user" : "guest" in value ? "guest" : value;
-}
-function from_candid_variant_n51(_uploadFile, _downloadFile, value) {
-  return "pending" in value ? "pending" : "approved" in value ? "approved" : "rejected" in value ? "rejected" : value;
-}
-function from_candid_vec_n16(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_vec_n17(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n17(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_Cell_n18(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n22(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_ProviderHealthStatus_n23(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n29(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_Guide_n7(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n39(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_Goal_n40(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n47(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_Contribution_n48(_uploadFile, _downloadFile, x3));
-}
-function from_candid_vec_n52(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => from_candid_UserApprovalInfo_n53(_uploadFile, _downloadFile, x3));
-}
-function to_candid_ApprovalStatus_n72(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n73(_uploadFile, _downloadFile, value);
-}
-function to_candid_BusinessProfile_n61(_uploadFile, _downloadFile, value) {
-  return to_candid_record_n62(_uploadFile, _downloadFile, value);
-}
-function to_candid_ContributionInput_n74(_uploadFile, _downloadFile, value) {
-  return to_candid_record_n75(_uploadFile, _downloadFile, value);
-}
-function to_candid_Goal_n68(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n69(_uploadFile, _downloadFile, value);
-}
-function to_candid_GuideFilter_n56(_uploadFile, _downloadFile, value) {
-  return to_candid_record_n57(_uploadFile, _downloadFile, value);
-}
-function to_candid_GuideInput_n3(_uploadFile, _downloadFile, value) {
-  return to_candid_record_n4(_uploadFile, _downloadFile, value);
-}
-function to_candid_IndustryType_n70(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n71(_uploadFile, _downloadFile, value);
-}
-function to_candid_OutageFilter_n58(_uploadFile, _downloadFile, value) {
-  return to_candid_record_n59(_uploadFile, _downloadFile, value);
-}
-function to_candid_SubscriptionTier_n65(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n66(_uploadFile, _downloadFile, value);
-}
-function to_candid_TeamSize_n63(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n64(_uploadFile, _downloadFile, value);
-}
-function to_candid_Topic_n5(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n6(_uploadFile, _downloadFile, value);
-}
-function to_candid_UserRole_n1(_uploadFile, _downloadFile, value) {
-  return to_candid_variant_n2(_uploadFile, _downloadFile, value);
-}
-function to_candid_opt_n60(_uploadFile, _downloadFile, value) {
-  return value === null ? candid_none() : candid_some(value);
-}
-function to_candid_record_n4(_uploadFile, _downloadFile, value) {
-  return {
-    title: value.title,
-    topic: to_candid_Topic_n5(_uploadFile, _downloadFile, value.topic),
-    content: value.content,
-    businessTypeTags: value.businessTypeTags,
-    authorName: value.authorName,
-    recommendedNext: value.recommendedNext,
-    excerpt: value.excerpt,
-    readTimeMinutes: value.readTimeMinutes
-  };
-}
-function to_candid_record_n57(_uploadFile, _downloadFile, value) {
-  return {
-    topic: value.topic ? candid_some(to_candid_Topic_n5(_uploadFile, _downloadFile, value.topic)) : candid_none(),
-    keyword: value.keyword ? candid_some(value.keyword) : candid_none(),
-    businessTypeTag: value.businessTypeTag ? candid_some(value.businessTypeTag) : candid_none()
-  };
-}
-function to_candid_record_n59(_uploadFile, _downloadFile, value) {
-  return {
-    provider: value.provider ? candid_some(value.provider) : candid_none(),
-    endDate: value.endDate ? candid_some(value.endDate) : candid_none(),
-    incidentType: value.incidentType ? candid_some(value.incidentType) : candid_none(),
-    startDate: value.startDate ? candid_some(value.startDate) : candid_none()
-  };
-}
-function to_candid_record_n62(_uploadFile, _downloadFile, value) {
-  return {
-    teamSize: to_candid_TeamSize_n63(_uploadFile, _downloadFile, value.teamSize),
-    signupDate: value.signupDate ? candid_some(value.signupDate) : candid_none(),
-    name: value.name ? candid_some(value.name) : candid_none(),
-    subscriptionTier: value.subscriptionTier ? candid_some(to_candid_SubscriptionTier_n65(_uploadFile, _downloadFile, value.subscriptionTier)) : candid_none(),
-    businessName: value.businessName,
-    email: value.email ? candid_some(value.email) : candid_none(),
-    goals: to_candid_vec_n67(_uploadFile, _downloadFile, value.goals),
-    industryType: to_candid_IndustryType_n70(_uploadFile, _downloadFile, value.industryType),
-    location: value.location
-  };
-}
-function to_candid_record_n75(_uploadFile, _downloadFile, value) {
-  return {
-    title: value.title,
-    topic: to_candid_Topic_n5(_uploadFile, _downloadFile, value.topic),
-    content: value.content,
-    authorName: value.authorName,
-    businessContext: value.businessContext
-  };
-}
-function to_candid_variant_n2(_uploadFile, _downloadFile, value) {
-  return value == "admin" ? {
-    admin: null
-  } : value == "user" ? {
-    user: null
-  } : value == "guest" ? {
-    guest: null
-  } : value;
-}
-function to_candid_variant_n6(_uploadFile, _downloadFile, value) {
-  return value == "businessPlanning" ? {
-    businessPlanning: null
-  } : value == "socialAds" ? {
-    socialAds: null
-  } : value == "branding" ? {
-    branding: null
-  } : value == "googleMaps" ? {
-    googleMaps: null
-  } : value == "techUpgrades" ? {
-    techUpgrades: null
-  } : value;
-}
-function to_candid_variant_n64(_uploadFile, _downloadFile, value) {
-  return value == "solo" ? {
-    solo: null
-  } : value == "small" ? {
-    small: null
-  } : value == "medium" ? {
-    medium: null
-  } : value;
-}
-function to_candid_variant_n66(_uploadFile, _downloadFile, value) {
-  return value == "free" ? {
-    free: null
-  } : value == "paid" ? {
-    paid: null
-  } : value;
-}
-function to_candid_variant_n69(_uploadFile, _downloadFile, value) {
-  return value == "businessPlanning" ? {
-    businessPlanning: null
-  } : value == "socialAds" ? {
-    socialAds: null
-  } : value == "googleMaps" ? {
-    googleMaps: null
-  } : value;
-}
-function to_candid_variant_n71(_uploadFile, _downloadFile, value) {
-  return value == "retail" ? {
-    retail: null
-  } : value == "other" ? {
-    other: null
-  } : value == "deli" ? {
-    deli: null
-  } : value == "consulting" ? {
-    consulting: null
-  } : value == "salon" ? {
-    salon: null
-  } : value == "onlineServices" ? {
-    onlineServices: null
-  } : value == "newBusiness" ? {
-    newBusiness: null
-  } : value == "poolHall" ? {
-    poolHall: null
-  } : value == "restaurant" ? {
-    restaurant: null
-  } : value;
-}
-function to_candid_variant_n73(_uploadFile, _downloadFile, value) {
-  return value == "pending" ? {
-    pending: null
-  } : value == "approved" ? {
-    approved: null
-  } : value == "rejected" ? {
-    rejected: null
-  } : value;
-}
-function to_candid_vec_n67(_uploadFile, _downloadFile, value) {
-  return value.map((x3) => to_candid_Goal_n68(_uploadFile, _downloadFile, x3));
-}
-function createActor(canisterId, _uploadFile, _downloadFile, options = {}) {
-  const agent = options.agent || HttpAgent.createSync({
-    ...options.agentOptions
+var useLayoutEffect2 = (globalThis == null ? void 0 : globalThis.document) ? reactExports.useLayoutEffect : () => {
+};
+var useReactId = React$5[" useId ".trim().toString()] || (() => void 0);
+var count$1 = 0;
+function useId(deterministicId) {
+  const [id2, setId] = reactExports.useState(useReactId());
+  useLayoutEffect2(() => {
+    setId((reactId) => reactId ?? String(count$1++));
+  }, [deterministicId]);
+  return id2 ? `radix-${id2}` : "";
+}
+function useCallbackRef$1(callback) {
+  const callbackRef = reactExports.useRef(callback);
+  reactExports.useEffect(() => {
+    callbackRef.current = callback;
   });
-  if (options.agent && options.agentOptions) {
-    console.warn("Detected both agent and agentOptions passed to createActor. Ignoring agentOptions and proceeding with the provided agent.");
-  }
-  const actor = Actor.createActor(idlFactory, {
-    agent,
-    canisterId,
-    ...options.actorOptions
+  return reactExports.useMemo(() => (...args) => {
+    var _a3;
+    return (_a3 = callbackRef.current) == null ? void 0 : _a3.call(callbackRef, ...args);
+  }, []);
+}
+var useInsertionEffect = React$5[" useInsertionEffect ".trim().toString()] || useLayoutEffect2;
+function useControllableState({
+  prop,
+  defaultProp,
+  onChange = () => {
+  },
+  caller
+}) {
+  const [uncontrolledProp, setUncontrolledProp, onChangeRef] = useUncontrolledState({
+    defaultProp,
+    onChange
   });
-  return new Backend(actor, _uploadFile, _downloadFile, options.processError);
+  const isControlled = prop !== void 0;
+  const value = isControlled ? prop : uncontrolledProp;
+  {
+    const isControlledRef = reactExports.useRef(prop !== void 0);
+    reactExports.useEffect(() => {
+      const wasControlled = isControlledRef.current;
+      if (wasControlled !== isControlled) {
+        const from = wasControlled ? "controlled" : "uncontrolled";
+        const to = isControlled ? "controlled" : "uncontrolled";
+        console.warn(
+          `${caller} is changing from ${from} to ${to}. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.`
+        );
+      }
+      isControlledRef.current = isControlled;
+    }, [isControlled, caller]);
+  }
+  const setValue = reactExports.useCallback(
+    (nextValue) => {
+      var _a3;
+      if (isControlled) {
+        const value2 = isFunction$1(nextValue) ? nextValue(prop) : nextValue;
+        if (value2 !== prop) {
+          (_a3 = onChangeRef.current) == null ? void 0 : _a3.call(onChangeRef, value2);
+        }
+      } else {
+        setUncontrolledProp(nextValue);
+      }
+    },
+    [isControlled, prop, setUncontrolledProp, onChangeRef]
+  );
+  return [value, setValue];
+}
+function useUncontrolledState({
+  defaultProp,
+  onChange
+}) {
+  const [value, setValue] = reactExports.useState(defaultProp);
+  const prevValueRef = reactExports.useRef(value);
+  const onChangeRef = reactExports.useRef(onChange);
+  useInsertionEffect(() => {
+    onChangeRef.current = onChange;
+  }, [onChange]);
+  reactExports.useEffect(() => {
+    var _a3;
+    if (prevValueRef.current !== value) {
+      (_a3 = onChangeRef.current) == null ? void 0 : _a3.call(onChangeRef, value);
+      prevValueRef.current = value;
+    }
+  }, [value, prevValueRef]);
+  return [value, setValue, onChangeRef];
+}
+function isFunction$1(value) {
+  return typeof value === "function";
+}
+var DirectionContext = reactExports.createContext(void 0);
+function useDirection(localDir) {
+  const globalDir = reactExports.useContext(DirectionContext);
+  return localDir || globalDir || "ltr";
+}
+var ENTRY_FOCUS = "rovingFocusGroup.onEntryFocus";
+var EVENT_OPTIONS$1 = { bubbles: false, cancelable: true };
+var GROUP_NAME$1 = "RovingFocusGroup";
+var [Collection$2, useCollection$2, createCollectionScope$2] = createCollection(GROUP_NAME$1);
+var [createRovingFocusGroupContext, createRovingFocusGroupScope] = createContextScope(
+  GROUP_NAME$1,
+  [createCollectionScope$2]
+);
+var [RovingFocusProvider, useRovingFocusContext] = createRovingFocusGroupContext(GROUP_NAME$1);
+var RovingFocusGroup = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$2.Provider, { scope: props.__scopeRovingFocusGroup, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$2.Slot, { scope: props.__scopeRovingFocusGroup, children: /* @__PURE__ */ jsxRuntimeExports.jsx(RovingFocusGroupImpl, { ...props, ref: forwardedRef }) }) });
+  }
+);
+RovingFocusGroup.displayName = GROUP_NAME$1;
+var RovingFocusGroupImpl = reactExports.forwardRef((props, forwardedRef) => {
+  const {
+    __scopeRovingFocusGroup,
+    orientation,
+    loop = false,
+    dir,
+    currentTabStopId: currentTabStopIdProp,
+    defaultCurrentTabStopId,
+    onCurrentTabStopIdChange,
+    onEntryFocus,
+    preventScrollOnEntryFocus = false,
+    ...groupProps
+  } = props;
+  const ref = reactExports.useRef(null);
+  const composedRefs = useComposedRefs$1(forwardedRef, ref);
+  const direction = useDirection(dir);
+  const [currentTabStopId, setCurrentTabStopId] = useControllableState({
+    prop: currentTabStopIdProp,
+    defaultProp: defaultCurrentTabStopId ?? null,
+    onChange: onCurrentTabStopIdChange,
+    caller: GROUP_NAME$1
+  });
+  const [isTabbingBackOut, setIsTabbingBackOut] = reactExports.useState(false);
+  const handleEntryFocus = useCallbackRef$1(onEntryFocus);
+  const getItems = useCollection$2(__scopeRovingFocusGroup);
+  const isClickFocusRef = reactExports.useRef(false);
+  const [focusableItemsCount, setFocusableItemsCount] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    const node2 = ref.current;
+    if (node2) {
+      node2.addEventListener(ENTRY_FOCUS, handleEntryFocus);
+      return () => node2.removeEventListener(ENTRY_FOCUS, handleEntryFocus);
+    }
+  }, [handleEntryFocus]);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    RovingFocusProvider,
+    {
+      scope: __scopeRovingFocusGroup,
+      orientation,
+      dir: direction,
+      loop,
+      currentTabStopId,
+      onItemFocus: reactExports.useCallback(
+        (tabStopId) => setCurrentTabStopId(tabStopId),
+        [setCurrentTabStopId]
+      ),
+      onItemShiftTab: reactExports.useCallback(() => setIsTabbingBackOut(true), []),
+      onFocusableItemAdd: reactExports.useCallback(
+        () => setFocusableItemsCount((prevCount) => prevCount + 1),
+        []
+      ),
+      onFocusableItemRemove: reactExports.useCallback(
+        () => setFocusableItemsCount((prevCount) => prevCount - 1),
+        []
+      ),
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Primitive.div,
+        {
+          tabIndex: isTabbingBackOut || focusableItemsCount === 0 ? -1 : 0,
+          "data-orientation": orientation,
+          ...groupProps,
+          ref: composedRefs,
+          style: { outline: "none", ...props.style },
+          onMouseDown: composeEventHandlers(props.onMouseDown, () => {
+            isClickFocusRef.current = true;
+          }),
+          onFocus: composeEventHandlers(props.onFocus, (event) => {
+            const isKeyboardFocus = !isClickFocusRef.current;
+            if (event.target === event.currentTarget && isKeyboardFocus && !isTabbingBackOut) {
+              const entryFocusEvent = new CustomEvent(ENTRY_FOCUS, EVENT_OPTIONS$1);
+              event.currentTarget.dispatchEvent(entryFocusEvent);
+              if (!entryFocusEvent.defaultPrevented) {
+                const items = getItems().filter((item) => item.focusable);
+                const activeItem = items.find((item) => item.active);
+                const currentItem = items.find((item) => item.id === currentTabStopId);
+                const candidateItems = [activeItem, currentItem, ...items].filter(
+                  Boolean
+                );
+                const candidateNodes = candidateItems.map((item) => item.ref.current);
+                focusFirst$1(candidateNodes, preventScrollOnEntryFocus);
+              }
+            }
+            isClickFocusRef.current = false;
+          }),
+          onBlur: composeEventHandlers(props.onBlur, () => setIsTabbingBackOut(false))
+        }
+      )
+    }
+  );
+});
+var ITEM_NAME$3 = "RovingFocusGroupItem";
+var RovingFocusGroupItem = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const {
+      __scopeRovingFocusGroup,
+      focusable = true,
+      active = false,
+      tabStopId,
+      children,
+      ...itemProps
+    } = props;
+    const autoId = useId();
+    const id2 = tabStopId || autoId;
+    const context = useRovingFocusContext(ITEM_NAME$3, __scopeRovingFocusGroup);
+    const isCurrentTabStop = context.currentTabStopId === id2;
+    const getItems = useCollection$2(__scopeRovingFocusGroup);
+    const { onFocusableItemAdd, onFocusableItemRemove, currentTabStopId } = context;
+    reactExports.useEffect(() => {
+      if (focusable) {
+        onFocusableItemAdd();
+        return () => onFocusableItemRemove();
+      }
+    }, [focusable, onFocusableItemAdd, onFocusableItemRemove]);
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Collection$2.ItemSlot,
+      {
+        scope: __scopeRovingFocusGroup,
+        id: id2,
+        focusable,
+        active,
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Primitive.span,
+          {
+            tabIndex: isCurrentTabStop ? 0 : -1,
+            "data-orientation": context.orientation,
+            ...itemProps,
+            ref: forwardedRef,
+            onMouseDown: composeEventHandlers(props.onMouseDown, (event) => {
+              if (!focusable) event.preventDefault();
+              else context.onItemFocus(id2);
+            }),
+            onFocus: composeEventHandlers(props.onFocus, () => context.onItemFocus(id2)),
+            onKeyDown: composeEventHandlers(props.onKeyDown, (event) => {
+              if (event.key === "Tab" && event.shiftKey) {
+                context.onItemShiftTab();
+                return;
+              }
+              if (event.target !== event.currentTarget) return;
+              const focusIntent = getFocusIntent(event, context.orientation, context.dir);
+              if (focusIntent !== void 0) {
+                if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
+                event.preventDefault();
+                const items = getItems().filter((item) => item.focusable);
+                let candidateNodes = items.map((item) => item.ref.current);
+                if (focusIntent === "last") candidateNodes.reverse();
+                else if (focusIntent === "prev" || focusIntent === "next") {
+                  if (focusIntent === "prev") candidateNodes.reverse();
+                  const currentIndex = candidateNodes.indexOf(event.currentTarget);
+                  candidateNodes = context.loop ? wrapArray$1(candidateNodes, currentIndex + 1) : candidateNodes.slice(currentIndex + 1);
+                }
+                setTimeout(() => focusFirst$1(candidateNodes));
+              }
+            }),
+            children: typeof children === "function" ? children({ isCurrentTabStop, hasTabStop: currentTabStopId != null }) : children
+          }
+        )
+      }
+    );
+  }
+);
+RovingFocusGroupItem.displayName = ITEM_NAME$3;
+var MAP_KEY_TO_FOCUS_INTENT = {
+  ArrowLeft: "prev",
+  ArrowUp: "prev",
+  ArrowRight: "next",
+  ArrowDown: "next",
+  PageUp: "first",
+  Home: "first",
+  PageDown: "last",
+  End: "last"
+};
+function getDirectionAwareKey(key, dir) {
+  if (dir !== "rtl") return key;
+  return key === "ArrowLeft" ? "ArrowRight" : key === "ArrowRight" ? "ArrowLeft" : key;
+}
+function getFocusIntent(event, orientation, dir) {
+  const key = getDirectionAwareKey(event.key, dir);
+  if (orientation === "vertical" && ["ArrowLeft", "ArrowRight"].includes(key)) return void 0;
+  if (orientation === "horizontal" && ["ArrowUp", "ArrowDown"].includes(key)) return void 0;
+  return MAP_KEY_TO_FOCUS_INTENT[key];
+}
+function focusFirst$1(candidates, preventScroll = false) {
+  const PREVIOUSLY_FOCUSED_ELEMENT = document.activeElement;
+  for (const candidate of candidates) {
+    if (candidate === PREVIOUSLY_FOCUSED_ELEMENT) return;
+    candidate.focus({ preventScroll });
+    if (document.activeElement !== PREVIOUSLY_FOCUSED_ELEMENT) return;
+  }
+}
+function wrapArray$1(array, startIndex) {
+  return array.map((_2, index2) => array[(startIndex + index2) % array.length]);
+}
+var Root$4 = RovingFocusGroup;
+var Item$2 = RovingFocusGroupItem;
+function useSize(element2) {
+  const [size2, setSize] = reactExports.useState(void 0);
+  useLayoutEffect2(() => {
+    if (element2) {
+      setSize({ width: element2.offsetWidth, height: element2.offsetHeight });
+      const resizeObserver = new ResizeObserver((entries) => {
+        if (!Array.isArray(entries)) {
+          return;
+        }
+        if (!entries.length) {
+          return;
+        }
+        const entry = entries[0];
+        let width;
+        let height;
+        if ("borderBoxSize" in entry) {
+          const borderSizeEntry = entry["borderBoxSize"];
+          const borderSize = Array.isArray(borderSizeEntry) ? borderSizeEntry[0] : borderSizeEntry;
+          width = borderSize["inlineSize"];
+          height = borderSize["blockSize"];
+        } else {
+          width = element2.offsetWidth;
+          height = element2.offsetHeight;
+        }
+        setSize({ width, height });
+      });
+      resizeObserver.observe(element2, { box: "border-box" });
+      return () => resizeObserver.unobserve(element2);
+    } else {
+      setSize(void 0);
+    }
+  }, [element2]);
+  return size2;
+}
+function usePrevious(value) {
+  const ref = reactExports.useRef({ value, previous: value });
+  return reactExports.useMemo(() => {
+    if (ref.current.value !== value) {
+      ref.current.previous = ref.current.value;
+      ref.current.value = value;
+    }
+    return ref.current.previous;
+  }, [value]);
+}
+function useStateMachine(initialState, machine) {
+  return reactExports.useReducer((state, event) => {
+    const nextState = machine[state][event];
+    return nextState ?? state;
+  }, initialState);
+}
+var Presence = (props) => {
+  const { present, children } = props;
+  const presence = usePresence$1(present);
+  const child = typeof children === "function" ? children({ present: presence.isPresent }) : reactExports.Children.only(children);
+  const ref = useComposedRefs$1(presence.ref, getElementRef(child));
+  const forceMount = typeof children === "function";
+  return forceMount || presence.isPresent ? reactExports.cloneElement(child, { ref }) : null;
+};
+Presence.displayName = "Presence";
+function usePresence$1(present) {
+  const [node2, setNode] = reactExports.useState();
+  const stylesRef = reactExports.useRef(null);
+  const prevPresentRef = reactExports.useRef(present);
+  const prevAnimationNameRef = reactExports.useRef("none");
+  const initialState = present ? "mounted" : "unmounted";
+  const [state, send] = useStateMachine(initialState, {
+    mounted: {
+      UNMOUNT: "unmounted",
+      ANIMATION_OUT: "unmountSuspended"
+    },
+    unmountSuspended: {
+      MOUNT: "mounted",
+      ANIMATION_END: "unmounted"
+    },
+    unmounted: {
+      MOUNT: "mounted"
+    }
+  });
+  reactExports.useEffect(() => {
+    const currentAnimationName = getAnimationName(stylesRef.current);
+    prevAnimationNameRef.current = state === "mounted" ? currentAnimationName : "none";
+  }, [state]);
+  useLayoutEffect2(() => {
+    const styles = stylesRef.current;
+    const wasPresent = prevPresentRef.current;
+    const hasPresentChanged = wasPresent !== present;
+    if (hasPresentChanged) {
+      const prevAnimationName = prevAnimationNameRef.current;
+      const currentAnimationName = getAnimationName(styles);
+      if (present) {
+        send("MOUNT");
+      } else if (currentAnimationName === "none" || (styles == null ? void 0 : styles.display) === "none") {
+        send("UNMOUNT");
+      } else {
+        const isAnimating = prevAnimationName !== currentAnimationName;
+        if (wasPresent && isAnimating) {
+          send("ANIMATION_OUT");
+        } else {
+          send("UNMOUNT");
+        }
+      }
+      prevPresentRef.current = present;
+    }
+  }, [present, send]);
+  useLayoutEffect2(() => {
+    if (node2) {
+      let timeoutId;
+      const ownerWindow = node2.ownerDocument.defaultView ?? window;
+      const handleAnimationEnd = (event) => {
+        const currentAnimationName = getAnimationName(stylesRef.current);
+        const isCurrentAnimation = currentAnimationName.includes(CSS.escape(event.animationName));
+        if (event.target === node2 && isCurrentAnimation) {
+          send("ANIMATION_END");
+          if (!prevPresentRef.current) {
+            const currentFillMode = node2.style.animationFillMode;
+            node2.style.animationFillMode = "forwards";
+            timeoutId = ownerWindow.setTimeout(() => {
+              if (node2.style.animationFillMode === "forwards") {
+                node2.style.animationFillMode = currentFillMode;
+              }
+            });
+          }
+        }
+      };
+      const handleAnimationStart = (event) => {
+        if (event.target === node2) {
+          prevAnimationNameRef.current = getAnimationName(stylesRef.current);
+        }
+      };
+      node2.addEventListener("animationstart", handleAnimationStart);
+      node2.addEventListener("animationcancel", handleAnimationEnd);
+      node2.addEventListener("animationend", handleAnimationEnd);
+      return () => {
+        ownerWindow.clearTimeout(timeoutId);
+        node2.removeEventListener("animationstart", handleAnimationStart);
+        node2.removeEventListener("animationcancel", handleAnimationEnd);
+        node2.removeEventListener("animationend", handleAnimationEnd);
+      };
+    } else {
+      send("ANIMATION_END");
+    }
+  }, [node2, send]);
+  return {
+    isPresent: ["mounted", "unmountSuspended"].includes(state),
+    ref: reactExports.useCallback((node22) => {
+      stylesRef.current = node22 ? getComputedStyle(node22) : null;
+      setNode(node22);
+    }, [])
+  };
+}
+function getAnimationName(styles) {
+  return (styles == null ? void 0 : styles.animationName) || "none";
+}
+function getElementRef(element2) {
+  var _a3, _b3;
+  let getter = (_a3 = Object.getOwnPropertyDescriptor(element2.props, "ref")) == null ? void 0 : _a3.get;
+  let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+  if (mayWarn) {
+    return element2.ref;
+  }
+  getter = (_b3 = Object.getOwnPropertyDescriptor(element2, "ref")) == null ? void 0 : _b3.get;
+  mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+  if (mayWarn) {
+    return element2.props.ref;
+  }
+  return element2.props.ref || element2.ref;
+}
+var RADIO_NAME = "Radio";
+var [createRadioContext, createRadioScope] = createContextScope(RADIO_NAME);
+var [RadioProvider, useRadioContext] = createRadioContext(RADIO_NAME);
+var Radio = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const {
+      __scopeRadio,
+      name: name2,
+      checked = false,
+      required,
+      disabled,
+      value = "on",
+      onCheck,
+      form,
+      ...radioProps
+    } = props;
+    const [button, setButton] = reactExports.useState(null);
+    const composedRefs = useComposedRefs$1(forwardedRef, (node2) => setButton(node2));
+    const hasConsumerStoppedPropagationRef = reactExports.useRef(false);
+    const isFormControl = button ? form || !!button.closest("form") : true;
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs(RadioProvider, { scope: __scopeRadio, checked, disabled, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Primitive.button,
+        {
+          type: "button",
+          role: "radio",
+          "aria-checked": checked,
+          "data-state": getState$4(checked),
+          "data-disabled": disabled ? "" : void 0,
+          disabled,
+          value,
+          ...radioProps,
+          ref: composedRefs,
+          onClick: composeEventHandlers(props.onClick, (event) => {
+            if (!checked) onCheck == null ? void 0 : onCheck();
+            if (isFormControl) {
+              hasConsumerStoppedPropagationRef.current = event.isPropagationStopped();
+              if (!hasConsumerStoppedPropagationRef.current) event.stopPropagation();
+            }
+          })
+        }
+      ),
+      isFormControl && /* @__PURE__ */ jsxRuntimeExports.jsx(
+        RadioBubbleInput,
+        {
+          control: button,
+          bubbles: !hasConsumerStoppedPropagationRef.current,
+          name: name2,
+          value,
+          checked,
+          required,
+          disabled,
+          form,
+          style: { transform: "translateX(-100%)" }
+        }
+      )
+    ] });
+  }
+);
+Radio.displayName = RADIO_NAME;
+var INDICATOR_NAME$1 = "RadioIndicator";
+var RadioIndicator = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeRadio, forceMount, ...indicatorProps } = props;
+    const context = useRadioContext(INDICATOR_NAME$1, __scopeRadio);
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Presence, { present: forceMount || context.checked, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Primitive.span,
+      {
+        "data-state": getState$4(context.checked),
+        "data-disabled": context.disabled ? "" : void 0,
+        ...indicatorProps,
+        ref: forwardedRef
+      }
+    ) });
+  }
+);
+RadioIndicator.displayName = INDICATOR_NAME$1;
+var BUBBLE_INPUT_NAME$2 = "RadioBubbleInput";
+var RadioBubbleInput = reactExports.forwardRef(
+  ({
+    __scopeRadio,
+    control,
+    checked,
+    bubbles = true,
+    ...props
+  }, forwardedRef) => {
+    const ref = reactExports.useRef(null);
+    const composedRefs = useComposedRefs$1(ref, forwardedRef);
+    const prevChecked = usePrevious(checked);
+    const controlSize = useSize(control);
+    reactExports.useEffect(() => {
+      const input = ref.current;
+      if (!input) return;
+      const inputProto = window.HTMLInputElement.prototype;
+      const descriptor = Object.getOwnPropertyDescriptor(
+        inputProto,
+        "checked"
+      );
+      const setChecked = descriptor.set;
+      if (prevChecked !== checked && setChecked) {
+        const event = new Event("click", { bubbles });
+        setChecked.call(input, checked);
+        input.dispatchEvent(event);
+      }
+    }, [prevChecked, checked, bubbles]);
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Primitive.input,
+      {
+        type: "radio",
+        "aria-hidden": true,
+        defaultChecked: checked,
+        ...props,
+        tabIndex: -1,
+        ref: composedRefs,
+        style: {
+          ...props.style,
+          ...controlSize,
+          position: "absolute",
+          pointerEvents: "none",
+          opacity: 0,
+          margin: 0
+        }
+      }
+    );
+  }
+);
+RadioBubbleInput.displayName = BUBBLE_INPUT_NAME$2;
+function getState$4(checked) {
+  return checked ? "checked" : "unchecked";
+}
+var ARROW_KEYS = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"];
+var RADIO_GROUP_NAME = "RadioGroup";
+var [createRadioGroupContext] = createContextScope(RADIO_GROUP_NAME, [
+  createRovingFocusGroupScope,
+  createRadioScope
+]);
+var useRovingFocusGroupScope$1 = createRovingFocusGroupScope();
+var useRadioScope = createRadioScope();
+var [RadioGroupProvider, useRadioGroupContext] = createRadioGroupContext(RADIO_GROUP_NAME);
+var RadioGroup$1 = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const {
+      __scopeRadioGroup,
+      name: name2,
+      defaultValue,
+      value: valueProp,
+      required = false,
+      disabled = false,
+      orientation,
+      dir,
+      loop = true,
+      onValueChange,
+      ...groupProps
+    } = props;
+    const rovingFocusGroupScope = useRovingFocusGroupScope$1(__scopeRadioGroup);
+    const direction = useDirection(dir);
+    const [value, setValue] = useControllableState({
+      prop: valueProp,
+      defaultProp: defaultValue ?? null,
+      onChange: onValueChange,
+      caller: RADIO_GROUP_NAME
+    });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      RadioGroupProvider,
+      {
+        scope: __scopeRadioGroup,
+        name: name2,
+        required,
+        disabled,
+        value,
+        onValueChange: setValue,
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Root$4,
+          {
+            asChild: true,
+            ...rovingFocusGroupScope,
+            orientation,
+            dir: direction,
+            loop,
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Primitive.div,
+              {
+                role: "radiogroup",
+                "aria-required": required,
+                "aria-orientation": orientation,
+                "data-disabled": disabled ? "" : void 0,
+                dir: direction,
+                ...groupProps,
+                ref: forwardedRef
+              }
+            )
+          }
+        )
+      }
+    );
+  }
+);
+RadioGroup$1.displayName = RADIO_GROUP_NAME;
+var ITEM_NAME$2 = "RadioGroupItem";
+var RadioGroupItem$1 = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeRadioGroup, disabled, ...itemProps } = props;
+    const context = useRadioGroupContext(ITEM_NAME$2, __scopeRadioGroup);
+    const isDisabled = context.disabled || disabled;
+    const rovingFocusGroupScope = useRovingFocusGroupScope$1(__scopeRadioGroup);
+    const radioScope = useRadioScope(__scopeRadioGroup);
+    const ref = reactExports.useRef(null);
+    const composedRefs = useComposedRefs$1(forwardedRef, ref);
+    const checked = context.value === itemProps.value;
+    const isArrowKeyPressedRef = reactExports.useRef(false);
+    reactExports.useEffect(() => {
+      const handleKeyDown = (event) => {
+        if (ARROW_KEYS.includes(event.key)) {
+          isArrowKeyPressedRef.current = true;
+        }
+      };
+      const handleKeyUp = () => isArrowKeyPressedRef.current = false;
+      document.addEventListener("keydown", handleKeyDown);
+      document.addEventListener("keyup", handleKeyUp);
+      return () => {
+        document.removeEventListener("keydown", handleKeyDown);
+        document.removeEventListener("keyup", handleKeyUp);
+      };
+    }, []);
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Item$2,
+      {
+        asChild: true,
+        ...rovingFocusGroupScope,
+        focusable: !isDisabled,
+        active: checked,
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Radio,
+          {
+            disabled: isDisabled,
+            required: context.required,
+            checked,
+            ...radioScope,
+            ...itemProps,
+            name: context.name,
+            ref: composedRefs,
+            onCheck: () => context.onValueChange(itemProps.value),
+            onKeyDown: composeEventHandlers((event) => {
+              if (event.key === "Enter") event.preventDefault();
+            }),
+            onFocus: composeEventHandlers(itemProps.onFocus, () => {
+              var _a3;
+              if (isArrowKeyPressedRef.current) (_a3 = ref.current) == null ? void 0 : _a3.click();
+            })
+          }
+        )
+      }
+    );
+  }
+);
+RadioGroupItem$1.displayName = ITEM_NAME$2;
+var INDICATOR_NAME2 = "RadioGroupIndicator";
+var RadioGroupIndicator = reactExports.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeRadioGroup, ...indicatorProps } = props;
+    const radioScope = useRadioScope(__scopeRadioGroup);
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(RadioIndicator, { ...radioScope, ...indicatorProps, ref: forwardedRef });
+  }
+);
+RadioGroupIndicator.displayName = INDICATOR_NAME2;
+var Root2$4 = RadioGroup$1;
+var Item2 = RadioGroupItem$1;
+var Indicator = RadioGroupIndicator;
+function RadioGroup({
+  className,
+  ...props
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    Root2$4,
+    {
+      "data-slot": "radio-group",
+      className: cn("grid gap-3", className),
+      ...props
+    }
+  );
+}
+function RadioGroupItem({
+  className,
+  ...props
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    Item2,
+    {
+      "data-slot": "radio-group-item",
+      className: cn(
+        "border-input text-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 aspect-square size-4 shrink-0 rounded-full border shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50",
+        className
+      ),
+      ...props,
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Indicator,
+        {
+          "data-slot": "radio-group-indicator",
+          className: "relative flex items-center justify-center",
+          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Circle, { className: "fill-primary absolute top-1/2 left-1/2 size-2 -translate-x-1/2 -translate-y-1/2" })
+        }
+      )
+    }
+  );
+}
+function useSubscribeToNewsletter() {
+  const { actor } = useActor(createActor);
+  return useMutation({
+    mutationFn: async ({
+      firstName,
+      email,
+      frequency
+    }) => {
+      if (!actor) throw new Error("Not connected");
+      return actor.subscribeToNewsletter(firstName, email, frequency);
+    }
+  });
+}
+function useNewsletterTopics() {
+  const { actor, isFetching } = useActor(createActor);
+  return useQuery({
+    queryKey: ["newsletter", "topics"],
+    queryFn: async () => {
+      if (!actor) return [];
+      return actor.listNewsletterTopics();
+    },
+    enabled: !!actor && !isFetching
+  });
+}
+function useNewsletterContent(topicId) {
+  const { actor, isFetching } = useActor(createActor);
+  return useQuery({
+    queryKey: ["newsletter", "content", topicId == null ? void 0 : topicId.toString()],
+    queryFn: async () => {
+      if (!actor || topicId === void 0) return null;
+      return actor.getNewsletterContent(topicId);
+    },
+    enabled: !!actor && !isFetching && topicId !== void 0
+  });
+}
+function useNewsletterSubscribers(topicId) {
+  const { actor, isFetching } = useActor(createActor);
+  return useQuery({
+    queryKey: ["newsletter", "subscribers", topicId == null ? void 0 : topicId.toString()],
+    queryFn: async () => {
+      if (!actor || topicId === void 0) return [];
+      const rows = await actor.listNewsletterSubscribers(topicId);
+      return rows.map(([email, verified]) => ({ email, verified }));
+    },
+    enabled: !!actor && !isFetching && topicId !== void 0
+  });
+}
+function useSetNewsletterContent() {
+  const { actor } = useActor(createActor);
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: async ({
+      topicId,
+      subject,
+      htmlBody
+    }) => {
+      if (!actor) throw new Error("Not connected");
+      return actor.setNewsletterContent(topicId, subject, htmlBody);
+    },
+    onSuccess: (_data, vars) => {
+      qc.invalidateQueries({
+        queryKey: ["newsletter", "content", vars.topicId.toString()]
+      });
+    }
+  });
+}
+function useAddNewsletterTopic() {
+  const { actor } = useActor(createActor);
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: async (name2) => {
+      if (!actor) throw new Error("Not connected");
+      return actor.addNewsletterTopic(name2);
+    },
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["newsletter", "topics"] })
+  });
+}
+function useRenameNewsletterTopic() {
+  const { actor } = useActor(createActor);
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: async ({
+      topicId,
+      newName
+    }) => {
+      if (!actor) throw new Error("Not connected");
+      return actor.renameNewsletterTopic(topicId, newName);
+    },
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["newsletter", "topics"] })
+  });
+}
+function useRemoveNewsletterTopic() {
+  const { actor } = useActor(createActor);
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: async (topicId) => {
+      if (!actor) throw new Error("Not connected");
+      return actor.removeNewsletterTopic(topicId);
+    },
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["newsletter", "topics"] })
+  });
+}
+const FREQUENCIES = [
+  { value: Frequency.weekly, label: "Weekly" },
+  { value: Frequency.monthly, label: "Monthly" },
+  { value: Frequency.both, label: "Both" }
+];
+const FREQUENCY_LABELS = {
+  [Frequency.weekly]: "Weekly",
+  [Frequency.monthly]: "Monthly",
+  [Frequency.both]: "Weekly and Monthly"
+};
+function NewsletterForm({ variant = "footer" }) {
+  const [firstName, setFirstName] = reactExports.useState("");
+  const [email, setEmail] = reactExports.useState("");
+  const [frequency, setFrequency] = reactExports.useState(Frequency.weekly);
+  const [subscribed, setSubscribed] = reactExports.useState(false);
+  const [errors, setErrors] = reactExports.useState(
+    {}
+  );
+  const subscribe2 = useSubscribeToNewsletter();
+  const idPrefix = variant === "home" ? "home-newsletter" : "footer-newsletter";
+  function handleSubscribe(e) {
+    e.preventDefault();
+    const nextErrors = {};
+    if (!firstName.trim()) {
+      nextErrors.firstName = "Please enter your first name.";
+    }
+    if (!email.trim()) {
+      nextErrors.email = "Please enter your email address.";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+      nextErrors.email = "Please enter a valid email address.";
+    }
+    setErrors(nextErrors);
+    if (Object.keys(nextErrors).length === 0) {
+      subscribe2.mutate(
+        {
+          firstName: firstName.trim(),
+          email: email.trim(),
+          frequency
+        },
+        {
+          onSuccess: () => {
+            setSubscribed(true);
+          }
+        }
+      );
+    }
+  }
+  const heading2 = /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-bold text-xl text-foreground mb-1", children: "Get weekly small business tips" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground", children: "Join 500+ business owners getting AI-powered advice every week." })
+  ] });
+  const successState2 = /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": `${idPrefix}.success_state`,
+      className: "verify-panel w-full md:w-[26rem]",
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "verify-panel-icon", "aria-hidden": "true", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { size: 16 }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "verify-panel-title", children: [
+            "Check your inbox, ",
+            firstName.trim() || "friend",
+            "."
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "verify-panel-desc", children: [
+            "A verification email is on its way to ",
+            email.trim(),
+            ". Click the link in that email to confirm your subscription before you start receiving",
+            " ",
+            FREQUENCY_LABELS[frequency].toLowerCase(),
+            " updates."
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "badge-frequency mt-3", children: FREQUENCY_LABELS[frequency] })
+        ] })
+      ]
+    }
+  );
+  const form = /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "form",
+    {
+      onSubmit: handleSubscribe,
+      "data-ocid": `${idPrefix}.form`,
+      noValidate: true,
+      className: "flex flex-col gap-4 w-full md:w-[26rem]",
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1.5", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Label,
+              {
+                htmlFor: `${idPrefix}-first-name`,
+                className: "text-sm text-foreground",
+                children: "First name"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Input,
+              {
+                id: `${idPrefix}-first-name`,
+                type: "text",
+                value: firstName,
+                onChange: (e) => setFirstName(e.target.value),
+                placeholder: "Your first name",
+                "aria-invalid": Boolean(errors.firstName),
+                "aria-describedby": errors.firstName ? `${idPrefix}-first-name-error` : void 0,
+                "data-ocid": `${idPrefix}.first_name_input`,
+                className: "bg-background"
+              }
+            ),
+            errors.firstName ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                id: `${idPrefix}-first-name-error`,
+                "data-ocid": `${idPrefix}.first_name_error`,
+                className: "text-xs text-destructive",
+                children: errors.firstName
+              }
+            ) : null
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1.5", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Label,
+              {
+                htmlFor: `${idPrefix}-email`,
+                className: "text-sm text-foreground",
+                children: "Email"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Input,
+              {
+                id: `${idPrefix}-email`,
+                type: "email",
+                value: email,
+                onChange: (e) => setEmail(e.target.value),
+                placeholder: "you@example.com",
+                "aria-invalid": Boolean(errors.email),
+                "aria-describedby": errors.email ? `${idPrefix}-email-error` : void 0,
+                "data-ocid": `${idPrefix}.input`,
+                className: "bg-background"
+              }
+            ),
+            errors.email ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                id: `${idPrefix}-email-error`,
+                "data-ocid": `${idPrefix}.email_error`,
+                className: "text-xs text-destructive",
+                children: errors.email
+              }
+            ) : null
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("fieldset", { className: "flex flex-col gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("legend", { className: "text-sm text-foreground font-medium", children: "Frequency" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            RadioGroup,
+            {
+              value: frequency,
+              onValueChange: (value) => setFrequency(value),
+              "data-ocid": `${idPrefix}.frequency`,
+              className: "flex flex-wrap gap-x-6 gap-y-2",
+              children: FREQUENCIES.map((option) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  RadioGroupItem,
+                  {
+                    value: option.value,
+                    id: `${idPrefix}-frequency-${option.value}`,
+                    "data-ocid": `${idPrefix}.frequency.${option.value}`
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Label,
+                  {
+                    htmlFor: `${idPrefix}-frequency-${option.value}`,
+                    className: "text-sm text-muted-foreground cursor-pointer",
+                    children: option.label
+                  }
+                )
+              ] }, option.value))
+            }
+          )
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            Button,
+            {
+              type: "submit",
+              "data-ocid": `${idPrefix}.submit_button`,
+              disabled: subscribe2.isPending,
+              className: "button-cta w-full sm:w-auto",
+              children: subscribe2.isPending ? "Subscribing..." : "Subscribe"
+            }
+          ),
+          subscribe2.isError ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              "data-ocid": `${idPrefix}.error_state`,
+              className: "text-xs text-destructive",
+              children: "Something went wrong. Please try again."
+            }
+          ) : null,
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative", children: "We never share your information." })
+        ] })
+      ]
+    }
+  );
+  if (variant === "home") {
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "home.newsletter.section",
+        "aria-label": "Newsletter signup",
+        className: "bg-background py-20 md:py-24 px-4",
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto newsletter-card flex flex-col md:flex-row md:items-center gap-6", children: [
+          heading2,
+          subscribed ? successState2 : form
+        ] })
+      }
+    );
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-card mb-12 flex flex-col md:flex-row md:items-center gap-6", children: [
+    heading2,
+    subscribed ? successState2 : form
+  ] });
+}
+const PRIMARY_LINKS = [
+  { to: "/", label: "Home" },
+  { to: "/start-here", label: "Start Here" },
+  { to: "/taffer-advice", label: "Business Rescue" },
+  { to: "/branding", label: "Branding" },
+  { to: "/cloud-monitoring", label: "Website Health" },
+  { to: "/faq", label: "FAQ" },
+  { to: "/ask-a-question", label: "Ask a Small Business Question" },
+  { to: "/ux-scenarios", label: "Success Stories" },
+  { to: "/personas", label: "Owner Journeys" },
+  { to: "/about", label: "About" }
+];
+const TOOLS_RESOURCES_LINKS = [
+  { to: "/nyc-resources", label: "NYC Resources (Free)" },
+  { to: "/ai-training", label: "AI Training & Tools" },
+  { to: "/learn", label: "Learn" }
+];
+const GUIDE_LINKS = [
+  { to: "/deli-guide", label: "Deli" },
+  { to: "/salon-guide", label: "Salon" },
+  { to: "/restaurant-guide", label: "Restaurant" },
+  { to: "/pool-hall-guide", label: "Pool Hall" },
+  { to: "/fitness-studio-guide", label: "Fitness Studio" },
+  { to: "/bakery-guide", label: "Bakery & Café" },
+  { to: "/retail-guide", label: "Retail" },
+  { to: "/start-your-business", label: "Start New Business" },
+  { to: "/online-services-guide", label: "Online Services" },
+  { to: "/cleaning-service", label: "Cleaning Service" },
+  { to: "/boutique-guide", label: "Boutique Clothing Store" },
+  { to: "/social-media-guide", label: "Social Media Marketing" },
+  { to: "/ai-search-prep", label: "AI Search Prep" },
+  { to: "/online-schooling", label: "Online Schooling" }
+];
+const LEGAL = [
+  { label: "About", to: "/about" },
+  { label: "Contact", to: "/ask-a-question" },
+  { label: "Privacy Policy", to: "/privacy-policy" },
+  { label: "Terms of Use", to: "/terms" }
+];
+function Footer() {
+  const year = (/* @__PURE__ */ new Date()).getFullYear();
+  const hostname = typeof window !== "undefined" ? window.location.hostname : "";
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { "data-home-footer": true, className: "bg-card border-t border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 pt-12 pb-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(NewsletterForm, { variant: "footer" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Link,
+          {
+            to: "/",
+            "aria-label": "AISmallBiz home",
+            className: "flex items-center gap-2 group w-fit focus-visible:ring-2 focus-visible:ring-ring rounded",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg bg-primary flex items-center justify-center shadow-md", children: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 16, className: "text-primary-foreground" }) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-display font-bold text-xl text-foreground", children: [
+                "AI",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-primary-text", children: "SmallBiz" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("sup", { className: "text-[0.55em] align-super text-primary-text", children: "™" })
+              ] })
+            ]
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground max-w-52 leading-relaxed", children: "AI-powered resources for small and medium businesses." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-muted-foreground max-w-52 leading-relaxed", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
+            "Questions or suggestions? Email",
+            " ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "mailto:AISmallBIZ.Suggestions@gmail.com",
+                className: "text-primary-text hover:underline focus-visible:ring-2 focus-visible:ring-ring rounded",
+                children: "AISmallBIZ.Suggestions@gmail.com"
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative mt-1", children: "Submissions are reviewed once a week." })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-foreground max-w-52 leading-relaxed", children: "We give small business owners free, people-first AI guidance. No fees, no jargon, no catch. Our principle is simple: People First, Machines Second." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-decorative max-w-52 leading-relaxed flex items-start gap-1.5", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { size: 12, className: "mt-0.5 shrink-0 text-primary/60" }),
+          "Your data stays on the Internet Computer: private and secure."
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer main navigation", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Resources" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: PRIMARY_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: link2.to,
+            onClick: () => window.scrollTo(0, 0),
+            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
+            children: link2.label
+          }
+        ) }, link2.label)) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer tools navigation", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Tools & Resources" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: TOOLS_RESOURCES_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: link2.to,
+            onClick: () => window.scrollTo(0, 0),
+            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
+            children: link2.label
+          }
+        ) }, link2.label)) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Footer guides navigation", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs font-semibold uppercase tracking-widest text-primary-text mb-4", children: "Guides" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2.5", children: GUIDE_LINKS.map((link2) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: link2.to,
+            onClick: () => window.scrollTo(0, 0),
+            className: "text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 min-h-[2rem] flex items-center focus-visible:ring-2 focus-visible:ring-ring rounded",
+            children: link2.label
+          }
+        ) }, link2.label)) })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-1", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xs text-muted-decorative", children: [
+          "© ",
+          year,
+          ". Built with love using",
+          " ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "a",
+            {
+              href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(hostname)}`,
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "text-primary-text hover:underline focus-visible:ring-2 focus-visible:ring-ring rounded",
+              children: "caffeine.ai"
+            }
+          )
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-decorative", children: "AISmallBiz™ is a registered trademark of Christian Lawson." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center gap-4", children: LEGAL.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Link,
+        {
+          to: item.to,
+          onClick: () => window.scrollTo(0, 0),
+          "data-ocid": `footer.legal.link.${item.label.toLowerCase().replace(/\s+/g, "_")}`,
+          className: "text-xs text-muted-decorative hover:text-foreground transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring rounded",
+          children: item.label
+        },
+        item.label
+      )) })
+    ] })
+  ] }) });
 }
 const IPIFY_URL = "https://api.ipify.org?format=json";
 const FALLBACK_SERVER_SUBNET = "192.168";
@@ -50500,7 +52199,7 @@ const PresenceChild = ({ children, initial, isPresent, onExitComplete, custom, p
 function newChildrenMap() {
   return /* @__PURE__ */ new Map();
 }
-function usePresence$1(subscribe2 = true) {
+function usePresence(subscribe2 = true) {
   const context = reactExports.useContext(PresenceContext);
   if (context === null)
     return [true, null];
@@ -50524,7 +52223,7 @@ function onlyElements(children) {
   return filtered;
 }
 const AnimatePresence = ({ children, custom, initial = true, onExitComplete, presenceAffectsLayout = true, mode = "sync", propagate = false, anchorX = "left", anchorY = "top", root: root2 }) => {
-  const [isParentPresent, safeToRemove] = usePresence$1(propagate);
+  const [isParentPresent, safeToRemove] = usePresence(propagate);
   const presentChildren = reactExports.useMemo(() => onlyElements(children), [children]);
   const presentKeys = propagate && !isParentPresent ? [] : presentChildren.map(getChildKey);
   const isInitialRender = reactExports.useRef(true);
@@ -52094,7 +53793,7 @@ class MeasureLayoutWithContext extends reactExports.Component {
   }
 }
 function MeasureLayout(props) {
-  const [isPresent, safeToRemove] = usePresence$1();
+  const [isPresent, safeToRemove] = usePresence();
   const layoutGroup = reactExports.useContext(LayoutGroupContext);
   return jsxRuntimeExports.jsx(MeasureLayoutWithContext, { ...props, layoutGroup, switchLayoutGroup: reactExports.useContext(SwitchLayoutGroupContext), isPresent, safeToRemove });
 }
@@ -52807,294 +54506,6 @@ function TopicBadge({ topic, size: size2 = "md", className }) {
     }
   );
 }
-function composeEventHandlers(originalEventHandler, ourEventHandler, { checkForDefaultPrevented = true } = {}) {
-  return function handleEvent(event) {
-    originalEventHandler == null ? void 0 : originalEventHandler(event);
-    if (checkForDefaultPrevented === false || !event.defaultPrevented) {
-      return ourEventHandler == null ? void 0 : ourEventHandler(event);
-    }
-  };
-}
-function createContext2(rootComponentName, defaultContext) {
-  const Context = reactExports.createContext(defaultContext);
-  const Provider = (props) => {
-    const { children, ...context } = props;
-    const value = reactExports.useMemo(() => context, Object.values(context));
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Context.Provider, { value, children });
-  };
-  Provider.displayName = rootComponentName + "Provider";
-  function useContext2(consumerName) {
-    const context = reactExports.useContext(Context);
-    if (context) return context;
-    if (defaultContext !== void 0) return defaultContext;
-    throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
-  }
-  return [Provider, useContext2];
-}
-function createContextScope(scopeName, createContextScopeDeps = []) {
-  let defaultContexts = [];
-  function createContext3(rootComponentName, defaultContext) {
-    const BaseContext = reactExports.createContext(defaultContext);
-    const index2 = defaultContexts.length;
-    defaultContexts = [...defaultContexts, defaultContext];
-    const Provider = (props) => {
-      var _a3;
-      const { scope, children, ...context } = props;
-      const Context = ((_a3 = scope == null ? void 0 : scope[scopeName]) == null ? void 0 : _a3[index2]) || BaseContext;
-      const value = reactExports.useMemo(() => context, Object.values(context));
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(Context.Provider, { value, children });
-    };
-    Provider.displayName = rootComponentName + "Provider";
-    function useContext2(consumerName, scope) {
-      var _a3;
-      const Context = ((_a3 = scope == null ? void 0 : scope[scopeName]) == null ? void 0 : _a3[index2]) || BaseContext;
-      const context = reactExports.useContext(Context);
-      if (context) return context;
-      if (defaultContext !== void 0) return defaultContext;
-      throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
-    }
-    return [Provider, useContext2];
-  }
-  const createScope = () => {
-    const scopeContexts = defaultContexts.map((defaultContext) => {
-      return reactExports.createContext(defaultContext);
-    });
-    return function useScope(scope) {
-      const contexts = (scope == null ? void 0 : scope[scopeName]) || scopeContexts;
-      return reactExports.useMemo(
-        () => ({ [`__scope${scopeName}`]: { ...scope, [scopeName]: contexts } }),
-        [scope, contexts]
-      );
-    };
-  };
-  createScope.scopeName = scopeName;
-  return [createContext3, composeContextScopes(createScope, ...createContextScopeDeps)];
-}
-function composeContextScopes(...scopes) {
-  const baseScope = scopes[0];
-  if (scopes.length === 1) return baseScope;
-  const createScope = () => {
-    const scopeHooks = scopes.map((createScope2) => ({
-      useScope: createScope2(),
-      scopeName: createScope2.scopeName
-    }));
-    return function useComposedScopes(overrideScopes) {
-      const nextScopes = scopeHooks.reduce((nextScopes2, { useScope, scopeName }) => {
-        const scopeProps = useScope(overrideScopes);
-        const currentScope = scopeProps[`__scope${scopeName}`];
-        return { ...nextScopes2, ...currentScope };
-      }, {});
-      return reactExports.useMemo(() => ({ [`__scope${baseScope.scopeName}`]: nextScopes }), [nextScopes]);
-    };
-  };
-  createScope.scopeName = baseScope.scopeName;
-  return createScope;
-}
-var useLayoutEffect2 = (globalThis == null ? void 0 : globalThis.document) ? reactExports.useLayoutEffect : () => {
-};
-var useReactId = React$5[" useId ".trim().toString()] || (() => void 0);
-var count$1 = 0;
-function useId(deterministicId) {
-  const [id2, setId] = reactExports.useState(useReactId());
-  useLayoutEffect2(() => {
-    setId((reactId) => reactId ?? String(count$1++));
-  }, [deterministicId]);
-  return id2 ? `radix-${id2}` : "";
-}
-var useInsertionEffect = React$5[" useInsertionEffect ".trim().toString()] || useLayoutEffect2;
-function useControllableState({
-  prop,
-  defaultProp,
-  onChange = () => {
-  },
-  caller
-}) {
-  const [uncontrolledProp, setUncontrolledProp, onChangeRef] = useUncontrolledState({
-    defaultProp,
-    onChange
-  });
-  const isControlled = prop !== void 0;
-  const value = isControlled ? prop : uncontrolledProp;
-  {
-    const isControlledRef = reactExports.useRef(prop !== void 0);
-    reactExports.useEffect(() => {
-      const wasControlled = isControlledRef.current;
-      if (wasControlled !== isControlled) {
-        const from = wasControlled ? "controlled" : "uncontrolled";
-        const to = isControlled ? "controlled" : "uncontrolled";
-        console.warn(
-          `${caller} is changing from ${from} to ${to}. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.`
-        );
-      }
-      isControlledRef.current = isControlled;
-    }, [isControlled, caller]);
-  }
-  const setValue = reactExports.useCallback(
-    (nextValue) => {
-      var _a3;
-      if (isControlled) {
-        const value2 = isFunction$1(nextValue) ? nextValue(prop) : nextValue;
-        if (value2 !== prop) {
-          (_a3 = onChangeRef.current) == null ? void 0 : _a3.call(onChangeRef, value2);
-        }
-      } else {
-        setUncontrolledProp(nextValue);
-      }
-    },
-    [isControlled, prop, setUncontrolledProp, onChangeRef]
-  );
-  return [value, setValue];
-}
-function useUncontrolledState({
-  defaultProp,
-  onChange
-}) {
-  const [value, setValue] = reactExports.useState(defaultProp);
-  const prevValueRef = reactExports.useRef(value);
-  const onChangeRef = reactExports.useRef(onChange);
-  useInsertionEffect(() => {
-    onChangeRef.current = onChange;
-  }, [onChange]);
-  reactExports.useEffect(() => {
-    var _a3;
-    if (prevValueRef.current !== value) {
-      (_a3 = onChangeRef.current) == null ? void 0 : _a3.call(onChangeRef, value);
-      prevValueRef.current = value;
-    }
-  }, [value, prevValueRef]);
-  return [value, setValue, onChangeRef];
-}
-function isFunction$1(value) {
-  return typeof value === "function";
-}
-// @__NO_SIDE_EFFECTS__
-function createSlot(ownerName) {
-  const SlotClone = /* @__PURE__ */ createSlotClone(ownerName);
-  const Slot2 = reactExports.forwardRef((props, forwardedRef) => {
-    const { children, ...slotProps } = props;
-    const childrenArray = reactExports.Children.toArray(children);
-    const slottable = childrenArray.find(isSlottable);
-    if (slottable) {
-      const newElement = slottable.props.children;
-      const newChildren = childrenArray.map((child) => {
-        if (child === slottable) {
-          if (reactExports.Children.count(newElement) > 1) return reactExports.Children.only(null);
-          return reactExports.isValidElement(newElement) ? newElement.props.children : null;
-        } else {
-          return child;
-        }
-      });
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(SlotClone, { ...slotProps, ref: forwardedRef, children: reactExports.isValidElement(newElement) ? reactExports.cloneElement(newElement, void 0, newChildren) : null });
-    }
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(SlotClone, { ...slotProps, ref: forwardedRef, children });
-  });
-  Slot2.displayName = `${ownerName}.Slot`;
-  return Slot2;
-}
-// @__NO_SIDE_EFFECTS__
-function createSlotClone(ownerName) {
-  const SlotClone = reactExports.forwardRef((props, forwardedRef) => {
-    const { children, ...slotProps } = props;
-    if (reactExports.isValidElement(children)) {
-      const childrenRef = getElementRef$1(children);
-      const props2 = mergeProps(slotProps, children.props);
-      if (children.type !== reactExports.Fragment) {
-        props2.ref = forwardedRef ? composeRefs$1(forwardedRef, childrenRef) : childrenRef;
-      }
-      return reactExports.cloneElement(children, props2);
-    }
-    return reactExports.Children.count(children) > 1 ? reactExports.Children.only(null) : null;
-  });
-  SlotClone.displayName = `${ownerName}.SlotClone`;
-  return SlotClone;
-}
-var SLOTTABLE_IDENTIFIER = Symbol("radix.slottable");
-function isSlottable(child) {
-  return reactExports.isValidElement(child) && typeof child.type === "function" && "__radixId" in child.type && child.type.__radixId === SLOTTABLE_IDENTIFIER;
-}
-function mergeProps(slotProps, childProps) {
-  const overrideProps = { ...childProps };
-  for (const propName in childProps) {
-    const slotPropValue = slotProps[propName];
-    const childPropValue = childProps[propName];
-    const isHandler = /^on[A-Z]/.test(propName);
-    if (isHandler) {
-      if (slotPropValue && childPropValue) {
-        overrideProps[propName] = (...args) => {
-          const result = childPropValue(...args);
-          slotPropValue(...args);
-          return result;
-        };
-      } else if (slotPropValue) {
-        overrideProps[propName] = slotPropValue;
-      }
-    } else if (propName === "style") {
-      overrideProps[propName] = { ...slotPropValue, ...childPropValue };
-    } else if (propName === "className") {
-      overrideProps[propName] = [slotPropValue, childPropValue].filter(Boolean).join(" ");
-    }
-  }
-  return { ...slotProps, ...overrideProps };
-}
-function getElementRef$1(element2) {
-  var _a3, _b3;
-  let getter = (_a3 = Object.getOwnPropertyDescriptor(element2.props, "ref")) == null ? void 0 : _a3.get;
-  let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
-  if (mayWarn) {
-    return element2.ref;
-  }
-  getter = (_b3 = Object.getOwnPropertyDescriptor(element2, "ref")) == null ? void 0 : _b3.get;
-  mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
-  if (mayWarn) {
-    return element2.props.ref;
-  }
-  return element2.props.ref || element2.ref;
-}
-var NODES$1 = [
-  "a",
-  "button",
-  "div",
-  "form",
-  "h2",
-  "h3",
-  "img",
-  "input",
-  "label",
-  "li",
-  "nav",
-  "ol",
-  "p",
-  "select",
-  "span",
-  "svg",
-  "ul"
-];
-var Primitive$1 = NODES$1.reduce((primitive, node2) => {
-  const Slot2 = /* @__PURE__ */ createSlot(`Primitive.${node2}`);
-  const Node2 = reactExports.forwardRef((props, forwardedRef) => {
-    const { asChild, ...primitiveProps } = props;
-    const Comp = asChild ? Slot2 : node2;
-    if (typeof window !== "undefined") {
-      window[Symbol.for("radix-ui")] = true;
-    }
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Comp, { ...primitiveProps, ref: forwardedRef });
-  });
-  Node2.displayName = `Primitive.${node2}`;
-  return { ...primitive, [node2]: Node2 };
-}, {});
-function dispatchDiscreteCustomEvent(target, event) {
-  if (target) reactDomExports.flushSync(() => target.dispatchEvent(event));
-}
-function useCallbackRef$1(callback) {
-  const callbackRef = reactExports.useRef(callback);
-  reactExports.useEffect(() => {
-    callbackRef.current = callback;
-  });
-  return reactExports.useMemo(() => (...args) => {
-    var _a3;
-    return (_a3 = callbackRef.current) == null ? void 0 : _a3.call(callbackRef, ...args);
-  }, []);
-}
 function useEscapeKeydown(onEscapeKeyDownProp, ownerDocument = globalThis == null ? void 0 : globalThis.document) {
   const onEscapeKeyDown = useCallbackRef$1(onEscapeKeyDownProp);
   reactExports.useEffect(() => {
@@ -53195,7 +54606,7 @@ var DismissableLayer = reactExports.forwardRef(
       return () => document.removeEventListener(CONTEXT_UPDATE, handleUpdate);
     }, []);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.div,
+      Primitive.div,
       {
         ...layerProps,
         ref: composedRefs,
@@ -53228,7 +54639,7 @@ var DismissableLayerBranch = reactExports.forwardRef((props, forwardedRef) => {
       };
     }
   }, [context.branches]);
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { ...props, ref: composedRefs });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { ...props, ref: composedRefs });
 });
 DismissableLayerBranch.displayName = BRANCH_NAME;
 function usePointerDownOutside(onPointerDownOutside, ownerDocument = globalThis == null ? void 0 : globalThis.document) {
@@ -53310,7 +54721,7 @@ function handleAndDispatchCustomEvent(name2, handler, detail, { discrete }) {
 }
 var AUTOFOCUS_ON_MOUNT = "focusScope.autoFocusOnMount";
 var AUTOFOCUS_ON_UNMOUNT = "focusScope.autoFocusOnUnmount";
-var EVENT_OPTIONS$1 = { bubbles: false, cancelable: true };
+var EVENT_OPTIONS = { bubbles: false, cancelable: true };
 var FOCUS_SCOPE_NAME = "FocusScope";
 var FocusScope = reactExports.forwardRef((props, forwardedRef) => {
   const {
@@ -53375,11 +54786,11 @@ var FocusScope = reactExports.forwardRef((props, forwardedRef) => {
       const previouslyFocusedElement = document.activeElement;
       const hasFocusedCandidate = container.contains(previouslyFocusedElement);
       if (!hasFocusedCandidate) {
-        const mountEvent = new CustomEvent(AUTOFOCUS_ON_MOUNT, EVENT_OPTIONS$1);
+        const mountEvent = new CustomEvent(AUTOFOCUS_ON_MOUNT, EVENT_OPTIONS);
         container.addEventListener(AUTOFOCUS_ON_MOUNT, onMountAutoFocus);
         container.dispatchEvent(mountEvent);
         if (!mountEvent.defaultPrevented) {
-          focusFirst$1(removeLinks(getTabbableCandidates(container)), { select: true });
+          focusFirst(removeLinks(getTabbableCandidates(container)), { select: true });
           if (document.activeElement === previouslyFocusedElement) {
             focus(container);
           }
@@ -53388,7 +54799,7 @@ var FocusScope = reactExports.forwardRef((props, forwardedRef) => {
       return () => {
         container.removeEventListener(AUTOFOCUS_ON_MOUNT, onMountAutoFocus);
         setTimeout(() => {
-          const unmountEvent = new CustomEvent(AUTOFOCUS_ON_UNMOUNT, EVENT_OPTIONS$1);
+          const unmountEvent = new CustomEvent(AUTOFOCUS_ON_UNMOUNT, EVENT_OPTIONS);
           container.addEventListener(AUTOFOCUS_ON_UNMOUNT, onUnmountAutoFocus);
           container.dispatchEvent(unmountEvent);
           if (!unmountEvent.defaultPrevented) {
@@ -53425,10 +54836,10 @@ var FocusScope = reactExports.forwardRef((props, forwardedRef) => {
     },
     [loop, trapped, focusScope.paused]
   );
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { tabIndex: -1, ...scopeProps, ref: composedRefs, onKeyDown: handleKeyDown });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { tabIndex: -1, ...scopeProps, ref: composedRefs, onKeyDown: handleKeyDown });
 });
 FocusScope.displayName = FOCUS_SCOPE_NAME;
-function focusFirst$1(candidates, { select = false } = {}) {
+function focusFirst(candidates, { select = false } = {}) {
   const previouslyFocusedElement = document.activeElement;
   for (const candidate of candidates) {
     focus(candidate, { select });
@@ -53515,132 +54926,9 @@ var Portal$2 = reactExports.forwardRef((props, forwardedRef) => {
   const [mounted, setMounted] = reactExports.useState(false);
   useLayoutEffect2(() => setMounted(true), []);
   const container = containerProp || mounted && ((_a3 = globalThis == null ? void 0 : globalThis.document) == null ? void 0 : _a3.body);
-  return container ? ReactDOM$2.createPortal(/* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { ...portalProps, ref: forwardedRef }), container) : null;
+  return container ? ReactDOM$2.createPortal(/* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { ...portalProps, ref: forwardedRef }), container) : null;
 });
 Portal$2.displayName = PORTAL_NAME$2;
-function useStateMachine(initialState, machine) {
-  return reactExports.useReducer((state, event) => {
-    const nextState = machine[state][event];
-    return nextState ?? state;
-  }, initialState);
-}
-var Presence = (props) => {
-  const { present, children } = props;
-  const presence = usePresence(present);
-  const child = typeof children === "function" ? children({ present: presence.isPresent }) : reactExports.Children.only(children);
-  const ref = useComposedRefs$1(presence.ref, getElementRef(child));
-  const forceMount = typeof children === "function";
-  return forceMount || presence.isPresent ? reactExports.cloneElement(child, { ref }) : null;
-};
-Presence.displayName = "Presence";
-function usePresence(present) {
-  const [node2, setNode] = reactExports.useState();
-  const stylesRef = reactExports.useRef(null);
-  const prevPresentRef = reactExports.useRef(present);
-  const prevAnimationNameRef = reactExports.useRef("none");
-  const initialState = present ? "mounted" : "unmounted";
-  const [state, send] = useStateMachine(initialState, {
-    mounted: {
-      UNMOUNT: "unmounted",
-      ANIMATION_OUT: "unmountSuspended"
-    },
-    unmountSuspended: {
-      MOUNT: "mounted",
-      ANIMATION_END: "unmounted"
-    },
-    unmounted: {
-      MOUNT: "mounted"
-    }
-  });
-  reactExports.useEffect(() => {
-    const currentAnimationName = getAnimationName(stylesRef.current);
-    prevAnimationNameRef.current = state === "mounted" ? currentAnimationName : "none";
-  }, [state]);
-  useLayoutEffect2(() => {
-    const styles = stylesRef.current;
-    const wasPresent = prevPresentRef.current;
-    const hasPresentChanged = wasPresent !== present;
-    if (hasPresentChanged) {
-      const prevAnimationName = prevAnimationNameRef.current;
-      const currentAnimationName = getAnimationName(styles);
-      if (present) {
-        send("MOUNT");
-      } else if (currentAnimationName === "none" || (styles == null ? void 0 : styles.display) === "none") {
-        send("UNMOUNT");
-      } else {
-        const isAnimating = prevAnimationName !== currentAnimationName;
-        if (wasPresent && isAnimating) {
-          send("ANIMATION_OUT");
-        } else {
-          send("UNMOUNT");
-        }
-      }
-      prevPresentRef.current = present;
-    }
-  }, [present, send]);
-  useLayoutEffect2(() => {
-    if (node2) {
-      let timeoutId;
-      const ownerWindow = node2.ownerDocument.defaultView ?? window;
-      const handleAnimationEnd = (event) => {
-        const currentAnimationName = getAnimationName(stylesRef.current);
-        const isCurrentAnimation = currentAnimationName.includes(CSS.escape(event.animationName));
-        if (event.target === node2 && isCurrentAnimation) {
-          send("ANIMATION_END");
-          if (!prevPresentRef.current) {
-            const currentFillMode = node2.style.animationFillMode;
-            node2.style.animationFillMode = "forwards";
-            timeoutId = ownerWindow.setTimeout(() => {
-              if (node2.style.animationFillMode === "forwards") {
-                node2.style.animationFillMode = currentFillMode;
-              }
-            });
-          }
-        }
-      };
-      const handleAnimationStart = (event) => {
-        if (event.target === node2) {
-          prevAnimationNameRef.current = getAnimationName(stylesRef.current);
-        }
-      };
-      node2.addEventListener("animationstart", handleAnimationStart);
-      node2.addEventListener("animationcancel", handleAnimationEnd);
-      node2.addEventListener("animationend", handleAnimationEnd);
-      return () => {
-        ownerWindow.clearTimeout(timeoutId);
-        node2.removeEventListener("animationstart", handleAnimationStart);
-        node2.removeEventListener("animationcancel", handleAnimationEnd);
-        node2.removeEventListener("animationend", handleAnimationEnd);
-      };
-    } else {
-      send("ANIMATION_END");
-    }
-  }, [node2, send]);
-  return {
-    isPresent: ["mounted", "unmountSuspended"].includes(state),
-    ref: reactExports.useCallback((node22) => {
-      stylesRef.current = node22 ? getComputedStyle(node22) : null;
-      setNode(node22);
-    }, [])
-  };
-}
-function getAnimationName(styles) {
-  return (styles == null ? void 0 : styles.animationName) || "none";
-}
-function getElementRef(element2) {
-  var _a3, _b3;
-  let getter = (_a3 = Object.getOwnPropertyDescriptor(element2.props, "ref")) == null ? void 0 : _a3.get;
-  let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
-  if (mayWarn) {
-    return element2.ref;
-  }
-  getter = (_b3 = Object.getOwnPropertyDescriptor(element2, "ref")) == null ? void 0 : _b3.get;
-  mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
-  if (mayWarn) {
-    return element2.props.ref;
-  }
-  return element2.props.ref || element2.ref;
-}
 var count = 0;
 function useFocusGuards() {
   reactExports.useEffect(() => {
@@ -54490,7 +55778,7 @@ var DialogTrigger = reactExports.forwardRef(
     const context = useDialogContext(TRIGGER_NAME$5, __scopeDialog);
     const composedTriggerRef = useComposedRefs$1(forwardedRef, context.triggerRef);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.button,
+      Primitive.button,
       {
         type: "button",
         "aria-haspopup": "dialog",
@@ -54534,7 +55822,7 @@ var DialogOverlayImpl = reactExports.forwardRef(
       // Make sure `Content` is scrollable even when it doesn't live inside `RemoveScroll`
       // ie. when `Overlay` and `Content` are siblings
       /* @__PURE__ */ jsxRuntimeExports.jsx(ReactRemoveScroll, { as: Slot$1, allowPinchZoom: true, shards: [context.contentRef], children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Primitive$1.div,
+        Primitive.div,
         {
           "data-state": getState$3(context.open),
           ...overlayProps,
@@ -54675,7 +55963,7 @@ var DialogTitle$1 = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeDialog, ...titleProps } = props;
     const context = useDialogContext(TITLE_NAME, __scopeDialog);
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.h2, { id: context.titleId, ...titleProps, ref: forwardedRef });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.h2, { id: context.titleId, ...titleProps, ref: forwardedRef });
   }
 );
 DialogTitle$1.displayName = TITLE_NAME;
@@ -54684,7 +55972,7 @@ var DialogDescription = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeDialog, ...descriptionProps } = props;
     const context = useDialogContext(DESCRIPTION_NAME, __scopeDialog);
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.p, { id: context.descriptionId, ...descriptionProps, ref: forwardedRef });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.p, { id: context.descriptionId, ...descriptionProps, ref: forwardedRef });
   }
 );
 DialogDescription.displayName = DESCRIPTION_NAME;
@@ -54694,7 +55982,7 @@ var DialogClose = reactExports.forwardRef(
     const { __scopeDialog, ...closeProps } = props;
     const context = useDialogContext(CLOSE_NAME, __scopeDialog);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.button,
+      Primitive.button,
       {
         type: "button",
         ...closeProps,
@@ -54743,7 +56031,7 @@ var DescriptionWarning = ({ contentRef, descriptionId }) => {
   }, [MESSAGE, contentRef, descriptionId]);
   return null;
 };
-var Root$5 = Dialog$1;
+var Root$3 = Dialog$1;
 var Portal$1 = DialogPortal$1;
 var Overlay = DialogOverlay$1;
 var Content$3 = DialogContent$1;
@@ -54752,7 +56040,7 @@ var Close = DialogClose;
 function Dialog({
   ...props
 }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(Root$5, { "data-slot": "dialog", ...props });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(Root$3, { "data-slot": "dialog", ...props });
 }
 function DialogPortal({
   ...props
@@ -54833,158 +56121,8 @@ function DialogTitle({
     }
   );
 }
-function Input({ className, type, ...props }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    "input",
-    {
-      type,
-      "data-slot": "input",
-      className: cn(
-        "file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
-        "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
-        "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
-        className
-      ),
-      ...props
-    }
-  );
-}
-var NODES = [
-  "a",
-  "button",
-  "div",
-  "form",
-  "h2",
-  "h3",
-  "img",
-  "input",
-  "label",
-  "li",
-  "nav",
-  "ol",
-  "p",
-  "select",
-  "span",
-  "svg",
-  "ul"
-];
-var Primitive = NODES.reduce((primitive, node2) => {
-  const Slot2 = /* @__PURE__ */ createSlot$1(`Primitive.${node2}`);
-  const Node2 = reactExports.forwardRef((props, forwardedRef) => {
-    const { asChild, ...primitiveProps } = props;
-    const Comp = asChild ? Slot2 : node2;
-    if (typeof window !== "undefined") {
-      window[Symbol.for("radix-ui")] = true;
-    }
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Comp, { ...primitiveProps, ref: forwardedRef });
-  });
-  Node2.displayName = `Primitive.${node2}`;
-  return { ...primitive, [node2]: Node2 };
-}, {});
-var NAME$3 = "Label";
-var Label$1 = reactExports.forwardRef((props, forwardedRef) => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Primitive.label,
-    {
-      ...props,
-      ref: forwardedRef,
-      onMouseDown: (event) => {
-        var _a3;
-        const target = event.target;
-        if (target.closest("button, input, select, textarea")) return;
-        (_a3 = props.onMouseDown) == null ? void 0 : _a3.call(props, event);
-        if (!event.defaultPrevented && event.detail > 1) event.preventDefault();
-      }
-    }
-  );
-});
-Label$1.displayName = NAME$3;
-var Root$4 = Label$1;
-function Label({
-  className,
-  ...props
-}) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Root$4,
-    {
-      "data-slot": "label",
-      className: cn(
-        "flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50",
-        className
-      ),
-      ...props
-    }
-  );
-}
 function clamp$1(value, [min2, max2]) {
   return Math.min(max2, Math.max(min2, value));
-}
-function createCollection(name2) {
-  const PROVIDER_NAME = name2 + "CollectionProvider";
-  const [createCollectionContext, createCollectionScope2] = createContextScope(PROVIDER_NAME);
-  const [CollectionProviderImpl, useCollectionContext] = createCollectionContext(
-    PROVIDER_NAME,
-    { collectionRef: { current: null }, itemMap: /* @__PURE__ */ new Map() }
-  );
-  const CollectionProvider = (props) => {
-    const { scope, children } = props;
-    const ref = React$4.useRef(null);
-    const itemMap = React$4.useRef(/* @__PURE__ */ new Map()).current;
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionProviderImpl, { scope, itemMap, collectionRef: ref, children });
-  };
-  CollectionProvider.displayName = PROVIDER_NAME;
-  const COLLECTION_SLOT_NAME = name2 + "CollectionSlot";
-  const CollectionSlotImpl = /* @__PURE__ */ createSlot(COLLECTION_SLOT_NAME);
-  const CollectionSlot = React$4.forwardRef(
-    (props, forwardedRef) => {
-      const { scope, children } = props;
-      const context = useCollectionContext(COLLECTION_SLOT_NAME, scope);
-      const composedRefs = useComposedRefs$1(forwardedRef, context.collectionRef);
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionSlotImpl, { ref: composedRefs, children });
-    }
-  );
-  CollectionSlot.displayName = COLLECTION_SLOT_NAME;
-  const ITEM_SLOT_NAME = name2 + "CollectionItemSlot";
-  const ITEM_DATA_ATTR = "data-radix-collection-item";
-  const CollectionItemSlotImpl = /* @__PURE__ */ createSlot(ITEM_SLOT_NAME);
-  const CollectionItemSlot = React$4.forwardRef(
-    (props, forwardedRef) => {
-      const { scope, children, ...itemData } = props;
-      const ref = React$4.useRef(null);
-      const composedRefs = useComposedRefs$1(forwardedRef, ref);
-      const context = useCollectionContext(ITEM_SLOT_NAME, scope);
-      React$4.useEffect(() => {
-        context.itemMap.set(ref, { ref, ...itemData });
-        return () => void context.itemMap.delete(ref);
-      });
-      return /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionItemSlotImpl, { ...{ [ITEM_DATA_ATTR]: "" }, ref: composedRefs, children });
-    }
-  );
-  CollectionItemSlot.displayName = ITEM_SLOT_NAME;
-  function useCollection2(scope) {
-    const context = useCollectionContext(name2 + "CollectionConsumer", scope);
-    const getItems = React$4.useCallback(() => {
-      const collectionNode = context.collectionRef.current;
-      if (!collectionNode) return [];
-      const orderedNodes = Array.from(collectionNode.querySelectorAll(`[${ITEM_DATA_ATTR}]`));
-      const items = Array.from(context.itemMap.values());
-      const orderedItems = items.sort(
-        (a2, b2) => orderedNodes.indexOf(a2.ref.current) - orderedNodes.indexOf(b2.ref.current)
-      );
-      return orderedItems;
-    }, [context.collectionRef, context.itemMap]);
-    return getItems;
-  }
-  return [
-    { Provider: CollectionProvider, Slot: CollectionSlot, ItemSlot: CollectionItemSlot },
-    useCollection2,
-    createCollectionScope2
-  ];
-}
-var DirectionContext = reactExports.createContext(void 0);
-function useDirection(localDir) {
-  const globalDir = reactExports.useContext(DirectionContext);
-  return localDir || globalDir || "ltr";
 }
 const sides = ["top", "right", "bottom", "left"];
 const min = Math.min;
@@ -56905,7 +58043,7 @@ var NAME$2 = "Arrow";
 var Arrow$1 = reactExports.forwardRef((props, forwardedRef) => {
   const { children, width = 10, height = 5, ...arrowProps } = props;
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Primitive$1.svg,
+    Primitive.svg,
     {
       ...arrowProps,
       ref: forwardedRef,
@@ -56918,41 +58056,7 @@ var Arrow$1 = reactExports.forwardRef((props, forwardedRef) => {
   );
 });
 Arrow$1.displayName = NAME$2;
-var Root$3 = Arrow$1;
-function useSize(element2) {
-  const [size2, setSize] = reactExports.useState(void 0);
-  useLayoutEffect2(() => {
-    if (element2) {
-      setSize({ width: element2.offsetWidth, height: element2.offsetHeight });
-      const resizeObserver = new ResizeObserver((entries) => {
-        if (!Array.isArray(entries)) {
-          return;
-        }
-        if (!entries.length) {
-          return;
-        }
-        const entry = entries[0];
-        let width;
-        let height;
-        if ("borderBoxSize" in entry) {
-          const borderSizeEntry = entry["borderBoxSize"];
-          const borderSize = Array.isArray(borderSizeEntry) ? borderSizeEntry[0] : borderSizeEntry;
-          width = borderSize["inlineSize"];
-          height = borderSize["blockSize"];
-        } else {
-          width = element2.offsetWidth;
-          height = element2.offsetHeight;
-        }
-        setSize({ width, height });
-      });
-      resizeObserver.observe(element2, { box: "border-box" });
-      return () => resizeObserver.unobserve(element2);
-    } else {
-      setSize(void 0);
-    }
-  }, [element2]);
-  return size2;
-}
+var Root$2 = Arrow$1;
 var POPPER_NAME = "Popper";
 var [createPopperContext, createPopperScope] = createContextScope(POPPER_NAME);
 var [PopperProvider, usePopperContext] = createPopperContext(POPPER_NAME);
@@ -56977,7 +58081,7 @@ var PopperAnchor = reactExports.forwardRef(
         context.onAnchorChange(anchorRef.current);
       }
     });
-    return virtualRef ? null : /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { ...anchorProps, ref: composedRefs });
+    return virtualRef ? null : /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { ...anchorProps, ref: composedRefs });
   }
 );
 PopperAnchor.displayName = ANCHOR_NAME;
@@ -57105,7 +58209,7 @@ var PopperContent = reactExports.forwardRef(
             arrowY,
             shouldHideArrow: cannotCenterArrow,
             children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              Primitive$1.div,
+              Primitive.div,
               {
                 "data-side": placedSide,
                 "data-align": placedAlign,
@@ -57165,7 +58269,7 @@ var PopperArrow = reactExports.forwardRef(function PopperArrow2(props, forwarded
           visibility: contentContext.shouldHideArrow ? "hidden" : void 0
         },
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Root$3,
+          Root$2,
           {
             ...arrowProps,
             ref: forwardedRef,
@@ -57224,16 +58328,6 @@ var Root2$3 = Popper;
 var Anchor = PopperAnchor;
 var Content$2 = PopperContent;
 var Arrow = PopperArrow;
-function usePrevious(value) {
-  const ref = reactExports.useRef({ value, previous: value });
-  return reactExports.useMemo(() => {
-    if (ref.current.value !== value) {
-      ref.current.previous = ref.current.value;
-      ref.current.value = value;
-    }
-    return ref.current.previous;
-  }, [value]);
-}
 var VISUALLY_HIDDEN_STYLES = Object.freeze({
   // See: https://github.com/twbs/bootstrap/blob/main/scss/mixins/_visually-hidden.scss
   position: "absolute",
@@ -57251,7 +58345,7 @@ var NAME$1 = "VisuallyHidden";
 var VisuallyHidden = reactExports.forwardRef(
   (props, forwardedRef) => {
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.span,
+      Primitive.span,
       {
         ...props,
         ref: forwardedRef,
@@ -57264,9 +58358,9 @@ VisuallyHidden.displayName = NAME$1;
 var OPEN_KEYS = [" ", "Enter", "ArrowUp", "ArrowDown"];
 var SELECTION_KEYS = [" ", "Enter"];
 var SELECT_NAME = "Select";
-var [Collection$2, useCollection$2, createCollectionScope$2] = createCollection(SELECT_NAME);
+var [Collection$1, useCollection$1, createCollectionScope$1] = createCollection(SELECT_NAME);
 var [createSelectContext] = createContextScope(SELECT_NAME, [
-  createCollectionScope$2,
+  createCollectionScope$1,
   createPopperScope
 ]);
 var usePopperScope = createPopperScope();
@@ -57330,7 +58424,7 @@ var Select$1 = (props) => {
       triggerPointerDownPosRef,
       disabled,
       children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$2.Provider, { scope: __scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$1.Provider, { scope: __scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           SelectNativeOptionsProvider,
           {
             scope: props.__scopeSelect,
@@ -57379,7 +58473,7 @@ var SelectTrigger$1 = reactExports.forwardRef(
     const context = useSelectContext(TRIGGER_NAME$4, __scopeSelect);
     const isDisabled = context.disabled || disabled;
     const composedRefs = useComposedRefs$1(forwardedRef, context.onTriggerChange);
-    const getItems = useCollection$2(__scopeSelect);
+    const getItems = useCollection$1(__scopeSelect);
     const pointerTypeRef = reactExports.useRef("touch");
     const [searchRef, handleTypeaheadSearch, resetTypeahead] = useTypeaheadSearch((search2) => {
       const enabledItems = getItems().filter((item) => !item.disabled);
@@ -57402,7 +58496,7 @@ var SelectTrigger$1 = reactExports.forwardRef(
       }
     };
     return /* @__PURE__ */ jsxRuntimeExports.jsx(Anchor, { asChild: true, ...popperScope, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.button,
+      Primitive.button,
       {
         type: "button",
         role: "combobox",
@@ -57461,7 +58555,7 @@ var SelectValue$1 = reactExports.forwardRef(
       onValueNodeHasChildrenChange(hasChildren);
     }, [onValueNodeHasChildrenChange, hasChildren]);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.span,
+      Primitive.span,
       {
         ...valueProps,
         ref: composedRefs,
@@ -57476,7 +58570,7 @@ var ICON_NAME = "SelectIcon";
 var SelectIcon = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeSelect, children, ...iconProps } = props;
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.span, { "aria-hidden": true, ...iconProps, ref: forwardedRef, children: children || "▼" });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.span, { "aria-hidden": true, ...iconProps, ref: forwardedRef, children: children || "▼" });
   }
 );
 SelectIcon.displayName = ICON_NAME;
@@ -57496,7 +58590,7 @@ var SelectContent$1 = reactExports.forwardRef(
     if (!context.open) {
       const frag = fragment;
       return frag ? reactDomExports.createPortal(
-        /* @__PURE__ */ jsxRuntimeExports.jsx(SelectContentProvider, { scope: props.__scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$2.Slot, { scope: props.__scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: props.children }) }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(SelectContentProvider, { scope: props.__scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$1.Slot, { scope: props.__scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: props.children }) }) }),
         frag
       ) : null;
     }
@@ -57539,7 +58633,7 @@ var SelectContentImpl = reactExports.forwardRef(
     const [selectedItemText, setSelectedItemText] = reactExports.useState(
       null
     );
-    const getItems = useCollection$2(__scopeSelect);
+    const getItems = useCollection$1(__scopeSelect);
     const [isPositioned, setIsPositioned] = reactExports.useState(false);
     const firstValidItemFoundRef = reactExports.useRef(false);
     reactExports.useEffect(() => {
@@ -57751,7 +58845,7 @@ var SelectItemAlignedPosition = reactExports.forwardRef((props, forwardedRef) =>
   const [contentWrapper, setContentWrapper] = reactExports.useState(null);
   const [content2, setContent] = reactExports.useState(null);
   const composedRefs = useComposedRefs$1(forwardedRef, (node2) => setContent(node2));
-  const getItems = useCollection$2(__scopeSelect);
+  const getItems = useCollection$1(__scopeSelect);
   const shouldExpandOnScrollRef = reactExports.useRef(false);
   const shouldRepositionRef = reactExports.useRef(true);
   const { viewport, selectedItem, selectedItemText, focusSelectedItem } = contentContext;
@@ -57887,7 +58981,7 @@ var SelectItemAlignedPosition = reactExports.forwardRef((props, forwardedRef) =>
             zIndex: contentZIndex
           },
           children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-            Primitive$1.div,
+            Primitive.div,
             {
               ...popperProps,
               ref: composedRefs,
@@ -57960,8 +59054,8 @@ var SelectViewport = reactExports.forwardRef(
           nonce
         }
       ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$2.Slot, { scope: __scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Primitive$1.div,
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$1.Slot, { scope: __scopeSelect, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        Primitive.div,
         {
           "data-radix-select-viewport": "",
           role: "presentation",
@@ -58010,27 +59104,27 @@ var SelectViewport = reactExports.forwardRef(
   }
 );
 SelectViewport.displayName = VIEWPORT_NAME;
-var GROUP_NAME$1 = "SelectGroup";
-var [SelectGroupContextProvider, useSelectGroupContext] = createSelectContext(GROUP_NAME$1);
+var GROUP_NAME = "SelectGroup";
+var [SelectGroupContextProvider, useSelectGroupContext] = createSelectContext(GROUP_NAME);
 var SelectGroup = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeSelect, ...groupProps } = props;
     const groupId = useId();
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(SelectGroupContextProvider, { scope: __scopeSelect, id: groupId, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { role: "group", "aria-labelledby": groupId, ...groupProps, ref: forwardedRef }) });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(SelectGroupContextProvider, { scope: __scopeSelect, id: groupId, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { role: "group", "aria-labelledby": groupId, ...groupProps, ref: forwardedRef }) });
   }
 );
-SelectGroup.displayName = GROUP_NAME$1;
+SelectGroup.displayName = GROUP_NAME;
 var LABEL_NAME = "SelectLabel";
 var SelectLabel = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeSelect, ...labelProps } = props;
     const groupContext = useSelectGroupContext(LABEL_NAME, __scopeSelect);
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { id: groupContext.id, ...labelProps, ref: forwardedRef });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { id: groupContext.id, ...labelProps, ref: forwardedRef });
   }
 );
 SelectLabel.displayName = LABEL_NAME;
-var ITEM_NAME$2 = "SelectItem";
-var [SelectItemContextProvider, useSelectItemContext] = createSelectContext(ITEM_NAME$2);
+var ITEM_NAME$1 = "SelectItem";
+var [SelectItemContextProvider, useSelectItemContext] = createSelectContext(ITEM_NAME$1);
 var SelectItem$1 = reactExports.forwardRef(
   (props, forwardedRef) => {
     const {
@@ -58040,8 +59134,8 @@ var SelectItem$1 = reactExports.forwardRef(
       textValue: textValueProp,
       ...itemProps
     } = props;
-    const context = useSelectContext(ITEM_NAME$2, __scopeSelect);
-    const contentContext = useSelectContentContext(ITEM_NAME$2, __scopeSelect);
+    const context = useSelectContext(ITEM_NAME$1, __scopeSelect);
+    const contentContext = useSelectContentContext(ITEM_NAME$1, __scopeSelect);
     const isSelected = context.value === value;
     const [textValue, setTextValue] = reactExports.useState(textValueProp ?? "");
     const [isFocused, setIsFocused] = reactExports.useState(false);
@@ -58077,14 +59171,14 @@ var SelectItem$1 = reactExports.forwardRef(
           setTextValue((prevTextValue) => prevTextValue || ((node2 == null ? void 0 : node2.textContent) ?? "").trim());
         }, []),
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Collection$2.ItemSlot,
+          Collection$1.ItemSlot,
           {
             scope: __scopeSelect,
             value,
             disabled,
             textValue,
             children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              Primitive$1.div,
+              Primitive.div,
               {
                 role: "option",
                 "aria-labelledby": textId,
@@ -58137,7 +59231,7 @@ var SelectItem$1 = reactExports.forwardRef(
     );
   }
 );
-SelectItem$1.displayName = ITEM_NAME$2;
+SelectItem$1.displayName = ITEM_NAME$1;
 var ITEM_TEXT_NAME = "SelectItemText";
 var SelectItemText = reactExports.forwardRef(
   (props, forwardedRef) => {
@@ -58167,7 +59261,7 @@ var SelectItemText = reactExports.forwardRef(
       return () => onNativeOptionRemove(nativeOption);
     }, [onNativeOptionAdd, onNativeOptionRemove, nativeOption]);
     return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.span, { id: itemContext.textId, ...itemTextProps, ref: composedRefs }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.span, { id: itemContext.textId, ...itemTextProps, ref: composedRefs }),
       itemContext.isSelected && context.valueNode && !context.valueNodeHasChildren ? reactDomExports.createPortal(itemTextProps.children, context.valueNode) : null
     ] });
   }
@@ -58178,7 +59272,7 @@ var SelectItemIndicator = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeSelect, ...itemIndicatorProps } = props;
     const itemContext = useSelectItemContext(ITEM_INDICATOR_NAME, __scopeSelect);
-    return itemContext.isSelected ? /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.span, { "aria-hidden": true, ...itemIndicatorProps, ref: forwardedRef }) : null;
+    return itemContext.isSelected ? /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.span, { "aria-hidden": true, ...itemIndicatorProps, ref: forwardedRef }) : null;
   }
 );
 SelectItemIndicator.displayName = ITEM_INDICATOR_NAME;
@@ -58253,7 +59347,7 @@ var SelectScrollButtonImpl = reactExports.forwardRef((props, forwardedRef) => {
   const { __scopeSelect, onAutoScroll, ...scrollIndicatorProps } = props;
   const contentContext = useSelectContentContext("SelectScrollButton", __scopeSelect);
   const autoScrollTimerRef = reactExports.useRef(null);
-  const getItems = useCollection$2(__scopeSelect);
+  const getItems = useCollection$1(__scopeSelect);
   const clearAutoScrollTimer = reactExports.useCallback(() => {
     if (autoScrollTimerRef.current !== null) {
       window.clearInterval(autoScrollTimerRef.current);
@@ -58269,7 +59363,7 @@ var SelectScrollButtonImpl = reactExports.forwardRef((props, forwardedRef) => {
     (_a3 = activeItem == null ? void 0 : activeItem.ref.current) == null ? void 0 : _a3.scrollIntoView({ block: "nearest" });
   }, [getItems]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Primitive$1.div,
+    Primitive.div,
     {
       "aria-hidden": true,
       ...scrollIndicatorProps,
@@ -58297,7 +59391,7 @@ var SEPARATOR_NAME = "SelectSeparator";
 var SelectSeparator = reactExports.forwardRef(
   (props, forwardedRef) => {
     const { __scopeSelect, ...separatorProps } = props;
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive$1.div, { "aria-hidden": true, ...separatorProps, ref: forwardedRef });
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(Primitive.div, { "aria-hidden": true, ...separatorProps, ref: forwardedRef });
   }
 );
 SelectSeparator.displayName = SEPARATOR_NAME;
@@ -58334,7 +59428,7 @@ var SelectBubbleInput = reactExports.forwardRef(
       }
     }, [prevValue, value]);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.select,
+      Primitive.select,
       {
         ...props,
         style: { ...VISUALLY_HIDDEN_STYLES, ...props.style },
@@ -58377,7 +59471,7 @@ function findNextItem(items, search2, currentItem) {
   const isRepeated = search2.length > 1 && Array.from(search2).every((char) => char === search2[0]);
   const normalizedSearch = isRepeated ? search2[0] : search2;
   const currentItemIndex = currentItem ? items.indexOf(currentItem) : -1;
-  let wrappedItems = wrapArray$1(items, Math.max(currentItemIndex, 0));
+  let wrappedItems = wrapArray(items, Math.max(currentItemIndex, 0));
   const excludeCurrentItem = normalizedSearch.length === 1;
   if (excludeCurrentItem) wrappedItems = wrappedItems.filter((v2) => v2 !== currentItem);
   const nextItem = wrappedItems.find(
@@ -58385,7 +59479,7 @@ function findNextItem(items, search2, currentItem) {
   );
   return nextItem !== currentItem ? nextItem : void 0;
 }
-function wrapArray$1(array, startIndex) {
+function wrapArray(array, startIndex) {
   return array.map((_2, index2) => array[(startIndex + index2) % array.length]);
 }
 var Root2$2 = Select$1;
@@ -58395,7 +59489,7 @@ var Icon = SelectIcon;
 var Portal = SelectPortal;
 var Content2$1 = SelectContent$1;
 var Viewport = SelectViewport;
-var Item$2 = SelectItem$1;
+var Item$1 = SelectItem$1;
 var ItemText = SelectItemText;
 var ItemIndicator = SelectItemIndicator;
 var ScrollUpButton = SelectScrollUpButton$1;
@@ -58473,7 +59567,7 @@ function SelectItem({
   ...props
 }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-    Item$2,
+    Item$1,
     {
       "data-slot": "select-item",
       className: cn(
@@ -58532,215 +59626,6 @@ function Skeleton({ className, ...props }) {
     }
   );
 }
-var ENTRY_FOCUS = "rovingFocusGroup.onEntryFocus";
-var EVENT_OPTIONS = { bubbles: false, cancelable: true };
-var GROUP_NAME = "RovingFocusGroup";
-var [Collection$1, useCollection$1, createCollectionScope$1] = createCollection(GROUP_NAME);
-var [createRovingFocusGroupContext, createRovingFocusGroupScope] = createContextScope(
-  GROUP_NAME,
-  [createCollectionScope$1]
-);
-var [RovingFocusProvider, useRovingFocusContext] = createRovingFocusGroupContext(GROUP_NAME);
-var RovingFocusGroup = reactExports.forwardRef(
-  (props, forwardedRef) => {
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$1.Provider, { scope: props.__scopeRovingFocusGroup, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Collection$1.Slot, { scope: props.__scopeRovingFocusGroup, children: /* @__PURE__ */ jsxRuntimeExports.jsx(RovingFocusGroupImpl, { ...props, ref: forwardedRef }) }) });
-  }
-);
-RovingFocusGroup.displayName = GROUP_NAME;
-var RovingFocusGroupImpl = reactExports.forwardRef((props, forwardedRef) => {
-  const {
-    __scopeRovingFocusGroup,
-    orientation,
-    loop = false,
-    dir,
-    currentTabStopId: currentTabStopIdProp,
-    defaultCurrentTabStopId,
-    onCurrentTabStopIdChange,
-    onEntryFocus,
-    preventScrollOnEntryFocus = false,
-    ...groupProps
-  } = props;
-  const ref = reactExports.useRef(null);
-  const composedRefs = useComposedRefs$1(forwardedRef, ref);
-  const direction = useDirection(dir);
-  const [currentTabStopId, setCurrentTabStopId] = useControllableState({
-    prop: currentTabStopIdProp,
-    defaultProp: defaultCurrentTabStopId ?? null,
-    onChange: onCurrentTabStopIdChange,
-    caller: GROUP_NAME
-  });
-  const [isTabbingBackOut, setIsTabbingBackOut] = reactExports.useState(false);
-  const handleEntryFocus = useCallbackRef$1(onEntryFocus);
-  const getItems = useCollection$1(__scopeRovingFocusGroup);
-  const isClickFocusRef = reactExports.useRef(false);
-  const [focusableItemsCount, setFocusableItemsCount] = reactExports.useState(0);
-  reactExports.useEffect(() => {
-    const node2 = ref.current;
-    if (node2) {
-      node2.addEventListener(ENTRY_FOCUS, handleEntryFocus);
-      return () => node2.removeEventListener(ENTRY_FOCUS, handleEntryFocus);
-    }
-  }, [handleEntryFocus]);
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    RovingFocusProvider,
-    {
-      scope: __scopeRovingFocusGroup,
-      orientation,
-      dir: direction,
-      loop,
-      currentTabStopId,
-      onItemFocus: reactExports.useCallback(
-        (tabStopId) => setCurrentTabStopId(tabStopId),
-        [setCurrentTabStopId]
-      ),
-      onItemShiftTab: reactExports.useCallback(() => setIsTabbingBackOut(true), []),
-      onFocusableItemAdd: reactExports.useCallback(
-        () => setFocusableItemsCount((prevCount) => prevCount + 1),
-        []
-      ),
-      onFocusableItemRemove: reactExports.useCallback(
-        () => setFocusableItemsCount((prevCount) => prevCount - 1),
-        []
-      ),
-      children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Primitive$1.div,
-        {
-          tabIndex: isTabbingBackOut || focusableItemsCount === 0 ? -1 : 0,
-          "data-orientation": orientation,
-          ...groupProps,
-          ref: composedRefs,
-          style: { outline: "none", ...props.style },
-          onMouseDown: composeEventHandlers(props.onMouseDown, () => {
-            isClickFocusRef.current = true;
-          }),
-          onFocus: composeEventHandlers(props.onFocus, (event) => {
-            const isKeyboardFocus = !isClickFocusRef.current;
-            if (event.target === event.currentTarget && isKeyboardFocus && !isTabbingBackOut) {
-              const entryFocusEvent = new CustomEvent(ENTRY_FOCUS, EVENT_OPTIONS);
-              event.currentTarget.dispatchEvent(entryFocusEvent);
-              if (!entryFocusEvent.defaultPrevented) {
-                const items = getItems().filter((item) => item.focusable);
-                const activeItem = items.find((item) => item.active);
-                const currentItem = items.find((item) => item.id === currentTabStopId);
-                const candidateItems = [activeItem, currentItem, ...items].filter(
-                  Boolean
-                );
-                const candidateNodes = candidateItems.map((item) => item.ref.current);
-                focusFirst(candidateNodes, preventScrollOnEntryFocus);
-              }
-            }
-            isClickFocusRef.current = false;
-          }),
-          onBlur: composeEventHandlers(props.onBlur, () => setIsTabbingBackOut(false))
-        }
-      )
-    }
-  );
-});
-var ITEM_NAME$1 = "RovingFocusGroupItem";
-var RovingFocusGroupItem = reactExports.forwardRef(
-  (props, forwardedRef) => {
-    const {
-      __scopeRovingFocusGroup,
-      focusable = true,
-      active = false,
-      tabStopId,
-      children,
-      ...itemProps
-    } = props;
-    const autoId = useId();
-    const id2 = tabStopId || autoId;
-    const context = useRovingFocusContext(ITEM_NAME$1, __scopeRovingFocusGroup);
-    const isCurrentTabStop = context.currentTabStopId === id2;
-    const getItems = useCollection$1(__scopeRovingFocusGroup);
-    const { onFocusableItemAdd, onFocusableItemRemove, currentTabStopId } = context;
-    reactExports.useEffect(() => {
-      if (focusable) {
-        onFocusableItemAdd();
-        return () => onFocusableItemRemove();
-      }
-    }, [focusable, onFocusableItemAdd, onFocusableItemRemove]);
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Collection$1.ItemSlot,
-      {
-        scope: __scopeRovingFocusGroup,
-        id: id2,
-        focusable,
-        active,
-        children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.span,
-          {
-            tabIndex: isCurrentTabStop ? 0 : -1,
-            "data-orientation": context.orientation,
-            ...itemProps,
-            ref: forwardedRef,
-            onMouseDown: composeEventHandlers(props.onMouseDown, (event) => {
-              if (!focusable) event.preventDefault();
-              else context.onItemFocus(id2);
-            }),
-            onFocus: composeEventHandlers(props.onFocus, () => context.onItemFocus(id2)),
-            onKeyDown: composeEventHandlers(props.onKeyDown, (event) => {
-              if (event.key === "Tab" && event.shiftKey) {
-                context.onItemShiftTab();
-                return;
-              }
-              if (event.target !== event.currentTarget) return;
-              const focusIntent = getFocusIntent(event, context.orientation, context.dir);
-              if (focusIntent !== void 0) {
-                if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
-                event.preventDefault();
-                const items = getItems().filter((item) => item.focusable);
-                let candidateNodes = items.map((item) => item.ref.current);
-                if (focusIntent === "last") candidateNodes.reverse();
-                else if (focusIntent === "prev" || focusIntent === "next") {
-                  if (focusIntent === "prev") candidateNodes.reverse();
-                  const currentIndex = candidateNodes.indexOf(event.currentTarget);
-                  candidateNodes = context.loop ? wrapArray(candidateNodes, currentIndex + 1) : candidateNodes.slice(currentIndex + 1);
-                }
-                setTimeout(() => focusFirst(candidateNodes));
-              }
-            }),
-            children: typeof children === "function" ? children({ isCurrentTabStop, hasTabStop: currentTabStopId != null }) : children
-          }
-        )
-      }
-    );
-  }
-);
-RovingFocusGroupItem.displayName = ITEM_NAME$1;
-var MAP_KEY_TO_FOCUS_INTENT = {
-  ArrowLeft: "prev",
-  ArrowUp: "prev",
-  ArrowRight: "next",
-  ArrowDown: "next",
-  PageUp: "first",
-  Home: "first",
-  PageDown: "last",
-  End: "last"
-};
-function getDirectionAwareKey(key, dir) {
-  if (dir !== "rtl") return key;
-  return key === "ArrowLeft" ? "ArrowRight" : key === "ArrowRight" ? "ArrowLeft" : key;
-}
-function getFocusIntent(event, orientation, dir) {
-  const key = getDirectionAwareKey(event.key, dir);
-  if (orientation === "vertical" && ["ArrowLeft", "ArrowRight"].includes(key)) return void 0;
-  if (orientation === "horizontal" && ["ArrowUp", "ArrowDown"].includes(key)) return void 0;
-  return MAP_KEY_TO_FOCUS_INTENT[key];
-}
-function focusFirst(candidates, preventScroll = false) {
-  const PREVIOUSLY_FOCUSED_ELEMENT = document.activeElement;
-  for (const candidate of candidates) {
-    if (candidate === PREVIOUSLY_FOCUSED_ELEMENT) return;
-    candidate.focus({ preventScroll });
-    if (document.activeElement !== PREVIOUSLY_FOCUSED_ELEMENT) return;
-  }
-}
-function wrapArray(array, startIndex) {
-  return array.map((_2, index2) => array[(startIndex + index2) % array.length]);
-}
-var Root$2 = RovingFocusGroup;
-var Item$1 = RovingFocusGroupItem;
 var TABS_NAME = "Tabs";
 var [createTabsContext] = createContextScope(TABS_NAME, [
   createRovingFocusGroupScope
@@ -58777,7 +59662,7 @@ var Tabs$1 = reactExports.forwardRef(
         dir: direction,
         activationMode,
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.div,
+          Primitive.div,
           {
             dir: direction,
             "data-orientation": orientation,
@@ -58797,7 +59682,7 @@ var TabsList$1 = reactExports.forwardRef(
     const context = useTabsContext(TAB_LIST_NAME, __scopeTabs);
     const rovingFocusGroupScope = useRovingFocusGroupScope(__scopeTabs);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Root$2,
+      Root$4,
       {
         asChild: true,
         ...rovingFocusGroupScope,
@@ -58805,7 +59690,7 @@ var TabsList$1 = reactExports.forwardRef(
         dir: context.dir,
         loop,
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.div,
+          Primitive.div,
           {
             role: "tablist",
             "aria-orientation": context.orientation,
@@ -58828,14 +59713,14 @@ var TabsTrigger$1 = reactExports.forwardRef(
     const contentId = makeContentId(context.baseId, value);
     const isSelected = value === context.value;
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Item$1,
+      Item$2,
       {
         asChild: true,
         ...rovingFocusGroupScope,
         focusable: !disabled,
         active: isSelected,
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.button,
+          Primitive.button,
           {
             type: "button",
             role: "tab",
@@ -58884,7 +59769,7 @@ var TabsContent$1 = reactExports.forwardRef(
       return () => cancelAnimationFrame(rAF);
     }, []);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(Presence, { present: forceMount || isSelected, children: ({ present }) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.div,
+      Primitive.div,
       {
         "data-state": isSelected ? "active" : "inactive",
         "data-orientation": context.orientation,
@@ -59852,6 +60737,492 @@ function ContributionsTab() {
     contributions.map((c2, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(ContributionRow, { contribution: c2, index: i }, c2.id.toString()))
   ] });
 }
+function NewsletterTab() {
+  const { data: topics = [], isLoading: topicsLoading } = useNewsletterTopics();
+  const [selectedTopicId, setSelectedTopicId] = reactExports.useState();
+  const [formTopic, setFormTopic] = reactExports.useState();
+  const [subject, setSubject] = reactExports.useState("");
+  const [htmlBody, setHtmlBody] = reactExports.useState("");
+  const { data: content2, isLoading: contentLoading } = useNewsletterContent(selectedTopicId);
+  const { data: subscribers = [], isLoading: subsLoading } = useNewsletterSubscribers(selectedTopicId);
+  const saveContent = useSetNewsletterContent();
+  const addTopic = useAddNewsletterTopic();
+  const renameTopic = useRenameNewsletterTopic();
+  const removeTopic = useRemoveNewsletterTopic();
+  reactExports.useEffect(() => {
+    if (topics.length > 0 && selectedTopicId === void 0) {
+      setSelectedTopicId(topics[0].id);
+    }
+  }, [topics, selectedTopicId]);
+  reactExports.useEffect(() => {
+    if (selectedTopicId === void 0 || contentLoading) return;
+    if (formTopic === selectedTopicId) return;
+    setSubject((content2 == null ? void 0 : content2.subject) ?? "");
+    setHtmlBody((content2 == null ? void 0 : content2.htmlBody) ?? "");
+    setFormTopic(selectedTopicId);
+  }, [selectedTopicId, content2, contentLoading, formTopic]);
+  const [addOpen, setAddOpen] = reactExports.useState(false);
+  const [addName, setAddName] = reactExports.useState("");
+  const [renameTarget, setRenameTarget] = reactExports.useState();
+  const [renameName, setRenameName] = reactExports.useState("");
+  const [removeTarget, setRemoveTarget] = reactExports.useState();
+  const verifiedCount = subscribers.filter((s2) => s2.verified).length;
+  const handleSave = async () => {
+    if (selectedTopicId === void 0) return;
+    try {
+      await saveContent.mutateAsync({
+        topicId: selectedTopicId,
+        subject,
+        htmlBody
+      });
+      ue.success("Newsletter content saved");
+    } catch {
+      ue.error("Failed to save newsletter content");
+    }
+  };
+  const handleAddTopic = async () => {
+    const name2 = addName.trim();
+    if (!name2) return;
+    try {
+      await addTopic.mutateAsync(name2);
+      ue.success("Topic added");
+      setAddName("");
+      setAddOpen(false);
+    } catch {
+      ue.error("Failed to add topic");
+    }
+  };
+  const handleRename = async () => {
+    if (!renameTarget) return;
+    const name2 = renameName.trim();
+    if (!name2) return;
+    try {
+      await renameTopic.mutateAsync({
+        topicId: renameTarget.id,
+        newName: name2
+      });
+      ue.success("Topic renamed");
+      setRenameTarget(void 0);
+    } catch {
+      ue.error("Failed to rename topic");
+    }
+  };
+  const handleRemove = async () => {
+    if (!removeTarget) return;
+    try {
+      await removeTopic.mutateAsync(removeTarget.id);
+      ue.success("Topic removed");
+      if (selectedTopicId === removeTarget.id) {
+        setSelectedTopicId(void 0);
+        setFormTopic(void 0);
+      }
+      setRemoveTarget(void 0);
+    } catch {
+      ue.error("Failed to remove topic");
+    }
+  };
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between gap-4 flex-wrap", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { htmlFor: "newsletter-topic", className: "shrink-0", children: "Topic" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Select,
+          {
+            value: (selectedTopicId == null ? void 0 : selectedTopicId.toString()) ?? "",
+            onValueChange: (v2) => {
+              setSelectedTopicId(v2 ? BigInt(v2) : void 0);
+              setFormTopic(void 0);
+            },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                SelectTrigger,
+                {
+                  id: "newsletter-topic",
+                  className: "w-64",
+                  "data-ocid": "newsletter.topic_select",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(SelectValue, { placeholder: "Select a topic" })
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(SelectContent, { children: topics.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsx(SelectItem, { value: t.id.toString(), children: t.name }, t.id.toString())) })
+            ]
+          }
+        )
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        Button,
+        {
+          type: "button",
+          onClick: () => setAddOpen(true),
+          className: "gap-2",
+          "data-ocid": "newsletter.add_topic_button",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "size-4" }),
+            "Add Topic"
+          ]
+        }
+      )
+    ] }),
+    topicsLoading ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Skeleton, { className: "h-72 rounded-xl lg:col-span-3" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Skeleton, { className: "h-72 rounded-xl lg:col-span-2" })
+    ] }) : topics.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: "flex flex-col items-center justify-center py-16 text-center bg-muted/30 rounded-xl border border-dashed border-border",
+        "data-ocid": "newsletter.empty_state",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Tag, { className: "size-10 text-muted-foreground mb-3" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-medium text-foreground", children: "No newsletter topics yet" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mt-1", children: "Add a topic to start composing weekly and monthly newsletters." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            Button,
+            {
+              type: "button",
+              className: "mt-4",
+              onClick: () => setAddOpen(true),
+              "data-ocid": "newsletter.add_topic_button",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "size-4 mr-2" }),
+                "Add First Topic"
+              ]
+            }
+          )
+        ]
+      }
+    ) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-6", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose lg:col-span-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose-header", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { className: "size-4 text-primary" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground", children: "Compose Newsletter" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "span",
+              {
+                className: "schedule-summary",
+                "data-ocid": "newsletter.schedule_summary",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(Send, { className: "size-3.5" }),
+                  verifiedCount,
+                  " verified subscriber",
+                  verifiedCount !== 1 ? "s" : "",
+                  " will receive this send"
+                ]
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose-body space-y-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-1.5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { htmlFor: "newsletter-subject", children: "Subject" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Input,
+                {
+                  id: "newsletter-subject",
+                  "data-ocid": "newsletter.subject_input",
+                  value: subject,
+                  onChange: (e) => setSubject(e.target.value),
+                  placeholder: "Email subject line"
+                }
+              )
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-1.5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { htmlFor: "newsletter-body", children: "HTML Body" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Textarea,
+                {
+                  id: "newsletter-body",
+                  "data-ocid": "newsletter.body_textarea",
+                  rows: 10,
+                  value: htmlBody,
+                  onChange: (e) => setHtmlBody(e.target.value),
+                  placeholder: "Compose the newsletter HTML body here",
+                  className: "font-mono text-sm"
+                }
+              )
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-end pt-1 border-t border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Button,
+              {
+                type: "button",
+                disabled: saveContent.isPending,
+                onClick: handleSave,
+                "data-ocid": "newsletter.save_button",
+                children: saveContent.isPending ? "Saving…" : "Save Content"
+              }
+            ) })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose lg:col-span-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose-header", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Users, { className: "size-4 text-primary" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground", children: "Subscriber Management" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs text-muted-foreground font-medium", children: [
+              subscribers.length,
+              " total"
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "newsletter-compose-body p-0", children: subsLoading ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "p-4 space-y-2",
+              "data-ocid": "newsletter.loading_state",
+              children: [1, 2, 3].map((i) => /* @__PURE__ */ jsxRuntimeExports.jsx(Skeleton, { className: "h-10 rounded-lg" }, i))
+            }
+          ) : subscribers.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "flex flex-col items-center justify-center py-12 text-center",
+              "data-ocid": "newsletter.subscribers_empty_state",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Inbox, { className: "size-8 text-muted-foreground mb-2" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-medium text-foreground", children: "No subscribers yet" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-1 px-6", children: "Subscribers for this topic will appear here once they sign up." })
+              ]
+            }
+          ) : /* @__PURE__ */ jsxRuntimeExports.jsxs("table", { className: "w-full text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("thead", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("tr", { className: "bg-muted/40 border-b border-border", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("th", { className: "text-left px-4 py-3 font-medium text-muted-foreground", children: "Email" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("th", { className: "text-right px-4 py-3 font-medium text-muted-foreground", children: "Status" })
+            ] }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("tbody", { children: subscribers.map((s2, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "tr",
+              {
+                "data-ocid": `newsletter.subscriber_row.${idx + 1}`,
+                className: `subscriber-row border-b border-border last:border-0 ${s2.verified ? "" : "pending"}`,
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("td", { className: "px-4 py-3 text-foreground truncate max-w-[12rem]", children: s2.email }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("td", { className: "px-4 py-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-end", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "span",
+                    {
+                      className: `badge-status ${s2.verified ? "verified" : "pending"}`,
+                      children: s2.verified ? "Verified" : "Pending"
+                    }
+                  ) }) })
+                ]
+              },
+              s2.email
+            )) })
+          ] }) })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "newsletter-compose", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "newsletter-compose-header", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Tag, { className: "size-4 text-primary" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display font-semibold text-foreground", children: "Newsletter Topics" })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "newsletter-compose-body p-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "divide-y divide-border", children: topics.map((t, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "li",
+          {
+            "data-ocid": `newsletter.topic_item.${idx + 1}`,
+            className: "flex items-center justify-between gap-4 px-5 py-3",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 min-w-0", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "size-1.5 rounded-full bg-primary inline-block shrink-0" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-foreground truncate", children: t.name }),
+                t.id === selectedTopicId && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs text-muted-foreground", children: "(selected)" })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-1 shrink-0", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Button,
+                  {
+                    type: "button",
+                    variant: "ghost",
+                    size: "icon",
+                    title: "Rename",
+                    onClick: () => {
+                      setRenameTarget(t);
+                      setRenameName(t.name);
+                    },
+                    "data-ocid": `newsletter.rename_button.${idx + 1}`,
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(Pencil, { className: "size-4" })
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Button,
+                  {
+                    type: "button",
+                    variant: "ghost",
+                    size: "icon",
+                    title: "Remove",
+                    className: "text-destructive hover:text-destructive hover:bg-destructive/10",
+                    onClick: () => setRemoveTarget(t),
+                    "data-ocid": `newsletter.remove_button.${idx + 1}`,
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(Trash2, { className: "size-4" })
+                  }
+                )
+              ] })
+            ]
+          },
+          t.id.toString()
+        )) }) })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Dialog, { open: addOpen, onOpenChange: (v2) => !v2 && setAddOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogContent, { className: "max-w-sm", "data-ocid": "newsletter.add_dialog", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(DialogHeader, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DialogTitle, { className: "font-display text-lg", children: "Add Newsletter Topic" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "form",
+        {
+          onSubmit: (e) => {
+            e.preventDefault();
+            void handleAddTopic();
+          },
+          className: "space-y-4 pt-2",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-1.5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { htmlFor: "newsletter-add-name", children: "Topic Name" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Input,
+                {
+                  id: "newsletter-add-name",
+                  "data-ocid": "newsletter.add_topic_input",
+                  value: addName,
+                  onChange: (e) => setAddName(e.target.value),
+                  placeholder: "e.g. Weekly Small Biz Tips",
+                  autoFocus: true,
+                  required: true
+                }
+              )
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-end gap-3 pt-2 border-t border-border", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Button,
+                {
+                  type: "button",
+                  variant: "outline",
+                  onClick: () => setAddOpen(false),
+                  "data-ocid": "newsletter.cancel_button",
+                  children: "Cancel"
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Button,
+                {
+                  type: "submit",
+                  disabled: addTopic.isPending,
+                  "data-ocid": "newsletter.submit_button",
+                  children: addTopic.isPending ? "Adding…" : "Add Topic"
+                }
+              )
+            ] })
+          ]
+        }
+      )
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Dialog,
+      {
+        open: !!renameTarget,
+        onOpenChange: (v2) => !v2 && setRenameTarget(void 0),
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          DialogContent,
+          {
+            className: "max-w-sm",
+            "data-ocid": "newsletter.rename_dialog",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(DialogHeader, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DialogTitle, { className: "font-display text-lg", children: "Rename Topic" }) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                "form",
+                {
+                  onSubmit: (e) => {
+                    e.preventDefault();
+                    void handleRename();
+                  },
+                  className: "space-y-4 pt-2",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-1.5", children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { htmlFor: "newsletter-rename-name", children: "Topic Name" }),
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Input,
+                        {
+                          id: "newsletter-rename-name",
+                          "data-ocid": "newsletter.rename_input",
+                          value: renameName,
+                          onChange: (e) => setRenameName(e.target.value),
+                          autoFocus: true,
+                          required: true
+                        }
+                      )
+                    ] }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-end gap-3 pt-2 border-t border-border", children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Button,
+                        {
+                          type: "button",
+                          variant: "outline",
+                          onClick: () => setRenameTarget(void 0),
+                          "data-ocid": "newsletter.cancel_button",
+                          children: "Cancel"
+                        }
+                      ),
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Button,
+                        {
+                          type: "submit",
+                          disabled: renameTopic.isPending,
+                          "data-ocid": "newsletter.submit_button",
+                          children: renameTopic.isPending ? "Saving…" : "Save"
+                        }
+                      )
+                    ] })
+                  ]
+                }
+              )
+            ]
+          }
+        )
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Dialog,
+      {
+        open: !!removeTarget,
+        onOpenChange: (v2) => !v2 && setRemoveTarget(void 0),
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          DialogContent,
+          {
+            className: "max-w-sm",
+            "data-ocid": "newsletter.remove_dialog",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(DialogHeader, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DialogTitle, { className: "font-display text-lg", children: "Remove Topic?" }) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-muted-foreground text-sm", children: [
+                "Are you sure you want to remove",
+                " ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-foreground", children: removeTarget == null ? void 0 : removeTarget.name }),
+                "? This cannot be undone."
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-end gap-3 pt-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Button,
+                  {
+                    type: "button",
+                    variant: "outline",
+                    onClick: () => setRemoveTarget(void 0),
+                    "data-ocid": "newsletter.cancel_button",
+                    children: "Cancel"
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Button,
+                  {
+                    type: "button",
+                    variant: "destructive",
+                    disabled: removeTopic.isPending,
+                    onClick: handleRemove,
+                    "data-ocid": "newsletter.confirm_button",
+                    children: removeTopic.isPending ? "Removing…" : "Remove"
+                  }
+                )
+              ] })
+            ]
+          }
+        )
+      }
+    )
+  ] });
+}
 function StatsBar() {
   var _a3, _b3;
   const { data: stats, isLoading } = useAdminStats();
@@ -59996,10 +61367,23 @@ function Admin() {
                 "Contributions"
               ]
             }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            TabsTrigger,
+            {
+              value: "newsletter",
+              className: "gap-2",
+              "data-ocid": "admin.newsletter_tab",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { className: "size-4" }),
+                "Newsletter"
+              ]
+            }
           )
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(TabsContent, { value: "guides", className: "mt-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(GuidesTab, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(TabsContent, { value: "contributions", className: "mt-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ContributionsTab, {}) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(TabsContent, { value: "contributions", className: "mt-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ContributionsTab, {}) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(TabsContent, { value: "newsletter", className: "mt-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(NewsletterTab, {}) })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "border-t border-border bg-muted/40 mt-16", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 py-6 text-center text-xs text-muted-foreground", children: [
@@ -61431,7 +62815,7 @@ var Collapsible = reactExports.forwardRef(
         open,
         onOpenToggle: reactExports.useCallback(() => setOpen((prevOpen) => !prevOpen), [setOpen]),
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.div,
+          Primitive.div,
           {
             "data-state": getState$2(open),
             "data-disabled": disabled ? "" : void 0,
@@ -61450,7 +62834,7 @@ var CollapsibleTrigger = reactExports.forwardRef(
     const { __scopeCollapsible, ...triggerProps } = props;
     const context = useCollapsibleContext(TRIGGER_NAME$2, __scopeCollapsible);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.button,
+      Primitive.button,
       {
         type: "button",
         "aria-controls": context.contentId,
@@ -61512,7 +62896,7 @@ var CollapsibleContentImpl = reactExports.forwardRef((props, forwardedRef) => {
     }
   }, [context.open, present]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Primitive$1.div,
+    Primitive.div,
     {
       "data-state": getState$2(context.open),
       "data-disabled": context.disabled ? "" : void 0,
@@ -61701,7 +63085,7 @@ var AccordionImpl = React$4.forwardRef(
         direction: dir,
         orientation,
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(Collection.Slot, { scope: __scopeAccordion, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.div,
+          Primitive.div,
           {
             ...accordionProps,
             "data-orientation": orientation,
@@ -61762,7 +63146,7 @@ var AccordionHeader = React$4.forwardRef(
     const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
     const itemContext = useAccordionItemContext(HEADER_NAME, __scopeAccordion);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.h3,
+      Primitive.h3,
       {
         "data-orientation": accordionContext.orientation,
         "data-state": getState$1(itemContext.open),
@@ -73992,7 +75376,7 @@ var CheckboxTrigger = reactExports.forwardRef(
       }
     }, [control, setChecked]);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.button,
+      Primitive.button,
       {
         type: "button",
         role: "checkbox",
@@ -74076,7 +75460,7 @@ var CheckboxIndicator = reactExports.forwardRef(
       {
         present: forceMount || isIndeterminate(context.checked) || context.checked === true,
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Primitive$1.span,
+          Primitive.span,
           {
             "data-state": getState(context.checked),
             "data-disabled": context.disabled ? "" : void 0,
@@ -74128,7 +75512,7 @@ var CheckboxBubbleInput = reactExports.forwardRef(
     }, [bubbleInput, prevChecked, checked, hasConsumerStoppedPropagationRef]);
     const defaultCheckedRef = reactExports.useRef(isIndeterminate(checked) ? false : checked);
     return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Primitive$1.input,
+      Primitive.input,
       {
         type: "checkbox",
         "aria-hidden": true,
@@ -79090,7 +80474,7 @@ var Separator$1 = reactExports.forwardRef((props, forwardedRef) => {
   const ariaOrientation = orientation === "vertical" ? orientation : void 0;
   const semanticProps = decorative ? { role: "none" } : { "aria-orientation": ariaOrientation, role: "separator" };
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Primitive.div,
+    Primitive$1.div,
     {
       "data-orientation": orientation,
       ...semanticProps,
@@ -94936,6 +96320,7 @@ function Home() {
         )) })
       }
     ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(NewsletterForm, { variant: "home" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 md:py-24", children: /* @__PURE__ */ jsxRuntimeExports.jsx(PersonaQuiz, {}) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "div",

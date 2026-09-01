@@ -1,3 +1,15 @@
+type _UnsubscribeSuccess = record {topic_name: opt text;};
+type _UnsubscribeError = record {};
+type _CaffeineEmailUnsubscribeResult = 
+ variant {
+   Err: _UnsubscribeError;
+   Ok: _UnsubscribeSuccess;
+ };
+type _CaffeineEmailUnsubscribeArgs = 
+ record {
+   recipient_email: text;
+   topic_id: nat32;
+ };
 type Value = 
  variant {
    "bool": bool;
@@ -28,6 +40,11 @@ type TransformationInput =
  record {
    context: blob;
    response: HttpRequestResult;
+ };
+type Topic__1 = 
+ record {
+   id: nat;
+   name: text;
  };
 type Topic = 
  variant {
@@ -86,6 +103,11 @@ type OutageFilter =
    incidentType: opt text;
    provider: opt text;
    startDate: opt text;
+ };
+type NewsletterContent = 
+ record {
+   htmlBody: text;
+   subject: text;
  };
 type IndustryType = 
  variant {
@@ -148,6 +170,12 @@ type Goal =
    businessPlanning;
    googleMaps;
    socialAds;
+ };
+type Frequency = 
+ variant {
+   both;
+   monthly;
+   weekly;
  };
 type CourseId = nat;
 type Course = 
@@ -234,7 +262,11 @@ type AdminStats =
    totalPublished: nat;
  };
 service : {
+  _caffeineEmailUnsubscribeFromTopic: (args:
+   _CaffeineEmailUnsubscribeArgs) -> (_CaffeineEmailUnsubscribeResult);
+  _caffeineEmailVerify: (email: text) -> ();
   _initializeAccessControl: () -> ();
+  addNewsletterTopic: (name: text) -> (nat);
   approveContribution: (id: ContributionId) -> (bool);
   assignCallerUserRole: (user: principal, role: UserRole) -> ();
   createGuide: (input: GuideInput) -> (Guide);
@@ -251,6 +283,7 @@ service : {
   getGuide: (id: GuideId) -> (opt Guide) query;
   getLastUpdated: () -> (Timestamp) query;
   getMyContributions: () -> (vec Contribution) query;
+  getNewsletterContent: (topicId: nat) -> (opt NewsletterContent) query;
   getPersonalizedRecommendations: () -> (vec Guide) query;
   getProviderHealthStatus: () -> (vec ProviderHealthStatus) query;
   getProviderStats: () -> (vec ProviderStats) query;
@@ -259,15 +292,28 @@ service : {
   isCallerApproved: () -> (bool) query;
   listApprovals: () -> (vec UserApprovalInfo) query;
   listGuides: (filter: GuideFilter) -> (vec Guide) query;
+  listNewsletterSubscribers: (topicId: nat) ->
+   (vec record {
+          text;
+          bool;
+        }) query;
+  listNewsletterTopics: () -> (vec Topic__1) query;
   listOutages: (filter: OutageFilter) -> (vec OutageRecord) query;
   listPendingContributions: () -> (vec Contribution) query;
   rejectContribution: (id: ContributionId, reason: opt text) -> (bool);
+  removeNewsletterTopic: (topicId: nat) -> ();
+  renameNewsletterTopic: (topicId: nat, newName: text) -> ();
   requestApproval: () -> ();
   saveBusinessProfile: (profile: BusinessProfile) -> ();
   schema: () -> (text) query;
+  sendMonthlyNewsletter: () -> ();
+  sendWeeklyNewsletter: () -> ();
   setApproval: (user: principal, status: ApprovalStatus) -> ();
   setGuidePublished: (id: GuideId, published: bool) -> (bool);
+  setNewsletterContent: (topicId: nat, subject: text, htmlBody: text) -> ();
   submitContribution: (input: ContributionInput) -> (Contribution);
+  subscribeToNewsletter: (firstName: text, email: text, frequency:
+   Frequency) -> ();
   transform: (input: TransformationInput) -> (TransformationOutput) query;
   updateGuide: (id: GuideId, input: GuideInput) -> (bool);
 }

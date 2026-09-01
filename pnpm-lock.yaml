@@ -9,9 +9,12 @@ importers:
   .:
     dependencies:
       '@caffeineai/core-infrastructure':
-        specifier: ^1.1.0
-        version: 1.1.0(@caffeineai/object-storage@1.0.0)
+        specifier: ^1.3.0
+        version: 1.3.0(@caffeineai/object-storage@1.0.0)
     devDependencies:
+      '@dfinity/pic':
+        specifier: ^0.23.0
+        version: 0.23.0
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
@@ -412,8 +415,8 @@ packages:
   '@caffeineai/core-infrastructure@0.3.0':
     resolution: {integrity: sha512-8BVQr+bdpAhhVdjhfem0sWY3NDaUsztez1FKBbHvF1RY1xgqNN5eVPyNjDrP/tenhNibvruD40WZur7EBZvieg==}
 
-  '@caffeineai/core-infrastructure@1.1.0':
-    resolution: {integrity: sha512-dLQRaVjhBZ2Zy03BKDbuc576GuD5PwNX2DvWbKUbwput0g2I6mEWhPysru6Fcgs8n9P7tR/IdEie4qtd3uRd3g==}
+  '@caffeineai/core-infrastructure@1.3.0':
+    resolution: {integrity: sha512-I5LsCjVZa3cjzatzB+J3Y4wLMH7AvGhp/MdaNTq2LgMfCkBlOSzFqok5wJ2UWuRbfNcjkqlP1shhAKSsuGh1eg==}
     peerDependencies:
       '@caffeineai/object-storage': ^1.0.0
 
@@ -467,6 +470,9 @@ packages:
       '@dfinity/principal': 3.3.1
       '@noble/curves': ^1.9.2
       '@noble/hashes': ^1.8.0
+
+  '@dfinity/pic@0.23.0':
+    resolution: {integrity: sha512-KX4xpvxsD0AzeUVdqcQsDc6demExC4djQLJiU6tp+WCCEwmXex4D/L+7noa0RDnI1JOEi+B4nY5R5Nmci5ZEgg==}
 
   '@dfinity/principal@3.3.1':
     resolution: {integrity: sha512-UWloNRbDHSwVV/gec0CrtWm/cHODPgu+jgwn5iERheVwYCEp+yGXVIssUkJeN6wFxraqqCFcoBUvg7vtWM+GBg==}
@@ -1881,6 +1887,9 @@ packages:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
+  bip39@3.1.0:
+    resolution: {integrity: sha512-c9kiwdk45Do5GL0vJMe7tS95VjCii65mYAH7DfWl3uW8AVzXKQVUm64i3hzVybBDMp9r7j9iNxR85+ul8MdN/A==}
+
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
@@ -2338,6 +2347,9 @@ packages:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
     hasBin: true
+
+  json-with-bigint@3.5.7:
+    resolution: {integrity: sha512-7ei3MdAI5+fJPVnKlW77TKNKwQ5ppSzWvhPuSuINT/GYW9ZOC1eRKOuhV9yHG5aEsUPj9BBx5JIekkmoLHxZOw==}
 
   json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
@@ -3435,7 +3447,7 @@ snapshots:
       - '@dfinity/identity-secp256k1'
       - '@dfinity/principal'
 
-  '@caffeineai/core-infrastructure@1.1.0(@caffeineai/object-storage@1.0.0)':
+  '@caffeineai/core-infrastructure@1.3.0(@caffeineai/object-storage@1.0.0)':
     dependencies:
       '@caffeineai/object-storage': 1.0.0
       '@icp-sdk/auth': 7.1.0(@icp-sdk/core@5.4.0)
@@ -3501,6 +3513,12 @@ snapshots:
       '@dfinity/principal': 3.3.1
       '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
+
+  '@dfinity/pic@0.23.0':
+    dependencies:
+      '@icp-sdk/core': 5.4.0
+      bip39: 3.1.0
+      json-with-bigint: 3.5.7
 
   '@dfinity/principal@3.3.1':
     dependencies:
@@ -4833,6 +4851,10 @@ snapshots:
 
   binary-extensions@2.3.0: {}
 
+  bip39@3.1.0:
+    dependencies:
+      '@noble/hashes': 1.8.0
+
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
@@ -5254,6 +5276,8 @@ snapshots:
   js-tokens@4.0.0: {}
 
   jsesc@3.1.0: {}
+
+  json-with-bigint@3.5.7: {}
 
   json5@2.2.3: {}
 

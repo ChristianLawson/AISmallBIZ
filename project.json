@@ -1,19 +1,17 @@
 {
-  "overview": "A small business resource hub tracking cloud and payment provider outages, publishing guides with recommended next steps, and listing NYC business courses.",
+  "overview": "AISmallBiz is a showcase site for small business AI guidance with a verified, scheduled newsletter program.",
   "features": [
-    "Cloud Health tracker with 29 providers including payment processors",
-    "Guides with recommended-next links",
-    "Stable-memory-backed data persistence across canister upgrades",
-    "Business profiles and community contributions",
-    "NYC small business course listings"
+    "Newsletter signup with email verification",
+    "Scheduled weekly and monthly newsletter sends",
+    "Per-topic unsubscribe links",
+    "Admin newsletter content management"
   ],
   "category": "productivity",
   "tags": [
-    "productivity",
+    "newsletter",
+    "email",
     "small-business",
-    "cloud-monitoring",
-    "guides",
-    "nyc"
+    "ai"
   ],
-  "last_updated": "2026-07-22T14:10:57.501Z"
+  "last_updated": "2026-08-28T12:32:29.017Z"
 }

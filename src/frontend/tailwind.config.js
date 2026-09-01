@@ -138,6 +138,10 @@ export default {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-50%)" },
         },
+        "verify-pop": {
+          "0%": { opacity: "0", transform: "scale(0.96)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -146,6 +150,7 @@ export default {
         "pulse-vibrant": "pulse-vibrant 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "slide-up": "slide-up 0.5s ease-out",
         marquee: "marquee 32s linear infinite",
+        "verify-pop": "verify-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both",
       },
     },
   },

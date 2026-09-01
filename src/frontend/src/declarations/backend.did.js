@@ -8,6 +8,18 @@
 
 import { IDL } from '@icp-sdk/core/candid';
 
+export const _CaffeineEmailUnsubscribeArgs = IDL.Record({
+  'recipient_email' : IDL.Text,
+  'topic_id' : IDL.Nat32,
+});
+export const _UnsubscribeSuccess = IDL.Record({
+  'topic_name' : IDL.Opt(IDL.Text),
+});
+export const _UnsubscribeError = IDL.Record({});
+export const _CaffeineEmailUnsubscribeResult = IDL.Variant({
+  'Ok' : _UnsubscribeSuccess,
+  'Err' : _UnsubscribeError,
+});
 export const ContributionId = IDL.Nat;
 export const UserRole = IDL.Variant({
   'admin' : IDL.Null,
@@ -150,6 +162,10 @@ export const Contribution = IDL.Record({
   'businessContext' : IDL.Text,
   'authorPrincipal' : IDL.Principal,
 });
+export const NewsletterContent = IDL.Record({
+  'htmlBody' : IDL.Text,
+  'subject' : IDL.Text,
+});
 export const ProviderStats = IDL.Record({
   'provider' : IDL.Text,
   'totalOutages' : IDL.Nat,
@@ -170,6 +186,7 @@ export const GuideFilter = IDL.Record({
   'keyword' : IDL.Opt(IDL.Text),
   'businessTypeTag' : IDL.Opt(IDL.Text),
 });
+export const Topic__1 = IDL.Record({ 'id' : IDL.Nat, 'name' : IDL.Text });
 export const OutageFilter = IDL.Record({
   'provider' : IDL.Opt(IDL.Text),
   'endDate' : IDL.Opt(IDL.Text),
@@ -193,6 +210,11 @@ export const ContributionInput = IDL.Record({
   'authorName' : IDL.Text,
   'businessContext' : IDL.Text,
 });
+export const Frequency = IDL.Variant({
+  'both' : IDL.Null,
+  'monthly' : IDL.Null,
+  'weekly' : IDL.Null,
+});
 export const HttpHeader = IDL.Record({ 'value' : IDL.Text, 'name' : IDL.Text });
 export const HttpRequestResult = IDL.Record({
   'status' : IDL.Nat,
@@ -210,7 +232,14 @@ export const TransformationOutput = IDL.Record({
 });
 
 export const idlService = IDL.Service({
+  '_caffeineEmailUnsubscribeFromTopic' : IDL.Func(
+      [_CaffeineEmailUnsubscribeArgs],
+      [_CaffeineEmailUnsubscribeResult],
+      [],
+    ),
+  '_caffeineEmailVerify' : IDL.Func([IDL.Text], [], []),
   '_initializeAccessControl' : IDL.Func([], [], []),
+  'addNewsletterTopic' : IDL.Func([IDL.Text], [IDL.Nat], []),
   'approveContribution' : IDL.Func([ContributionId], [IDL.Bool], []),
   'assignCallerUserRole' : IDL.Func([IDL.Principal, UserRole], [], []),
   'createGuide' : IDL.Func([GuideInput], [Guide], []),
@@ -231,6 +260,11 @@ export const idlService = IDL.Service({
   'getGuide' : IDL.Func([GuideId], [IDL.Opt(Guide)], ['query']),
   'getLastUpdated' : IDL.Func([], [Timestamp], ['query']),
   'getMyContributions' : IDL.Func([], [IDL.Vec(Contribution)], ['query']),
+  'getNewsletterContent' : IDL.Func(
+      [IDL.Nat],
+      [IDL.Opt(NewsletterContent)],
+      ['query'],
+    ),
   'getPersonalizedRecommendations' : IDL.Func([], [IDL.Vec(Guide)], ['query']),
   'getProviderHealthStatus' : IDL.Func(
       [],
@@ -243,6 +277,12 @@ export const idlService = IDL.Service({
   'isCallerApproved' : IDL.Func([], [IDL.Bool], ['query']),
   'listApprovals' : IDL.Func([], [IDL.Vec(UserApprovalInfo)], ['query']),
   'listGuides' : IDL.Func([GuideFilter], [IDL.Vec(Guide)], ['query']),
+  'listNewsletterSubscribers' : IDL.Func(
+      [IDL.Nat],
+      [IDL.Vec(IDL.Tuple(IDL.Text, IDL.Bool))],
+      ['query'],
+    ),
+  'listNewsletterTopics' : IDL.Func([], [IDL.Vec(Topic__1)], ['query']),
   'listOutages' : IDL.Func([OutageFilter], [IDL.Vec(OutageRecord)], ['query']),
   'listPendingContributions' : IDL.Func([], [IDL.Vec(Contribution)], ['query']),
   'rejectContribution' : IDL.Func(
@@ -250,12 +290,18 @@ export const idlService = IDL.Service({
       [IDL.Bool],
       [],
     ),
+  'removeNewsletterTopic' : IDL.Func([IDL.Nat], [], []),
+  'renameNewsletterTopic' : IDL.Func([IDL.Nat, IDL.Text], [], []),
   'requestApproval' : IDL.Func([], [], []),
   'saveBusinessProfile' : IDL.Func([BusinessProfile], [], []),
   'schema' : IDL.Func([], [IDL.Text], ['query']),
+  'sendMonthlyNewsletter' : IDL.Func([], [], []),
+  'sendWeeklyNewsletter' : IDL.Func([], [], []),
   'setApproval' : IDL.Func([IDL.Principal, ApprovalStatus], [], []),
   'setGuidePublished' : IDL.Func([GuideId, IDL.Bool], [IDL.Bool], []),
+  'setNewsletterContent' : IDL.Func([IDL.Nat, IDL.Text, IDL.Text], [], []),
   'submitContribution' : IDL.Func([ContributionInput], [Contribution], []),
+  'subscribeToNewsletter' : IDL.Func([IDL.Text, IDL.Text, Frequency], [], []),
   'transform' : IDL.Func(
       [TransformationInput],
       [TransformationOutput],
@@ -267,6 +313,16 @@ export const idlService = IDL.Service({
 export const idlInitArgs = [];
 
 export const idlFactory = ({ IDL }) => {
+  const _CaffeineEmailUnsubscribeArgs = IDL.Record({
+    'recipient_email' : IDL.Text,
+    'topic_id' : IDL.Nat32,
+  });
+  const _UnsubscribeSuccess = IDL.Record({ 'topic_name' : IDL.Opt(IDL.Text) });
+  const _UnsubscribeError = IDL.Record({});
+  const _CaffeineEmailUnsubscribeResult = IDL.Variant({
+    'Ok' : _UnsubscribeSuccess,
+    'Err' : _UnsubscribeError,
+  });
   const ContributionId = IDL.Nat;
   const UserRole = IDL.Variant({
     'admin' : IDL.Null,
@@ -409,6 +465,10 @@ export const idlFactory = ({ IDL }) => {
     'businessContext' : IDL.Text,
     'authorPrincipal' : IDL.Principal,
   });
+  const NewsletterContent = IDL.Record({
+    'htmlBody' : IDL.Text,
+    'subject' : IDL.Text,
+  });
   const ProviderStats = IDL.Record({
     'provider' : IDL.Text,
     'totalOutages' : IDL.Nat,
@@ -429,6 +489,7 @@ export const idlFactory = ({ IDL }) => {
     'keyword' : IDL.Opt(IDL.Text),
     'businessTypeTag' : IDL.Opt(IDL.Text),
   });
+  const Topic__1 = IDL.Record({ 'id' : IDL.Nat, 'name' : IDL.Text });
   const OutageFilter = IDL.Record({
     'provider' : IDL.Opt(IDL.Text),
     'endDate' : IDL.Opt(IDL.Text),
@@ -452,6 +513,11 @@ export const idlFactory = ({ IDL }) => {
     'authorName' : IDL.Text,
     'businessContext' : IDL.Text,
   });
+  const Frequency = IDL.Variant({
+    'both' : IDL.Null,
+    'monthly' : IDL.Null,
+    'weekly' : IDL.Null,
+  });
   const HttpHeader = IDL.Record({ 'value' : IDL.Text, 'name' : IDL.Text });
   const HttpRequestResult = IDL.Record({
     'status' : IDL.Nat,
@@ -469,7 +535,14 @@ export const idlFactory = ({ IDL }) => {
   });
   
   return IDL.Service({
+    '_caffeineEmailUnsubscribeFromTopic' : IDL.Func(
+        [_CaffeineEmailUnsubscribeArgs],
+        [_CaffeineEmailUnsubscribeResult],
+        [],
+      ),
+    '_caffeineEmailVerify' : IDL.Func([IDL.Text], [], []),
     '_initializeAccessControl' : IDL.Func([], [], []),
+    'addNewsletterTopic' : IDL.Func([IDL.Text], [IDL.Nat], []),
     'approveContribution' : IDL.Func([ContributionId], [IDL.Bool], []),
     'assignCallerUserRole' : IDL.Func([IDL.Principal, UserRole], [], []),
     'createGuide' : IDL.Func([GuideInput], [Guide], []),
@@ -490,6 +563,11 @@ export const idlFactory = ({ IDL }) => {
     'getGuide' : IDL.Func([GuideId], [IDL.Opt(Guide)], ['query']),
     'getLastUpdated' : IDL.Func([], [Timestamp], ['query']),
     'getMyContributions' : IDL.Func([], [IDL.Vec(Contribution)], ['query']),
+    'getNewsletterContent' : IDL.Func(
+        [IDL.Nat],
+        [IDL.Opt(NewsletterContent)],
+        ['query'],
+      ),
     'getPersonalizedRecommendations' : IDL.Func(
         [],
         [IDL.Vec(Guide)],
@@ -506,6 +584,12 @@ export const idlFactory = ({ IDL }) => {
     'isCallerApproved' : IDL.Func([], [IDL.Bool], ['query']),
     'listApprovals' : IDL.Func([], [IDL.Vec(UserApprovalInfo)], ['query']),
     'listGuides' : IDL.Func([GuideFilter], [IDL.Vec(Guide)], ['query']),
+    'listNewsletterSubscribers' : IDL.Func(
+        [IDL.Nat],
+        [IDL.Vec(IDL.Tuple(IDL.Text, IDL.Bool))],
+        ['query'],
+      ),
+    'listNewsletterTopics' : IDL.Func([], [IDL.Vec(Topic__1)], ['query']),
     'listOutages' : IDL.Func(
         [OutageFilter],
         [IDL.Vec(OutageRecord)],
@@ -521,12 +605,18 @@ export const idlFactory = ({ IDL }) => {
         [IDL.Bool],
         [],
       ),
+    'removeNewsletterTopic' : IDL.Func([IDL.Nat], [], []),
+    'renameNewsletterTopic' : IDL.Func([IDL.Nat, IDL.Text], [], []),
     'requestApproval' : IDL.Func([], [], []),
     'saveBusinessProfile' : IDL.Func([BusinessProfile], [], []),
     'schema' : IDL.Func([], [IDL.Text], ['query']),
+    'sendMonthlyNewsletter' : IDL.Func([], [], []),
+    'sendWeeklyNewsletter' : IDL.Func([], [], []),
     'setApproval' : IDL.Func([IDL.Principal, ApprovalStatus], [], []),
     'setGuidePublished' : IDL.Func([GuideId, IDL.Bool], [IDL.Bool], []),
+    'setNewsletterContent' : IDL.Func([IDL.Nat, IDL.Text, IDL.Text], [], []),
     'submitContribution' : IDL.Func([ContributionInput], [Contribution], []),
+    'subscribeToNewsletter' : IDL.Func([IDL.Text, IDL.Text, Frequency], [], []),
     'transform' : IDL.Func(
         [TransformationInput],
         [TransformationOutput],

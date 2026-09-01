@@ -1,7 +1,7 @@
 # Design Brief: AISmallBiz
 
 ## Direction
-Premium light minimalism with warm orange primary and reserved Electric Indigo accent. Editorial serif headlines, calm approachable body text, card-based discovery. The /learn route adds a guided learning ladder: a numbered vertical path with checkmarks and a Next button, not a menu.
+Premium light minimalism with warm orange primary and reserved Electric Indigo accent. Editorial serif headlines, calm approachable body text, card-based discovery. The /learn route adds a guided learning ladder: a numbered vertical path with checkmarks and a Next button, not a menu. The newsletter surfaces extend the same brand: a signup and verification confirmation state on the footer and homepage, plus an admin compose and subscriber management surface.
 
 ## Tone
 Refined, calm, professional, and warm. Purposeful minimalism with clear information hierarchy for busy small business owners who may hardly know how to use a computer.
@@ -40,6 +40,10 @@ Subtle shadow hierarchy: card 0 1px 3px L0.06; elevated 0 4px 12px L0.08; premiu
 | Ladder Step | bg-card | 1px border-border | numbered node on rail, Next button, checkmark states |
 | Course Cards | bg-card | 1px border-border | 1rem radius, soft hover, expired opacity 0.75 |
 | Footer | bg-muted/20 | border-t | minimal |
+| Newsletter Signup | bg-card | 1px border-border | newsletter-card, footer + homepage below Free Forever |
+| Verification Confirm | bg-success/8 | 1px border-success/30 | verify-panel, success state after submit |
+| Admin Compose | bg-card | 1px border-border | newsletter-compose, topic selector + editor + send bar |
+| Subscriber Table | bg-card | 1px border-border | rows tinted amber when verification pending |
 
 ## Component Patterns
 - Ladder Tier Header: numbered orange badge (indigo for Tier 3 advanced) + heading-section title + subtitle
@@ -52,6 +56,10 @@ Subtle shadow hierarchy: card 0 1px 3px L0.06; elevated 0 4px 12px L0.08; premiu
 - Tier Completion: green pill with checkmark when all steps in a tier are done
 - Progress Bar: gradient orange fill at top of /learn
 - Expired Badge: amber pill 12% opacity. New Badge: green pill 12% opacity
+- Verify Panel: green icon circle + title + desc, verify-pop entrance, confirms verification email sent
+- Frequency Badge: orange pill for weekly/monthly, indigo pill for both
+- Status Badge: green verified pill, amber pending pill in subscriber table
+- Schedule Summary: orange pill in compose header showing frequency + verified subscriber count
 
 ## Motion
 - Step card hover: translateY lift + orange glow 0.25s ease
@@ -60,6 +68,7 @@ Subtle shadow hierarchy: card 0 1px 3px L0.06; elevated 0 4px 12px L0.08; premiu
 - Tier 3 link arrow: translateX 4px on hover
 - Page entrance: fade-in 0.4s ease-out
 - Card hover (courses): translateY(-2px) + shadow 0.25s ease
+- Verify panel entrance: verify-pop 0.3s spring (scale 0.96 to 1) when confirmation state appears
 
 ## Constraints
 - Reuse existing tokens: primary orange #f59e0b, accent-indigo #6366F1, success, warning
@@ -73,4 +82,4 @@ Subtle shadow hierarchy: card 0 1px 3px L0.06; elevated 0 4px 12px L0.08; premiu
 - AA+ contrast in both light and dark modes
 
 ## Signature Detail
-The learning ladder rail: a single vertical line that turns each numbered node from gray outline to orange glow to indigo checkmark as the learner climbs, making progress feel like a literal ascent rather than a checklist.
+The learning ladder rail: a single vertical line that turns each numbered node from gray outline to orange glow to indigo checkmark as the learner climbs, making progress feel like a literal ascent rather than a checklist. On the newsletter surfaces, the green verification panel with a spring entrance gives the signup a reassuring, tactile confirmation that the email is on its way.

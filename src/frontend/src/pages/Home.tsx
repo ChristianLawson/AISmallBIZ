@@ -1,3 +1,4 @@
+import { NewsletterForm } from "@/components/NewsletterForm";
 import { PersonaQuiz } from "@/components/PersonaQuiz";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/hooks/useAuth";
@@ -512,6 +513,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+      {/* NEWSLETTER */}
+      <NewsletterForm variant="home" />
       {/* PERSONA QUIZ */}
       <section className="py-20 md:py-24">
         <PersonaQuiz />

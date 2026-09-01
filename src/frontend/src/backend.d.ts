@@ -113,6 +113,10 @@ export interface ProviderStats {
     averageDurationHours: number;
     mostCommonIncidentType: string;
 }
+export interface NewsletterContent {
+    htmlBody: string;
+    subject: string;
+}
 export interface Guide {
     id: GuideId;
     title: string;
@@ -131,6 +135,10 @@ export interface HttpHeader {
     value: string;
     name: string;
 }
+export interface UserApprovalInfo {
+    status: ApprovalStatus;
+    principal: Principal;
+}
 export interface GuideInput {
     title: string;
     topic: Topic;
@@ -140,10 +148,6 @@ export interface GuideInput {
     recommendedNext: Array<GuideId>;
     excerpt: string;
     readTimeMinutes: bigint;
-}
-export interface UserApprovalInfo {
-    status: ApprovalStatus;
-    principal: Principal;
 }
 export interface Result {
     hasMore: boolean;
@@ -155,12 +159,16 @@ export interface OutageFilter {
     incidentType?: string;
     startDate?: string;
 }
+export interface Topic__1 {
+    id: bigint;
+    name: string;
+}
+export type OutageId = bigint;
 export interface AdminStats {
     totalPublished: bigint;
     recentGuides: Array<Guide>;
     pendingContributions: bigint;
 }
-export type OutageId = bigint;
 export type GuideId = bigint;
 export interface BusinessProfile {
     teamSize: TeamSize;
@@ -181,6 +189,11 @@ export enum ContributionStatus {
     pending = "pending",
     approved = "approved",
     rejected = "rejected"
+}
+export enum Frequency {
+    both = "both",
+    monthly = "monthly",
+    weekly = "weekly"
 }
 export enum Goal {
     businessPlanning = "businessPlanning",
@@ -220,6 +233,7 @@ export enum UserRole {
     guest = "guest"
 }
 export interface backendInterface {
+    addNewsletterTopic(name: string): Promise<bigint>;
     approveContribution(id: ContributionId): Promise<boolean>;
     assignCallerUserRole(user: Principal, role: UserRole): Promise<void>;
     createGuide(input: GuideInput): Promise<Guide>;
@@ -236,6 +250,7 @@ export interface backendInterface {
     getGuide(id: GuideId): Promise<Guide | null>;
     getLastUpdated(): Promise<Timestamp>;
     getMyContributions(): Promise<Array<Contribution>>;
+    getNewsletterContent(topicId: bigint): Promise<NewsletterContent | null>;
     getPersonalizedRecommendations(): Promise<Array<Guide>>;
     getProviderHealthStatus(): Promise<Array<ProviderHealthStatus>>;
     getProviderStats(): Promise<Array<ProviderStats>>;
@@ -244,15 +259,23 @@ export interface backendInterface {
     isCallerApproved(): Promise<boolean>;
     listApprovals(): Promise<Array<UserApprovalInfo>>;
     listGuides(filter: GuideFilter): Promise<Array<Guide>>;
+    listNewsletterSubscribers(topicId: bigint): Promise<Array<[string, boolean]>>;
+    listNewsletterTopics(): Promise<Array<Topic__1>>;
     listOutages(filter: OutageFilter): Promise<Array<OutageRecord>>;
     listPendingContributions(): Promise<Array<Contribution>>;
     rejectContribution(id: ContributionId, reason: string | null): Promise<boolean>;
+    removeNewsletterTopic(topicId: bigint): Promise<void>;
+    renameNewsletterTopic(topicId: bigint, newName: string): Promise<void>;
     requestApproval(): Promise<void>;
     saveBusinessProfile(profile: BusinessProfile): Promise<void>;
     schema(): Promise<string>;
+    sendMonthlyNewsletter(): Promise<void>;
+    sendWeeklyNewsletter(): Promise<void>;
     setApproval(user: Principal, status: ApprovalStatus): Promise<void>;
     setGuidePublished(id: GuideId, published: boolean): Promise<boolean>;
+    setNewsletterContent(topicId: bigint, subject: string, htmlBody: string): Promise<void>;
     submitContribution(input: ContributionInput): Promise<Contribution>;
+    subscribeToNewsletter(firstName: string, email: string, frequency: Frequency): Promise<void>;
     transform(input: TransformationInput): Promise<TransformationOutput>;
     updateGuide(id: GuideId, input: GuideInput): Promise<boolean>;
 }
