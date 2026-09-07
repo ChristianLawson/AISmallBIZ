@@ -246,6 +246,14 @@ const MARQUEE_ITEMS = [
 
 const ALL_GUIDES = [
   {
+    id: "Don't Be the Next Small Business Hacked",
+    emoji: "🔒",
+    title: "Security for Small Business",
+    description:
+      "Practical cybersecurity basics plus New York SHIELD Act compliance. Free forever, no product to sell you.",
+    to: "/security-guide",
+  },
+  {
     id: "deli",
     emoji: "🥪",
     title: "NYC Deli Guide",
