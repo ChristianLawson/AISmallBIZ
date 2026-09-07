@@ -17,7 +17,7 @@ const PRIMARY_LINKS = [
 ];
 
 const TOOLS_RESOURCES_LINKS = [
-  { to: "/nyc-resources" as const, label: "NYC Resources (Free)" },
+  { to: "/nyc-resources" as const, label: "NYC Resources (FFFree)" },
   { to: "/ai-training" as const, label: "AI Training & Tools" },
   { to: "/learn" as const, label: "Learn" },
 ];
