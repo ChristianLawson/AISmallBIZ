@@ -1,3 +1,4 @@
+import SecurityGuide from "@/pages/SecurityGuide";
 import { Layout } from "@/components/Layout";
 import SeoMeta from "@/components/SeoMeta";
 import { Toaster } from "@/components/ui/sonner";
@@ -370,6 +371,12 @@ const socialMediaGuideRoute = createRoute({
   component: SocialMediaGuide,
 });
 
+const securityGuideRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/security-guide",
+  component: SecurityGuide,
+});
+
 const cloudOutageTrackerRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/cloud-outage-tracker",
@@ -488,6 +495,7 @@ const routeTree = rootRoute.addChildren([
   privacyPolicyRoute,
   termsRoute,
   socialMediaGuideRoute,
+  securityGuideRoute,
   aiJobGuidesRoute,
   plumbersGuideRoute,
   restaurantsGuideRoute,
