@@ -17,14 +17,14 @@ import {
 } from "lucide-react";
 import { type MouseEvent, useEffect, useState } from "react";
 
-// The one place the downloadable asset is named. Swap these four fields when
-// the security PDF lands in public/assets/ and the CTA follows automatically.
+// The one place the downloadable asset is named. Retargeting the CTA means
+// editing these four fields and dropping the file in public/assets/.
 const GUIDE_DOWNLOAD = {
-  href: "/assets/social-media-marketing-workbook.pdf",
-  filename: "Social Media Marketing Workbook (NYC SBS).pdf",
-  title: "Social Media Marketing Workbook",
+  href: "/assets/protect-your-business-now.pdf",
+  filename: "Protect your business now!.pdf",
+  title: "Protect Your Business Now",
   blurb:
-    "The free attendee workbook from NYC Small Business Services' Digital Marketing Course Series.",
+    "The full book this page is drawn from: twenty-six short chapters on the attacks that actually reach small businesses, the people around you, and what to do in the first hour when one lands.",
 };
 
 const SECTIONS = [
