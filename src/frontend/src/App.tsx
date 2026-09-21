@@ -1,4 +1,3 @@
-import SecurityGuide from "@/pages/SecurityGuide";
 import { Layout } from "@/components/Layout";
 import SeoMeta from "@/components/SeoMeta";
 import { Toaster } from "@/components/ui/sonner";
@@ -35,6 +34,7 @@ import PersonasPage from "@/pages/PersonasPage";
 import PizzaShopGuide from "@/pages/PizzaShopGuide";
 import PoolHallGuide from "@/pages/PoolHallGuide";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import SecurityGuide from "@/pages/SecurityGuide";
 import SocialMediaGuide from "@/pages/SocialMediaGuide";
 import StartHerePage from "@/pages/StartHerePage";
 import StartYourBusinessGuide from "@/pages/StartYourBusinessGuide";

@@ -85,7 +85,9 @@ export default function SecurityGuide() {
 
             <h1 className="heading-hero text-foreground">
               Security for Small Business{" "}
-              <span className="text-gradient-vibrant">What You Actually Need to Do</span>
+              <span className="text-gradient-vibrant">
+                What You Actually Need to Do
+              </span>
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed max-w-3xl text-muted-readable">
@@ -162,18 +164,16 @@ export default function SecurityGuide() {
             Security for Small Business
           </h2>
           <p className="text-lg text-muted-readable leading-relaxed mb-4">
-            Most small business owners think security is something big
-            companies worry about. Then a phishing email costs them twelve
-            thousand dollars, or a laptop gets stolen with customer records on
-            it, and they find out New York law had requirements they never
-            knew existed.
+            Most small business owners think security is something big companies
+            worry about. Then a phishing email costs them twelve thousand
+            dollars, or a laptop gets stolen with customer records on it, and
+            they find out New York law had requirements they never knew existed.
           </p>
           <p className="text-lg text-muted-readable leading-relaxed">
-            This guide covers both halves: the practical steps that prevent
-            most attacks, and the legal obligations you already have under
-            New York law. You can act on the first half this week. The second
-            half you need to understand before something goes wrong, not
-            after.
+            This guide covers both halves: the practical steps that prevent most
+            attacks, and the legal obligations you already have under New York
+            law. You can act on the first half this week. The second half you
+            need to understand before something goes wrong, not after.
           </p>
         </div>
       </section>
@@ -185,8 +185,8 @@ export default function SecurityGuide() {
             The Practical Basics
           </h2>
           <p className="text-muted-readable leading-relaxed mb-6">
-            You do not need an IT department. In order of impact, here is
-            what actually closes the doors attackers walk through.
+            You do not need an IT department. In order of impact, here is what
+            actually closes the doors attackers walk through.
           </p>
 
           <div className="space-y-6">
@@ -197,10 +197,9 @@ export default function SecurityGuide() {
               <p className="text-muted-readable leading-relaxed">
                 This is the single highest-value thing you can do, and it is
                 free. Even if someone steals your password, they still cannot
-                get in without a code from your phone. Start with email,
-                since it is the master key to everything else you own. Then
-                do banking, your payment processor, and your point of sale
-                system.
+                get in without a code from your phone. Start with email, since
+                it is the master key to everything else you own. Then do
+                banking, your payment processor, and your point of sale system.
               </p>
             </div>
 
@@ -210,10 +209,10 @@ export default function SecurityGuide() {
               </h3>
               <p className="text-muted-readable leading-relaxed">
                 Reusing the same password across accounts is how one breach
-                becomes five. A password manager generates a different
-                strong password for every account. It also solves what
-                happens when an employee leaves: you revoke their access and
-                move on, instead of changing one shared login for everyone.
+                becomes five. A password manager generates a different strong
+                password for every account. It also solves what happens when an
+                employee leaves: you revoke their access and move on, instead of
+                changing one shared login for everyone.
               </p>
             </div>
 
@@ -225,8 +224,8 @@ export default function SecurityGuide() {
                 Ransomware locks your files and demands payment. A working
                 backup turns that into a bad afternoon instead of a
                 business-ending event. Keep at least one backup that is not
-                connected to your main system, and actually test it by
-                restoring a file. A backup you have never tested is a guess.
+                connected to your main system, and actually test it by restoring
+                a file. A backup you have never tested is a guess.
               </p>
             </div>
 
@@ -235,9 +234,9 @@ export default function SecurityGuide() {
                 Keep software updated
               </h3>
               <p className="text-muted-readable leading-relaxed">
-                Updates close security holes attackers already know about.
-                Turn on automatic updates for your operating systems,
-                browsers, point of sale system, and website platform.
+                Updates close security holes attackers already know about. Turn
+                on automatic updates for your operating systems, browsers, point
+                of sale system, and website platform.
               </p>
             </div>
 
@@ -247,9 +246,9 @@ export default function SecurityGuide() {
               </h3>
               <p className="text-muted-readable leading-relaxed">
                 Give each person only the access their job requires. Remove
-                access the same day someone leaves. This one habit prevents
-                a large share of incidents, most of which are careless
-                rather than malicious.
+                access the same day someone leaves. This one habit prevents a
+                large share of incidents, most of which are careless rather than
+                malicious.
               </p>
             </div>
           </div>
@@ -266,25 +265,24 @@ export default function SecurityGuide() {
             Use an authenticator app rather than text messages where you have
             the choice. Text messages can be intercepted through a technique
             called SIM swapping. An app is stronger and takes the same two
-            seconds. Pair this with a password manager so every account has
-            its own strong password, and you have closed the two most common
-            doors attackers use.
+            seconds. Pair this with a password manager so every account has its
+            own strong password, and you have closed the two most common doors
+            attackers use.
           </p>
           <div className="rounded-lg border-l-4 border-accent-neutral bg-muted/40 p-5 mt-6">
             <p className="text-sm font-semibold text-foreground mb-2">
               A true story: when someone leaves
             </p>
             <p className="text-sm text-muted-readable leading-relaxed">
-              Carol managed the office of a small building firm for nine
-              years, and everybody loved her. When she retired, nobody
-              changed a thing. Her email stayed open. Her login to the
-              accounting system stayed active. The safe word the team used
-              for emergencies about money stayed exactly as it was, because
-              Carol was Carol. Seven months later, on an ordinary Wednesday,
-              that untouched access became the way someone else got in. The
-              lesson is not about Carol, who did nothing wrong. It is that
-              the day a person leaves is a security moment, every single
-              time, no matter how much you trusted them.
+              Carol managed the office of a small building firm for nine years,
+              and everybody loved her. When she retired, nobody changed a thing.
+              Her email stayed open. Her login to the accounting system stayed
+              active. The safe word the team used for emergencies about money
+              stayed exactly as it was, because Carol was Carol. Seven months
+              later, on an ordinary Wednesday, that untouched access became the
+              way someone else got in. The lesson is not about Carol, who did
+              nothing wrong. It is that the day a person leaves is a security
+              moment, every single time, no matter how much you trusted them.
             </p>
           </div>
         </div>
@@ -304,8 +302,8 @@ export default function SecurityGuide() {
           <p className="text-muted-readable leading-relaxed mb-6">
             The pattern to teach your team: urgency plus a request to change
             payment details is almost always fraud. If a vendor emails saying
-            their bank account changed, call them at the number you already
-            have on file, never the number in the email.
+            their bank account changed, call them at the number you already have
+            on file, never the number in the email.
           </p>
 
           <div className="rounded-lg border-l-4 border-accent-neutral bg-muted/40 p-5">
@@ -313,25 +311,24 @@ export default function SecurityGuide() {
               A true story: the letter that frightens you
             </p>
             <p className="text-sm text-muted-readable leading-relaxed mb-3">
-              Hakim owns two small grocery shops and has never been in
-              trouble with anyone. An email arrived using his real business
-              name and a case number, claiming a discrepancy in his filings
-              and threatening enforcement within seventy two hours. He did
-              not sleep that night. He did not tell his wife, and he did not
-              call his accountant, because he was embarrassed and wanted to
-              make it disappear quietly. He called the number in the email.
-              A polite man confirmed the case number back to him and offered
-              to settle it immediately for eight thousand two hundred
-              dollars. Relieved, Hakim paid.
+              Hakim owns two small grocery shops and has never been in trouble
+              with anyone. An email arrived using his real business name and a
+              case number, claiming a discrepancy in his filings and threatening
+              enforcement within seventy two hours. He did not sleep that night.
+              He did not tell his wife, and he did not call his accountant,
+              because he was embarrassed and wanted to make it disappear
+              quietly. He called the number in the email. A polite man confirmed
+              the case number back to him and offered to settle it immediately
+              for eight thousand two hundred dollars. Relieved, Hakim paid.
             </p>
             <p className="text-sm text-muted-readable leading-relaxed">
-              Nobody borrowed his trust in that attack. They borrowed his
-              fear, and fear does something trust never does: it makes
-              people act quickly and completely alone. The single most
-              useful habit you can build is this: whenever an official
-              letter or call makes you afraid, stop, and tell one other
-              person before you do anything else. Fear that is spoken out
-              loud loses most of its power immediately.
+              Nobody borrowed his trust in that attack. They borrowed his fear,
+              and fear does something trust never does: it makes people act
+              quickly and completely alone. The single most useful habit you can
+              build is this: whenever an official letter or call makes you
+              afraid, stop, and tell one other person before you do anything
+              else. Fear that is spoken out loud loses most of its power
+              immediately.
             </p>
           </div>
         </div>
@@ -346,8 +343,8 @@ export default function SecurityGuide() {
           <p className="text-muted-readable leading-relaxed mb-4">
             New York's SHIELD Act gives small businesses a lighter security
             standard, but there is no small business exemption from breach
-            notification at all. If you have a breach, you must notify
-            people, regardless of your size.
+            notification at all. If you have a breach, you must notify people,
+            regardless of your size.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 my-6">
@@ -356,9 +353,9 @@ export default function SecurityGuide() {
                 Does it apply to you?
               </h3>
               <p className="text-sm text-muted-readable leading-relaxed">
-                Yes, if you hold computerized private information on New
-                York residents. You do not need to be located in New York or
-                do business here.
+                Yes, if you hold computerized private information on New York
+                residents. You do not need to be located in New York or do
+                business here.
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-5">
@@ -366,9 +363,9 @@ export default function SecurityGuide() {
                 Are you a small business under this law?
               </h3>
               <p className="text-sm text-muted-readable leading-relaxed">
-                Yes if you have fewer than 50 employees, under 3 million
-                dollars in gross annual revenue for three years, or under 5
-                million dollars in total assets.
+                Yes if you have fewer than 50 employees, under 3 million dollars
+                in gross annual revenue for three years, or under 5 million
+                dollars in total assets.
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-5">
@@ -376,10 +373,10 @@ export default function SecurityGuide() {
                 What counts as private information?
               </h3>
               <p className="text-sm text-muted-readable leading-relaxed">
-                Social Security numbers, driver license numbers, financial
-                and card numbers, biometrics, and a username or email paired
-                with a password. Since March 2025 this also includes medical
-                and health insurance information.
+                Social Security numbers, driver license numbers, financial and
+                card numbers, biometrics, and a username or email paired with a
+                password. Since March 2025 this also includes medical and health
+                insurance information.
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-5">
@@ -387,9 +384,8 @@ export default function SecurityGuide() {
                 Your security duty
               </h3>
               <p className="text-sm text-muted-readable leading-relaxed">
-                Reasonable safeguards, scaled to your size and the
-                sensitivity of what you hold. The practical basics above
-                count toward this.
+                Reasonable safeguards, scaled to your size and the sensitivity
+                of what you hold. The practical basics above count toward this.
               </p>
             </div>
           </div>
@@ -403,50 +399,73 @@ export default function SecurityGuide() {
             If You Have a Breach: The First Hour
           </h2>
           <p className="text-muted-readable leading-relaxed mb-4">
-            Almost anything can be fixed in the first hour, and almost
-            nothing in the first week. The difference between a scare and a
-            true disaster is rarely whether something bad happened. It is
-            what you do in the sixty minutes right after you realize it.
+            Almost anything can be fixed in the first hour, and almost nothing
+            in the first week. The difference between a scare and a true
+            disaster is rarely whether something bad happened. It is what you do
+            in the sixty minutes right after you realize it.
           </p>
 
           <div className="space-y-4 mb-6">
             <div className="flex gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">1</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">
+                1
+              </span>
               <p className="text-muted-readable leading-relaxed">
-                <span className="font-semibold text-foreground">Say it out loud, immediately.</span> The instinct in that first moment is panic and shame, and both push toward silence. Do the opposite. Tell the people who need to know without wasting a minute on how embarrassing it feels. Speed beats shame.
+                <span className="font-semibold text-foreground">
+                  Say it out loud, immediately.
+                </span>{" "}
+                The instinct in that first moment is panic and shame, and both
+                push toward silence. Do the opposite. Tell the people who need
+                to know without wasting a minute on how embarrassing it feels.
+                Speed beats shame.
               </p>
             </div>
             <div className="flex gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">2</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">
+                2
+              </span>
               <p className="text-muted-readable leading-relaxed">
-                <span className="font-semibold text-foreground">Stop the bleeding first.</span> If money is moving, your very first call is to your bank, on their real number, to flag a fraudulent payment and ask them to stop or reverse it. A payment caught in the first hour can often be pulled back. The same payment on the second day is very often gone for good.
+                <span className="font-semibold text-foreground">
+                  Stop the bleeding first.
+                </span>{" "}
+                If money is moving, your very first call is to your bank, on
+                their real number, to flag a fraudulent payment and ask them to
+                stop or reverse it. A payment caught in the first hour can often
+                be pulled back. The same payment on the second day is very often
+                gone for good.
               </p>
             </div>
             <div className="flex gap-3">
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">3</span>
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-accent-neutral text-white text-xs font-bold shrink-0 mt-0.5">
+                3
+              </span>
               <p className="text-muted-readable leading-relaxed">
-                <span className="font-semibold text-foreground">Close the door that was used.</span> If a password was compromised, change it immediately, everywhere you used it. If a password manager kept you to one unique password per account, this step just became far smaller than it would have been otherwise.
+                <span className="font-semibold text-foreground">
+                  Close the door that was used.
+                </span>{" "}
+                If a password was compromised, change it immediately, everywhere
+                you used it. If a password manager kept you to one unique
+                password per account, this step just became far smaller than it
+                would have been otherwise.
               </p>
             </div>
           </div>
 
           <p className="text-muted-readable leading-relaxed mb-4">
-            Beyond the first hour, the law adds specific duties. You must
-            notify affected New York residents within 30 days of discovering
-            the breach, plus the Attorney General. The law triggers on
-            unauthorized access, not just theft, which is a lower bar than
-            most owners assume.
+            Beyond the first hour, the law adds specific duties. You must notify
+            affected New York residents within 30 days of discovering the
+            breach, plus the Attorney General. The law triggers on unauthorized
+            access, not just theft, which is a lower bar than most owners
+            assume.
           </p>
           <p className="text-muted-readable leading-relaxed">
-            Penalties can run up to 5,000 dollars per violation, but
-            individuals cannot sue you directly under this law. This
-            explanation is not legal advice. If you hold medical or
-            financial data, spend an hour with a data privacy lawyer before
-            you need one.
+            Penalties can run up to 5,000 dollars per violation, but individuals
+            cannot sue you directly under this law. This explanation is not
+            legal advice. If you hold medical or financial data, spend an hour
+            with a data privacy lawyer before you need one.
           </p>
         </div>
       </section>
-
 
       {/* THIS WEEK CHECKLIST */}
       <section id="this-week" className="py-16 bg-background">
@@ -492,8 +511,8 @@ export default function SecurityGuide() {
             Security Q&A
           </h2>
           <p className="text-muted-foreground mb-6">
-            Common questions from small business owners about security and
-            New York law.
+            Common questions from small business owners about security and New
+            York law.
           </p>
           <SectionQA
             items={[
