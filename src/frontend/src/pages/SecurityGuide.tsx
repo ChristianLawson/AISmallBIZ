@@ -4,16 +4,28 @@ import { Layout } from "@/components/Layout";
 import { NYCHelpCallout } from "@/components/NYCHelpCallout";
 import { ProgressBar } from "@/components/ProgressBar";
 import { SectionQA } from "@/components/SectionQA";
+import { Button } from "@/components/ui/button";
 import {
   AlertTriangle,
   CheckSquare,
+  Download,
   KeyRound,
   Lock,
   Scale,
   ShieldCheck,
   Wallet,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { type MouseEvent, useEffect, useState } from "react";
+
+// The one place the downloadable asset is named. Swap these four fields when
+// the security PDF lands in public/assets/ and the CTA follows automatically.
+const GUIDE_DOWNLOAD = {
+  href: "/assets/social-media-marketing-workbook.pdf",
+  filename: "Social Media Marketing Workbook (NYC SBS).pdf",
+  title: "Social Media Marketing Workbook",
+  blurb:
+    "The free attendee workbook from NYC Small Business Services' Digital Marketing Course Series.",
+};
 
 const SECTIONS = [
   { id: "introduction", label: "Introduction", icon: ShieldCheck },
@@ -47,6 +59,41 @@ export default function SecurityGuide() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const [downloadFailed, setDownloadFailed] = useState(false);
+
+  const handleDownload = async (event: MouseEvent<HTMLAnchorElement>) => {
+    // Leave modified clicks alone so "open in new tab" and "save link as"
+    // keep working off the real href.
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+    event.preventDefault();
+    setDownloadFailed(false);
+
+    try {
+      const response = await fetch(GUIDE_DOWNLOAD.href);
+      const contentType = response.headers.get("content-type") ?? "";
+      // An absent file falls through to the SPA shell, and a bare
+      // <a download> would happily save that HTML under a .pdf name. Check
+      // before writing anything to disk.
+      if (!response.ok || !contentType.includes("pdf")) {
+        throw new Error(`Expected a PDF, received ${response.status}`);
+      }
+
+      const objectUrl = URL.createObjectURL(await response.blob());
+      const link = document.createElement("a");
+      link.href = objectUrl;
+      link.download = GUIDE_DOWNLOAD.filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      // Revoking in the same tick can cut the download short in Safari.
+      setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+    } catch {
+      setDownloadFailed(true);
+    }
+  };
 
   const scrollTo = (id: string) => {
     setActiveSection(id);
@@ -494,6 +541,42 @@ export default function SecurityGuide() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* DOWNLOAD CTA */}
+      <section className="pb-16 bg-background" data-ocid="security.download">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="card-guide flex flex-col sm:flex-row sm:items-center gap-4 p-6">
+            <div className="flex-1">
+              <h3 className="font-display font-semibold text-lg text-foreground mb-1">
+                {GUIDE_DOWNLOAD.title}
+              </h3>
+              <p className="text-[15px] text-muted-readable leading-relaxed">
+                {GUIDE_DOWNLOAD.blurb}
+              </p>
+              {downloadFailed && (
+                <p
+                  role="alert"
+                  className="text-[15px] text-destructive mt-2 leading-relaxed"
+                >
+                  That file could not be downloaded right now. Please try again
+                  in a moment.
+                </p>
+              )}
+            </div>
+            <Button asChild size="lg" className="shrink-0">
+              <a
+                href={GUIDE_DOWNLOAD.href}
+                download={GUIDE_DOWNLOAD.filename}
+                onClick={handleDownload}
+                data-ocid="security.download.button"
+              >
+                <Download size={16} />
+                Download the PDF
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
